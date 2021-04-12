@@ -23,7 +23,7 @@ MarketplaceHeader.propTypes = {
 };
 
 MarketplaceHeader.defaultProps = {
-  title: 'Kony Marketplace',
+  title: 'HCL Marketplace',
   subTitle: 'New Assets, New Possibilities',
 };
 

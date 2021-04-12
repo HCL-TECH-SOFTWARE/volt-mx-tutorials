@@ -39,7 +39,7 @@ class MyApp extends App {
       <html lang='en'>
         <Container>
           <Head>
-            <title>Kony Marketplace</title>
+            <title>HCL Marketplace</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="stylesheet" href="/volt-mx-tutorials/static/dist/css/kony.css" type="text/css" />
           </Head>

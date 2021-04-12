@@ -38,7 +38,7 @@ AnalyticsHeader.propTypes = {
 };
 
 AnalyticsHeader.defaultProps = {
-  title: 'Kony Marketplace',
+  title: 'HCL Marketplace',
   subTitle: 'New Assets, New Possibilities',
   search: false,
   filterData: () => {},

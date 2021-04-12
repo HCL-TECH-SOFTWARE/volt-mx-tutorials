@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const MetaTags = ({ title, description, keywords, url, image, type }) => (
   <Head>
     <title>
-      {title ? `${title} | ` : ''} Kony Marketplace
+      {title ? `${title} | ` : ''} HCL Marketplace
     </title>
     <meta name="description" content={description} />
     <meta property="og:title" content={title} />
@@ -18,9 +18,9 @@ const MetaTags = ({ title, description, keywords, url, image, type }) => (
 );
 
 MetaTags.defaultProps = {
-  title: 'Kony Marketplace',
+  title: 'HCL Marketplace',
   description:
-    'The Kony Marketplace allows you to explore, use and contribute components, patterns, services and adapters to quickly design and build apps for a broad range of use cases.',
+    'The HCL Marketplace allows you to explore, use and contribute components, patterns, services and adapters to quickly design and build apps for a broad range of use cases.',
   type: 'website',
 };
 

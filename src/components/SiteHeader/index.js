@@ -33,7 +33,7 @@ class SiteHeader extends Component {
                     <img
                       src="/volt-mx-tutorials/static/dist/images/konyLogo.svg"
                       className={style.logo}
-                      alt="Kony Marketplace"
+                      alt="HCL Marketplace"
                     />
                     <br />
                   </a>

@@ -1,8 +1,8 @@
-# Kony Marketplace
+# HCL Marketplace
 
 ## About
 
-Kony Marketplace using nodejs, express and nextjs.
+HCL Marketplace using nodejs, express and nextjs.
 
 ## Commands
 
