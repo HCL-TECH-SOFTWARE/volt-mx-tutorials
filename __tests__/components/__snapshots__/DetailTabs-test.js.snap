@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsTab component test suite contains Tabs and TabPane 1`] = `
+<Tabs
+  animated={false}
+  className="tabWrapper detailPageTabWrapper"
+  defaultActiveKey="1"
+  hideAdd={false}
+  onChange={[Function]}
+  prefixCls="ant-tabs"
+  tabBarExtraContent={
+    <Row
+      className="nocontent"
+      gutter={0}
+    >
+      <Col
+        lg={24}
+        md={0}
+        sm={0}
+        xs={0}
+      >
+        <Connect(AssetDownloadButton)
+          DocumentationURL="https://docs.kony.com/marketplace/login/default.htm"
+          asset={Object {}}
+        />
+      </Col>
+      <Connect(KonyLike) />
+    </Row>
+  }
+  tabPosition="top"
+>
+  <TabPane
+    key="1"
+    placeholder={null}
+    tab="Details"
+  >
+    <DetailsTabContent
+      DocumentationURL="https://docs.kony.com/marketplace/login/default.htm"
+      asset={Object {}}
+    />
+  </TabPane>
+  <TabPane
+    key="2"
+    placeholder={null}
+    tab="How to"
+  >
+    <Documentation
+      isInIframe={false}
+      src="https://docs.kony.com/marketplace/login/default.htm"
+    />
+  </TabPane>
+  <TabPane
+    key="3"
+    placeholder={null}
+    tab="Support"
+  >
+    <Connect(KonySupport) />
+  </TabPane>
+</Tabs>
+`;
+
+exports[`DetailsTab component test suite contains asset download button 1`] = `
+<Tabs
+  animated={false}
+  className="tabWrapper detailPageTabWrapper"
+  defaultActiveKey="1"
+  hideAdd={false}
+  onChange={[Function]}
+  prefixCls="ant-tabs"
+  tabBarExtraContent={
+    <Row
+      className="nocontent"
+      gutter={0}
+    >
+      <Col
+        lg={24}
+        md={0}
+        sm={0}
+        xs={0}
+      >
+        <Connect(AssetDownloadButton)
+          DocumentationURL=""
+          asset={Object {}}
+        />
+      </Col>
+      <Connect(KonyLike) />
+    </Row>
+  }
+  tabPosition="top"
+>
+  <TabPane
+    key="1"
+    placeholder={null}
+    tab="Details"
+  >
+    <DetailsTabContent
+      DocumentationURL=""
+      asset={Object {}}
+    />
+  </TabPane>
+  <TabPane
+    key="3"
+    placeholder={null}
+    tab="Support"
+  >
+    <Connect(KonySupport) />
+  </TabPane>
+</Tabs>
+`;

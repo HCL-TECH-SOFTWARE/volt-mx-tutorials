@@ -1,0 +1,152 @@
+@import '../../assets/styles/kony';
+
+.input {
+  border-radius: 30px;
+  border: 1px solid transparent;
+  box-shadow: none;
+  height: 54px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  width: 100%;
+  z-index: 2;
+  font-size: 15px;
+  font-family: $PoppinsLight;
+  color: $search-text;
+  background: transparent;
+
+  &:focus,
+  &:hover {
+    box-shadow: none;
+    border: 1px solid transparent;
+  }
+
+  @include breakpoint(mobile) {
+    border-radius: 20px;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  @include breakpoint(smalldevices) {
+    font-size: 12px;
+    padding-left: 14px;
+  }
+}
+
+.searchIcon {
+  position: absolute;
+  box-shadow: none;
+  right: 8px;
+  top: 8px;
+  background: transparent;
+  border: none;
+  height: 40px;
+  width: 40px;
+  z-index: 3;
+
+  &:focus,
+  &:hover,
+  &:active {
+    background: transparent;
+    border: none;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+
+    @include breakpoint(mobile) {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    height: 32px;
+    width: 32px;
+    top: 3px;
+    right: 3px;
+  }
+}
+
+.searchWrapper {
+  position: relative;
+  margin-bottom: 5px;
+  width: 55%;
+  height: 54px;
+  z-index: 3;
+
+  @include breakpoint(mobile-tablet) {
+    width: 81%;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.dropdown {
+  background: transparent;
+  width: 100%;
+  z-index: 2;
+  border-radius: 30px;
+  border: 0;
+  min-height: 50px;
+  max-height: 420px;
+  overflow-y: auto;
+
+  ul {
+    list-style: none;
+    margin: 0 20px;
+    padding: 0;
+    border-top: 1px solid #eee;
+
+    li {
+      padding: 8px 0;
+
+      &.noResultMessage,
+      a {
+        font-size: 14px;
+        font-family: $PoppinsRegular;
+        color: $title-text;
+      }
+    }
+  }
+
+  @include breakpoint(mobile) {
+    border-radius: 20px;
+    min-height: 40px;
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.innerWrapper {
+  background: white;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 0 16px -6px $search-border-shadow;
+  border: 1px solid $search-border;
+  position: absolute;
+
+  @include breakpoint(mobile) {
+    border-radius: 20px;
+  }
+}
+
+.spinner {
+  position: absolute;
+  right: 55px;
+  z-index: 3;
+  font-size: 28px;
+  top: 12px;
+  color: $secondary-text;
+
+  @include breakpoint(mobile) {
+    right: 39px;
+    font-size: 24px;
+    top: 6px;
+  }
+}

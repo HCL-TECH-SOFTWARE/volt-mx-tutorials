@@ -1,0 +1,28 @@
+@import '../../assets/styles/kony';
+
+.gravatarWrapper {
+  border-radius: 50%;
+}
+
+.gravatar {
+  background: #8A96AF;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+
+  @include breakpoint(tablet) {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.initials {
+  background: $title-red;
+  color: white;
+  border-radius: 50%;
+  font-family: $PoppinsRegular;
+  height: 36px;
+  width: 36px;
+  font-size: 18px;
+  margin: 0 auto;
+}

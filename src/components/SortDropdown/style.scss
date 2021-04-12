@@ -1,0 +1,76 @@
+@import '../../assets/styles/kony';
+
+.sortTitle {
+  font-family: $RobotoSlabRegular;
+  font-size: 13px;
+  color: $title-text;
+
+  .sortAmountDownIcon {
+    height: 17px;
+    margin-right: 6px;
+    width: 16px;
+  }
+
+  .angleDownIcon {
+    height: 6px;
+    width: 12px;
+    margin-left: 10px;
+  }
+
+  &:active,
+  &:hover,
+  &:focus {
+    color: $title-text;
+    text-decoration: none;
+  }
+}
+
+.sortDropdown {
+  background: white;
+  width: 282px;
+  border-radius: 6px;
+  box-shadow: 0 4px 7px rgba(5, 53, 134, 0.17);
+  margin-top: 10px;
+  padding: 0;
+
+  li {
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+    color: $options-text;
+    padding-left: 17px;
+    height: 47px;
+    line-height: 37px;
+    list-style: none;
+    border-left: solid 3px transparent;
+
+    &:first-child {
+      border-radius: 6px 6px 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 6px 6px;
+    }
+
+    &:hover,
+    &.selected {
+      background-color: #EDF3F4;
+      border-left: solid 3px $active-color;
+    }
+  }
+}
+
+.sortDropdownWrapper {
+  padding: 12px 0;
+  position: absolute;
+  right: 7px;
+  top: 4px;
+  margin-top: 15px;
+
+  @include breakpoint(mobile) {
+    right: 10px;
+  }
+
+  @include breakpoint(tablet) {
+    right: 34px;
+  }
+}

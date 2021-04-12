@@ -1,0 +1,38 @@
+@import '../../assets/styles/kony';
+
+.domainTitleWrapper {
+  display: inline-flex;
+  width: 100%;
+}
+
+.title {
+  font-family: $PoppinsMedium;
+  font-size: 16px;
+  color: #3F4E66;
+  white-space: nowrap;
+  line-height: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.seeAll {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: $active-color;
+  position: absolute;
+  text-decoration: none;
+  right: 0;
+}
+
+.assetsContainer {
+  margin-left: -20px;
+}
+
+.desc {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: #525A6B;
+  text-align: justify;
+}

@@ -1,0 +1,188 @@
+@import '../../assets/styles/kony';
+
+.card {
+  border-radius: 6px;
+  width: 213px;
+  height: 332px;
+  margin: 10px 9px;
+  background-color: white;
+  box-shadow: 0 6px 8px $card-shadow-with-20opacity;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 6px 8px $card-shadow-with-20opacity;
+  }
+
+  @include breakpoint(mobile) {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
+.flexRow {
+  height: 150px;
+
+  @include breakpoint(mobile) {
+    height: 80px;
+  }
+}
+
+.meta {
+  padding: 9px 12px;
+  height: 171px;
+  width: 100%;
+
+  @include breakpoint(mobile) {
+    padding: 0;
+    margin-left: 10px;
+    height: 80px;
+  }
+}
+
+.cover,
+.image {
+  background-color: $asset-bg;
+  border-radius: 6px 6px 0 0;
+  height: 163px;
+  width: 213px;
+  z-index: 2;
+
+  @include breakpoint(mobile) {
+     height: auto;
+     background: transparent;
+     width: 80px;
+     border-radius: 6px;
+   }
+}
+
+.title {
+  font-family: $RobotoSlabRegular;
+  font-size: 16px;
+  color: $title-text;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @include breakpoint(mobile) {
+    color: $active-color-mobile;
+    font-size: 15px;
+  }
+}
+
+.author {
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  color: $secondary-text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a {
+    color: $active-color;
+  }
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.previewButtonWrapper {
+  text-align: right;
+  padding-top: 20px;
+
+  @include breakpoint(mobile) {
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+}
+
+.stats {
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  color: $secondary-text;
+  position: absolute;
+  bottom: 0;
+
+  a {
+    color: $secondary-text
+  }
+
+  span {
+    display: inline-block;
+    width: auto;
+    min-width: 33%;
+
+    img {
+      height: 18px;
+      width: 24px;
+      padding-right: 6px;
+      padding-bottom: 4px;
+    }
+
+    i {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.desc {
+  height: 60px;
+  overflow: hidden;
+
+  a {
+    font-family: $PoppinsLight;
+    font-size: 13px;
+    color: $title-text;
+    margin: 0;
+    word-break: break-word;
+    height: 60px;
+    text-decoration: none;
+    overflow: hidden;
+
+    @include breakpoint(mobile) {
+      color: $secondary-text-mobile;
+      line-height: 19px;
+      word-break: break-word;
+      height: auto;
+    }
+  }
+}
+
+.loadingImage {
+  position: absolute;
+  top: 42px;
+  left: 72px;
+
+  @include breakpoint(mobile) {
+    top: 10px;
+    left: 9px;
+  }
+}
+
+.angleRight {
+  color: #ccc;
+  font-size: 24px;
+  margin-left: 10px;
+}
+

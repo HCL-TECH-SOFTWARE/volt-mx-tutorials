@@ -1,0 +1,134 @@
+@import '../../assets/styles/kony';
+
+.assetButtons {
+  position: absolute;
+  right: 0;
+  top: 14px;
+
+  &.pushLeft {
+    right: 100px;
+  }
+
+  @include breakpoint(mobile-tablet) {
+    position: static;
+  }
+}
+
+.transparentBg {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: auto;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: transparent;
+  }
+}
+
+.comingSoon {
+  display: flex;
+
+  .transparentBg {
+    align-items: center;
+    color: $filter-icon-bg;
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0;
+    
+    &:hover,
+    &:active,
+    &:focus {
+      color: $filter-icon-bg;
+    }
+    
+    @include breakpoint(mobile-tablet) {
+      margin-right: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+.coreAsset {
+  color: $filter-icon-bg;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $filter-icon-bg;
+  }
+
+  @include breakpoint(mobile-tablet) {
+    font-size: 14px;
+  }
+}
+
+.mobileBtn {
+  @include breakpoint(mobile-tablet) {
+    background: transparent;
+    border: 1px solid $active-color-mobile;
+    border-radius: 4px;
+    color: $active-color-mobile;
+    display: inline-flex;
+    padding: 15px 5px;
+    margin-left: 5px;
+    height: auto;
+    text-transform: uppercase;
+    
+    &:hover,
+    &:focus,
+    &:active,
+    &[disabled] {
+      background: transparent;
+      border: 1px solid $active-color-mobile;
+      color: $active-color-mobile;
+      opacity: .6;
+    }
+  }
+}
+
+.vizDownload {
+  font-family: $PoppinsRegular !important;
+  font-size: 14px;
+  border: solid 1px $asset-bg;
+  background-color: white;
+  line-height: 0 !important;
+  position: absolute;
+  right: 100px;
+  z-index: 2;
+  padding: 8px;
+  border-radius: 60px;
+  width: 400px;
+
+  .importToTitle {
+    margin-right: 10px;
+    color: $secondary-text;
+  }
+
+  .selector {
+    margin-right: 10px;
+    width: 160px;
+
+    & > div:first-child {
+      border-radius: 26px;
+
+      &:hover,
+      &:focus,
+      &:active {
+        border: 1px solid #d9d9d9 !important;
+      }
+    }
+  }
+
+  .dropdown li {
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+    color: $active-color;
+  }
+}

@@ -1,0 +1,124 @@
+@import '../../assets/styles/kony';
+
+.noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  height: 100%;
+
+  &.minHeight {
+    min-height: 240px;
+  }
+
+  h3 {
+    font-family: $PoppinsRegular;
+    font-size: 16px;
+    color: $options-text;
+    padding: 5px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .horizontalList {
+    font-size: 15px;
+    display: inline;
+  }
+
+  .searchSuggestionText {
+    margin-top: 71px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .listItem {
+    margin-left: 50px;
+    font-size: 150%;
+    cursor: pointer;
+  }
+
+  .listItemViz {
+    margin-left: 50px;
+    font-size: 150%;
+    cursor: none;
+  }
+
+  .paddingNone {
+    padding: 0;
+    vertical-align: top;
+  }
+
+  .listItem h4 {
+    font-size: 60%;
+  }
+
+  .helpSearch {
+    margin-top: 70px;
+    font-size: 23px;
+  }
+
+  .divContainerMain {
+    width: 80%;
+    height: 200px;
+    text-align: center;
+  }
+
+  .divSubContainerLeft {
+    float: left;
+    width: 50%;
+    height: 100%;
+
+    h2 {
+      text-align: left;
+      margin-left: 27px;
+    }
+
+    @include breakpoint(mobile) {
+      width: 100%;
+    }
+  }
+
+  .divSubContainerRight {
+    float: right;
+    width: 50%;
+    height: 100%;
+
+    h2 {
+      text-align: left;
+      margin-left: 27px;
+    }
+
+    @include breakpoint(mobile) {
+      width: 100%;
+      margin-top: 80px;
+    }
+  }
+
+  .coolWhite {
+    position: relative;
+    padding: .2em;
+    text-align: left;
+  }
+
+  ol.roundedList {
+    counter-reset: li;
+  }
+
+  @include breakpoint(mobile) {
+    margin-bottom: 300px;
+  }
+
+  @include breakpoint(tablet) {
+    margin-bottom: 100px;
+  }
+}
+
+.noResults {
+
+  h2,
+  h3 {
+    margin-top: 20px;
+  }
+}

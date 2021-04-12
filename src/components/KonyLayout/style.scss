@@ -1,0 +1,44 @@
+@import '../../assets/styles/kony';
+
+.container {
+  margin: 20px auto;
+  min-height: calc(100vh - 290px);
+  width: 100%;
+
+  @media (min-width:  576px) {
+    width: 540px;
+  }
+
+  @media (min-width:  768px) {
+    width: 720px;
+  }
+  @media (min-width:  992px ) {
+    width: 960px;
+  }
+  @media (min-width: 1200px) {
+    width: 1155px;
+  }
+
+  @include breakpoint(desktop) {
+    min-height: calc(100vh - 295px);
+  }
+
+  @include breakpoint(mobile) {
+    margin: 0 auto;
+  }
+}
+
+.appRoot {
+  background: $body-bg;
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.divider {
+  border-top: 1px solid $divider;
+}
+
+.hide {
+  display: none;
+}

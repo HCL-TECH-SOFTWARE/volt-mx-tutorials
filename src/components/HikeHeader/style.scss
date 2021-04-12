@@ -1,0 +1,47 @@
+@import '../../assets/styles/kony';
+
+.headerRow {
+  background-color: $body-bg;
+  height: 115px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.headerLayout {
+  background-color: $body-bg;
+  z-index: 1;
+  height: 115px;
+  width: 100%;
+  top: 0;
+  padding-left: 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.logo {
+  max-width: 146px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 4;
+}
+.header {
+  background: transparent;
+  padding: 0;
+  height: 115px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hide {
+  display: none !important;
+}
+
+.search {
+  display: block;
+  position: relative;
+}
+
+.camp {
+  position: absolute;
+  right: 0;
+}

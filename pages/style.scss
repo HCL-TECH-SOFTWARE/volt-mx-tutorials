@@ -1,0 +1,220 @@
+@import "../src/assets/styles/kony";
+
+.hide {
+  display: none !important;
+}
+
+.switchWrapper {
+  text-align: center;
+  margin-top: 28px;
+  justify-content: space-around;
+
+  .channels {
+    border-right: 1px solid $divider;
+  }
+
+  a {
+    margin: 0 10px;
+  }
+
+  .generalButton {
+    font-family: $PoppinsLight;
+    font-size: 16px;
+  }
+}
+
+.detailPageWrapper {
+  padding: 0 10px;
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.mobileMetaWrapper {
+  margin-bottom: 26px;
+}
+
+.hikeBody {
+  background: white;
+  height: 100%;
+}
+
+.hikeContainer {
+  background: white;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 20px;
+  position: relative;
+  height: 100%;
+}
+
+.tourInfo {
+  display: flex;
+  width: 100%;
+}
+
+.tourTitle {
+  font-family: $PoppinsRegular;
+  font-size: 20px;
+  color: $breadcrumb-title;
+}
+
+.tourVersion {
+  font-family: $PoppinsRegular;
+  font-size: 16px;
+  color: $title-text-secondary;
+}
+
+.tourBody {
+  font-family: $PoppinsRegular;
+  font-size: 13px;
+  color: $title-text-secondary;
+  letter-spacing: 0.22px;
+  text-align: left;
+}
+
+.tourThumb {
+  background: white;
+  min-width: 200px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+  }
+}
+
+.tourContainer {
+  background: white;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 20px 8%;
+  position: relative;
+  height: 100%;
+}
+
+.tourDesc {
+  padding: 12px;
+  margin-left: 30px;
+  font-size: 16px;
+  font-family: $PoppinsRegular;
+}
+
+.innerTabWrapper {
+  border-left: solid 1px $divider;
+  padding-left: 16px;
+  min-height: 60px;
+
+  &:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  @include breakpoint(mobile) {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+.tourHeader {
+  font-size: 16px;
+  font-family: $PoppinsRegular;
+  color: $breadcrumb-title;
+  letter-spacing: 0.37px;
+  line-height: 22px;
+}
+
+.tourContent {
+  font-family: $PoppinsLight;
+  font-size: 12px;
+  color: $title-text-secondary;
+  letter-spacing: 0.2px;
+  line-height: 19.2px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.tourDetails {
+  font-family: $PoppinsRegular;
+  font-size: 13px;
+  color: $title-text-secondary;
+  letter-spacing: 0.22px;
+  text-align: left;
+
+  img {
+    max-width: 100%;
+    height: auto !important;
+  }
+}
+
+.tourTime {
+  font-family: $PoppinsRegular;
+  font-size: 16px;
+  color: $thumb-border;
+  text-align: left;
+  line-height: 22px;
+}
+
+.startBtn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.noresult {
+  font-family: $PoppinsRegular;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.assetsContainer {
+  margin-left: -20px;
+}
+
+.skeletonWrapper {
+  padding-left: 20px;
+}
+
+.metaData {
+  margin: 15px 0;
+
+  span {
+    color: $secondary-text;
+  }
+}
+
+.datePanel {
+  height: 54px;
+  display: flex;
+  align-items: center;
+}
+
+.filterTablePanel {
+  margin-top: 20px;
+}
+
+.tableHeading {
+  margin: 30px 0;
+  font-family: $PoppinsRegular;
+  color: $title-text;
+  font-size: 20px;
+}
+
+.componentPerformanceButton {
+  margin-right: 10px;
+}
+
+.miniPanelContainer {
+  margin: 20px 0;
+}
+
+.panelContainer {
+  padding: 0 7px;
+}
+
+.RowContainer {
+  padding: 0 7px;
+}

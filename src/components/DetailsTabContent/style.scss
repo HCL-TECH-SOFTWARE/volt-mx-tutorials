@@ -1,0 +1,405 @@
+@import '../../assets/styles/kony';
+
+.assetVersion {
+  font-family: $RobotoSlabRegular;
+  font-size: 16px;
+  color: $title-text;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.publishDate {
+  color: $secondary-text;
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  line-height: 20px;
+
+  a {
+    color: $active-color;
+  }
+
+}
+
+.hide {
+  display: none !important;
+}
+
+.desc {
+  color: $title-text;
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+
+  @include breakpoint(mobile) {
+    margin-top: 0;
+    color: $secondary-text-mobile;
+  }
+}
+
+.assetDetails {
+  font-family: $PoppinsLight;
+  font-size: 13px;
+
+  h1,
+  h2,
+  h3,
+  strong {
+    color: $title-text;
+    font-family: $RobotoSlabRegular;
+    font-size: 16px;
+    font-weight: unset;
+  }
+
+  pre {
+    display: block;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: $asset-bg;
+    border: 1px solid $code-border;
+    border-radius: 4px;
+  }
+
+  a {
+    @include breakpoint(mobile) {
+      color: $active-color-mobile !important;
+    }
+  }
+}
+
+.externalLinks {
+  h3 {
+    font-size: 16px;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  a {
+    font-size: 13px;
+  }
+}
+
+.dgHeading {
+  font-family: $RobotoSlabRegular;
+  font-size: 13px;
+  color: $title-text;
+  margin-bottom: 5px;
+
+  @include breakpoint(mobile) {
+    font-size: 18px;
+    color: $secondary-text-mobile-dark;
+  }
+}
+
+.dgAppCode {
+  font-family: $PoppinsLight;
+  font-size: 30px;
+  color: $secondary-text;
+  line-height: 1;
+}
+
+.dgAppCodeMobile {
+  font-family: $PoppinsLight;
+  font-size: 18px;
+  color: $active-color;
+  line-height: 1;
+
+  a {
+    @include breakpoint(mobile) {
+      color: $active-color-mobile !important;
+    }
+  }
+}
+
+.dgContent {
+  font-family: $PoppinsLight;
+  font-size: 12px;
+  color: $secondary-text;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 13px;
+    color: $secondary-text-mobile;
+  }
+}
+
+.dgIcon {
+  margin-right: 6px;
+  height: 20px;
+  width: 19px;
+}
+
+.requirements a {
+  color: $active-color;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+    color: $active-color;
+  }
+
+  @include breakpoint(mobile) {
+    color: $active-color-mobile;
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+      color: $active-color-mobile;
+    }
+  }
+}
+
+.developerGuideWrapper {
+  margin-left: -16px;
+  margin-bottom: 12px;
+
+  @include breakpoint(mobile) {
+    margin: 0;
+  }
+
+  @include breakpoint(tablet-lg-desktop) {
+    margin-bottom: 30px;
+  }
+
+  &.moveUp {
+    margin-bottom: 6px;
+  }
+}
+
+.appPreviewTabWrapper,
+.innerTabWrapper {
+  border-right: solid 1px $divider;
+  padding: 10px 0 20px 16px;
+  height: 90px;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @include breakpoint(mobile) {
+    height: 80px;
+    padding-left: 0;
+    border-right: none;
+  }
+}
+
+.angleDownIcon {
+  height: 6px;
+  width: 10px;
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+.appPreviewWrapper{
+  h3 {
+    margin: 16px;
+    font-family: $RobotoSlabRegular;
+    font-size: 16px;
+  }
+  .appPreviewTabWrapper {
+    height: 90px;
+    padding-top: 2px;
+  }
+}
+
+.iconWrapper ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+
+  li {
+    float: left;
+    list-style: none;
+  }
+}
+
+.screenshotWrapper {
+  padding-top: 17px;
+}
+
+.thumbnailFilmstrip {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      background: $asset-bg;
+      border: 2px solid transparent;
+      height: 64px;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      width: 64px;
+
+      img {
+        max-width: 60px;
+        padding: 5px 10px 0;
+      }
+    }
+  }
+}
+
+.metadataWrapper {
+    @include breakpoint(desktop) {
+      padding-left: 4px;
+  }
+}
+
+.mainImageContainer {
+  background: $asset-bg;
+  padding: 25px 40px 0;
+  height: auto;
+  text-align: center;
+  max-width: 430px;
+  height: 613px;
+  overflow: hidden;
+  position: relative;
+
+  @include breakpoint(tablet-lg-desktop) {
+    padding: 20px 30px 0;
+    width: 380px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  img {
+    max-height: 613px;
+    max-width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.playpause {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+
+  i {
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.thumbnailBorder {
+  border: 2px solid $thumb-border !important;
+}
+
+.videoPlayer {
+  display: flex;
+  align-items: center;
+
+  &.visible {
+    filter: contrast(40%);
+  }
+
+  &.hidden {
+    filter: none;
+  }
+}
+
+.selector {
+  margin-right: 10px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: none;
+    outline: none;
+  }
+
+  & > div:first-child {
+    border: none !important;
+    box-shadow: none;
+    background: transparent !important;
+    outline: none;
+
+    & > div > div {
+      font-family: $RobotoSlabRegular;
+      font-size: 16px;
+      color: $title-text;
+    }
+  }
+}
+
+.dropdown {
+  background: white;
+  width: 82px !important;
+  border-radius: 6px;
+  box-shadow: 0 4px 7px rgba(5, 53, 134, 0.17);
+  padding: 0;
+
+  li {
+    font-family: $RobotoSlabRegular;
+    font-size: 14px;
+    color: $title-text;
+    padding-left: 17px;
+    height: 47px;
+    line-height: 37px;
+    list-style: none;
+    border-left: solid 3px transparent;
+
+    &:first-child {
+      border-radius: 6px 6px 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 6px 6px;
+    }
+
+    &:hover,
+    &[aria-selected=true] {
+      background-color: #EDF3F4;
+      border-left: solid 3px #267BFF;
+    }
+  }
+}
+
+.exportButton {
+  font-family: $PoppinsLight;
+  font-size: 16px;
+  padding: 10px 24px;
+}
+
+.exportButtonWrapper {
+  position: absolute;
+  right: 0;
+}

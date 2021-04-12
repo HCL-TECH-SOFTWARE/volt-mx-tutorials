@@ -1,0 +1,62 @@
+@import '../../assets/styles/kony';
+
+.footer {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: $site-footer-text;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+
+  @include breakpoint(mobile-tablet) {
+    padding: 30px 15px;
+  }
+}
+
+.privacyPolicy {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: $active-color;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+
+  &:focus,
+  &:hover,
+  &:active {
+    color: $active-color;
+    text-decoration: underline;
+  }
+
+  @include breakpoint(mobile) {
+    color: $active-color-mobile;
+
+    &:focus,
+    &:hover,
+    &:active {
+      color: $active-color-mobile;
+      text-decoration: underline;
+    }
+  }
+}
+
+.companyLogo {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: transparent;
+  }
+}
+
+.hide {
+  display: none !important;
+}

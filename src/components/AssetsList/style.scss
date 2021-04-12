@@ -1,0 +1,64 @@
+@import '../../assets/styles/kony';
+
+.title {
+  font-family: $RobotoSlabRegular;
+  font-size: 20px;
+  color: $title-text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 8px;
+  margin: 13px 8px 0;
+
+  @include breakpoint(mobile) {
+    margin: 5px 18px 0;
+  }
+}
+
+.assetCardContainer {
+  float: left;
+  padding: 0;
+
+  @include breakpoint(mobile) {
+    width: 100%;
+  }
+}
+
+.seeAll {
+  font-family: $RobotoSlabRegular;
+  font-size: 13px;
+  color: $active-color;
+  margin: 13px 3px 0 8px;
+  border-bottom: solid 1px $active-color;
+  position: absolute;
+  right: 0;
+
+  @include breakpoint(mobile) {
+    font-family: $PoppinsRegular;
+    color: $active-color-mobile;
+    font-size: 14px;
+    border-bottom: none;
+    margin: 8px 4px;
+    bottom: 0;
+  }
+
+  @include breakpoint(tablet-lg-desktop) {
+    right: 27px;
+  }
+}
+
+.domainTitleWrapper {
+  display: inline-flex;
+  width: 100%;
+  padding-left: 8px;
+}
+
+.hide {
+  display: none;
+}
+
+.assetCardListWrapper {
+  .assetCardContainer:first-child {
+    margin : 0px -1px;
+  }
+}

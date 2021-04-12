@@ -1,0 +1,45 @@
+@import '../../assets/styles/kony';
+
+.tabWrapper {
+  width: 100%;
+
+  div[role='tab'] {
+    font-family: $RobotoSlabRegular;
+    font-size: 16px;
+    color: $secondary-text;
+    padding: 20px 0;
+    margin-right: 38px;
+
+    &:hover {
+      color: $secondary-text;
+    }
+
+    @include breakpoint(mobile) {
+      color: $secondary-text-mobile;
+      opacity: .5;
+
+      &:hover {
+        color: $secondary-text-mobile;
+      }
+    }
+  }
+
+  div[aria-selected='true'] {
+    color: $title-text;
+
+    &:hover {
+      color: $title-text;
+      cursor: default;
+    }
+
+    @include breakpoint(mobile) {
+      color: $secondary-text-mobile-dark;
+      opacity: 1;
+
+      &:hover {
+        color: $secondary-text-mobile-dark;
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DidYouMean component test suite render with keyword and suggestion props 1`] = `
+<div
+  className="DidYouMean"
+>
+  <hr
+    className="horizontalLine"
+  />
+  <p
+    className="didYouMeanHeader"
+  >
+    Did you mean :
+    <a
+      href="/search/login"
+    >
+      <u>
+        login
+      </u>
+    </a>
+  </p>
+  <p
+    className="showingResultsFor"
+  >
+    Showing results for logn
+  </p>
+  <hr
+    className="horizontalLine"
+  />
+</div>
+`;

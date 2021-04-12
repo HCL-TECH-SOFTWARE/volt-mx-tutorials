@@ -1,0 +1,84 @@
+@import '../../assets/styles/kony';
+
+.pageOuter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 380px);
+
+  @include breakpoint(mobile) {
+    min-height: calc(100vh - 220px);
+  }
+}
+
+.pageWrapper {
+  text-align: left;
+  margin-top: 30px;
+  padding-top: 20px;
+  max-width: 1024px;
+
+  h1 {
+    font-family: $RobotoSlabBold;
+    font-size: 48px;
+    color: $error;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+
+    @include breakpoint(mobile-tablet) {
+      font-size: 38px;
+    }
+  }
+
+  h2 {
+    font-family: $RobotoSlabRegular;
+    font-size: 24px;
+    color: $error-black;
+    letter-spacing: 0;
+
+    @include breakpoint(mobile-tablet) {
+      font-size: 20px;
+    }
+  }
+
+  h3 {
+    font-family: $PoppinsRegular;
+    font-size: 18px;
+    color: $title-text;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+
+    @include breakpoint(mobile-tablet) {
+      font-size: 12px;
+    }
+  }
+
+  .button {
+    margin-top: 10px;
+
+    @include breakpoint(mobile) {
+      border-radius: 40px;
+    }
+  }
+
+  img {
+    height: auto;
+    width: auto;
+
+    @include breakpoint(tablet) {
+      width: 90%;
+    }
+
+    @include breakpoint(mobile) {
+      width: 80%;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.sidebarWrapper {
+  padding-top: 80px;
+}

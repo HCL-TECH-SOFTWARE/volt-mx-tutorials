@@ -1,0 +1,88 @@
+@import '../../assets/styles/kony';
+
+.input {
+  border-radius: 30px;
+  border: 1px solid transparent;
+  box-shadow: none;
+  height: 40px;
+  padding-left: 20px;
+  padding-bottom: 6px;
+  width: 100%;
+  z-index: 2;
+  font-size: 15px;
+  font-family: $PoppinsLight;
+  color: $title-text;
+  background: transparent;
+
+  &:focus,
+  &:hover {
+    box-shadow: none;
+    border: 1px solid transparent;
+  }
+
+  @include breakpoint(mobile) {
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  @include breakpoint(smalldevices) {
+    font-size: 12px;
+    padding-left: 14px;
+  }
+}
+
+.searchIcon {
+  box-shadow: none;
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  background: transparent;
+  border: none;
+  height: 32px;
+  width: 32px;
+  z-index: 3;
+  
+  &:focus,
+  &:hover,
+  &:active {
+    background: transparent;
+    border: none;
+  }
+
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.searchWrapper {
+  position: relative;
+  margin-bottom: 5px;
+  width: 55%;
+  z-index: 3;
+  max-width: 400px;
+  @include breakpoint(mobile-tablet) {
+    width: 81%;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}
+
+.innerWrapper {
+  background: white;
+  font-family: $PoppinsLight;
+  height: 40px;
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0 0 6px -2px $search-border;
+  border: 1px solid $search-border;
+  position: absolute;
+  top: -22px;
+}

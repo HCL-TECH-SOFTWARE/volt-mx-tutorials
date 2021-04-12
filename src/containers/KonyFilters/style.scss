@@ -1,0 +1,201 @@
+@import '../../assets/styles/kony';
+
+.filterOpenButton {
+  position: absolute;
+  left: -50px;
+  top: 205px;
+  background: $filter-icon-bg;
+  border: solid 1px transparent;
+  border-radius: 40px 0 0 40px;
+  color: white;
+  height: 40px;
+  padding: 0 10px;
+  width: 50px;
+
+  &.viz {
+    top: 100px;
+  }
+
+  &.vizApp {
+    top: 73px;
+
+    @include breakpoint(tablet) {
+      top: 168px;
+    }
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: $filter-icon-bg;
+    border: solid 1px transparent;
+    border-radius: 40px 0 0 40px;
+    color: white;
+    height: 40px;
+    width: 50px;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  @include breakpoint(tablet) {
+    top: 166px;
+  }
+
+  @include breakpoint(mobile) {
+    height: 34px;
+    padding: 0;
+    width: 40px;
+    left: -40px;
+    top: 76px;
+
+    &.viz {
+      top: 5px;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+      height: 35px;
+      width: 40px;
+    }
+  }
+}
+
+.filterWrapper {
+  background: white;
+  border: 1px solid $filter-icon-bg;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  display: block;
+  top: 0;
+  transition: all 0.8s !important;
+  width: 330px !important;
+  z-index: 999 !important;
+
+  @include breakpoint(mobile) {
+    width: 100% !important;
+  }
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.15) !important;
+  left: 0;
+  top: 0;
+  z-index: 998 !important;
+}
+
+.filterHeading {
+  color: $title-text;
+  font-family: $RobotoSlabRegular;
+  font-size: 20px;
+  float: left;
+}
+
+.mobileFilterHeading {
+  h3 {
+    color: $secondary-text-mobile;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2;
+    margin: 0;
+    font-family: $PoppinsSemiBold;
+  }
+}
+
+.filterPanel {
+  padding: 13px 30px 87px;
+
+  @include breakpoint(mobile) {
+    padding: 15px 15px 100px;
+  }
+}
+
+.filterCloseButton {
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.mobileFilterCloseButton {
+  cursor: pointer;
+  float: right;
+  margin-top: 7px;
+  margin-right: -4px;
+  width: 12px;
+  height: 12px;
+}
+
+.filterHeaderPanel {
+  width: 100%;
+}
+
+.mobileFilterHeaderPanel {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.filterSubTitle {
+  color: $title-text;
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+}
+
+.divider {
+  margin: 10px 0;
+
+  @include breakpoint(mobile-tablet) {
+    background: transparent;
+    margin: 5px 0;
+  }
+}
+
+.filterSubPanel {
+  margin: 9px 0;
+}
+
+.button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.filterCancel {
+  margin-right: 30px;
+  border-color: $secondary-text;
+  padding: 18px 36px;
+
+  @include breakpoint(mobile){
+    text-transform: uppercase;
+  }
+}
+
+.filterApply {
+  padding: 18px 36px;
+
+  @include breakpoint(mobile){
+    text-transform: uppercase;
+  }
+}
+
+.actionWrapper {
+  background: white;
+  border-top: 1px solid #e8e8e8;
+  bottom: 0;
+  margin: 0;
+  position: fixed;
+  padding: 20px 0 20px 0;
+  right: 3px;
+  text-align: center;
+  width: 324px;
+  z-index: 2;
+
+  @include breakpoint(mobile) {
+    width: 100%;
+  }
+}
+
+.hide {
+  display: none !important;
+}

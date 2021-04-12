@@ -1,0 +1,91 @@
+@import '../../assets/styles/kony';
+
+.image,
+.cover {
+  height: auto;
+  width: 120px;
+  border-radius: 10px;
+  background: $secondary-text;
+
+  @include breakpoint(smalldevices) {
+    width: 100px;
+  }
+}
+
+.meta {
+  margin-left: 12px;
+}
+
+.assetVersion {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: #333333;
+  opacity: 0.5;
+}
+
+.angleDownIcon {
+  height: 6px;
+  width: 10px;
+  margin-left: 6px;
+  margin-top: 2px;
+}
+
+.publishDate {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: #333333;
+  padding: 8px 0;
+
+  @include breakpoint(mobile) {
+    a {
+      color: $active-color-mobile;
+    }
+  }
+
+  @include breakpoint(smalldevices) {
+    padding: 3px 0;
+    line-height: 15px;
+  }
+
+}
+
+.previewButton {
+  padding: 5px 15px;
+  line-height: 20px !important;
+}
+
+.selector {
+  margin-right: 10px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border: none;
+    outline: none;
+  }
+
+  & > div:first-child {
+    border: none !important;
+    box-shadow: none;
+    background: transparent !important;
+    outline: none;
+
+    & > div > div {
+      font-family: $PoppinsRegular;
+      font-size: 14px;
+      color: $secondary-text-mobile-dark;
+    }
+  }
+}
+
+.dropdown li {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: $secondary-text-mobile-dark;
+
+  &:hover,
+  &[aria-selected=true] {
+    background-color: #EDF3F4;
+    border-left: solid 3px #267BFF;
+  }
+}

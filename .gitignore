@@ -1,0 +1,11 @@
+node_modules/
+.next/
+*.log
+*.swp
+*.swo
+.idea/
+server/sitemap.xml
+coverage/
+output/
+out/
+static2/

@@ -1,0 +1,29 @@
+@import '../../assets/styles/kony';
+
+.clearAll {
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: $active-color;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: transparent;
+  }
+
+  @include breakpoint(mobile) {
+    color: $active-color-mobile;
+  }
+}
+
+.selectedFilters {
+  padding: 26px 0 0;
+  max-width: calc(100% - 100px);
+  a {
+    margin-right: 10px;
+  }
+}

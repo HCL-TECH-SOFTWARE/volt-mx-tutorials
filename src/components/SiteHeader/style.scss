@@ -1,0 +1,413 @@
+@import '../../assets/styles/kony';
+
+.headerLayout {
+  background-color: $body-bg;
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  top: 0;
+  padding: 20px 0;
+
+  @include breakpoint(mobile-tablet) {
+    margin: 0;
+    padding: 20px 0 0;
+  }
+}
+
+.header {
+  background: transparent;
+  padding: 0;
+
+  @include breakpoint(mobile-tablet) {
+    height: 46px;
+    margin: 0;
+  }
+}
+
+.siteHeader {
+  background: transparent;
+  margin: 0 auto;
+  padding: 0 7px;
+  width: 100%;
+
+  @media (min-width:  576px) {
+    width: 540px;
+  }
+  @media (min-width:  768px) {
+    width: 720px;
+  }
+  @media (min-width:  992px ) {
+    width: 960px;
+  }
+  @media (min-width: 1200px) {
+    width: 1155px;
+  }
+
+  @include breakpoint(mobile) {
+    margin-top: 6px;
+  }
+}
+
+.cloudList {
+  font-size: 14px;
+  padding-left: 17px;
+  height: auto;
+  line-height: 14px;
+  list-style: none;
+  border-left: solid 3px transparent;
+
+  &:hover,
+  &.selected {
+    background-color: #EDF3F4;
+    border-left: solid 3px #267BFF;
+  }
+}
+
+.subMenuListItem {
+  font-size: 14px;
+  padding-left: 17px;
+  height: 47px;
+  line-height: 37px;
+  list-style: none;
+  border-left: solid 3px transparent;
+  width: 100%;
+
+  &:first-child {
+    border-radius: 6px 6px 0 0;
+  }
+
+  &:last-child {
+    border-radius: 0 0 6px 6px;
+  }
+
+  &:hover,
+  &.selected {
+    background-color: #EDF3F4;
+    border-left: solid 3px #267BFF;
+  }
+
+  div {
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    height: 47px;
+    line-height: 37px;
+    list-style: none;
+    border-left: solid 3px transparent;
+
+    &:hover,
+    &.selected {
+      background-color: #EDF3F4;
+    }
+  }
+}
+
+.subMenu {
+  background: white;
+  width: 282px;
+  border-radius: 6px;
+  box-shadow: 0 4px 7px rgba(5, 53, 134, 0.17);
+  padding: 0;
+
+  li {
+    @extend .subMenuListItem;
+  }
+}
+
+.heading h3 {
+  color: $secondary-text-mobile;
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+  font-family: $PoppinsSemiBold;
+  margin: 0;
+  letter-spacing: 1.78px;
+}
+
+.logo {
+  z-index: 99;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  outline: 0;
+  height: 74px;
+  float: left;
+
+  @include breakpoint(mobile-tablet) {
+    height: 36px;
+    position: absolute;
+    left: 8px;
+  }
+}
+
+.menuBar {
+  background: transparent;
+  border: 0;
+  float: right;
+  line-height: 2;
+  padding-top: 6px;
+
+  @include breakpoint(tablet) {
+    padding-top: 0;
+  }
+}
+
+.userMenuItem {
+  border: solid 1px transparent !important;
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  text-align: center;
+  transition: none;
+  line-height: 1;
+  margin-left: 6px;
+  padding-right: 0;
+  top: 2px !important;
+
+  .loginLink {
+    color: $active-color !important;
+    line-height: 2;
+    text-align: right;
+    margin-right: 2px;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 11px;
+  }
+}
+
+.menuItem {
+  border: solid 1px transparent !important;
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  color: $title-text !important;
+  text-align: center;
+  padding: 7px 13px;
+  transition: none;
+  line-height: 1;
+  margin: 0 6px;
+
+  .dropdownLink {
+    color: $title-text !important;
+  }
+
+  .dropdownCaret {
+    margin-left: 5px;
+    width: 12px;
+
+    @include breakpoint(tablet) {
+      padding-left: 0;
+    }
+  }
+
+  > a {
+    color: $title-text !important;
+  }
+
+  &:hover,
+  &.selected {
+    border: solid 1px $menu-item-border !important;
+    border-radius: 15px;
+    color: $title-text !important;
+  }
+
+  @include breakpoint(tablet) {
+    font-size: 11px;
+    padding: 5px 10px;
+    margin: 0 3px;
+  }
+}
+
+.mobileMenuWrapper {
+  background: white;
+  display: block;
+  top: 0;
+  transition: all 0.8s !important;
+  width: 100% !important;
+  z-index: 1110 !important;
+}
+
+.hamburgerMenu {
+  line-height: 3;
+  padding-top: 2px;
+}
+
+.hamburgerMenuIcon {
+  height: 26px;
+  vertical-align: top;
+  width: 26px;
+}
+
+.mobileMenuPanel {
+  padding: 15px;
+}
+
+.mobileMenuCloseButton {
+  float: right;
+  color: #00B9FF;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.dropdownClick {
+  width: 83px;
+  text-decoration: none !important;
+}
+
+.menu {
+  border: none;
+  padding-top: 40px;
+}
+
+.mobileMenuItems {
+  &.ant-menu-item-selected {
+    background: transparent;
+
+    a {
+      color: #1890ff;;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+  a {
+    color: #333333;
+  }
+
+  &.selectedItem {
+    a {
+      color: #1890ff;
+    }
+  }
+
+  div {
+    text-transform: capitalize;
+  }
+}
+
+.cloudItem {
+  background: transparent !important;
+  &::after {
+    display: none;
+  }
+
+  &.cloudSelectedItem {
+    background: transparent;
+    a {
+      color: #1890ff;
+    }
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.loginLinkMenu {
+  border: none !important;
+  outline: none;
+
+  .loginLink {
+    color: $active-color !important;
+    line-height: 2.3;
+    text-align: right;
+    margin-right: 2px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 0.9;
+    }
+  }
+}
+
+.mobileMenuDropdown {
+  background: white;
+  width: 282px;
+  border-radius: 6px;
+  box-shadow: 0 4px 7px rgba(5, 53, 134, 0.17);
+  padding: 0;
+
+  li {
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+    color: $options-text;
+    list-style: none;
+    border-left: solid 3px transparent;
+
+    &:first-child {
+      border-radius: 6px 6px 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 6px 6px;
+    }
+
+    &:hover,
+    &.selected {
+      background-color: #EDF3F4;
+      border-left: solid 3px #267BFF;
+    }
+  }
+}
+
+.cloudMenuDropdownWrapper {
+  z-index: 1111;
+}
+
+.icon {
+  font-size: 24px;
+  width: 24px;
+}
+
+
+.cloudMenu {
+  width: 270px;
+  z-index: 1051 !important;
+
+  &.Marketplace >div {
+    border-left: solid 3px transparent;
+    color: $options-text;
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+    line-height: 37px;
+    list-style: none;
+    width: 100%;
+
+    &:hover,
+    &.selected {
+      background-color: $menu-active-bg;
+      border-left: solid 3px $menu-active-border;
+    }
+  }
+
+  ul {
+    padding: 0;
+  }
+}
+
+.cloudMenuItemMeta {
+  padding-top: 5px;
+
+  h3 {
+    font-family: $PoppinsRegular;
+    font-size: 16px;
+    color: $options-text;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  h4 {
+    font-family: $PoppinsRegular;
+    font-size: 12px;
+    color: $filter-text-mobile;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

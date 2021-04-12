@@ -1,0 +1,39 @@
+@import '../../assets/styles/kony';
+
+.headerTitle {
+  font-family: $RobotoSlabLight;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.headersubTitle {
+  color: $secondary-text;
+  font-family: $RobotoSlabLight;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.siteHeader {
+  background: transparent;
+  margin: 0 auto;
+  padding: 0 7px;
+  width: 100%;
+
+  @media (min-width:  576px) {
+    width: 540px;
+  }
+
+  @media (min-width:  768px) {
+    width: 720px;
+  }
+  @media (min-width:  992px ) {
+    width: 960px;
+  }
+  @media (min-width: 1200px) {
+    width: 1155px;
+  }
+
+  @include breakpoint(mobile) {
+    margin: 5px auto 0;
+  }
+}

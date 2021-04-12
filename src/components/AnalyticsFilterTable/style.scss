@@ -1,0 +1,17 @@
+@import '../../assets/styles/kony';
+
+.dataTable {
+  th {
+    border-radius: 4px 4px 0 0;
+    background-color: $table-row-bg !important;
+    color: $table-row-color;
+    font-family: $PoppinsMedium;
+    font-size: 12px;
+  }
+
+  td {
+    color: $table-row-color;
+    font-family: $PoppinsRegular;
+    font-size: 12px;
+  }
+}
