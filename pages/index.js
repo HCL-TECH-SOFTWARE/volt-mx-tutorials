@@ -50,7 +50,7 @@ class MpLanding extends Component {
   componentDidMount() {
     this.props.loadFilters();
     if (this.props.mp.isVizWeb) {
-      loadScript('/static/dist/js/visualizer.js');
+      loadScript('/volt-mx-tutorials/static/dist/js/visualizer.js');
     }
   }
 

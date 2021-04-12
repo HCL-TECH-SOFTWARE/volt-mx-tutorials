@@ -41,7 +41,7 @@ class MyApp extends App {
           <Head>
             <title>Kony Marketplace</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" href="/static/dist/css/kony.css" type="text/css" />
+            <link rel="stylesheet" href="/volt-mx-tutorials/static/dist/css/kony.css" type="text/css" />
           </Head>
           <GoogleTagManager gtmId={gtmId} />
           <Provider store={store}>

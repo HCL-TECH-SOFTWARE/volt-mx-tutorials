@@ -11,7 +11,7 @@ class ScreenshotPreview extends Component {
     super(props);
     let firstImage = this.props.slides[0];
     if (!firstImage) {
-      firstImage = '/static/dist/images/kony_logo.png';
+      firstImage = '/volt-mx-tutorials/static/dist/images/kony_logo.png';
     }
     this.state = {
       activeImagePathDuplicate: firstImage,
@@ -23,7 +23,7 @@ class ScreenshotPreview extends Component {
   static getDerivedStateFromProps(props, currentState) {
     let firstImage = props.slides[0];
     if (!firstImage) {
-      firstImage = '/static/dist/images/kony_logo.png';
+      firstImage = '/volt-mx-tutorials/static/dist/images/kony_logo.png';
     }
     if (firstImage !== currentState.activeImagePathDuplicate) {
       return {
@@ -38,7 +38,7 @@ class ScreenshotPreview extends Component {
   getThumbnail(element, i) {
     let thumbPath = '';
     if (!element) {
-      thumbPath = '/static/dist/images/kony_logo.png';
+      thumbPath = '/volt-mx-tutorials/static/dist/images/kony_logo.png';
       return (
         <img
           src={thumbPath}
@@ -48,7 +48,7 @@ class ScreenshotPreview extends Component {
       );
     }
     if (element.indexOf('.mp4') > 0) {
-      thumbPath = '/static/dist/images/videoPlaceholder.png';
+      thumbPath = '/volt-mx-tutorials/static/dist/images/videoPlaceholder.png';
     } else {
       thumbPath = element;
     }

@@ -29,7 +29,7 @@ export default class DesktopMenu extends Component {
             placement="bottomCenter"
           >
             <a className={style.dropdownLink} href="#">
-              {item.title} <img className={style.dropdownCaret} src="/static/dist/images/icons/navBarArrow.svg" alt="Sort Icon" />
+              {item.title} <img className={style.dropdownCaret} src="/volt-mx-tutorials/static/dist/images/icons/navBarArrow.svg" alt="Sort Icon" />
             </a>
           </Dropdown>
         </Menu.Item>

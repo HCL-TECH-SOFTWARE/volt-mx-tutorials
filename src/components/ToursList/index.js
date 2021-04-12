@@ -12,7 +12,7 @@ const ToursList = ({
     <Row className={style.domainTitleWrapper}>
       <div>
         {title.toLowerCase() === 'dbx' ? (
-          <img src="/static/dist/images/dbx_logo.png" className={style.title} />
+          <img src="/volt-mx-tutorials/static/dist/images/dbx_logo.png" className={style.title} />
         ) : (
           <h1 className={style.title}>
             {title.toUpperCase()}

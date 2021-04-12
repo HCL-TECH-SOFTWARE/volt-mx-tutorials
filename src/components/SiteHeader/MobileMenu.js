@@ -37,7 +37,7 @@ class MobileMenu extends Component {
           customBurgerIcon={
             <div>
               <img
-                src="/static/dist/images/hamburgerMenuIcon.svg"
+                src="/volt-mx-tutorials/static/dist/images/hamburgerMenuIcon.svg"
                 alt="Facebook icon"
                 className={style.hamburgerMenuIcon}
               />

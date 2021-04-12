@@ -11,7 +11,7 @@ const pageNotFound = () => (
       <Row className={style.pageWrapper}>
         <Col xs={24} sm={24} md={12} lg={12}>
           <img
-            src="/static/dist/images/error.svg"
+            src="/volt-mx-tutorials/static/dist/images/error.svg"
             alt="Page not found"
           />
         </Col>

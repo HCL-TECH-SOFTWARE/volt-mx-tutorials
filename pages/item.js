@@ -52,7 +52,7 @@ class DetailPage extends Component {
       await this.setState({
         activeAsset: this.props.marketplace.currentAsset.selectedAsset,
       });
-      loadScript('/static/dist/js/visualizer.js');
+      loadScript('/volt-mx-tutorials/static/dist/js/visualizer.js');
     }
     window.dataLayer.push({
       assetTitle: this.props.marketplace.currentAsset.assetTitle,

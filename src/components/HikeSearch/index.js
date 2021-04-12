@@ -47,7 +47,7 @@ class HikeSearch extends Component {
             className={style.searchIcon}
             onClick={this.handleSearchClick}
           >
-            <img src="/static/dist/images/search.svg" alt="search icon" />
+            <img src="/volt-mx-tutorials/static/dist/images/search.svg" alt="search icon" />
           </Button>
         </Col>
       </div>

@@ -42,7 +42,7 @@ class KonyFilters extends Component {
             onClick={e => this.toggleMenu(e)}
             className={`${style.filterOpenButton} ${this.props.viz ? style.viz : ''}`}
           >
-            <img src="/static/dist/images/filter.svg" alt="filter icon" />
+            <img src="/volt-mx-tutorials/static/dist/images/filter.svg" alt="filter icon" />
           </Button>
           <Row className={style.filterPanel}>
             <Col xs={0} sm={0} md={24} lg={24} className={style.filterHeaderPanel}>

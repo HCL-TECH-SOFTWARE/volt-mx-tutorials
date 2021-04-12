@@ -9,7 +9,7 @@ const getIcon = (name) => {
     case 'download':
       return (
         <img
-          src="/static/dist/images/icons/download.png"
+          src="/volt-mx-tutorials/static/dist/images/icons/download.png"
           alt="Analytics icon"
           className={style.analyticsIcon}
         />
@@ -17,7 +17,7 @@ const getIcon = (name) => {
     case 'import':
       return (
         <img
-          src="/static/dist/images/icons/import.png"
+          src="/volt-mx-tutorials/static/dist/images/icons/import.png"
           alt="Analytics icon"
           className={style.analyticsIcon}
         />
@@ -25,7 +25,7 @@ const getIcon = (name) => {
     case 'component':
       return (
         <img
-          src="/static/dist/images/icons/component.png"
+          src="/volt-mx-tutorials/static/dist/images/icons/component.png"
           alt="Analytics icon"
           className={style.analyticsIcon}
         />
@@ -33,7 +33,7 @@ const getIcon = (name) => {
     default:
       return (
         <img
-          src="/static/dist/images/icons/import.png"
+          src="/volt-mx-tutorials/static/dist/images/icons/import.png"
           alt="Analytics icon"
           className={style.analyticsIcon}
         />

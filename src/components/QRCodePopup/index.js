@@ -66,7 +66,7 @@ class QRCodePopup extends Component {
             <div className = {style.borderBox} onClick = {this.redirectToAppStore}>
               <div className = {style.alignment}>
                 <img
-                  src={`/static/dist/images/iconApple.svg`}
+                  src={`/volt-mx-tutorials/static/dist/images/iconApple.svg`}
                   className = {style.imgAlignment}
                 >
                 </img>
@@ -83,7 +83,7 @@ class QRCodePopup extends Component {
             <div className = {style.borderBox} onClick = {this.redirectToGooglePlay}>
               <div className = {style.alignment}>
                 <img
-                  src={`/static/dist/images/iconGooglePlay.svg`}
+                  src={`/volt-mx-tutorials/static/dist/images/iconGooglePlay.svg`}
                   className = {style.imgAlignment}
                 >
                 </img>

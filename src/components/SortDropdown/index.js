@@ -39,13 +39,13 @@ class SortDropdown extends Component {
         >
           <a className={`ant-dropdown-link ${style.sortTitle}`} href="#">
             <img
-              src="/static/dist/images/icons/sortIcon.svg"
+              src="/volt-mx-tutorials/static/dist/images/icons/sortIcon.svg"
               alt="Sort icon"
               className={style.sortAmountDownIcon}
             />
             Sort
             <img
-              src="/static/dist/images/icons/navBarArrow.svg"
+              src="/volt-mx-tutorials/static/dist/images/icons/navBarArrow.svg"
               alt="Sort icon"
               className={style.angleDownIcon}
             />

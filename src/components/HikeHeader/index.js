@@ -17,14 +17,14 @@ const HikeHeader = ({ search, keyword }) => (
           <Col span={4} style={{ height: 'inherit' }}>
             <Link href="/hikes">
               <a title="Kony Logo" className={style.logo}>
-                <img src="/static/dist/images/konyLogo.svg" className={style.logo} alt="logo" />
+                <img src="/volt-mx-tutorials/static/dist/images/konyLogo.svg" className={style.logo} alt="logo" />
                 <br />
               </a>
             </Link>
           </Col>
           <Col  className={style.camp} >
             <img
-              src="/static/dist/images/camp-mountain.svg"
+              src="/volt-mx-tutorials/static/dist/images/camp-mountain.svg"
              
               alt="camp mountain"
             />
