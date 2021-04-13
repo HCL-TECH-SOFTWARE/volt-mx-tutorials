@@ -11,6 +11,8 @@ import axios from 'axios';
 import { baseURL } from '../../config/settings';
 import style from './style.scss';
 import { urlRedirect } from '../../utils/initialize';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const { CancelToken } = axios;
 let cancelSearchAutoCompleteCall = CancelToken.source();
@@ -191,7 +193,7 @@ class KonySearch extends Component {
             className={style.searchIcon}
             onClick={this.handleSearchClick}
           >
-            <img src="/static/dist/images/search.svg" alt="search icon" />
+            <img src={`${publicRuntimeConfig.asset}/static/dist/images/search.svg`} alt="search icon" />
           </Button>
           <Icon
             type="loading"

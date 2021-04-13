@@ -13,7 +13,8 @@ import MarketplaceHeader from '../src/components/MarketplaceHeader';
 import InfiniteAssetList from '../src/containers/InfiniteAssetList';
 import KonyFilters from '../src/containers/KonyFilters';
 import { loadScript, capitalizeFirstLetter } from '../src/utils';
-
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 class DomainPage extends Component {
   static async getInitialProps(ctx) {
     if (!ctx) {
@@ -52,7 +53,7 @@ class DomainPage extends Component {
 
   componentDidMount() {
     if (this.props.mp.isVizWeb) {
-      loadScript('/static/dist/js/visualizer.js');
+      loadScript(`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`);
       this.getInfiniteAssets(0);
     }
     this.props.loadFilters();

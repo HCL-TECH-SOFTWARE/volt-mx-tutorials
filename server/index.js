@@ -28,7 +28,7 @@ app.prepare().then(() => {
   server.use(cookieParser());
   server.use(favicon(path.join(__dirname, '../static', 'dist', 'images', 'basecampFavIcon.png')));
 
-  const staticPath = path.join(__dirname, '../volt-mx-tutorials/static');
+  const staticPath = path.join(__dirname, '../static');
   server.use(
     '/static',
     express.static(staticPath, {

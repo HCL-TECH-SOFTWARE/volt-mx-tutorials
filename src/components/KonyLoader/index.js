@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const KonyLoader =
   ({
@@ -15,7 +17,7 @@ const KonyLoader =
       <div className={styles.content}>
         <div className={styles.center}>
           <img
-            src="/static/dist/images/loader.svg"
+            src={`${publicRuntimeConfig.asset}/static/dist/images/loader.svg`}
             alt="Loader"
             height={height || size}
             width={width || size}

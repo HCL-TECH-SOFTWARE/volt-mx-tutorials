@@ -7,6 +7,8 @@ import Head from 'next/head';
 import Layout from '../src/components/Layout';
 import { gtmId } from '../src/config/settings';
 import GoogleTagManager from '../src/components/GoogleTagManager';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 NProgress.configure({ showSpinner: false, minimum: 0.1 });
 Router.events.on('beforeHistoryChange', () => NProgress.inc(0.5));
@@ -41,7 +43,7 @@ class MyApp extends App {
           <Head>
             <title>HCL Marketplace</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" href="/static/dist/css/kony.css" type="text/css" />
+            <link rel="stylesheet" href={`${publicRuntimeConfig.asset}/static/dist/css/kony.css`} type="text/css" />
           </Head>
           <GoogleTagManager gtmId={gtmId} />
           <Provider store={store}>

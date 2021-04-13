@@ -9,6 +9,8 @@ import Icon from 'antd/lib/icon';
 import QRCode from 'qrcode.react';
 import style from './style.scss';
 import QRCodePopup from '../QRCodePopup';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const DeveloperGuide = (asset) => {
   const getRequirements = (item, isViz) => {
@@ -48,7 +50,7 @@ const DeveloperGuide = (asset) => {
 
   const renderIcons = item => (
     <img
-      src={`/static/dist/images/icons/${item}_platform.svg`}
+      src={`${publicRuntimeConfig.asset}/static/dist/images/icons/${item}_platform.svg`}
       alt={item}
       className={style.dgIcon}
     />

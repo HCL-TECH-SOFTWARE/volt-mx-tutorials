@@ -5,13 +5,15 @@ import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
 import style from './style.scss';
 import KonyVideoPlayer from './KonyVideoPlayer';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class ScreenshotPreview extends Component {
   constructor(props) {
     super(props);
     let firstImage = this.props.slides[0];
     if (!firstImage) {
-      firstImage = '/static/dist/images/kony_logo.png';
+      firstImage = `${publicRuntimeConfig.asset}/static/dist/images/kony_logo.png`;
     }
     this.state = {
       activeImagePathDuplicate: firstImage,
@@ -23,7 +25,7 @@ class ScreenshotPreview extends Component {
   static getDerivedStateFromProps(props, currentState) {
     let firstImage = props.slides[0];
     if (!firstImage) {
-      firstImage = '/static/dist/images/kony_logo.png';
+      firstImage = `${publicRuntimeConfig.asset}/static/dist/images/kony_logo.png`;
     }
     if (firstImage !== currentState.activeImagePathDuplicate) {
       return {
@@ -38,7 +40,7 @@ class ScreenshotPreview extends Component {
   getThumbnail(element, i) {
     let thumbPath = '';
     if (!element) {
-      thumbPath = '/static/dist/images/kony_logo.png';
+      thumbPath = `${publicRuntimeConfig.asset}/static/dist/images/kony_logo.png`;
       return (
         <img
           src={thumbPath}
@@ -48,7 +50,7 @@ class ScreenshotPreview extends Component {
       );
     }
     if (element.indexOf('.mp4') > 0) {
-      thumbPath = '/static/dist/images/videoPlaceholder.png';
+      thumbPath = `${publicRuntimeConfig.asset}/static/dist/images/videoPlaceholder.png`;
     } else {
       thumbPath = element;
     }

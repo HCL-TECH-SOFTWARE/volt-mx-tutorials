@@ -14,6 +14,8 @@ import KonyLayout from '../src/components/KonyLayout';
 import KonyFilters from '../src/containers/KonyFilters';
 import { loadScript } from '../src/utils';
 import ProposeComponentWrapper from '../src/components/ProposeComponentWrapper';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class MpLanding extends Component {
   static async getInitialProps(ctx) {
@@ -50,7 +52,7 @@ class MpLanding extends Component {
   componentDidMount() {
     this.props.loadFilters();
     if (this.props.mp.isVizWeb) {
-      loadScript('/static/dist/js/visualizer.js');
+      loadScript(`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`);
     }
   }
 

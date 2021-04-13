@@ -9,6 +9,8 @@ import _last from 'lodash/last';
 import style from './style.scss';
 import DesktopMenu from './DesktopMenu';
 import MobileMenu from './MobileMenu';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const { Header } = Layout;
 
@@ -31,7 +33,7 @@ class SiteHeader extends Component {
                 <Link href="/">
                   <a title="Kony Logo">
                     <img
-                      src="/static/dist/images/konyLogo.svg"
+                      src={`${publicRuntimeConfig.asset}/static/dist/images/konyLogo.svg`}
                       className={style.logo}
                       alt="HCL Marketplace"
                     />

@@ -1,6 +1,8 @@
 import React from 'react';
 import PostIdeaButton from '../PostIdea';
 import style from './styles.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const getLink = (isViz, href, title) => (
   isViz ? <li className={style.coolWhite}>{title}</li>
@@ -11,7 +13,7 @@ const NoResultFound = ({
   noResult, message, minHeight, hideButton, isViz,
 }) => (
   <div className={`${style.noResults} ${minHeight ? style.minHeight : ''}`}>
-    <img src="/static/dist/images/noresult.png" width="424" height="354" alt="No Result Found" className={style.NoResultFoundImg} />
+    <img src={`${publicRuntimeConfig.asset}/static/dist/images/noresult.png`} width="424" height="354" alt="No Result Found" className={style.NoResultFoundImg} />
     {
       message ? (
         <h3>{message}</h3>

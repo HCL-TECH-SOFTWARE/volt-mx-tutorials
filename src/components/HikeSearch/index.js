@@ -5,6 +5,8 @@ import Col from 'antd/lib/col';
 import Modal from 'antd/lib/modal';
 import Router from 'next/router';
 import style from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class HikeSearch extends Component {
   state = {
@@ -47,7 +49,7 @@ class HikeSearch extends Component {
             className={style.searchIcon}
             onClick={this.handleSearchClick}
           >
-            <img src="/static/dist/images/search.svg" alt="search icon" />
+            <img src={`${publicRuntimeConfig.asset}/static/dist/images/search.svg`} alt="search icon" />
           </Button>
         </Col>
       </div>

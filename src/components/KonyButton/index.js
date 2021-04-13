@@ -3,12 +3,14 @@ import Button from 'antd/lib/button';
 import Icon from 'antd/lib/icon';
 import PropTypes from 'prop-types';
 import style from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const checkSelected = (selected) => {
   if (selected) {
     return (
       <img
-        src="/static/dist/images/icons/filterCross.svg"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/icons/filterCross.svg`}
         alt="icon"
         className={style.filterCloseIcon}
       />
@@ -20,7 +22,7 @@ const renderDownloadIcon = (type) => {
   if (type === 'download') {
     return (
       <img
-        src="/static/dist/images/download.svg"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/download.svg`}
         alt="Download icon"
         className={style.downloadIcon}
       />
@@ -33,7 +35,7 @@ const renderCodeIcon = (isCode) => {
   if (isCode) {
     return (
       <img
-        src="/static/dist/images/icons/codeIcon.png"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/icons/codeIcon.png`}
         alt="Code icon"
         className={style.codeIcon}
       />

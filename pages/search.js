@@ -11,6 +11,8 @@ import MarketplaceHeader from '../src/components/MarketplaceHeader';
 import DidYouMean from '../src/components/DidYouMean';
 import InfiniteAssetList from '../src/containers/InfiniteAssetList';
 import KonyFilters from '../src/containers/KonyFilters';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class SearchPage extends Component {
   static async getInitialProps(ctx) {
@@ -47,7 +49,7 @@ class SearchPage extends Component {
 
   componentDidMount() {
     if (this.props.mp.isVizWeb) {
-      loadScript('/static/dist/js/visualizer.js');
+      loadScript(`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`);
       this.getInfiniteAssets(0);
     }
     this.props.loadFilters();
