@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import style from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const SocialLinks = () => (
   <div className={style.socialLinksContainer}>
@@ -12,7 +14,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/static/dist/images/facebookIcon.svg"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/facebookIcon.svg`}
         alt="Facebook icon"
       />
     </a>
@@ -24,7 +26,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/static/dist/images/linkedinIcon.svg"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/linkedinIcon.svg`}
         alt="LinkedIn icon"
       />
     </a>
@@ -37,7 +39,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/static/dist/images/twitter.svg"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/twitter.svg`}
         alt="twitter icon"
       />
     </a>
@@ -50,7 +52,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/static/dist/images/youtube.svg"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/youtube.svg`}
         alt="youtube icon"
       />
     </a>
@@ -63,7 +65,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/static/dist/images/glassdoor.svg"
+        src={`${publicRuntimeConfig.asset}/static/dist/images/glassdoor.svg`}
         alt="glassdoor icon"
       />
     </a>

@@ -12,6 +12,8 @@ import KonyButton from '../KonyButton';
 import KonyLoader from '../KonyLoader';
 import { getUrl } from '../../utils/initialize';
 import AssetDownloadButton from '../AssetDownloadButton';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const { Option } = Select;
 
@@ -76,7 +78,7 @@ class DetailMobileMeta extends Component {
           onChange={value => this.handleChange(value)}
           suffixIcon={(
             <img
-              src="/static/dist/images/icons/navBarArrow.svg"
+              src={`${publicRuntimeConfig.asset}/static/dist/images/icons/navBarArrow.svg`}
               alt="Sort icon"
               className={style.angleDownIcon}
             />

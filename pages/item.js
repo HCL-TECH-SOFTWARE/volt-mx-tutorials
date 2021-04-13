@@ -17,7 +17,8 @@ import { loadScript } from '../src/utils';
 import { oauthEnv } from '../src/config/settings';
 import { getCookie } from '../src/utils/cookies';
 import PageNotFound from '../src/components/PageNotFound';
-
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 class DetailPage extends Component {
   constructor(props) {
     super(props);
@@ -52,7 +53,7 @@ class DetailPage extends Component {
       await this.setState({
         activeAsset: this.props.marketplace.currentAsset.selectedAsset,
       });
-      loadScript('/static/dist/js/visualizer.js');
+      loadScript(`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`);
     }
     window.dataLayer.push({
       assetTitle: this.props.marketplace.currentAsset.assetTitle,

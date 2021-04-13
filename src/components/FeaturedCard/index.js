@@ -10,6 +10,8 @@ import style from './style.scss';
 import { truncate, validateData } from '../../utils';
 import KonyButton from '../KonyButton';
 import { getUrl } from '../../utils/initialize';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class FeaturedCard extends Component {
   state = {
@@ -108,7 +110,7 @@ class FeaturedCard extends Component {
                 style={{ display: loaderDisplay }}
               >
                 <img
-                  src="/static/dist/images/loader.svg"
+                  src={`${publicRuntimeConfig.asset}/static/dist/images/loader.svg`}
                   alt="Loader"
                   height={80}
                   width={80}
@@ -148,7 +150,7 @@ class FeaturedCard extends Component {
                     <a href={getUrl(Alias, [], isVizWeb)} aria-label={`label-${Title}`}>
                       <span>
                         <img
-                          src="/static/dist/images/icons/like.svg"
+                          src={`${publicRuntimeConfig.asset}/static/dist/images/icons/like.svg`}
                           alt={`like-${Title}`}
                           className={style.likeIcon}
                         />
@@ -156,7 +158,7 @@ class FeaturedCard extends Component {
                       </span>
                       <span>
                         <img
-                          src="/static/dist/images/icons/download.svg"
+                          src={`${publicRuntimeConfig.asset}/static/dist/images/icons/download.svg`}
                           alt={`download-${Title}`}
                           className={style.downloadIcon}
                         />

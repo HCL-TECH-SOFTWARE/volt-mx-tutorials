@@ -4,6 +4,8 @@ import Row from 'antd/lib/row';
 import KonyButton from '../../components/KonyButton';
 import style from './style.scss';
 import { getUrl } from '../../utils/initialize'
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const pageNotFound = () => (
   <React.Fragment>
@@ -11,7 +13,7 @@ const pageNotFound = () => (
       <Row className={style.pageWrapper}>
         <Col xs={24} sm={24} md={12} lg={12}>
           <img
-            src="/static/dist/images/error.svg"
+            src={`${publicRuntimeConfig.asset}/static/dist/images/error.svg`}
             alt="Page not found"
           />
         </Col>

@@ -4,6 +4,8 @@ import Link from 'next/link';
 import PropTypes from 'prop-types';
 import TourCard from '../TourCard';
 import style from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const ToursList = ({
   alias, title, desc, tours,
@@ -12,7 +14,7 @@ const ToursList = ({
     <Row className={style.domainTitleWrapper}>
       <div>
         {title.toLowerCase() === 'dbx' ? (
-          <img src="/static/dist/images/dbx_logo.png" className={style.title} />
+          <img src={`${publicRuntimeConfig.asset}/static/dist/images/dbx_logo.png`} className={style.title} />
         ) : (
           <h1 className={style.title}>
             {title.toUpperCase()}

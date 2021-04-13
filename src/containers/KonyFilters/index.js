@@ -7,6 +7,8 @@ import Col from 'antd/lib/col';
 import Menu from 'react-burger-menu/lib/menus/slide';
 import style from './style.scss';
 import FilterPanel from './FilterPanel';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class KonyFilters extends Component {
   constructor(props) {
@@ -43,13 +45,13 @@ class KonyFilters extends Component {
             onClick={e => this.toggleMenu(e)}
             className={`${style.filterOpenButton} ${this.props.viz ? style.viz : ''} ${this.props.vizApp ? style.vizApp : ''}`}
           >
-            <img src="/static/dist/images/filter.svg" alt="filter icon" />
+            <img src={`${publicRuntimeConfig.asset}/static/dist/images/filter.svg`} alt="filter icon" />
           </Button>
           <Row className={style.filterPanel}>
             <Col xs={0} sm={0} md={24} lg={24} className={style.filterHeaderPanel}>
               <h3 className={style.filterHeading}>Filters:</h3>
               <img
-                src="/static/dist/images/icons/filterCross.svg"
+                src={`${publicRuntimeConfig.asset}/static/dist/images/icons/filterCross.svg`}
                 alt="icon"
                 onClick={e => this.closeMenu(e)}
                 className={style.filterCloseButton}
@@ -61,7 +63,7 @@ class KonyFilters extends Component {
               </Col>
               <Col>
                 <img
-                  src="/static/dist/images/icons/filterCrossMobile.svg"
+                  src={`${publicRuntimeConfig.asset}/static/dist/images/icons/filterCrossMobile.svg`}
                   alt="icon"
                   onClick={e => this.closeMenu(e)}
                   className={style.mobileFilterCloseButton}

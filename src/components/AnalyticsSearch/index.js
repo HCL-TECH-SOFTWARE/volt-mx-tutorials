@@ -5,6 +5,8 @@ import Col from 'antd/lib/col';
 import Modal from 'antd/lib/modal';
 import Icon from 'antd/lib/icon';
 import style from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class AnalyticsSearch extends Component {
   constructor(props) {
@@ -105,7 +107,7 @@ class AnalyticsSearch extends Component {
             className={style.searchIcon}
             onClick={this.handleSearchClick}
           >
-            <img src="/static/dist/images/search.svg" alt="search icon" />
+            <img src={`${publicRuntimeConfig.asset}/static/dist/images/search.svg`} alt="search icon" />
           </Button>
           <Icon
             type="loading"

@@ -6,6 +6,8 @@ import Col from 'antd/lib/col';
 import Link from 'next/link';
 import style from './style.scss';
 import HikeSearch from '../HikeSearch';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const { Header } = Layout;
 
@@ -17,14 +19,14 @@ const HikeHeader = ({ search, keyword }) => (
           <Col span={4} style={{ height: 'inherit' }}>
             <Link href="/hikes">
               <a title="Kony Logo" className={style.logo}>
-                <img src="/static/dist/images/konyLogo.svg" className={style.logo} alt="logo" />
+                <img src={`${publicRuntimeConfig.asset}/static/dist/images/konyLogo.svg`} className={style.logo} alt="logo" />
                 <br />
               </a>
             </Link>
           </Col>
           <Col  className={style.camp} >
             <img
-              src="/static/dist/images/camp-mountain.svg"
+              src={`${publicRuntimeConfig.asset}/static/dist/images/camp-mountain.svg`}
              
               alt="camp mountain"
             />

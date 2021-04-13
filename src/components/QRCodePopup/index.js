@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import Modal from 'antd/lib/modal';
 import style from './style.scss';
 import QRCode from 'qrcode.react';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class QRCodePopup extends Component {
   constructor(props) {
@@ -66,7 +68,7 @@ class QRCodePopup extends Component {
             <div className = {style.borderBox} onClick = {this.redirectToAppStore}>
               <div className = {style.alignment}>
                 <img
-                  src={`/static/dist/images/iconApple.svg`}
+                  src={`${publicRuntimeConfig.asset}/static/dist/images/iconApple.svg`}
                   className = {style.imgAlignment}
                 >
                 </img>
@@ -83,7 +85,7 @@ class QRCodePopup extends Component {
             <div className = {style.borderBox} onClick = {this.redirectToGooglePlay}>
               <div className = {style.alignment}>
                 <img
-                  src={`/static/dist/images/iconGooglePlay.svg`}
+                  src={`${publicRuntimeConfig.asset}/static/dist/images/iconGooglePlay.svg`}
                   className = {style.imgAlignment}
                 >
                 </img>

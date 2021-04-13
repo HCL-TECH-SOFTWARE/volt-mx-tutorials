@@ -6,6 +6,8 @@ import Icon from 'antd/lib/icon';
 import { slide as Menu } from 'react-burger-menu';
 import style from './style.scss';
 import MobileMenuPanel from './MobileMenuPanel';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class MobileMenu extends Component {
   constructor(props) {
@@ -37,7 +39,7 @@ class MobileMenu extends Component {
           customBurgerIcon={
             <div>
               <img
-                src="/static/dist/images/hamburgerMenuIcon.svg"
+                src={`${publicRuntimeConfig.asset}/static/dist/images/hamburgerMenuIcon.svg`}
                 alt="Facebook icon"
                 className={style.hamburgerMenuIcon}
               />

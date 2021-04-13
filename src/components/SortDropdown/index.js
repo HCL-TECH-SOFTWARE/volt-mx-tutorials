@@ -4,6 +4,8 @@ import Dropdown from 'antd/lib/dropdown';
 import Menu from 'antd/lib/menu';
 import Icon from 'antd/lib/icon';
 import style from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 class SortDropdown extends Component {
   handleClick = (e) => {
@@ -39,13 +41,13 @@ class SortDropdown extends Component {
         >
           <a className={`ant-dropdown-link ${style.sortTitle}`} href="#">
             <img
-              src="/static/dist/images/icons/sortIcon.svg"
+              src={`${publicRuntimeConfig.asset}/static/dist/images/icons/sortIcon.svg`}
               alt="Sort icon"
               className={style.sortAmountDownIcon}
             />
             Sort
             <img
-              src="/static/dist/images/icons/navBarArrow.svg"
+              src={`${publicRuntimeConfig.asset}/static/dist/images/icons/navBarArrow.svg`}
               alt="Sort icon"
               className={style.angleDownIcon}
             />

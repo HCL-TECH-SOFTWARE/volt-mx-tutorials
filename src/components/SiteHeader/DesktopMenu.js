@@ -4,6 +4,8 @@ import Menu from 'antd/lib/menu';
 import Dropdown from "antd/lib/dropdown";
 import UserMenu from './UserMenu';
 import style from "./style.scss";
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 export default class DesktopMenu extends Component {
   subMenuItem = item => (
@@ -29,7 +31,7 @@ export default class DesktopMenu extends Component {
             placement="bottomCenter"
           >
             <a className={style.dropdownLink} href="#">
-              {item.title} <img className={style.dropdownCaret} src="/static/dist/images/icons/navBarArrow.svg" alt="Sort Icon" />
+              {item.title} <img className={style.dropdownCaret} src={`${publicRuntimeConfig.asset}/static/dist/images/icons/navBarArrow.svg`} alt="Sort Icon" />
             </a>
           </Dropdown>
         </Menu.Item>

@@ -4,6 +4,8 @@ import Row from 'antd/lib/row';
 import PropTypes from 'prop-types';
 import style from './style.scss';
 import { truncateAdvance } from '../../utils';
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
 
 const AnalyticsPanel = ({ data, title, className }) => (
   <Row className={`${style.base} ${className}`}>
@@ -28,7 +30,7 @@ const AnalyticsPanel = ({ data, title, className }) => (
             </Col>
             <Col span={4}>
               <img
-                src="/static/dist/images/icons/like.svg"
+                src={`${publicRuntimeConfig.asset}/static/dist/images/icons/like.svg`}
                 alt="icon"
                 className={style.statsIcon}
               />
@@ -38,7 +40,7 @@ const AnalyticsPanel = ({ data, title, className }) => (
             </Col>
             <Col span={4}>
               <img
-                src="/static/dist/images/icons/downloadBlue.png"
+                src={`${publicRuntimeConfig.asset}/static/dist/images/icons/downloadBlue.png`}
                 alt="icon"
                 className={style.statsIcon}
               />
