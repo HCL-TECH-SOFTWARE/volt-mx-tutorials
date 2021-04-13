@@ -27,6 +27,7 @@ npm run serve:test
 npm install
 npm run build
 npm run serve
+npm run export
 ```
 
 Dev Url: Open `http://localhost:3200/` in your browser to see your app running.
