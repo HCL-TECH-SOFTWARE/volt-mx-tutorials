@@ -31,7 +31,7 @@ class DetailsMetaData extends Component {
           onChange={value => this.handleChange(value)}
           suffixIcon={(
             <img
-              src="/volt-mx-tutorials/static/dist/images/icons/navBarArrow.svg"
+              src="/static/dist/images/icons/navBarArrow.svg"
               alt="Sort icon"
               className={style.angleDownIcon}
             />

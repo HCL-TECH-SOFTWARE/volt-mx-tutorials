@@ -108,7 +108,7 @@ class FeaturedCard extends Component {
                 style={{ display: loaderDisplay }}
               >
                 <img
-                  src="/volt-mx-tutorials/static/dist/images/loader.svg"
+                  src="/static/dist/images/loader.svg"
                   alt="Loader"
                   height={80}
                   width={80}
@@ -148,7 +148,7 @@ class FeaturedCard extends Component {
                     <a href={getUrl(Alias, [], isVizWeb)} aria-label={`label-${Title}`}>
                       <span>
                         <img
-                          src="/volt-mx-tutorials/static/dist/images/icons/like.svg"
+                          src="/static/dist/images/icons/like.svg"
                           alt={`like-${Title}`}
                           className={style.likeIcon}
                         />
@@ -156,7 +156,7 @@ class FeaturedCard extends Component {
                       </span>
                       <span>
                         <img
-                          src="/volt-mx-tutorials/static/dist/images/icons/download.svg"
+                          src="/static/dist/images/icons/download.svg"
                           alt={`download-${Title}`}
                           className={style.downloadIcon}
                         />

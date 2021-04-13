@@ -11,7 +11,7 @@ const NoResultFound = ({
   noResult, message, minHeight, hideButton, isViz,
 }) => (
   <div className={`${style.noResults} ${minHeight ? style.minHeight : ''}`}>
-    <img src="/volt-mx-tutorials/static/dist/images/noresult.png" width="424" height="354" alt="No Result Found" className={style.NoResultFoundImg} />
+    <img src="/static/dist/images/noresult.png" width="424" height="354" alt="No Result Found" className={style.NoResultFoundImg} />
     {
       message ? (
         <h3>{message}</h3>

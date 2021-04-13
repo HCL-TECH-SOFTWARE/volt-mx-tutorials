@@ -48,7 +48,7 @@ const DeveloperGuide = (asset) => {
 
   const renderIcons = item => (
     <img
-      src={`/volt-mx-tutorials/static/dist/images/icons/${item}_platform.svg`}
+      src={`/static/dist/images/icons/${item}_platform.svg`}
       alt={item}
       className={style.dgIcon}
     />

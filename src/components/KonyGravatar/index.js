@@ -5,7 +5,7 @@ import style from './style.scss';
 const KonyGravatar = ({src}) => (
   <div className={style.gravatarWrapper}>
     <img
-      src={src !== '' ? src : '/volt-mx-tutorials/static/dist/images/noGravatar.png'}
+      src={src !== '' ? src : '/static/dist/images/noGravatar.png'}
       className={style.gravatar}
       alt="User"
     />

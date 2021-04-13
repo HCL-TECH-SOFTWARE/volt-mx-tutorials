@@ -31,7 +31,7 @@ class SiteHeader extends Component {
                 <Link href="/">
                   <a title="Kony Logo">
                     <img
-                      src="/volt-mx-tutorials/static/dist/images/konyLogo.svg"
+                      src="/static/dist/images/konyLogo.svg"
                       className={style.logo}
                       alt="HCL Marketplace"
                     />

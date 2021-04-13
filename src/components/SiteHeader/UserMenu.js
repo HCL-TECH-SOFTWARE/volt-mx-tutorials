@@ -20,7 +20,7 @@ class UserMenu extends Component {
     ) {
       return `${basecampBaseURL}${this.props.marketplace.basecampUserInfo.photo}`;
     }
-    return '/volt-mx-tutorials/static/dist/images/noGravatar.png';
+    return '/static/dist/images/noGravatar.png';
   }
 
   getMenu(item) {
@@ -59,7 +59,7 @@ class UserMenu extends Component {
         <a href={`/cloud/${item?.account_id}`}>
           <Row>
             <Col span={4}>
-              <img src="/volt-mx-tutorials/static/dist/images/cloud.svg" alt="cloud" className={style.icon} />
+              <img src="/static/dist/images/cloud.svg" alt="cloud" className={style.icon} />
             </Col>
             <Col span={18} className={style.cloudMenuItemMeta}>
               <h3>{item.account_title}</h3>

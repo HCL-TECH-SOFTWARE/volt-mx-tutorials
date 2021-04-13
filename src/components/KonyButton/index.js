@@ -8,7 +8,7 @@ const checkSelected = (selected) => {
   if (selected) {
     return (
       <img
-        src="/volt-mx-tutorials/static/dist/images/icons/filterCross.svg"
+        src="/static/dist/images/icons/filterCross.svg"
         alt="icon"
         className={style.filterCloseIcon}
       />
@@ -20,7 +20,7 @@ const renderDownloadIcon = (type) => {
   if (type === 'download') {
     return (
       <img
-        src="/volt-mx-tutorials/static/dist/images/download.svg"
+        src="/static/dist/images/download.svg"
         alt="Download icon"
         className={style.downloadIcon}
       />
@@ -33,7 +33,7 @@ const renderCodeIcon = (isCode) => {
   if (isCode) {
     return (
       <img
-        src="/volt-mx-tutorials/static/dist/images/icons/codeIcon.png"
+        src="/static/dist/images/icons/codeIcon.png"
         alt="Code icon"
         className={style.codeIcon}
       />

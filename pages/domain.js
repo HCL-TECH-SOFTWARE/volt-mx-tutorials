@@ -52,7 +52,7 @@ class DomainPage extends Component {
 
   componentDidMount() {
     if (this.props.mp.isVizWeb) {
-      loadScript('/volt-mx-tutorials/static/dist/js/visualizer.js');
+      loadScript('/static/dist/js/visualizer.js');
       this.getInfiniteAssets(0);
     }
     this.props.loadFilters();

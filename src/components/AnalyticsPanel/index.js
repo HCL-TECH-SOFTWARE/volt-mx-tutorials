@@ -28,7 +28,7 @@ const AnalyticsPanel = ({ data, title, className }) => (
             </Col>
             <Col span={4}>
               <img
-                src="/volt-mx-tutorials/static/dist/images/icons/like.svg"
+                src="/static/dist/images/icons/like.svg"
                 alt="icon"
                 className={style.statsIcon}
               />
@@ -38,7 +38,7 @@ const AnalyticsPanel = ({ data, title, className }) => (
             </Col>
             <Col span={4}>
               <img
-                src="/volt-mx-tutorials/static/dist/images/icons/downloadBlue.png"
+                src="/static/dist/images/icons/downloadBlue.png"
                 alt="icon"
                 className={style.statsIcon}
               />

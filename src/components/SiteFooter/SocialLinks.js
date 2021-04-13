@@ -12,7 +12,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/volt-mx-tutorials/static/dist/images/facebookIcon.svg"
+        src="/static/dist/images/facebookIcon.svg"
         alt="Facebook icon"
       />
     </a>
@@ -24,7 +24,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/volt-mx-tutorials/static/dist/images/linkedinIcon.svg"
+        src="/static/dist/images/linkedinIcon.svg"
         alt="LinkedIn icon"
       />
     </a>
@@ -37,7 +37,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/volt-mx-tutorials/static/dist/images/twitter.svg"
+        src="/static/dist/images/twitter.svg"
         alt="twitter icon"
       />
     </a>
@@ -50,7 +50,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/volt-mx-tutorials/static/dist/images/youtube.svg"
+        src="/static/dist/images/youtube.svg"
         alt="youtube icon"
       />
     </a>
@@ -63,7 +63,7 @@ const SocialLinks = () => (
       rel="noreferrer"
     >
       <img
-        src="/volt-mx-tutorials/static/dist/images/glassdoor.svg"
+        src="/static/dist/images/glassdoor.svg"
         alt="glassdoor icon"
       />
     </a>

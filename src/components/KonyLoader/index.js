@@ -15,7 +15,7 @@ const KonyLoader =
       <div className={styles.content}>
         <div className={styles.center}>
           <img
-            src="/volt-mx-tutorials/static/dist/images/loader.svg"
+            src="/static/dist/images/loader.svg"
             alt="Loader"
             height={height || size}
             width={width || size}
