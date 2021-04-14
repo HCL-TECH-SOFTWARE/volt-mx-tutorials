@@ -1,4 +1,5 @@
-# HCL Marketplace
+# HCL Marketplace 
+![phx-dev](https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/actions/workflows/intergrate.yml/badge.svg?branch=phx-dev)
 
 ## About
 
@@ -7,7 +8,7 @@ HCL Marketplace using nodejs, express and nextjs.
 ## Prerequisites
 
 * npm >= 6.13.7
-* node >= v13.10.1
+* node >= 13.10.1
 
 ## Commands
 
