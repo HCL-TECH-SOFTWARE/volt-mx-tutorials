@@ -4,6 +4,11 @@
 
 HCL Marketplace using nodejs, express and nextjs.
 
+## Prerequisites
+
+* npm >= 6.13.7
+* node >= v13.10.1
+
 ## Commands
 
 ### Dev Build
