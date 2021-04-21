@@ -24,7 +24,7 @@ module.exports = withImages(withSass({
       localIdentName: prod ? "[hash:base64:5]" : test ? "[path]_[local]" : "[path]_[local]--[hash:base64:5]",
       sourceMap: true
     },
-    assetPrefix: prod ? '' : '',
+    assetPrefix: prod ? repoName : '',
     publicRuntimeConfig: {
       asset: prod ? repoName : ''
     },
