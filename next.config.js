@@ -17,9 +17,9 @@ module.exports = withImages(withSass({
       asset: prod ? repoName : ''
     },
     exportPathMap: () => ({
-      '/': { page: '/' },
-      "/hikes": {
-        page: '/hikes'}
+      "/": { page: '/' },
+      "/hikes": { page: '/hikes'},
+      "/hikes/tour": { page: '/tour'}
     }),
     webpack: (config, { isServer }) => {
       if (!isServer) {

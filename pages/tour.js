@@ -6,21 +6,32 @@ import Col from 'antd/lib/col';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import KonyButton from '../src/components/KonyButton';
 import styles from './style.scss';
+import categories from '../hikes/categories.json'
 
 class TourDetailPage extends Component {
   static async getInitialProps({query}) {
     try {
-      const res = await axios.get(
-        `/api/v1_1/hike/tour/${query.tour}/details`,
-      );
-      return { tour: res.data };
+      // const res = await axios.get(
+      //   `/api/v1_1/hike/tour/${query.tour}/details`,
+      // );
+
+  let data = categories
+  .filter((element) => 
+    element.categoryTours.some((subElement) => subElement.alias == `hikes/tour/${query.tour}`))
+  .map(element => {
+    return Object.assign({}, element, {categoryTours : element.categoryTours.filter(subElement => subElement.alias == `hikes/tour/${query.tour}`)});
+
+  }); 
+
+      return { tour: {tourDetails: data[0].categoryTours[0]} };
+
     } catch (error) {
       return { error: true };
     }
   }
 
   getPostMessage = () => {
-    const { tourDetails } = this.props.tour;
+    const  tourDetails  = this.props?.tour?.tourDetails;
     const date = new Date();
     return {
       namespace: 'hike',
@@ -45,34 +56,39 @@ class TourDetailPage extends Component {
     e.message = this.getPostMessage();
     if (typeof e.message !== 'undefined') {
       parent.postMessage(e.message, '*');
+      console.log(e.message)
     }
     return false;
   }
 
   render() {
-    const { tourDetails } = this.props.tour;
+    const tourDetails  = this.props?.tour?.tourDetails;
     const {query}= this.props.url;
     const search = query.search !== undefined && query.search !== null
       ? query.search
       : null;
+
+ 
+
+    
     return (
       <div className={styles.hikeBody}>
         <HikeHeader search={false} />
         <div className={styles.tourContainer}>
           <HikeBreadCrumb
-            title={tourDetails.title}
+            title={tourDetails?.title}
             search={search}
           />
           <div className={styles.tourInfo}>
             <div className={styles.tourThumb}>
-              <img src={tourDetails.image} alt="Hike Thumbnail" />
+              <img src={tourDetails?.image} alt="Hike Thumbnail" />
             </div>
             <div className={styles.tourDesc}>
-              <h2 className={styles.tourTitle}>{tourDetails.title}</h2>
-              <h3 className={styles.tourVersion}>Hike Version: {tourDetails.hikeVersion}</h3>
+              <h2 className={styles.tourTitle}>{tourDetails?.title}</h2>
+              <h3 className={styles.tourVersion}>Hike Version: {tourDetails?.hikeVersion}</h3>
               <div
                 className={styles.tourBody}
-                dangerouslySetInnerHTML={{ __html: tourDetails.description }}
+                dangerouslySetInnerHTML={{ __html: tourDetails?.description }}
               />
               <Row className={styles.metaData}>
                 <Col
@@ -88,7 +104,7 @@ class TourDetailPage extends Component {
                   </h3>
                   <div className={styles.tourContent}>
                     {
-                      tourDetails.platformVersion
+                      tourDetails?.platformVersion
                     }
                   </div>
                 </Col>
@@ -105,7 +121,7 @@ class TourDetailPage extends Component {
                   </h3>
                   <ul className={styles.tourContent}>
                     {
-                      tourDetails.category.map(cat => (
+                      tourDetails?.category?.map(cat => (
                         <li>{cat}</li>
                       ))
                     }
@@ -114,12 +130,12 @@ class TourDetailPage extends Component {
               </Row>
               <h3 className={styles.tourTime}>
                 {
-                  `${tourDetails.cards} Steps - ${tourDetails.time}`
+                  `${tourDetails?.cards} Steps - ${tourDetails?.time}`
                 }
               </h3>
               <div
                 className={styles.tourDetails}
-                dangerouslySetInnerHTML={{ __html: tourDetails.details }}
+                dangerouslySetInnerHTML={{ __html: tourDetails?.details }}
               />
             </div>
           </div>
