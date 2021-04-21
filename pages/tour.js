@@ -8,71 +8,34 @@ import KonyButton from '../src/components/KonyButton';
 import styles from './style.scss';
 import categories from '../hikes/categories.json'
 
-class TourDetailPage extends Component {
-  static async getInitialProps({query}) {
-    try {
-      // const res = await axios.get(
-      //   `/api/v1_1/hike/tour/${query.tour}/details`,
-      // );
+
+export default function Tour(props) {
+  const paths = props.url.asPath.split('/')
+  const url = paths[paths.length - 1]
 
   let data = categories
   .filter((element) => 
-    element.categoryTours.some((subElement) => subElement.alias == `hikes/tour/${query.tour}`))
+    element.categoryTours.some((subElement) => subElement.alias == `hikes/tour/${url}`))
   .map(element => {
-    return Object.assign({}, element, {categoryTours : element.categoryTours.filter(subElement => subElement.alias == `hikes/tour/${query.tour}`)});
+    return Object.assign({}, element, {categoryTours : element.categoryTours.filter(subElement => subElement.alias == `hikes/tour/${url}`)});
 
   }); 
 
-      return { tour: {tourDetails: data[0].categoryTours[0]} };
+  const tourDetails  = data[0].categoryTours[0];
+  const search = null;
 
-    } catch (error) {
-      return { error: true };
-    }
-  }
+  let tours = {};
 
-  getPostMessage = () => {
-    const  tourDetails  = this.props?.tour?.tourDetails;
-    const date = new Date();
-    return {
-      namespace: 'hike',
-      msg_id: `id_${date.getTime()}`,
-      msg_type: 'POST',
-      request: {
-        context: 'tour',
-        category: tourDetails.category,
-        title: tourDetails.title,
-        checksum: tourDetails.checksum,
-        download_url: `${tourDetails.fileURL}?agent=viz`,
-        version: tourDetails.hikeVersion,
-        filename: tourDetails.fileName,
-        kuid: tourDetails.kuid,
-        id: `${tourDetails.nid}${tourDetails.fid}${date.getTime()}`,
-      },
-    };
-  }
+  categories.forEach(category => {
+    category.categoryTours.forEach(t => {
+      tours[`/${t.alias}`] = { page: "/tour" }
+    })
+  })
 
-  sendPostMessage(e) {
-    e.preventDefault();
-    e.message = this.getPostMessage();
-    if (typeof e.message !== 'undefined') {
-      parent.postMessage(e.message, '*');
-      console.log(e.message)
-    }
-    return false;
-  }
+  // console.log(tours)
 
-  render() {
-    const tourDetails  = this.props?.tour?.tourDetails;
-    const {query}= this.props.url;
-    const search = query.search !== undefined && query.search !== null
-      ? query.search
-      : null;
-
- 
-
-    
-    return (
-      <div className={styles.hikeBody}>
+  return (
+    <div className={styles.hikeBody}>
         <HikeHeader search={false} />
         <div className={styles.tourContainer}>
           <HikeBreadCrumb
@@ -144,8 +107,5 @@ class TourDetailPage extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+  )
 }
-
-export default TourDetailPage;
