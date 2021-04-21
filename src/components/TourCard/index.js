@@ -14,7 +14,7 @@ const TourCard = ({ tour, dbx, search }) => (
           <Link
             href={
               {
-                pathname: tour.alias,
+                pathname: `/${tour.alias}`,
                 query: {
                   search: search
                 }
@@ -29,7 +29,7 @@ const TourCard = ({ tour, dbx, search }) => (
           </Link>
         )
           : (
-            <Link href={tour.alias}>
+            <Link href={`/${tour.alias}`}>
               <div className={style.info}>
                 <h2 className={`${style.title} ${dbx ? style.dbxColor : ''} `}>{truncateAdvance(tour.title, 34)}</h2>
                 <p className={style.desc}>{tour.description}</p>
