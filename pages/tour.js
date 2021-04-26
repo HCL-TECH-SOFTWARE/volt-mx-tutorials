@@ -9,17 +9,19 @@ import styles from './style.scss';
 import getConfig from 'next/config';
 const { publicRuntimeConfig: { hikesData } } = getConfig();
 import { getHikesCategories } from '../src/utils/populate'
-import { dev } from '../src/config'
+import { isDev, BASE_PATH_URL } from '../src/config'
 
 const TourDetailPage = ({ url }) => {
 
   const [tourDetails, setTourDetails] = useState(null);
 
   const getToursData = async () => {
-
-  const urlTour = dev ? url.asPath.substring(1) : url.asPath.replace('/volt-mx-tutorials', '').substring(1);
-
+  
+  // get specific tour url
+  const urlTour = isDev ? url.asPath.substring(1) : url.asPath.replace(`/${BASE_PATH_URL}`, '').substring(1);
+  
   const categories = await getHikesCategories(hikesData);
+
   const categoryTours = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
 
   const tours =  categoryTours.map(element => {
