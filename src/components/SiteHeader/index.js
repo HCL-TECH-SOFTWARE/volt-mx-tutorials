@@ -30,7 +30,7 @@ class SiteHeader extends Component {
           <div className={style.siteHeader}>
             <Header className={style.header}>
               <Col span={4} style={{ height: 'inherit' }}>
-                <Link href="/">
+                <Link href={`${publicRuntimeConfig.asset}/hikes`}>
                   <a title="Kony Logo">
                     <img
                       src={`${publicRuntimeConfig.asset}/static/dist/images/productlogo.svg`}
