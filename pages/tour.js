@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import { instance as axios } from '../src/utils/initialize';
 import HikeHeader from '../src/components/HikeHeader';
 import Row from 'antd/lib/row';
@@ -6,41 +6,75 @@ import Col from 'antd/lib/col';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import KonyButton from '../src/components/KonyButton';
 import styles from './style.scss';
-import categories from '../hikes/categories.json'
+import getConfig from 'next/config';
+const { publicRuntimeConfig: { hikesData } } = getConfig();
+import { getHikesCategories } from '../src/utils/populate'
 
+const TourDetailPage = ({ url }) => {
 
-export default function Tour(props) {
-  const paths = props.url.asPath.split('/')
-  const url = paths[paths.length - 1]
+  const [tourDetails, setToursDetails] = useState(null);
 
-  let data = categories
-  .filter((element) => 
-    element.categoryTours.some((subElement) => subElement.alias == `hikes/tour/${url}`))
-  .map(element => {
-    return Object.assign({}, element, {categoryTours : element.categoryTours.filter(subElement => subElement.alias == `hikes/tour/${url}`)});
+  const getToursData = async () => {
 
-  }); 
+    const urlTour = url.asPath.substring(1);
 
-  const tourDetails  = data[0].categoryTours[0];
-  const search = null;
+    const categories = await getHikesCategories(hikesData);
+    const data = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
+ 
+    const d =  data.map(element => {
+      return Object.assign({}, element, {categoryTours : element.categoryTours }) })
+    
+    const dx = d[0].categoryTours.filter(subElement => subElement.alias == urlTour);
 
-  let tours = {};
+    setToursDetails(dx[0]);
 
-  categories.forEach(category => {
-    category.categoryTours.forEach(t => {
-      tours[`/${t.alias}`] = { page: "/tour" }
-    })
-  })
+  }
 
-  // console.log(tours)
+  useEffect(() => {
+    getToursData();
+    return () => {
+    }
+  }, []);
+  
+  const getPostMessage = () => {
+    const date = new Date();
+    return {
+      namespace: 'hike',
+      msg_id: `id_${date.getTime()}`,
+      msg_type: 'POST',
+      request: {
+        context: 'tour',
+        category: tourDetails?.category,
+        title: tourDetails?.title,
+        checksum: tourDetails?.checksum,
+        download_url: `${tourDetails?.fileURL}`,
+        version: tourDetails?.hikeVersion,
+        filename: tourDetails?.fileName,
+        kuid: tourDetails?.kuid,
+        id: `${tourDetails?.nid}${tourDetails?.fid}${date.getTime()}`,
+      },
+    };
+  }
 
-  return (
-    <div className={styles.hikeBody}>
-        <HikeHeader search={false} />
+  const sendPostMessage = (e) => {
+    e.preventDefault();
+    e.message = getPostMessage();
+
+    if (typeof e.message !== 'undefined') {
+      
+      getVizSource().postMessage(e.message, '*');
+    }
+
+    return false;
+  }
+
+    return (
+      <div className={styles.hikeBody}>
+        <HikeHeader search={null} />
         <div className={styles.tourContainer}>
           <HikeBreadCrumb
             title={tourDetails?.title}
-            search={search}
+            search={null}
           />
           <div className={styles.tourInfo}>
             <div className={styles.tourThumb}>
@@ -103,9 +137,11 @@ export default function Tour(props) {
             </div>
           </div>
           <div className={styles.startBtn}>
-            <KonyButton title="START" type="blue" onClick={(e) => this.sendPostMessage(e)} />
+            <KonyButton title="START" type="blue" onClick={(e) => sendPostMessage(e)} />
           </div>
         </div>
       </div>
-  )
+    );
 }
+
+export default TourDetailPage;

@@ -4,6 +4,12 @@ const withImages = require('next-images')
 const prod = process.env.NODE_ENV === 'production';
 const test = process.env.NODE_ENV === 'testing';
 const categories = require('./hikes/categories.json')
+const { readdirSync } = require('fs')
+
+const getDirectories = source =>
+  readdirSync(source, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name)
 
 let tours = {
   "/": { page: '/' },
@@ -26,7 +32,8 @@ module.exports = withImages(withSass({
     },
     assetPrefix: prod ? repoName : '',
     publicRuntimeConfig: {
-      asset: prod ? repoName : ''
+      asset: prod ? repoName : '',
+      hikesData: getDirectories('./public/contents')
     },
     exportPathMap: () => (tours),
     webpack: (config, { isServer }) => {

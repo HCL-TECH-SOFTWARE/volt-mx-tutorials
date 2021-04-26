@@ -44,6 +44,7 @@ class MyApp extends App {
             <title>HCL Marketplace</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="stylesheet" href={`${publicRuntimeConfig.asset}/static/dist/css/kony.css`} type="text/css" />
+            <script src={`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`} class="next-head"></script>
           </Head>
           <GoogleTagManager gtmId={gtmId} />
           <Provider store={store}>
