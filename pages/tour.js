@@ -13,21 +13,21 @@ import { dev } from '../src/config'
 
 const TourDetailPage = ({ url }) => {
 
-  const [tourDetails, setToursDetails] = useState(null);
+  const [tourDetails, setTourDetails] = useState(null);
 
   const getToursData = async () => {
 
   const urlTour = dev ? url.asPath.substring(1) : url.asPath.replace('/volt-mx-tutorials', '').substring(1);
 
   const categories = await getHikesCategories(hikesData);
-  const data = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
+  const categoryTours = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
 
-  const d =  data.map(element => {
-    return Object.assign({}, element, {categoryTours : element.categoryTours }) })
+  const tours =  categoryTours.map(element => {
+    return Object.assign({}, element, {categoryTours : element.categoryTours }) })[0]
 
-  const dx = d[0].categoryTours.filter(subElement => subElement.alias == urlTour);
+  const toursData = tours.categoryTours.filter(subElement => subElement.alias == urlTour)[0];
 
-  setToursDetails(dx[0]);
+  setTourDetails(toursData);
 
   }
 

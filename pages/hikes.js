@@ -14,7 +14,7 @@ const HikePage = () =>   {
     const getHikes = async () => {
       const { hikesData }  = publicRuntimeConfig;
       const hikes = await getHikesCategories(hikesData);
-      
+
       setCategories(hikes)
 
     }
@@ -24,7 +24,6 @@ const HikePage = () =>   {
       return () => {
       }
     }, [])
-  
 
     return (
       <div className={styles.hikeBody}>
