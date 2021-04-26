@@ -17,7 +17,7 @@ const TourDetailPage = ({ url }) => {
 
   const getToursData = async () => {
 
-  const urlTour = dev ? url.asPath.substring(1) : url.asPath.replace('/volt-mx-tutorials', '');
+  const urlTour = dev ? url.asPath.substring(1) : url.asPath.replace('/volt-mx-tutorials', '').substring(1);
 
   const categories = await getHikesCategories(hikesData);
   const data = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
