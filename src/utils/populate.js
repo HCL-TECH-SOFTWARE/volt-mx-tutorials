@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { server } from '../config'
+import { SERVER } from '../config'
 
 /**
  * Fetch all hikes data in /public/contents directory.
@@ -13,7 +13,7 @@ import { server } from '../config'
 
     // map all data into one request
     const urls = hikesUrls.map(url => {
-        return axios.get(`${server}/contents/${url}/tours.json`)
+        return axios.get(`${SERVER}/contents/${url}/tours.json`)
     })
 
     const responses = await axios.all(urls)

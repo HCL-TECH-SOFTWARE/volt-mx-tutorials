@@ -19,7 +19,7 @@
             "details": "<p><!--StartFragment--></p> <p>This learning module is a Kony HIKE.&nbsp; A HIKE is an interactive tour inside HCL Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:</p> <p>&nbsp;</p> <p>Learn how to:</p> <p>- Import a simple three-form app</p> <p>- Run and launch the app on Iris App Viewer</p> <p><!--EndFragment--></p> <p><img alt=\"\" src=\"https://community.qa-kony.com/system/files/sites/default/files/private/images/1A.png\" style=\"height:759px; width:1423px\" /></p>",
             "cards": 9,
             "time": "10 Mins",
-            "platformVersion": "Iris 8.4",
+            "platformVersion": "Visualizer 8.4",
             "category": [
                 "Build Your First Mobile App"
             ],

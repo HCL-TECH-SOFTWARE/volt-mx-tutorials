@@ -4,8 +4,9 @@ import Link from 'next/link';
 import PropTypes from 'prop-types';
 import style from './style.scss';
 import {truncateAdvance} from '../../utils';
+import { BASE_PATH_URL } from '../../config';
 
-const isProdUrl = process.env.NODE_ENV === 'production' ? 'volt-mx-tutorials/' : ''
+const isProdUrl = process.env.NODE_ENV === 'production' ? `${BASE_PATH_URL}/` : ''
 
 const TourCard = ({ tour, dbx, search }) => (
   <Col sm={6} xs={24}>
