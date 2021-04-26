@@ -33,7 +33,7 @@ class SiteHeader extends Component {
                 <Link href="/">
                   <a title="Kony Logo">
                     <img
-                      src={`${publicRuntimeConfig.asset}/static/dist/images/konyLogo.svg`}
+                      src={`${publicRuntimeConfig.asset}/static/dist/images/productlogo.svg`}
                       className={style.logo}
                       alt="HCL Marketplace"
                     />

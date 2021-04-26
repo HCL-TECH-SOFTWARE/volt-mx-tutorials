@@ -3,6 +3,24 @@ const withSass = require("@zeit/next-sass");
 const withImages = require('next-images')
 const prod = process.env.NODE_ENV === 'production';
 const test = process.env.NODE_ENV === 'testing';
+const categories = require('./hikes/categories.json')
+const { readdirSync } = require('fs')
+
+const getDirectories = source =>
+  readdirSync(source, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name)
+
+let tours = {
+  "/": { page: '/' },
+  "/hikes": { page: '/hikes'}
+};
+
+categories.forEach(category => {
+  category.categoryTours.forEach(t => {
+    tours[`/${t.alias}`] = { page: "/tour" }
+  })
+})
 
 const repoName = '/volt-mx-tutorials';
 
@@ -14,13 +32,10 @@ module.exports = withImages(withSass({
     },
     assetPrefix: prod ? repoName : '',
     publicRuntimeConfig: {
-      asset: prod ? repoName : ''
+      asset: prod ? repoName : '',
+      hikesData: getDirectories('./public/contents')
     },
-    exportPathMap: () => ({
-      '/': { page: '/' },
-      "/hikes": {
-        page: '/hikes'}
-    }),
+    exportPathMap: () => (tours),
     webpack: (config, { isServer }) => {
       if (!isServer) {
         config.node = {

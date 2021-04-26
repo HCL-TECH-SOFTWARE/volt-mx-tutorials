@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import { instance as axios } from '../src/utils/initialize';
 import HikeHeader from '../src/components/HikeHeader';
 import Row from 'antd/lib/row';
@@ -6,21 +6,37 @@ import Col from 'antd/lib/col';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import KonyButton from '../src/components/KonyButton';
 import styles from './style.scss';
+import getConfig from 'next/config';
+const { publicRuntimeConfig: { hikesData } } = getConfig();
+import { getHikesCategories } from '../src/utils/populate'
 
-class TourDetailPage extends Component {
-  static async getInitialProps({query}) {
-    try {
-      const res = await axios.get(
-        `/api/v1_1/hike/tour/${query.tour}/details`,
-      );
-      return { tour: res.data };
-    } catch (error) {
-      return { error: true };
-    }
+const TourDetailPage = ({ url }) => {
+
+  const [tourDetails, setToursDetails] = useState(null);
+
+  const getToursData = async () => {
+
+    // const urlTour = url.asPath.substring(1);
+
+    // const categories = await getHikesCategories(hikesData);
+    // const data = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
+ 
+    // const d =  data.map(element => {
+    //   return Object.assign({}, element, {categoryTours : element.categoryTours }) })
+    
+    // const dx = d[0].categoryTours.filter(subElement => subElement.alias == urlTour);
+
+    // setToursDetails(dx[0]);
+
   }
 
-  getPostMessage = () => {
-    const { tourDetails } = this.props.tour;
+  useEffect(() => {
+    getToursData();
+    return () => {
+    }
+  }, []);
+  
+  const getPostMessage = () => {
     const date = new Date();
     return {
       namespace: 'hike',
@@ -28,51 +44,49 @@ class TourDetailPage extends Component {
       msg_type: 'POST',
       request: {
         context: 'tour',
-        category: tourDetails.category,
-        title: tourDetails.title,
-        checksum: tourDetails.checksum,
-        download_url: `${tourDetails.fileURL}?agent=viz`,
-        version: tourDetails.hikeVersion,
-        filename: tourDetails.fileName,
-        kuid: tourDetails.kuid,
-        id: `${tourDetails.nid}${tourDetails.fid}${date.getTime()}`,
+        category: tourDetails?.category,
+        title: tourDetails?.title,
+        checksum: tourDetails?.checksum,
+        download_url: `${tourDetails?.fileURL}`,
+        version: tourDetails?.hikeVersion,
+        filename: tourDetails?.fileName,
+        kuid: tourDetails?.kuid,
+        id: `${tourDetails?.nid}${tourDetails?.fid}${date.getTime()}`,
       },
     };
   }
 
-  sendPostMessage(e) {
+  const sendPostMessage = (e) => {
     e.preventDefault();
-    e.message = this.getPostMessage();
+    e.message = getPostMessage();
+
     if (typeof e.message !== 'undefined') {
-      parent.postMessage(e.message, '*');
+      
+      getVizSource().postMessage(e.message, '*');
     }
+
     return false;
   }
 
-  render() {
-    const { tourDetails } = this.props.tour;
-    const {query}= this.props.url;
-    const search = query.search !== undefined && query.search !== null
-      ? query.search
-      : null;
     return (
       <div className={styles.hikeBody}>
-        <HikeHeader search={false} />
-        <div className={styles.tourContainer}>
+        <HikeHeader search={null} />
+        <p>{JSON.stringify(url)}</p>
+        {/* <div className={styles.tourContainer}>
           <HikeBreadCrumb
-            title={tourDetails.title}
-            search={search}
+            title={tourDetails?.title}
+            search={null}
           />
           <div className={styles.tourInfo}>
             <div className={styles.tourThumb}>
-              <img src={tourDetails.image} alt="Hike Thumbnail" />
+              <img src={tourDetails?.image} alt="Hike Thumbnail" />
             </div>
             <div className={styles.tourDesc}>
-              <h2 className={styles.tourTitle}>{tourDetails.title}</h2>
-              <h3 className={styles.tourVersion}>Hike Version: {tourDetails.hikeVersion}</h3>
+              <h2 className={styles.tourTitle}>{tourDetails?.title}</h2>
+              <h3 className={styles.tourVersion}>Hike Version: {tourDetails?.hikeVersion}</h3>
               <div
                 className={styles.tourBody}
-                dangerouslySetInnerHTML={{ __html: tourDetails.description }}
+                dangerouslySetInnerHTML={{ __html: tourDetails?.description }}
               />
               <Row className={styles.metaData}>
                 <Col
@@ -88,7 +102,7 @@ class TourDetailPage extends Component {
                   </h3>
                   <div className={styles.tourContent}>
                     {
-                      tourDetails.platformVersion
+                      tourDetails?.platformVersion
                     }
                   </div>
                 </Col>
@@ -105,7 +119,7 @@ class TourDetailPage extends Component {
                   </h3>
                   <ul className={styles.tourContent}>
                     {
-                      tourDetails.category.map(cat => (
+                      tourDetails?.category?.map(cat => (
                         <li>{cat}</li>
                       ))
                     }
@@ -114,22 +128,21 @@ class TourDetailPage extends Component {
               </Row>
               <h3 className={styles.tourTime}>
                 {
-                  `${tourDetails.cards} Steps - ${tourDetails.time}`
+                  `${tourDetails?.cards} Steps - ${tourDetails?.time}`
                 }
               </h3>
               <div
                 className={styles.tourDetails}
-                dangerouslySetInnerHTML={{ __html: tourDetails.details }}
+                dangerouslySetInnerHTML={{ __html: tourDetails?.details }}
               />
             </div>
           </div>
           <div className={styles.startBtn}>
-            <KonyButton title="START" type="blue" onClick={(e) => this.sendPostMessage(e)} />
+            <KonyButton title="START" type="blue" onClick={(e) => sendPostMessage(e)} />
           </div>
-        </div>
+        </div> */}
       </div>
     );
-  }
 }
 
 export default TourDetailPage;

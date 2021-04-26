@@ -5,6 +5,8 @@ import PropTypes from 'prop-types';
 import style from './style.scss';
 import {truncateAdvance} from '../../utils';
 
+const isProdUrl = process.env.NODE_ENV === 'production' ? 'volt-mx-tutorials/' : ''
+
 const TourCard = ({ tour, dbx, search }) => (
   <Col sm={6} xs={24}>
     <div className={style.tour}>
@@ -14,7 +16,7 @@ const TourCard = ({ tour, dbx, search }) => (
           <Link
             href={
               {
-                pathname: tour.alias,
+                pathname: `${isProdUrl}${tour.alias}`,
                 query: {
                   search: search
                 }
@@ -29,7 +31,7 @@ const TourCard = ({ tour, dbx, search }) => (
           </Link>
         )
           : (
-            <Link href={tour.alias}>
+            <Link href={`${isProdUrl}${tour.alias}`}>
               <div className={style.info}>
                 <h2 className={`${style.title} ${dbx ? style.dbxColor : ''} `}>{truncateAdvance(tour.title, 34)}</h2>
                 <p className={style.desc}>{tour.description}</p>

@@ -19,7 +19,7 @@ const HikeHeader = ({ search, keyword }) => (
           <Col span={4} style={{ height: 'inherit' }}>
             <Link href="/hikes">
               <a title="Kony Logo" className={style.logo}>
-                <img src={`${publicRuntimeConfig.asset}/static/dist/images/konyLogo.svg`} className={style.logo} alt="logo" />
+                <img src={`${publicRuntimeConfig.asset}/static/dist/images/productlogo.svg`} className={style.logo} alt="logo" />
                 <br />
               </a>
             </Link>

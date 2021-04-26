@@ -1,7 +1,7 @@
 {
     "PORT": 3200,                            
     "oauthEnv": "qa",     
-    "gtmId" : "",
+    "gtmId" : "GTM-KKDR5XT",
     "siteBaseURL" : "https://community.qa-kony.com",
     "baseURL" : "https://community.qa-kony.com",
     "basecampURL" : "",
