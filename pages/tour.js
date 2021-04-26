@@ -16,17 +16,17 @@ const TourDetailPage = ({ url }) => {
 
   const getToursData = async () => {
 
-    const urlTour = url.asPath.substring(1);
+    // const urlTour = url.asPath.substring(1);
 
-    const categories = await getHikesCategories(hikesData);
-    const data = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
+    // const categories = await getHikesCategories(hikesData);
+    // const data = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
  
-    const d =  data.map(element => {
-      return Object.assign({}, element, {categoryTours : element.categoryTours }) })
+    // const d =  data.map(element => {
+    //   return Object.assign({}, element, {categoryTours : element.categoryTours }) })
     
-    const dx = d[0].categoryTours.filter(subElement => subElement.alias == urlTour);
+    // const dx = d[0].categoryTours.filter(subElement => subElement.alias == urlTour);
 
-    setToursDetails(dx[0]);
+    // setToursDetails(dx[0]);
 
   }
 
@@ -71,7 +71,8 @@ const TourDetailPage = ({ url }) => {
     return (
       <div className={styles.hikeBody}>
         <HikeHeader search={null} />
-        <div className={styles.tourContainer}>
+        <p>{JSON.stringify(url)}</p>
+        {/* <div className={styles.tourContainer}>
           <HikeBreadCrumb
             title={tourDetails?.title}
             search={null}
@@ -139,7 +140,7 @@ const TourDetailPage = ({ url }) => {
           <div className={styles.startBtn}>
             <KonyButton title="START" type="blue" onClick={(e) => sendPostMessage(e)} />
           </div>
-        </div>
+        </div> */}
       </div>
     );
 }
