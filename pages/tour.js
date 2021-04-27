@@ -1,5 +1,4 @@
 import React, { Component, useEffect, useState } from 'react';
-import { instance as axios } from '../src/utils/initialize';
 import HikeHeader from '../src/components/HikeHeader';
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
@@ -10,7 +9,7 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig: { hikesData } } = getConfig();
 import { getHikesCategories } from '../src/utils/populate';
 import { isDev, BASE_PATH_URL } from '../src/config';
-import { getZipDownloadUrl, getBranchName } from '../src/utils/request';
+import { getZipDownloadUrl } from '../src/utils/request';
 
 const TourDetailPage = ({ url }) => {
 
@@ -34,8 +33,6 @@ const TourDetailPage = ({ url }) => {
   const toursData = tours.categoryTours.filter(subElement => subElement.alias == urlTour)[0];
 
   setTourDetails(toursData);
-
-  console.log(getBranchName())
 
   }
 
@@ -82,7 +79,7 @@ const TourDetailPage = ({ url }) => {
     return false;
   }
 
-  const tourImage = isDev ? tourDetails?.image : `${BASE_PATH_URL}${tourDetails?.image}`;
+  const tourImage = isDev ? tourDetails?.image : `/${BASE_PATH_URL}${tourDetails?.image}`;
 
     return (
       <div className={styles.hikeBody}>
