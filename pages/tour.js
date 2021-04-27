@@ -15,6 +15,7 @@ import { getZipDownloadUrl } from '../src/utils/request';
 const TourDetailPage = ({ url }) => {
 
   const [tourDetails, setTourDetails] = useState(null);
+  const [categoryAlias, setcategoryAlias] = useState(null);
 
   const getToursData = async () => {
   
@@ -22,6 +23,8 @@ const TourDetailPage = ({ url }) => {
   const urlTour = isDev ? url.asPath.substring(1) : url.asPath.replace(`/${BASE_PATH_URL}`, '').substring(1);
   
   const categories = await getHikesCategories(hikesData);
+
+  setcategoryAlias(categories[0].categoryAlias)  
 
   const categoryTours = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
 
@@ -43,9 +46,7 @@ const TourDetailPage = ({ url }) => {
   const getPostMessage = () => {
     const date = new Date();
     
-    const fileURL = getZipDownloadUrl(tourDetails?.fileURL, 'build-your-first-mobile-app')
-
-    console.log(fileURL)
+    const fileURL = getZipDownloadUrl(tourDetails?.fileURL, categoryAlias)
 
     return {
       namespace: 'hike',
