@@ -8,8 +8,9 @@ import KonyButton from '../src/components/KonyButton';
 import styles from './style.scss';
 import getConfig from 'next/config';
 const { publicRuntimeConfig: { hikesData } } = getConfig();
-import { getHikesCategories } from '../src/utils/populate'
-import { isDev, BASE_PATH_URL } from '../src/config'
+import { getHikesCategories } from '../src/utils/populate';
+import { isDev, BASE_PATH_URL } from '../src/config';
+import { getZipDownloadUrl } from '../src/utils/request';
 
 const TourDetailPage = ({ url }) => {
 
@@ -41,7 +42,10 @@ const TourDetailPage = ({ url }) => {
   
   const getPostMessage = () => {
     const date = new Date();
-    const fileUrl = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/hikes-assets/public/contents/build-your-first-mobile-app/${tourDetails?.fileURL}.zip`;
+    
+    const fileURL = getZipDownloadUrl(tourDetails?.fileURL, 'build-your-first-mobile-app')
+
+    console.log(fileURL)
 
     return {
       namespace: 'hike',
@@ -52,7 +56,7 @@ const TourDetailPage = ({ url }) => {
         category: tourDetails?.category,
         title: tourDetails?.title,
         checksum: tourDetails?.checksum,
-        download_url: fileUrl,
+        download_url: fileURL,
         version: tourDetails?.hikeVersion,
         filename: tourDetails?.fileName,
         kuid: tourDetails?.kuid,
@@ -75,6 +79,8 @@ const TourDetailPage = ({ url }) => {
     return false;
   }
 
+  const tourImage = isDev ? tourDetails?.image : `${BASE_PATH_URL}/${tourDetails?.image}`;
+
     return (
       <div className={styles.hikeBody}>
         <HikeHeader search={null} />
@@ -85,7 +91,7 @@ const TourDetailPage = ({ url }) => {
           />
           <div className={styles.tourInfo}>
             <div className={styles.tourThumb}>
-              <img src={tourDetails?.image} alt="Hike Thumbnail" />
+              <img src={tourImage} alt="Hike Thumbnail" />
             </div>
             <div className={styles.tourDesc}>
               <h2 className={styles.tourTitle}>{tourDetails?.title}</h2>
