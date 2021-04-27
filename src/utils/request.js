@@ -5,8 +5,8 @@ import { BASE_PATH_URL, GITHUB_NAME, isDev } from "../config";
  * @returns {string} Returns branch name.
  */
 export const getBranchName = () => {
-    // const branch = isDev ? ''
-    return 'hikes-assets';
+    const branch = isDev ? 'hikes-assets' : process.env.GIT_BRANCH;
+    return branch;
 }
 
 /**
