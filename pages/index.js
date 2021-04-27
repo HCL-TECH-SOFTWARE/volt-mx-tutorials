@@ -7,7 +7,7 @@ const MpLanding = () => {
 
   useEffect(() => {
     // redirect to /hikes route
-    const routePath = isDev ? '/hikes' : `/${BASE_PATH_URL}`
+    const routePath = isDev ? '/hikes' : `/${BASE_PATH_URL}/hikes`
     router.push(routePath, undefined, { shallow: true })
   })
   
