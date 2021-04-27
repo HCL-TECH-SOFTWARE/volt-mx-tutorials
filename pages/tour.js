@@ -41,7 +41,7 @@ const TourDetailPage = ({ url }) => {
   
   const getPostMessage = () => {
     const date = new Date();
-    const fileUrl = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/build-your-first-mobile-app/${tourDetails?.fileURL}.zip`;
+    const fileUrl = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/hikes-assets/public/contents/build-your-first-mobile-app/${tourDetails?.fileURL}.zip`;
 
     return {
       namespace: 'hike',
