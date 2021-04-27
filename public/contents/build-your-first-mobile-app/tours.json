@@ -8,7 +8,7 @@
             "title": "1. Import & Launch a Native App",
             "created": 1546833746,
             "updated": 1578464532,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/22913/download/15236",
+            "fileURL": "15236",
             "fileSize": "10.53 KB",
             "fileName": "launchyourfirstmobileapp.zip",
             "fid": 15236,
@@ -23,7 +23,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "9a890157-717d-42ec-9140-c37dbdd7",
             "hikeVersion": "1.0",
             "weight": "1"
@@ -48,7 +48,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "3f3935dc-8c50-4cc3-81a9-b0b9235f",
             "hikeVersion": "1.0",
             "weight": "2"
@@ -73,7 +73,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "285ada12-ff18-4766-937c-82594775",
             "hikeVersion": "1.0",
             "weight": "3"
@@ -98,7 +98,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "34e4ef3e-15c0-40ac-a55d-b32c0707",
             "hikeVersion": "1.0",
             "weight": "4"
@@ -123,7 +123,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "59a3910b-e120-468d-8e7e-b763baed",
             "hikeVersion": "1.0",
             "weight": "5"
@@ -148,7 +148,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "89106893-effe-4d9b-8014-ccfd2c50",
             "hikeVersion": "1.0",
             "weight": "6"
@@ -173,7 +173,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "459038td-a2af-42ra-9fu6-7a5cfan9",
             "hikeVersion": "1.0",
             "weight": "7"

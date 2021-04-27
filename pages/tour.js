@@ -41,6 +41,8 @@ const TourDetailPage = ({ url }) => {
   
   const getPostMessage = () => {
     const date = new Date();
+    const fileUrl = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/build-your-first-mobile-app/${tourDetails?.fileURL}.zip`;
+
     return {
       namespace: 'hike',
       msg_id: `id_${date.getTime()}`,
@@ -50,7 +52,7 @@ const TourDetailPage = ({ url }) => {
         category: tourDetails?.category,
         title: tourDetails?.title,
         checksum: tourDetails?.checksum,
-        download_url: `${tourDetails?.fileURL}`,
+        download_url: fileUrl,
         version: tourDetails?.hikeVersion,
         filename: tourDetails?.fileName,
         kuid: tourDetails?.kuid,
@@ -64,6 +66,8 @@ const TourDetailPage = ({ url }) => {
     e.message = getPostMessage();
 
     if (typeof e.message !== 'undefined') {
+
+      console.log(e.message)
       
       getVizSource().postMessage(e.message, '*');
     }
