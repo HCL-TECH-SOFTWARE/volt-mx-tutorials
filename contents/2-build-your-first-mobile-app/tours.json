@@ -1,7 +1,7 @@
 {
     "categoryName": "Build Your First Mobile App",
     "categoryDescription": "<p>Create a mobile app incredibly fast, without coding. Learn how to drag and drop UI (user interface) elements into an app, integrate your app with backend data, and secure your app with an authentication mechanism.</p>",
-    "categoryAlias": "build-your-first-mobile-app",
+    "categoryAlias": "2-build-your-first-mobile-app",
     "categoryTours": [
         {
             "nid": 22913,
