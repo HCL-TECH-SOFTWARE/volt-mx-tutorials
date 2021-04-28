@@ -1,7 +1,7 @@
 {
     "categoryName": "Build Your First Web App",
     "categoryDescription": "<p>Create a Responsive Web app—a web app that looks and performs perfectly on any device—without coding. Take these hikes to learn how to create Web app user interface, integrate the web app with backend data, set responsivity parameters, and secure the app with an authentication mechanism.</p>",
-    "categoryAlias": "build-your-first-web-app",
+    "categoryAlias": "3-build-your-first-web-app",
     "categoryTours": [
         {
             "nid": 22914,
