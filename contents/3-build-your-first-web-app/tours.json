@@ -23,7 +23,7 @@
             "category": [
                 "Build Your First Web App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/hike-default.png",
             "kuid": "d76380d1-07c0-4c32-a307-5ae4bfc8",
             "hikeVersion": "1.0",
             "weight": "1"
@@ -48,7 +48,7 @@
             "category": [
                 "Build Your First Web App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/hike-default.png",
             "kuid": "30f5ad1c-25d9-4e98-b833-3281565a",
             "hikeVersion": "1.0",
             "weight": "2"
@@ -73,7 +73,7 @@
             "category": [
                 "Build Your First Web App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/hike-default.png",
             "kuid": "66e1ce44-c910-42d6-a71b-1e76047b",
             "hikeVersion": "1.0",
             "weight": "3"
@@ -98,7 +98,7 @@
             "category": [
                 "Build Your First Web App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/hike-default.png",
             "kuid": "143a7491-623e-4550-840a-4472b4dd",
             "hikeVersion": "1.0",
             "weight": "4"
@@ -123,7 +123,7 @@
             "category": [
                 "Build Your First Web App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/hike-default.png",
             "kuid": "ecbda912-2f05-45a8-babe-1bc83f85",
             "hikeVersion": "1.0",
             "weight": "5"
@@ -148,7 +148,7 @@
             "category": [
                 "Build Your First Web App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/hike-default.png",
             "kuid": "28376c25-418a-4d89-949d-8da52fea",
             "hikeVersion": "1.0",
             "weight": "6"
@@ -173,7 +173,7 @@
             "category": [
                 "Build Your First Web App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/hike-default.png",
             "kuid": "e4350e50-98ac-44df-83fe-b11b43a9",
             "hikeVersion": "1.0",
             "weight": "7"
