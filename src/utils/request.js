@@ -1,12 +1,11 @@
-import { BASE_PATH_URL, GITHUB_NAME, isDev } from "../config";
+import { BASE_BRANCH, BASE_PATH_URL, GITHUB_NAME, isDev, PORT } from "../config";
 
 /**
  *  Get Github Branch Name
  * @returns {string} Returns branch name.
  */
 export const getBranchName = () => {
-    const branch = isDev ? 'hikes-assets' : process.env.GIT_BRANCH;
-    return branch;
+    return process.env.GIT_BRANCH
 }
 
 /**
@@ -16,8 +15,11 @@ export const getBranchName = () => {
  * @returns {string} Returns url download path.
  */
 export const getZipDownloadUrl = (zipName, categoryName) => {
-    const branchName = getBranchName();
-    const fileUrl = `https://raw.githubusercontent.com/${GITHUB_NAME}/${BASE_PATH_URL}/${branchName}/public/contents/${categoryName}/zips/${zipName}.zip`;
+    const branchName = getBranchName() || BASE_BRANCH;
+    const localZipUrl = `https://localhost:${PORT}/api/zip/${zipName}.zip`;
+    const remoteZipUrl = `https://raw.githubusercontent.com/${GITHUB_NAME}/${BASE_PATH_URL}/${branchName}/public/contents/${categoryName}/zips/${zipName}.zip`;
+
+    const fileUrl = isDev ?  localZipUrl : remoteZipUrl;
 
     return fileUrl;
 }
