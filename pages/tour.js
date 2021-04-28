@@ -23,9 +23,9 @@ const TourDetailPage = ({ url }) => {
   
   const categories = await getHikesCategories(hikesData);
 
-  setcategoryAlias(categories[0].categoryAlias)  
-
   const categoryTours = categories.filter((element) =>  element.categoryTours.some((subElement) => subElement.alias == urlTour))
+  
+  setcategoryAlias(categoryTours[0].categoryAlias)  
 
   const tours =  categoryTours.map(element => {
     return Object.assign({}, element, {categoryTours : element.categoryTours }) })[0]
@@ -47,6 +47,8 @@ const TourDetailPage = ({ url }) => {
     
     const fileURL = getZipDownloadUrl(tourDetails?.fileURL, categoryAlias)
 
+    console.log(categoryAlias)
+  
     return {
       namespace: 'hike',
       msg_id: `id_${date.getTime()}`,
