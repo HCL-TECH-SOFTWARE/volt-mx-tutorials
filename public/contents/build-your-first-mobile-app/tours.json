@@ -8,7 +8,7 @@
             "title": "1. Import & Launch a Native App",
             "created": 1546833746,
             "updated": 1578464532,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/22913/download/15236",
+            "fileURL": 15236,
             "fileSize": "10.53 KB",
             "fileName": "launchyourfirstmobileapp.zip",
             "fid": 15236,
@@ -23,7 +23,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "9a890157-717d-42ec-9140-c37dbdd7",
             "hikeVersion": "1.0",
             "weight": "1"
@@ -33,7 +33,7 @@
             "title": "2. Create UI from Collections",
             "created": 1546582159,
             "updated": 1578464532,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/22910/download/15231",
+            "fileURL": 15231,
             "fileSize": "14.24 KB",
             "fileName": "buildyourfirstmobileapp.zip",
             "fid": 15231,
@@ -48,7 +48,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "3f3935dc-8c50-4cc3-81a9-b0b9235f",
             "hikeVersion": "1.0",
             "weight": "2"
@@ -58,7 +58,7 @@
             "title": "3. Connect the App UI to Data",
             "created": 1549177162,
             "updated": 1578464532,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/22991/download/15229",
+            "fileURL": 15229,
             "fileSize": "10.22 KB",
             "fileName": "introductiontoservices.zip",
             "fid": 15229,
@@ -73,7 +73,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "285ada12-ff18-4766-937c-82594775",
             "hikeVersion": "1.0",
             "weight": "3"
@@ -83,7 +83,7 @@
             "title": "4. Add Login Service",
             "created": 1549177295,
             "updated": 1578464532,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/22992/download/15222",
+            "fileURL": 15222,
             "fileSize": "11.31 KB",
             "fileName": "addingauthenticationtoyourapp.zip",
             "fid": 15222,
@@ -98,7 +98,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "34e4ef3e-15c0-40ac-a55d-b32c0707",
             "hikeVersion": "1.0",
             "weight": "4"
@@ -108,7 +108,7 @@
             "title": "5. Add a Details Form",
             "created": 1549177360,
             "updated": 1578464532,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/22993/download/15223",
+            "fileURL": 15223,
             "fileSize": "19.95 KB",
             "fileName": "modifyemployeedirectory.zip",
             "fid": 15223,
@@ -123,7 +123,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "59a3910b-e120-468d-8e7e-b763baed",
             "hikeVersion": "1.0",
             "weight": "5"
@@ -133,7 +133,7 @@
             "title": "6. Publish and Share the App",
             "created": 1549177425,
             "updated": 1578464532,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/22994/download/15224",
+            "fileURL": 15224,
             "fileSize": "7.72 KB",
             "fileName": "shareandpreviewanapp.zip",
             "fid": 15224,
@@ -148,7 +148,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "89106893-effe-4d9b-8014-ccfd2c50",
             "hikeVersion": "1.0",
             "weight": "6"
@@ -158,7 +158,7 @@
             "title": "7. Publish App to Enterprise Store",
             "created": 1550805602,
             "updated": 1578464525,
-            "fileURL": "https://community.qa-kony.com/hikes/tour/23104/download/16244",
+            "fileURL": 16244,
             "fileSize": "12.66 KB",
             "fileName": "publishanapptoenterprisestore.zip",
             "fid": 16244,
@@ -173,7 +173,7 @@
             "category": [
                 "Build Your First Mobile App"
             ],
-            "image": "https://comm-qa.cdn.kony.com/sites/default/files/hike-default.png",
+            "image": "/default/hike-default.png",
             "kuid": "459038td-a2af-42ra-9fu6-7a5cfan9",
             "hikeVersion": "1.0",
             "weight": "7"

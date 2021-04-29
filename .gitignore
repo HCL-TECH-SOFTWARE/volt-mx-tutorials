@@ -9,3 +9,5 @@ coverage/
 output/
 out/
 static2/
+localhost.crt
+localhost.key
