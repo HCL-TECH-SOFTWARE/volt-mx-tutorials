@@ -21,7 +21,7 @@ getHikeDirectories().forEach(categoryTitle => {
     const file = fs.readFileSync(path.resolve(__dirname, `${HIKES_CONTENT_PATH}/${categoryTitle}/tours.json`), 'utf-8');
     const categoryTours = JSON.parse(file).categoryTours;
     categoryTours.forEach(t => {
-    tours[`/${t.alias}`] = { page: "/tour" }
+        tours[`/${t.alias}`] = { page: "/tour" }
     })
 })
 
