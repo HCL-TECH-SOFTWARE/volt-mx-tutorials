@@ -131,7 +131,7 @@
       "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-details-screen-and-add-delete-feature",
       "alias": "hikes/tour/create-details-screen-and-add-delete-feature",
       "description": "Create Details Screen and Add Delete Feature",
-      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a&nbsp;Kony&nbsp;HIKE.  A HIKE is an interactive tour inside&nbsp;Kony&nbsp;Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a recipient details form</li> <li>Create the UI for the recipient details form using services</li> <li>Add the feature for deleting the recipients</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a&nbsp;Volt MX&nbsp;HIKE.  A HIKE is an interactive tour inside&nbsp;Volt MX&nbsp;Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a recipient details form</li> <li>Create the UI for the recipient details form using services</li> <li>Add the feature for deleting the recipients</li> </ul> </div> </div> <p><!--EndFragment--></p>",
       "cards": 28,
       "time": "30 Mins",
       "platformVersion": "Iris 9.0",

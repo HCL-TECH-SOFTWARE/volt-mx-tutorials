@@ -16,7 +16,7 @@
       "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-nfis-0",
       "alias": "hikes/tour/introduction-nfis-0",
       "description": "Use NFIs to access OS specific functionality, specifically Android Device Settings.",
-      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Configure the Android Native Function APIs required to access Device settings on Android device from an app using Kony.</li> </ul> <ul> <li>Add code in the Form controller to access Device Settings</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Configure the Android Native Function APIs required to access Device settings on Android device from an app using Volt MX.</li> </ul> <ul> <li>Add code in the Form controller to access Device Settings</li> </ul> </div> </div> <p><!--EndFragment--></p>",
       "cards": 15,
       "time": "16 Mins",
       "platformVersion": "Iris 9.0",
