@@ -1,12 +1,18 @@
-import { BASE_BRANCH, BASE_PATH_URL, DEV_PORT, GITHUB_NAME, isDev } from "../config";
+import {
+  BASE_BRANCH,
+  BASE_PATH_URL,
+  DEV_PORT,
+  GITHUB_NAME,
+  isDev,
+} from "../config";
 
 /**
  *  Get Github Branch Name
  * @returns {string} Returns branch name.
  */
 export const getBranchName = () => {
-    return process.env.GIT_BRANCH
-}
+  return process.env.GIT_BRANCH;
+};
 
 /**
  *  Get Download Zip Url
@@ -15,11 +21,11 @@ export const getBranchName = () => {
  * @returns {string} Returns url download path.
  */
 export const getZipDownloadUrl = (zipName, categoryName) => {
-    const branchName = getBranchName() || BASE_BRANCH;
-    const localZipUrl = `https://localhost:${DEV_PORT}/api/zip/${zipName}.zip`;
-    const remoteZipUrl = `https://raw.githubusercontent.com/${GITHUB_NAME}/${BASE_PATH_URL}/${branchName}/public/contents/${categoryName}/zips/${zipName}.zip`;
+  const branchName = getBranchName() || BASE_BRANCH;
+  const localZipUrl = `https://localhost:${DEV_PORT}/api/zip/${zipName}`;
+  const remoteZipUrl = `https://raw.githubusercontent.com/${GITHUB_NAME}/${BASE_PATH_URL}/${branchName}/public/contents/${categoryName}/zips/${zipName}`;
 
-    const fileUrl = isDev ?  localZipUrl : remoteZipUrl;
+  const fileUrl = isDev ? localZipUrl : remoteZipUrl;
 
-    return fileUrl;
-}
+  return fileUrl;
+};
