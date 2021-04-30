@@ -1,7 +1,7 @@
 {
   "categoryName": "Manage Back-end Services",
   "categoryDescription": "<p>Get to know the different services that you can connect with your front end. The services include: Identity Services, Integration Services, and Orchestration services.</p>",
-  "categoryAlias": "manage-back-end-services",
+  "categoryAlias": "5-manage-back-end-services",
   "categoryTours": [
     {
       "nid": 24433,
