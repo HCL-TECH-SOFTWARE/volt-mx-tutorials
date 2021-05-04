@@ -41,7 +41,7 @@ class MyApp extends App {
       <html lang='en'>
         <Container>
           <Head>
-            <title>HCL Marketplace</title>
+            <title>HCL Volt MX Tutorials</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="stylesheet" href={`${publicRuntimeConfig.asset}/static/dist/css/kony.css`} type="text/css" />
             <script src={`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`} className="next-head"></script>

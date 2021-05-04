@@ -57,10 +57,10 @@ class PostAnIdeaInner extends Component {
                         required: true,
                       },
                     ],
-                    initialValue: 'HCL Marketplace',
+                    initialValue: 'HCL Volt MX Tutorials',
                   },
                 )(<Select disabled>
-                  <Option value="HCL Marketplace">HCL Marketplace</Option>
+                  <Option value="HCL Volt MX Tutorials">HCL Volt MX Tutorials</Option>
                   </Select>)
               }
           </FormItem>

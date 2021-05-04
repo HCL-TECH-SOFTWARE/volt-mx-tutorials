@@ -23,7 +23,7 @@ MarketplaceHeader.propTypes = {
 };
 
 MarketplaceHeader.defaultProps = {
-  title: 'HCL Marketplace',
+  title: 'HCL Volt MX Tutorials',
   subTitle: 'New Assets, New Possibilities',
 };
 

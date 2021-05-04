@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
     "@zeit/next-sass": "^1.0.1",
     "antd": "3.11.2",
     "axios": "^0.19.0",
@@ -112,5 +114,5 @@
     "node": ">= 8"
   },
   "author": "dotCom",
-  "description": "HCL Marketplace "
+  "description": "HCL Volt MX Tutorials "
 }
