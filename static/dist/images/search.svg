@@ -1,35 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>search</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#4DBAF9" offset="0%"></stop>
-            <stop stop-color="#2584F1" offset="100%"></stop>
-        </linearGradient>
-        <circle id="path-2" cx="38.4087791" cy="38.4087791" r="38.4087791"></circle>
-        <filter x="-15.0%" y="-12.4%" width="129.9%" height="129.9%" filterUnits="objectBoundingBox" id="filter-3">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.145098039   0 0 0 0 0.517647059   0 0 0 0 0.945098039  0 0 0 0.483582428 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="styleguide10" transform="translate(-595.000000, -557.000000)">
-            <g id="Icons" transform="translate(559.000000, 550.000000)">
-                <g id="1">
-                    <g id="search" transform="translate(42.249657, 11.522634)">
-                        <g id="Oval">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
-                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
-                        </g>
-                        <g transform="translate(23.045267, 23.045267)" fill="#FFFFFF" fill-rule="nonzero" id="Shape">
-                            <path d="M13.5786108,26.3037514 C16.6133215,26.3037514 19.4184581,25.2267502 21.6058722,23.4321832 L27.3491392,29.1754502 C27.6091491,29.4367326 27.9354405,29.566731 28.2617254,29.566731 C28.5880103,29.566731 28.9142952,29.4367261 29.1755842,29.1754502 C29.6981621,28.6528722 29.6981621,27.83716 29.1755842,27.3158872 L23.4323172,21.6059013 C25.2268842,19.4187809 26.3038855,16.6134159 26.3038855,13.5786399 C26.3038855,6.56351435 20.5938995,0.853528426 13.578774,0.853528426 C6.5636484,0.853528426 0.853662471,6.56351435 0.853662471,13.5786399 C0.853662471,20.5937655 6.5636484,26.3037514 13.578774,26.3037514 L13.5786108,26.3037514 Z M13.6756352,4.16214985 C18.9240103,4.16214985 23.1891206,8.42726016 23.1891206,13.6756352 C23.1891206,18.9240103 18.9240103,23.1891206 13.6756352,23.1891206 C8.42726016,23.1891206 4.16214985,18.9240103 4.16214985,13.6756352 C4.16214985,8.42726016 8.42726016,4.16214985 13.6756352,4.16214985 Z"></path>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#020203;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#153F71;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g id="Page-1">
+	<g id="_x30_1" transform="translate(-756.000000, -167.000000)">
+		<g id="banner" transform="translate(154.000000, 117.000000)">
+			<g id="search" transform="translate(3.000000, 45.000000)">
+				<g id="Group-2" transform="translate(605.444514, 9.444444)">
+					<g id="Oval">
+						<g>
+							<circle id="path-1" class="st0" cx="13.56" cy="15.56" r="20"/>
+						</g>
+						<g>
+							<circle id="path-1_1_" class="st1" cx="13.56" cy="15.56" r="20"/>
+						</g>
+					</g>
+					<path id="Shape" class="st2" d="M12.63,21.25c1.58,0,3.04-0.56,4.18-1.5l2.99,2.99c0.14,0.14,0.31,0.2,0.48,0.2
+						s0.34-0.07,0.48-0.2c0.27-0.27,0.27-0.7,0-0.97l-2.99-2.97c0.93-1.14,1.5-2.6,1.5-4.18c0-3.65-2.97-6.63-6.63-6.63
+						S6,10.97,6,14.63S8.97,21.25,12.63,21.25L12.63,21.25z M12.68,9.72c2.73,0,4.95,2.22,4.95,4.95s-2.22,4.95-4.95,4.95
+						s-4.95-2.22-4.95-4.95S9.94,9.72,12.68,9.72z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
