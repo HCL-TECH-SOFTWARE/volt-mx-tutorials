@@ -7,7 +7,7 @@ Volt MX Tutorials using nodejs, express and nextjs.
 
 ## Prerequisites
 
-* npm >= 6.13.7
+* npm >= 7.6.0
 * node >= 15.11.1
 
 ## Commands
