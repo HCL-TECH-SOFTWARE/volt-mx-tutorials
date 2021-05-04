@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const MetaTags = ({ title, description, keywords, url, image, type }) => (
   <Head>
     <title>
-      {title ? `${title} | ` : ''} HCL Marketplace
+      {title ? `${title} | ` : ''} HCL Volt MX Tutorials
     </title>
     <meta name="description" content={description} />
     <meta property="og:title" content={title} />
@@ -18,9 +18,9 @@ const MetaTags = ({ title, description, keywords, url, image, type }) => (
 );
 
 MetaTags.defaultProps = {
-  title: 'HCL Marketplace',
+  title: 'HCL Volt MX Tutorials',
   description:
-    'The HCL Marketplace allows you to explore, use and contribute components, patterns, services and adapters to quickly design and build apps for a broad range of use cases.',
+    'The HCL Volt MX Tutorials allows you to explore, use and contribute components, patterns, services and adapters to quickly design and build apps for a broad range of use cases.',
   type: 'website',
 };
 

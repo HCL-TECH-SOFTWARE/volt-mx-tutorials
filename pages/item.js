@@ -96,7 +96,7 @@ class DetailPage extends Component {
           url={`https://marketplace.${oauthEnv}kony.com/items/${this.props.url.query.item}`}
           image={currentAsset.selectedAsset.Logo}
           description={currentAsset.selectedAsset.Description}
-          keywords={`${currentAsset.assetTitle} , HCL Marketplace , ${currentAsset.selectedAsset.platformVersion}`}
+          keywords={`${currentAsset.assetTitle} , HCL Volt MX Tutorials , ${currentAsset.selectedAsset.platformVersion}`}
         />
         <Col span={24}>
           <KonyBreadcrumb title={currentAsset.assetTitle} subRoutes={subRoutes} />

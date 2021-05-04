@@ -35,7 +35,7 @@ class SiteHeader extends Component {
                     <img
                       src={`${publicRuntimeConfig.asset}/static/dist/images/productlogo.svg`}
                       className={style.logo}
-                      alt="HCL Marketplace"
+                      alt="HCL Volt MX Tutorials"
                     />
                     <br />
                   </a>
