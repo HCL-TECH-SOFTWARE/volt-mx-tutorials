@@ -8,8 +8,6 @@ const helmet = require('helmet');
 const favicon = require('serve-favicon');
 const routes = require('../routes');
 const settings = require('../src/config/settings.json');
-const { createServer } = require("https");
-const { parse } = require("url");
 const fs = require("fs");
 
 // Dynamic Sitemap XML script
@@ -18,11 +16,6 @@ const generateDynamicSitemap = require('./sitemap-script');
 const dev = process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'testing';
 const port = settings.PORT || 3200;
 const app = next({ dev });
-
-const httpsOptions = {
-  key: fs.readFileSync("./localhost.key"),
-  cert: fs.readFileSync("./localhost.crt"),
-};
 
 const handler = routes.getRequestHandler(app);
 
@@ -74,17 +67,9 @@ app.prepare().then(() => {
   server.get('*', (req, res) => handler(req, res));
 
   function startServer() {
-    // server.listen(port, () => {
-    //   console.log(`> Ready on http://localhost:${port}`);
-    // });
-
-      createServer(httpsOptions, (req, res) => {
-        const parsedUrl = parse(req.url, true);
-        handler(req, res, parsedUrl);
-      }).listen(port, (err) => {
-        if (err) throw err;
-        console.log(`> Ready on https://localhost:${port}`);
-      });
+    server.listen(port, () => {
+      console.log(`> Ready on http://localhost:${port}`);
+    });
 
   }
 
