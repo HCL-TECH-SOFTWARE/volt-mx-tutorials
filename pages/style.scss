@@ -218,3 +218,50 @@
 .RowContainer {
   padding: 0 7px;
 }
+
+.pageContainer {
+  padding: 20px;
+}
+
+.generate {
+  display: flex;
+}
+
+.generateForm {
+  flex: 0.7 !important;
+  padding: 0 20px;
+  form {
+    div {
+      display: flex;
+      padding: 10px 0;
+
+      label {
+        flex-basis: 120px;
+      }
+      input,
+      select,
+      textarea {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.preview {
+  flex: 1 !important;
+}
+
+.previews {
+  list-style: none;
+  padding: 5px 0;
+
+  li {
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

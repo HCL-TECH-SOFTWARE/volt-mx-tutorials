@@ -7,4 +7,4 @@ export const BASE_PATH_URL = 'volt-mx-tutorials';
 
 export const GITHUB_NAME = 'HCL-TECH-SOFTWARE';
 
-export const SERVER = isDev ? `https://localhost:${DEV_PORT}` : `${HOST_URL}/${BASE_PATH_URL}`;
+export const SERVER = isDev ? `http://localhost:${DEV_PORT}` : `${HOST_URL}/${BASE_PATH_URL}`;

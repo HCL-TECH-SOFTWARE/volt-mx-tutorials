@@ -22,7 +22,7 @@ export const getBranchName = () => {
  */
 export const getZipDownloadUrl = (zipName, categoryName) => {
   const branchName = getBranchName() || BASE_BRANCH;
-  const localZipUrl = `https://localhost:${DEV_PORT}/api/zip/${zipName}`;
+  const localZipUrl = `http://localhost:${DEV_PORT}/api/zip/${zipName}`;
   const remoteZipUrl = `https://raw.githubusercontent.com/${GITHUB_NAME}/${BASE_PATH_URL}/${branchName}/public/contents/${categoryName}/zips/${zipName}`;
 
   const fileUrl = isDev ? localZipUrl : remoteZipUrl;
