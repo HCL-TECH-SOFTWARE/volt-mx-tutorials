@@ -343,7 +343,7 @@ const GenerateTourPage = () => {
                   title: values.title,
                   description: values.description,
                   cards: values.cards,
-                  time: `${values.time} Minutes`,
+                  time: `${values.time} Mins`,
                 }}
               />
             </>

@@ -5,13 +5,15 @@ const path = require("path");
 const TEMP_FOLDER = "./temp";
 
 const autoSerialize = (forms) => {
-  const { category, filename, tourLink } = forms;
+  const { category, filename, tourLink, time } = forms;
   return {
     ...forms,
     url: `https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/${tourLink}`,
     fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/${category}/${filename}`,
     alias: `hikes/tour/${tourLink}`,
     category: [category],
+    image: "/default/hike-default.png",
+    time: `${time} Mins`,
   };
 };
 
