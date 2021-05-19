@@ -7,6 +7,7 @@ import axios from "axios";
 import TourCard from "../src/components/TourCard";
 import ToursList from "../src/components/ToursList";
 import TourDetailPage from "./tour";
+import DetailsEditor from "../src/components/DetailsEditor";
 
 const BASE_API = "http://localhost:3200/api";
 
@@ -18,12 +19,14 @@ const GenerateTourPage = () => {
     kuid: "953f7at8-eba4-40rd-86uc-bf1f0dnd",
     category: [],
     details: "",
-    cards: 0,
-    time: 0,
+    cards: 1,
+    tourLink: "",
+    time: 1,
     platformVersion: 9.2,
     language: "en",
   });
 
+  const [isCKEditorVisible, setIsCKEditorVisible] = useState(true);
   const [view, setView] = useState("card");
 
   const [selectedFile, setSelectedFile] = useState({});
@@ -45,7 +48,7 @@ const GenerateTourPage = () => {
     setSelectedCategory(hikesCategories[0]);
     setValues({
       ...values,
-      category: selectedCategory.categoryName,
+      category: hikesCategories[0].categoryName,
     });
 
     setCategories([...hikesCategories]);
@@ -76,6 +79,13 @@ const GenerateTourPage = () => {
     setValues({
       ...values,
       ["checksum"]: checksum,
+    });
+  };
+
+  const setDetails = (ckData) => {
+    setValues({
+      ...values,
+      details: ckData,
     });
   };
 
@@ -120,119 +130,166 @@ const GenerateTourPage = () => {
   }, []);
 
   return (
-    <div className={styles.pageContainer}>
-      <h1>Add Hike/Tour</h1>
-      <div className={styles.generate}>
-        <div className={styles.generateForm}>
-          <form onSubmit={onGenerate}>
-            <div>
-              <label>Upload Tour File</label>
-              <input name="file" onChange={handleTourZipFile} type="file" />
-            </div>
-            <div>
-              <label>Generated Checksum</label>
-              <p>{values.checksum}</p>
-            </div>
-            <div>
-              <label>KUID</label>
-              <input
-                value={values.kuid}
-                onChange={handleInputChange}
-                name="kuid"
-                placeholder="KUID"
-              />
-            </div>
-            <div>
-              <label>Language</label>
-              <select
-                value={values.language}
-                onChange={handleInputChange}
-                name="language"
-              >
-                <option value="en">English</option>
-                <option value="esp">Spanish</option>
-                <option value="nl">Dutch</option>
-                <option value="cn">Chinese</option>
-              </select>
-            </div>
-            <div>
-              <label>Category</label>
-              <select
-                value={values.category}
-                onChange={handleInputChange}
-                name="category"
-              >
-                {categories.map((category) => (
-                  <option value={category.categoryName}>
-                    {category.categoryName}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <hr />
-            <div>
-              <label>Title</label>
-              <input
-                value={values.title}
-                onChange={handleInputChange}
-                name="title"
-                placeholder="Add Title"
-              />
-            </div>
-            <div>
-              <label>Description</label>
-              <textarea
-                rows={7}
-                value={values.description}
-                onChange={handleInputChange}
-                name="description"
-                placeholder="Add Description"
-              />
-            </div>
-            <div>
-              <label>Steps</label>
-              <input
-                min={0}
-                type="number"
-                value={values.cards}
-                onChange={handleInputChange}
-                name="cards"
-                placeholder="How many steps"
-              />
-            </div>
-            <div>
-              <label>Time</label>
-              <input
-                min={0}
-                type="number"
-                value={values.time}
-                onChange={handleInputChange}
-                name="time"
-                placeholder="How much time"
-              />
-            </div>
-            <div>
-              <label>Platform Version</label>
-              <input
-                value={values.platformVersion}
-                onChange={handleInputChange}
-                name="description"
-                label="Description"
-              />
-            </div>
-            <button type="submit">Generate</button>
-          </form>
+    <div className={styles.generateContainer}>
+      <div className={styles.header}>
+        <img
+          style={{ height: 40, width: 40 }}
+          src={`${
+            publicRuntimeConfig.asset
+          }/static/dist/images/productlogo.svg`}
+          alt="logo"
+        />
+        <div>
+          <p>Add new Hike</p>
         </div>
+      </div>
+      <div className={styles.generate}>
+        {isCKEditorVisible ? (
+          <div className={styles.ckEditorContainer}>
+            <button onClick={() => setIsCKEditorVisible(false)} type="button">
+              Close
+            </button>
+            <DetailsEditor
+              ckData={values.details}
+              onChangeData={(data) => {
+                setDetails(data);
+              }}
+            />
+          </div>
+        ) : (
+          <div className={styles.generateForm}>
+            <form onSubmit={onGenerate}>
+              <div>
+                <label>Upload Tour File</label>
+                <input name="file" onChange={handleTourZipFile} type="file" />
+              </div>
+              <div>
+                <label>Generated Checksum</label>
+                <p>{values.checksum}</p>
+              </div>
+              <div>
+                <label>Platform Version</label>
+                <select
+                  value={values.platformVersion}
+                  onChange={handleInputChange}
+                  name="platformVersion"
+                >
+                  <option value={9.2}>Iris 9.2</option>
+                </select>
+              </div>
+              <div>
+                <label>KUID</label>
+                <input
+                  value={values.kuid}
+                  onChange={handleInputChange}
+                  name="kuid"
+                  placeholder="KUID"
+                />
+              </div>
+              <div>
+                <label>Tour Link</label>
+                <input
+                  value={values.tourLink}
+                  onChange={handleInputChange}
+                  name="tourLink"
+                  placeholder="/new-tour-link-1"
+                />
+              </div>
+              <div>
+                <label>Language</label>
+                <select
+                  value={values.language}
+                  onChange={handleInputChange}
+                  name="language"
+                >
+                  <option value="en">English</option>
+                  <option value="esp">Spanish</option>
+                  <option value="nl">Dutch</option>
+                  <option value="cn">Chinese</option>
+                </select>
+              </div>
+              <div>
+                <label>Category</label>
+                <select
+                  value={values.category}
+                  onChange={handleInputChange}
+                  name="category"
+                >
+                  {categories.map((category) => (
+                    <option value={category.categoryName}>
+                      {category.categoryName}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <hr />
+              <div>
+                <label>Title</label>
+                <input
+                  value={values.title}
+                  onChange={handleInputChange}
+                  name="title"
+                  placeholder="Add Title"
+                />
+              </div>
+              <div>
+                <label>Description</label>
+                <textarea
+                  rows={7}
+                  value={values.description}
+                  onChange={handleInputChange}
+                  name="description"
+                  placeholder="Add Description"
+                />
+              </div>
+              <div>
+                <label>Details</label>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsCKEditorVisible(true);
+                  }}
+                >
+                  Open Details Editor
+                </button>
+              </div>
+              <div>
+                <label>Steps</label>
+                <input
+                  min={0}
+                  type="number"
+                  value={values.cards}
+                  onChange={handleInputChange}
+                  name="cards"
+                  placeholder="How many steps"
+                />
+              </div>
+              <div>
+                <label>Time</label>
+                <input
+                  min={0}
+                  type="number"
+                  value={values.time}
+                  onChange={handleInputChange}
+                  name="time"
+                  placeholder="How much time"
+                />
+              </div>
+              <button type="submit">Generate</button>
+            </form>
+          </div>
+        )}
+
         <div className={styles.preview}>
           <ul className={styles.previews}>
             <li onClick={() => changePreview("card")}>Card Preview</li>
-            <li onClick={() => changePreview("list")}>List Preview</li>
+            {/* <li onClick={() => changePreview("list")}>List Preview</li> */}
             <li onClick={() => changePreview("inside")}>Inside Preview</li>
           </ul>
           <hr />
           {view === "card" && (
             <>
-              {/* <h3>{JSON.stringify(selectedCategory)}</h3> */}
+              <h3>{JSON.stringify(values)}</h3>
               <h3>{selectedCategory.categoryName}</h3>
               <div
                 dangerouslySetInnerHTML={{
@@ -262,9 +319,7 @@ const GenerateTourPage = () => {
               ) : null
             )}
           {view === "inside" && (
-            <TourDetailPage
-              url={{ asPath: "/hikes/tour/add-create-recipient" }}
-            />
+            <TourDetailPage previewData={values} url={{ asPath: "preview" }} />
           )}
         </div>
       </div>

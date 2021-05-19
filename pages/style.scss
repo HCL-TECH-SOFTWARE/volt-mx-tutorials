@@ -223,12 +223,25 @@
   padding: 20px;
 }
 
+.generateContainer {
+  padding: 0;
+}
+
 .generate {
   display: flex;
 }
 
+.ckEditorContainer {
+  flex: 1 !important;
+  padding: 10px 20px;
+
+  button {
+    margin: 10px 0;
+  }
+}
+
 .generateForm {
-  flex: 0.7 !important;
+  flex: 1 !important;
   padding: 0 20px;
   form {
     div {
@@ -263,5 +276,17 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.header {
+  background-color: #121920;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+
+  div {
+    font-size: 22px;
+    color: white;
   }
 }

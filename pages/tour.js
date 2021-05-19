@@ -13,41 +13,51 @@ import { getHikesCategories } from "../src/utils/populate";
 import { isDev, BASE_PATH_URL } from "../src/config";
 import { getZipDownloadUrl } from "../src/utils/request";
 
-const TourDetailPage = ({ url }) => {
+const TourDetailPage = ({ url, previewData }) => {
   const [tourDetails, setTourDetails] = useState(null);
   const [categoryAlias, setcategoryAlias] = useState(null);
 
+  const isPreview = url.asPath === "preview";
+
   const getToursData = async () => {
     // get specific tour url
-    const urlTour = isDev
-      ? url.asPath.substring(1)
-      : url.asPath.replace(`/${BASE_PATH_URL}`, "").substring(1);
-
-    const categories = await getHikesCategories(hikesData);
-
-    const categoryTours = categories.filter((element) =>
-      element.categoryTours.some((subElement) => subElement.alias == urlTour)
-    );
-
-    setcategoryAlias(categoryTours[0].categoryAlias);
-
-    const tours = categoryTours.map((element) => {
-      return Object.assign({}, element, {
-        categoryTours: element.categoryTours,
+    if (isPreview) {
+      console.log(previewData);
+      setTourDetails({
+        ...previewData,
+        category: [previewData.category],
       });
-    })[0];
+    } else {
+      const urlTour = isDev
+        ? url.asPath.substring(1)
+        : url.asPath.replace(`/${BASE_PATH_URL}`, "").substring(1);
 
-    const toursData = tours.categoryTours.filter(
-      (subElement) => subElement.alias == urlTour
-    )[0];
+      const categories = await getHikesCategories(hikesData);
 
-    setTourDetails(toursData);
+      const categoryTours = categories.filter((element) =>
+        element.categoryTours.some((subElement) => subElement.alias == urlTour)
+      );
+
+      setcategoryAlias(categoryTours[0].categoryAlias);
+
+      const tours = categoryTours.map((element) => {
+        return Object.assign({}, element, {
+          categoryTours: element.categoryTours,
+        });
+      })[0];
+
+      const toursData = tours.categoryTours.filter(
+        (subElement) => subElement.alias == urlTour
+      )[0];
+
+      setTourDetails(toursData);
+    }
   };
 
   useEffect(() => {
     getToursData();
     return () => {};
-  }, []);
+  });
 
   const getPostMessage = () => {
     const date = new Date();
@@ -91,12 +101,19 @@ const TourDetailPage = ({ url }) => {
 
   return (
     <div className={styles.hikeBody}>
-      <HikeHeader search={null} />
+      {/* <h1>{JSON.stringify(url)}</h1> */}
+      {isPreview || <HikeHeader search={null} />}
+
       <div className={styles.tourContainer}>
-        <HikeBreadCrumb title={tourDetails?.title} search={null} />
+        {isPreview || (
+          <HikeBreadCrumb title={tourDetails?.title} search={null} />
+        )}
         <div className={styles.tourInfo}>
           <div className={styles.tourThumb}>
-            <img src={tourImage} alt="Hike Thumbnail" />
+            <img
+              src={isPreview ? "/default/hike-default.png" : tourImage}
+              alt="Hike Thumbnail"
+            />
           </div>
           <div className={styles.tourDesc}>
             <h2 className={styles.tourTitle}>{tourDetails?.title}</h2>
@@ -144,13 +161,15 @@ const TourDetailPage = ({ url }) => {
             />
           </div>
         </div>
-        <div className={styles.startBtn}>
-          <KonyButton
-            title="START"
-            type="blue"
-            onClick={(e) => sendPostMessage(e)}
-          />
-        </div>
+        {isPreview || (
+          <div className={styles.startBtn}>
+            <KonyButton
+              title="START"
+              type="blue"
+              onClick={(e) => sendPostMessage(e)}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
