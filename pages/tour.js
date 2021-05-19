@@ -22,7 +22,6 @@ const TourDetailPage = ({ url, previewData }) => {
   const getToursData = async () => {
     // get specific tour url
     if (isPreview) {
-      console.log(previewData);
       setTourDetails({
         ...previewData,
         category: [previewData.category],
@@ -54,10 +53,13 @@ const TourDetailPage = ({ url, previewData }) => {
     }
   };
 
-  useEffect(() => {
-    getToursData();
-    return () => {};
-  });
+  useEffect(
+    () => {
+      getToursData();
+      return () => {};
+    },
+    [previewData]
+  );
 
   const getPostMessage = () => {
     const date = new Date();
@@ -77,7 +79,7 @@ const TourDetailPage = ({ url, previewData }) => {
         version: tourDetails?.hikeVersion,
         filename: tourDetails?.fileName,
         kuid: tourDetails?.kuid,
-        id: `${tourDetails?.nid}${tourDetails?.fid}${date.getTime()}`,
+        id: `${date.getTime()}`,
       },
     };
   };
@@ -161,15 +163,13 @@ const TourDetailPage = ({ url, previewData }) => {
             />
           </div>
         </div>
-        {isPreview || (
-          <div className={styles.startBtn}>
-            <KonyButton
-              title="START"
-              type="blue"
-              onClick={(e) => sendPostMessage(e)}
-            />
-          </div>
-        )}
+        <div className={styles.startBtn}>
+          <KonyButton
+            title="START"
+            type="blue"
+            onClick={(e) => sendPostMessage(e)}
+          />
+        </div>
       </div>
     </div>
   );

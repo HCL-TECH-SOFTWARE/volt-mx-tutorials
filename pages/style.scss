@@ -232,7 +232,7 @@
 }
 
 .ckEditorContainer {
-  flex: 1 !important;
+  flex: 0.6 !important;
   padding: 10px 20px;
 
   button {
@@ -251,6 +251,7 @@
       label {
         flex-basis: 120px;
       }
+
       input,
       select,
       textarea {
@@ -288,5 +289,8 @@
   div {
     font-size: 22px;
     color: white;
+    top: 10px;
+    position: relative;
+    left: 10px;
   }
 }

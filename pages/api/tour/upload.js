@@ -56,8 +56,9 @@ export default async function handler(req, res) {
   form.parse(req, function(err, fields, files) {
     if (!err) {
       const { name, path } = files.upload;
-      const assetURL = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/default/.pnghttps://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/1-volt-mx-changes/assets/${name}.png`;
+      const assetURL = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/1-volt-mx-changes/assets/${name}`;
 
+      console.log(name);
       const tempName = path.replace("public/temp/", "");
 
       const uploadSuccess = {
