@@ -4,24 +4,6 @@
   "categoryAlias": "1-volt-mx-changes",
   "categoryTours": [
     {
-      "hikeVersion": "1.0",
-      "title": "Meet the New HCL Volt MX",
-      "description": "Volt MX is an industry-leading low-code app-dev platform that empowers professional developers, enterprise architects, and digital designers to rapidly deliver consumer-grade apps.\n\nOur support for low-code developer productivity means faster innovation and lower TCO — so business and IT leadership can focus on high-value digital and operational strategic initiatives.",
-      "checksum": "c23ff55adb515a0eb7b400f2e23ba2300b31cae0fafb528c7a5896f70de7c7aa",
-      "kuid": "953f7at8-eba4-40rd-86uc-bf1f0dnd",
-      "category": ["Iris User Interfaces"],
-      "details": "<p>HCL Volt MX&nbsp;</p><p><strong>Beautiful apps. Transformation delivered.</strong></p><p>﻿Build consumer-grade multiexperience apps — fast.&nbsp;Meet the latest offering in our low-code application development portfolio.</p><p>Managing multiple source codes for multiple devices? Join our webinar to see why one source code means innovation, not maintenance.</p><figure class=\"image\"><img src=\"/volt-mx-tutorials/contents/1-volt-mx-changes/assets/iris-desktop.png\"></figure><figure class=\"image\"><img src=\"/volt-mx-tutorials/contents/1-volt-mx-changes/assets/sampleapps.png\"></figure><figure class=\"image\"><img src=\"/volt-mx-tutorials/contents/1-volt-mx-changes/assets/actionEditor.png\"></figure>",
-      "cards": "4",
-      "time": "4 Mins",
-      "platformVersion": 9.2,
-      "language": "en",
-      "filename": "IntroToVoltMXIris.zip",
-      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/volt-mx-changes-1",
-      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/Iris User Interfaces/IntroToVoltMXIris.zip",
-      "alias": "hikes/tour/volt-mx-changes-1",
-      "image": "/default/hike-default.png"
-    },
-    {
       "title": "Intro",
       "fileURL": 17243,
       "fileName": "intro.zip",
