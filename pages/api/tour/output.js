@@ -36,7 +36,13 @@ const storeData = async (data) => {
   delete serializeData.tourLink;
   const category = serializeData.categoryInfo;
   delete serializeData.categoryInfo;
-  console.log();
+
+  const normalizeDetails = serializeData.details.replaceAll(
+    "http://localhost:3200/temp",
+    "/volt-mx-tutorials/contents/1-volt-mx-changes/assets"
+  );
+
+  serializeData.details = normalizeDetails;
 
   const jsonOut = {
     ...category,
@@ -60,7 +66,7 @@ const storeImages = async () => {
       "./temp/assets/iris-desktop.png",
       (err) => {
         if (err) throw err;
-        console.log(`${file} was copied to destination.txt`);
+        // console.log(`${file} was copied to destination.txt`);
       }
     );
   });

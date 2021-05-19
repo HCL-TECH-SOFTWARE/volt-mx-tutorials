@@ -163,13 +163,15 @@ const TourDetailPage = ({ url, previewData }) => {
             />
           </div>
         </div>
-        <div className={styles.startBtn}>
-          <KonyButton
-            title="START"
-            type="blue"
-            onClick={(e) => sendPostMessage(e)}
-          />
-        </div>
+        {isPreview || (
+          <div className={styles.startBtn}>
+            <KonyButton
+              title="START"
+              type="blue"
+              onClick={(e) => sendPostMessage(e)}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
