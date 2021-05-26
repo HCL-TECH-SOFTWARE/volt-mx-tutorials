@@ -1,4 +1,5 @@
 import Router, { withRouter } from 'next/router';
+import { appWithTranslation } from 'next-i18next';
 import App, { Container } from 'next/app';
 import { Provider } from 'react-redux';
 import NProgress from 'nprogress';
@@ -8,6 +9,7 @@ import Layout from '../src/components/Layout';
 import { gtmId } from '../src/config/settings';
 import GoogleTagManager from '../src/components/GoogleTagManager';
 import getConfig from 'next/config';
+import nextI18NextConfig from '../next-i18next.config.js'
 const { publicRuntimeConfig } = getConfig();
 
 NProgress.configure({ showSpinner: false, minimum: 0.1 });
@@ -58,4 +60,4 @@ class MyApp extends App {
   }
 }
 
-export default withReduxStore(withRouter(MyApp));
+export default appWithTranslation(withReduxStore(withRouter(MyApp)), nextI18NextConfig);
