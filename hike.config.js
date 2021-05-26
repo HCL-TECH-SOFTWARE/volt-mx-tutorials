@@ -11,6 +11,13 @@ const getHikeDirectories = () =>
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
 
+// get all hikes categories directory names
+const getHikeTours = () =>
+  fs
+    .readdirSync("./public/_hikes/tours", { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name);
+
 // initialize landing page (home and list of hikes)
 const tours = {
   "/": { page: "/" },
@@ -59,4 +66,5 @@ module.exports = {
   checkUploadDirExist,
   createTempDir,
   createUploadDirExist,
+  getHikeTours,
 };

@@ -193,6 +193,9 @@ const GenerateTourPage = () => {
                       name="platformVersion"
                     >
                       <option value={9.2}>Iris 9.2</option>
+                      <option value={9.2}>Iris 9.1</option>
+                      <option value={9.2}>Iris 9.0</option>
+                      <option value={9.2}>Foundry 9.1</option>
                     </select>
                   </div>
                   <div>

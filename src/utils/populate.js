@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { SERVER } from '../config'
+import axios from "axios";
+import { SERVER } from "../config";
 
 /**
  * Fetch all hikes data in /public/contents directory.
@@ -9,20 +9,24 @@ import { SERVER } from '../config'
  *
  * @return Array.
  */
- export const getHikesCategories = async (hikesUrls) => {
+export const getHikesCategories = async (hikesUrls) => {
+  // // map all data into one request
+  // const urls = hikesUrls.map(url => {
+  //     return axios.get(`${SERVER}/contents/${url}/tours.json`)
+  // })
 
-    // map all data into one request
-    const urls = hikesUrls.map(url => {
-        return axios.get(`${SERVER}/contents/${url}/tours.json`)
-    })
+  // const responses = await axios.all(urls)
 
-    const responses = await axios.all(urls)
+  // // map all response data into single array
+  // const categories = responses.map(res => {
+  //     return res.data
+  // })
 
-    // map all response data into single array
-    const categories = responses.map(res => {
-        return res.data
-    })
+  const categories = await axios.get(`${SERVER}/_hikes/categories.json`);
 
-    return categories;
+  categories.data.forEach((category) => {
+    console.log(category);
+  });
+
+  return categories;
 };
-  
