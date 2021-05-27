@@ -1,0 +1,9 @@
+{
+  "step": "{{count}} 步",
+  "hike_version": "Hike 版本：",
+  "platform_version": "平台版本",
+  "categories": "类别",
+  "start": "开始",
+  "categoryName": "构建您的第一个移动应用",
+  "categoryDescription": "<p>无需编写代码即可快速创建一个移动应用程序。 了解如何将UI（用户界面）元素拖放到应用程序中，将应用程序与后端数据集成在一起，以及如何通过身份验证机制保护应用程序的安全。</p>"
+}

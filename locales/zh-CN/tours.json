@@ -1,0 +1,14 @@
+[
+  {
+    "title": "构建您的第一个移动应用",
+    "desc": "打开本机移动应用程序，然后在您的移动设备上预览。",
+    "detail": "<p><!--StartFragment--></p> <p><br />该学习模块是Volt MX HIKE。“HIKE”是Volt MX Iris内部的交互式导览，它会指导您逐步完成每个模块的过程。 您可以通过单击Iris工具栏中的“HIKE”图标来访问“远足”目录：了解如何：&nbsp; 导入显示本地帐户和收件人列表的示例本机应用程序。&nbsp; 在移动设备上预览示例应用</p> <p><!--EndFragment--></p>",
+    "time": "11分钟"
+  },
+  {
+    "title": "从集合创建UI",
+    "desc": "使用Volt MX Iris创建应用程序的用户界面",
+    "detail": "<p><!--StartFragment--></p> <div> <div> <p><!--StartFragment--></p> <div> <div> <p>该学习模块是Volt MX HIKE。 HIKE是Volt MX Iris内部的交互式导览，它会指导您逐步完成每个模块的过程。 您可以通过单击Iris工具栏中的“远足”图标来访问HIKE目录：&nbsp; </p> <p>&nbsp; </p> <p>了解如何：</p> <ul> <li> 使用UI元素创建表单以进行用户交互</li><li>添加导航以访问此应用中的不同表单</li> </ul> </div> </div> </div> </div> <p><!--EndFragment--></p>",
+    "time": "20分钟"
+  }
+]

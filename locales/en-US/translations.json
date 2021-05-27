@@ -1,0 +1,9 @@
+{
+  "step": "{{count}} Steps",
+  "hike_version": "Hike Version: ",
+  "platform_version": "Platform Version",
+  "categories": "Categories",
+  "start": "START",
+  "categoryName": "Build Your First Mobile App",
+  "categoryDescription": "<p>Create a mobile app incredibly fast, without coding. Learn how to drag and drop UI (user interface) elements into an app, integrate your app with backend data, and secure your app with an authentication mechanism.</p>"
+}
