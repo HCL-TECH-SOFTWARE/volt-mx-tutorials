@@ -1,5 +1,5 @@
 {
-  "step": "{{count}} Steps",
+  "steps": "Steps",
   "hike_version": "Hike Version: ",
   "platform_version": "Platform Version",
   "categories": "Categories",
