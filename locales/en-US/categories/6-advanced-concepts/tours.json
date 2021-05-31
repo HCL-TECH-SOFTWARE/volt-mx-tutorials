@@ -1,0 +1,53 @@
+{
+  "categoryName": "Advanced Concepts",
+  "categoryDescription": "",
+  "categoryAlias": "6-advanced-concepts",
+  "categoryTours": [
+    {
+      "nid": 24438,
+      "title": "Introduction to NFIs",
+      "created": 1585630242,
+      "updated": 1615282019,
+      "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/24438/download/17807",
+      "fileSize": "23.4 KB",
+      "fileName": "introductiontonfiv9.zip",
+      "fid": 17807,
+      "checksum": "69729b2a1c54b21bd6af6f30f5fe33769d89ab92b39cf6eb36a4c9e5ed8a6d1c",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/introduction-nfis-0",
+      "alias": "introduction-nfis-0",
+      "description": "Use NFIs to access OS specific functionality, specifically Android Device Settings.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Configure the Android Native Function APIs required to access Device settings on Android device from an app using Volt MX.</li> </ul> <ul> <li>Add code in the Form controller to access Device Settings</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "cards": 15,
+      "time": "16 Mins",
+      "platformVersion": "Iris 9.0",
+      "category": [],
+      "image": "/default/hike-default.png",
+      "kuid": "02f90etf-7ba1-4dre-a2ud-2d734fn6",
+      "hikeVersion": "1.0",
+      "weight": "1"
+    },
+    {
+      "nid": 24439,
+      "title": "NFIs Using Third-party Library",
+      "created": 1585630293,
+      "updated": 1615282130,
+      "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/24439/download/17808",
+      "fileSize": "29.83 KB",
+      "fileName": "nfibarcodev9.zip",
+      "fid": 17808,
+      "checksum": "690270167c676acce5743da5c055c56deaa0bc1f4ba14164eff2fc60506e910a",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/nfis-using-third-party-library",
+      "alias": "nfis-using-third-party-library",
+      "description": "Use NFIs to access third party libraries, specifically Android barcode scanner.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn how to:</p> <ul> <li>Import a Collection library to an app and use it in a form</li> <li>Configure the Native Function APIs required for barcode scanner for an Android app</li> <li>Add code in the Form controller for the barcode scanning functionality</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "cards": 19,
+      "time": "20 Mins",
+      "platformVersion": "Iris 9.0",
+      "category": [],
+      "image": "/default/hike-default.png",
+      "kuid": "f9e5f0t5-a8a5-4arb-bfu1-50d392n4",
+      "hikeVersion": "1.0",
+      "weight": "2"
+    }
+  ]
+}
