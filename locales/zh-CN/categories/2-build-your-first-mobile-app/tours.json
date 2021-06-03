@@ -1,0 +1,33 @@
+{
+  "categoryName": "构建您的第一个移动应用",
+  "categoryDescription": "<p>无需编写代码即可快速创建一个移动应用程序。 了解如何将UI（用户界面）元素拖放到应用程序中，将应用程序与后端数据集成在一起，以及如何通过身份验证机制保护应用程序的安全。</p>",
+  "categoryAlias": "2-build-your-first-mobile-app",
+  "categoryTours": [
+    {
+      "title": "构建您的第一个移动应用",
+      "description": "打开本机移动应用程序，然后在您的移动设备上预览。",
+      "details": "<p><!--StartFragment--></p> <p><br />该学习模块是Volt MX HIKE。“HIKE”是Volt MX Iris内部的交互式导览，它会指导您逐步完成每个模块的过程。 您可以通过单击Iris工具栏中的“HIKE”图标来访问“远足”目录：了解如何：&nbsp; 导入显示本地帐户和收件人列表的示例本机应用程序。&nbsp; 在移动设备上预览示例应用</p> <p><!--EndFragment--></p>",
+      "time": "11分钟",
+      "alias": "launch-your-first-mobile-app-1",
+      "checksum": "629127d7f68f964d2827da15d82225e4fbcaae5f72dc85b7b6b843ac3feb34b9",
+      "kuid": "7408efte-e2aa-4cr8-a9ub-d7ba36n8",
+      "fileName": "launchyourfirstmobileappv92.zip",
+      "hikeVersion": "1.0",
+      "platformVersion": "Iris 9.2",
+      "cards": 12
+    },
+    {
+      "title": "从集合创建UI",
+      "description": "使用Volt MX Iris创建应用程序的用户界面",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p><!--StartFragment--></p> <div> <div> <p>该学习模块是Volt MX HIKE。 HIKE是Volt MX Iris内部的交互式导览，它会指导您逐步完成每个模块的过程。 您可以通过单击Iris工具栏中的“远足”图标来访问HIKE目录：&nbsp; </p> <p>&nbsp; </p> <p>了解如何：</p> <ul> <li> 使用UI元素创建表单以进行用户交互</li><li>添加导航以访问此应用中的不同表单</li> </ul> </div> </div> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20分钟",
+      "alias": "create-ui-collections",
+      "checksum": "ff455d26cd6bb9a363e1e03e0537ad7e41721ecb7c990f60a4797228f711ee47",
+      "kuid": "a617eft5-7ca8-4ard-8eu8-94cdean5",
+      "fileName": "createuifromcollectionsmob_v9.zip",
+      "hikeVersion": "1.0",
+      "platformVersion": "Iris 9.2",
+      "cards": 19
+    }
+  ]
+}
