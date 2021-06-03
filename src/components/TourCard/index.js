@@ -9,7 +9,7 @@ import { BASE_PATH_URL } from "../../config";
 const isProdUrl =
   process.env.NODE_ENV === "production" ? `${BASE_PATH_URL}/` : "";
 
-const TourCard = ({ tour, dbx, search }) => (
+const TourCard = ({ tour, dbx, search, trans }) => (
   <Col sm={8} xs={24}>
     <div className={style.tour}>
       {search !== undefined && search !== null ? (
@@ -26,7 +26,7 @@ const TourCard = ({ tour, dbx, search }) => (
               {truncateAdvance(tour.title, 34)}
             </h2>
             <p className={style.desc}>{tour.description}</p>
-            <p className={style.meta}>{`${tour.cards} Steps / ${tour.time}`}</p>
+            <p className={style.meta}>{`${tour.cards} ${trans?.step}  / ${tour.time}`}</p>
           </div>
         </Link>
       ) : (
@@ -36,7 +36,7 @@ const TourCard = ({ tour, dbx, search }) => (
               {truncateAdvance(tour.title, 34)}
             </h2>
             <p className={style.desc}>{tour.description}</p>
-            <p className={style.meta}>{`${tour.cards} Steps / ${tour.time}`}</p>
+            <p className={style.meta}>{`${tour.cards} ${trans?.step} / ${tour.time}`}</p>
           </div>
         </Link>
       )}

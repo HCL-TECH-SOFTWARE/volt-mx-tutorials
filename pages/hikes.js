@@ -7,15 +7,29 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 import { getHikesCategories } from '../src/utils/populate'
 
+
+import axios from 'axios';
+import { SERVER } from "../src/config";
+
 const HikePage = () =>   {
 
     const [categories, setCategories] = useState([]);
+    const [Trans, setTrans] = useState(null);
 
     const getHikes = async () => {
       const { hikesData }  = publicRuntimeConfig;
       const hikes = await getHikesCategories(hikesData);
 
       setCategories(hikes)
+
+      const langid=getCookie("langid");
+      try{
+        const Trans = await axios.get(`${SERVER}/locales/${langid}/common.json`);
+        setTrans(Trans.data);
+        }catch{
+          const Trans = await axios.get(`${SERVER}/locales/en-US/common.json`);
+          setTrans(Trans.data);
+      }
 
     }
 
@@ -38,6 +52,7 @@ const HikePage = () =>   {
                   desc={item.categoryDescription}
                   alias={item.categoryAlias || item.categoryName}
                   tours={item.categoryTours}
+                  trans={Trans}
                 />) : null
             ))}
         </div>

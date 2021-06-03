@@ -1,0 +1,30 @@
+{
+  "categoryName": "Iris 用户界面",
+  "categoryDescription": "<p>HCL Volt MX Iris最新变化</p>",
+  "categoryAlias": "1-volt-mx-changes",
+  "categoryTours": [
+    {
+      "nid": 22914,
+      "title": "1. 最新 Iris UI",
+      "created": 1546833820,
+      "updated": 1578464532,
+      "fileURL": 17243,
+      "fileSize": "8.79 KB",
+      "fileName": "voltmxirisintro.zip",
+      "fid": 17243,
+      "checksum": "c23ff55adb515a0eb7b400f2e23ba2300b31cae0fafb528c7a5896f70de7c7aa",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/1-import-and-launch-web-app",
+      "alias": "hikes/tour/1-new-ui",
+      "description": "HCL Volt MX Iris 用户界面设计",
+      "details": "<p>洛勒姆自己一定很痛苦，他会被认为是一个上瘾的精英，但他会和其他人一样痛苦。我到了最小的时候，我们的军兵除了一个跟从我以外，谁是白干的呢？就像头痛，或者头痛，或者心脏病发作，或者心脏病发作。除非他们被杀，否则他们不会被扔掉。他们是因为丢了工作而有罪的 <img alt=\"\" src=\"/contents/1-volt-mx-changes/assets/iris-desktop.png\" style=\"height:759px; width:1423px\" /></p>",
+      "cards": 7,
+      "time": "8 分钟",
+      "platformVersion": "Iris 9.2.3",
+      "category": ["Volt MX 最新"],
+      "image": "/default/hike-default.png",
+      "kuid": "953f7at8-eba4-40rd-86uc-bf1f0dnd",
+      "hikeVersion": "1.0",
+      "weight": "1"
+    }
+  ]
+}

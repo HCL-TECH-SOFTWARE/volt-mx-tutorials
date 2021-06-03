@@ -1,5 +1,7 @@
 import axios from 'axios';
-import { SERVER } from '../config'
+import { SERVER } from '../config';
+import { getCookie } from './cookies';
+const fs = require("fs");
 
 /**
  * Fetch all hikes data in /public/contents directory.
@@ -9,7 +11,20 @@ import { SERVER } from '../config'
  *
  * @return Array.
  */
- export const getHikesCategories = async (hikesUrls) => {
+
+ function MergeLangJson(jsonLang,jsonOrigin){
+    for (var key in jsonLang) {
+        if (typeof(jsonLang[key]) == 'object') {
+            MergeLangJson(jsonLang[key],jsonOrigin[key]);
+        }else{
+            if(jsonOrigin.hasOwnProperty(key)){
+                jsonOrigin[key]=jsonLang[key];
+            }
+        }
+    }
+}
+
+export const getHikesCategories = async (hikesUrls) => {
 
     // map all data into one request
     const urls = hikesUrls.map(url => {
@@ -23,6 +38,26 @@ import { SERVER } from '../config'
         return res.data
     })
 
+    const langid=getCookie("langid");
+    var Langresponses = null;
+    if (typeof (langid) != 'undefined') {
+        for (var url of hikesUrls.values()) {
+            try {
+                Langresponses = await axios.get(`${SERVER}/contents/${url}/tours_${langid}.json`);
+                for (let i in categories) {
+                    if (Langresponses.data["categoryAlias"] == categories[i]["categoryAlias"]) {   
+                        console.log(Langresponses.data);
+                        console.log(categories[i]);                 
+                        MergeLangJson(Langresponses.data, categories[i]);
+                    }
+                }
+            } catch {
+
+            }
+        }
+    }
+
+
+
     return categories;
 };
-  

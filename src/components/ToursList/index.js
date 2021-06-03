@@ -8,7 +8,7 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 
 const ToursList = ({
-  alias, title, desc, tours,
+  alias, title, desc, tours,trans
 }) => (
   <div>
     <Row className={style.domainTitleWrapper}>
@@ -25,7 +25,7 @@ const ToursList = ({
     </Row>
     <Row type="flex" className={style.assetsContainer}>
       {tours.map(item => (
-        <TourCard tour={item} key={item.nid} dbx={title.toLowerCase() === 'dbx'} />
+        <TourCard tour={item} key={item.nid} dbx={title.toLowerCase() === 'dbx'} trans={trans}/>
       ))}
     </Row>
   </div>

@@ -3,13 +3,38 @@ import PropTypes from 'prop-types';
 import Layout from 'antd/lib/layout';
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
+import {Menu, Dropdown, Button} from "antd";
 import Link from 'next/link';
 import style from './style.scss';
 import HikeSearch from '../HikeSearch';
 import getConfig from 'next/config';
+import { setCookie } from '../../utils/cookies';
 const { publicRuntimeConfig } = getConfig();
+import Router from 'next/router'
+
 
 const { Header } = Layout;
+
+function handleMenuClick(e) {
+  console.log(e);
+  setCookie("langid",e.key);
+  Router.reload(window.location.pathname);
+}
+
+const menu = (
+  <Menu onClick={handleMenuClick}>
+    <Menu.Item key="en-US" >
+      Engish
+    </Menu.Item>
+    <Menu.Item key="zh-CN" >
+      Chinese
+    </Menu.Item>
+    <Menu.Item key="gu-IN" >
+      Indian
+    </Menu.Item>
+  </Menu>
+);
+
 
 const HikeHeader = ({ search, keyword }) => (
   <Row className={style.headerRow}>
@@ -26,11 +51,15 @@ const HikeHeader = ({ search, keyword }) => (
           </Col>
           <Col  className={style.camp} >
             <img
-              src={`${publicRuntimeConfig.asset}/static/dist/images/camp-mountain.svg`}
-             
+              src={`${publicRuntimeConfig.asset}/static/dist/images/camp-mountain.svg`}             
               alt="camp mountain"
             />
           </Col>
+           <Dropdown overlay={menu}> 
+      <Button>
+        Language 
+      </Button>
+    </Dropdown>
         </Row>
       </Header>
       {search ? (
@@ -38,6 +67,8 @@ const HikeHeader = ({ search, keyword }) => (
           <HikeSearch keyword={keyword} />
         </div>
       ) : null}
+
+
     </Layout>
   </Row>
 );

@@ -10,12 +10,15 @@ const {
   publicRuntimeConfig: { hikesData },
 } = getConfig();
 import { getHikesCategories } from "../src/utils/populate";
-import { isDev, BASE_PATH_URL } from "../src/config";
+import { isDev, BASE_PATH_URL,SERVER } from "../src/config";
 import { getZipDownloadUrl } from "../src/utils/request";
+import { getCookie } from "../src/utils/cookies"
+import axios from 'axios';
 
 const TourDetailPage = ({ url }) => {
   const [tourDetails, setTourDetails] = useState(null);
   const [categoryAlias, setcategoryAlias] = useState(null);
+  const [Trans, setTrans] = useState(null);
 
   const getToursData = async () => {
     // get specific tour url
@@ -42,6 +45,17 @@ const TourDetailPage = ({ url }) => {
     )[0];
 
     setTourDetails(toursData);
+    
+    const langid = getCookie("langid")
+    
+    try{
+    const Trans = await axios.get(`${SERVER}/locales/${langid}/common.json`);
+    setTrans(Trans.data);
+    }catch{
+      const Trans = await axios.get(`${SERVER}/locales/en-US/common.json`);
+      setTrans(Trans.data);
+    }
+
   };
 
   useEffect(() => {
@@ -68,6 +82,7 @@ const TourDetailPage = ({ url }) => {
         filename: tourDetails?.fileName,
         kuid: tourDetails?.kuid,
         id: `${tourDetails?.nid}${tourDetails?.fid}${date.getTime()}`,
+        langid: getCookie("langid")
       },
     };
   };
@@ -101,7 +116,7 @@ const TourDetailPage = ({ url }) => {
           <div className={styles.tourDesc}>
             <h2 className={styles.tourTitle}>{tourDetails?.title}</h2>
             <h3 className={styles.tourVersion}>
-              Hike Version: {tourDetails?.hikeVersion}
+              {Trans?.hike_version} {tourDetails?.hikeVersion}
             </h3>
             <div
               className={styles.tourBody}
@@ -116,7 +131,7 @@ const TourDetailPage = ({ url }) => {
                 lg={6}
                 className={styles.innerTabWrapper}
               >
-                <h3 className={styles.tourHeader}>Platform Version</h3>
+                <h3 className={styles.tourHeader}>{Trans?.platform_version}</h3>
                 <div className={styles.tourContent}>
                   {tourDetails?.platformVersion}
                 </div>
@@ -129,14 +144,14 @@ const TourDetailPage = ({ url }) => {
                 lg={6}
                 className={styles.innerTabWrapper}
               >
-                <h3 className={styles.tourHeader}>Categories</h3>
+                <h3 className={styles.tourHeader}>{Trans?.categories}</h3>
                 <ul className={styles.tourContent}>
                   {tourDetails?.category?.map((cat) => <li>{cat}</li>)}
                 </ul>
               </Col>
             </Row>
             <h3 className={styles.tourTime}>
-              {`${tourDetails?.cards} Steps - ${tourDetails?.time}`}
+              {`${tourDetails?.cards} ${Trans?.step} - ${tourDetails?.time}`}
             </h3>
             <div
               className={styles.tourDetails}
@@ -146,7 +161,7 @@ const TourDetailPage = ({ url }) => {
         </div>
         <div className={styles.startBtn}>
           <KonyButton
-            title="START"
+            title={Trans?.start}
             type="blue"
             onClick={(e) => sendPostMessage(e)}
           />
