@@ -47,13 +47,13 @@ const GenerateTourPage = () => {
   const getHikes = async () => {
     const { hikesData } = publicRuntimeConfig;
     const hikesCategories = await getHikesCategories(hikesData);
-    setSelectedCategory(hikesCategories[0]);
+    setSelectedCategory(hikesCategories.data[0]);
     setValues({
       ...values,
-      category: hikesCategories[0].categoryName,
+      category: hikesCategories.data[0].categoryName,
     });
 
-    setCategories([...hikesCategories]);
+    setCategories([...hikesCategories.data]);
   };
 
   const changePreview = (view) => {

@@ -44,9 +44,14 @@ const storeData = async (data) => {
 
   serializeData.details = normalizeDetails;
 
+
+  console.log(category)
+  console.log(serializeData)
+
   const jsonOut = {
     ...category,
-    categoryTours: [serializeData, ...category.categoryTours],
+    // categoryTours: [serializeData, ...category.categoryTours],
+    categoryTours: [serializeData],
   };
 
   try {
