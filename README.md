@@ -5,6 +5,10 @@
 
 Volt MX Tutorials using nodejs, express and nextjs.
 
+## Contributing
+
+Read our [contributing guide](https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/blob/phx-dev/.github/CONTRIBUTING.md) to learn about our development proces and  how to propose bugfixes and improvements.
+
 ## Prerequisites
 
 * npm >= 7.6.0
