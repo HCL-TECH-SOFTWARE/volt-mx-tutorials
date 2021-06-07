@@ -53,6 +53,7 @@ const createUploadDirExist = () => {
 
 module.exports = {
   HIKES_BASE_URL,
+  HIKES_CONTENT_PATH,
   tours,
   getHikeDirectories,
   checkTempDirExist,
