@@ -1,0 +1,23 @@
+{
+  "nid": 24421,
+  "title": "Volt MX Orientation",
+  "created": 1585628914,
+  "updated": 1615281334,
+  "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24421/download/17800",
+  "fileSize": "13.83 KB",
+  "fileName": "konyquantumorientationv9.zip",
+  "fid": 17800,
+  "checksum": "666dd51f47004cd59dbcff2f318646660803f2e1f1c83692783e2628e0bfabf1",
+  "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/quantum-orientation",
+  "alias": "hikes/tour/quantum-orientation",
+  "description": "Learn about the Volt MX Iris features",
+  "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Get a brief understanding of the Volt MX Iris features and their functionality.</p> </div> </div> <p><!--EndFragment--></p>",
+  "cards": 9,
+  "time": "3 Mins",
+  "platformVersion": "Iris 9.0",
+  "category": [],
+  "image": "/default/hike-default.png",
+  "kuid": "abe10dt2-d5ac-4fr1-95ub-7742abna",
+  "hikeVersion": "1.0",
+  "weight": "1"
+}

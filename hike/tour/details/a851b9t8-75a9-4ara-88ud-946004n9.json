@@ -1,0 +1,23 @@
+{
+  "nid": 24415,
+  "title": "Creating Services for Back-end Data",
+  "created": 1585628138,
+  "updated": 1586946740,
+  "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24415/download/17163",
+  "fileSize": "20.28 KB",
+  "fileName": "createservicesweb_v9.zip",
+  "fid": 17163,
+  "checksum": "6fee09637da6c231414a02829ca906d672cde63d2c8abf5a7a3f9b54bccd02c6",
+  "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/creating-services-back-end-data-0",
+  "alias": "hikes/tour/creating-services-back-end-data-0",
+  "description": "Creating Services for Back-end Data",
+  "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create and configure Storage Object Services for&nbsp;<strong>Accounts</strong>&nbsp;and&nbsp;<strong>Recipients</strong>.</li> <li>Publish the Project Services to a run-time server</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+  "cards": 11,
+  "time": "10 Mins",
+  "platformVersion": "Iris 9.0",
+  "category": [],
+  "image": "/default/hike-default.png",
+  "kuid": "a851b9t8-75a9-4ara-88ud-946004n9",
+  "hikeVersion": "1.0",
+  "weight": "4"
+}

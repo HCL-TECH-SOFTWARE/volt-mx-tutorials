@@ -1,0 +1,23 @@
+{
+  "nid": 24427,
+  "title": "Introduction to Action Editor",
+  "created": 1585629311,
+  "updated": 1586944303,
+  "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24427/download/17150",
+  "fileSize": "32.53 KB",
+  "fileName": "introductiontoactioneditorv9.zip",
+  "fid": 17150,
+  "checksum": "7f04f9cb3e1d1e1a6fa5a6ca7aad7b59154cedabe17849c0afc772d791a72310",
+  "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-action-editor-0",
+  "alias": "hikes/tour/introduction-action-editor-0",
+  "description": "Learn how to use Action Editor.",
+  "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn how to:</p> <p>Using the Action Editor,</p> <ul> <li>Navigate between forms</li> <li>Set if, else conditions</li> <li>Show an alert</li> <li>Set widget properties</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+  "cards": 19,
+  "time": "15 Mins",
+  "platformVersion": "Iris 9.0",
+  "category": [],
+  "image": "/default/hike-default.png",
+  "kuid": "b3a02bt3-e6aa-41rf-8eu3-d406e1n6",
+  "hikeVersion": "1.0",
+  "weight": "7"
+}

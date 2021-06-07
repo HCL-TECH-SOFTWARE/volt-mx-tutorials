@@ -1,0 +1,23 @@
+{
+  "nid": 24434,
+  "title": "Add a Salesforce Service",
+  "created": 1585630014,
+  "updated": 1586945064,
+  "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24434/download/17157",
+  "fileSize": "22.24 KB",
+  "fileName": "addasalesforceservicev9.zip",
+  "fid": 17157,
+  "checksum": "1dda8f068834d3d53692dffb09c87be11c495d3204f0d928640ab13da4f06b68",
+  "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-salesforce-service-0",
+  "alias": "hikes/tour/add-salesforce-service-0",
+  "description": "Learn how to add a Salesforce service to your app.",
+  "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn how to configure a service that communicates with an external data source by using a Salesforce data connector.</p> </div> </div> <p><!--EndFragment--></p>",
+  "cards": 14,
+  "time": "15 Mins",
+  "platformVersion": "Iris 9.0",
+  "category": [],
+  "image": "/default/hike-default.png",
+  "kuid": "e3ddc9t9-fba9-41r5-97u6-c75988nb",
+  "hikeVersion": "1.0",
+  "weight": "2"
+}
