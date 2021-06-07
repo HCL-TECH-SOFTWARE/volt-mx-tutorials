@@ -111,6 +111,7 @@
     "lint:fix": "eslint --fix ./",
     "test": "node_modules/.bin/jest",
     "test:watch": "npm test -- --watch",
+    "mock": "node mock-tours",
     "export": "next build && next export"
   },
   "engines": {
