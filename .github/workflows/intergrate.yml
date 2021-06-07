@@ -3,7 +3,6 @@ on: [push]
 jobs:
   install-dependencies:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/phx-dev'
     defaults:
       run:
         working-directory: ./
@@ -25,7 +24,6 @@ jobs:
       - run: npm install
   mock-tours:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/phx-dev'
     defaults:
       run:
         working-directory: ./
