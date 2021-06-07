@@ -3,6 +3,7 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/phx-dev'
     defaults:
       run:
         working-directory: ./
