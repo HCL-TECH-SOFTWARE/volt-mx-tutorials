@@ -34,7 +34,7 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
           // mock response of each hike/tour details
           fs.writeFile(
             `${MOCK_PATH}/tour/details/${tour.kuid}.json`,
-            JSON.stringify(tour, null, 2),
+            JSON.stringify({ tourDetails: tour }, null, 2),
             "utf-8",
             () => {
               console.log(`copied: ${tour.kuid}.json`);
