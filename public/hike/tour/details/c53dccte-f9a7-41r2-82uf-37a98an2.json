@@ -1,0 +1,25 @@
+{
+  "tourDetails": {
+    "nid": 24422,
+    "title": "Introduction to Flex Layout",
+    "created": 1585629019,
+    "updated": 1615281431,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24422/download/17801",
+    "fileSize": "23.96 KB",
+    "fileName": "introflexlayoutv9.zip",
+    "fid": 17801,
+    "checksum": "f972c672fb62b014ded1706342eb167ba88b2d42f58d878f9b24ada94114121b",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-flex-layout-0",
+    "alias": "hikes/tour/introduction-flex-layout-0",
+    "description": "Learn about Flex layout properties.",
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>For a FlexContainer widget, learn how to:</p> <ul> <li>Define widget arrangement</li> <li>Modify free form attributes</li> <li>Add logo and header widgets</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+    "cards": 15,
+    "time": "16 Mins",
+    "platformVersion": "Iris 9.0",
+    "category": [],
+    "image": "/default/hike-default.png",
+    "kuid": "c53dccte-f9a7-41r2-82uf-37a98an2",
+    "hikeVersion": "1.0",
+    "weight": "2"
+  }
+}

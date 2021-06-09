@@ -1,0 +1,25 @@
+{
+  "tourDetails": {
+    "nid": 24429,
+    "title": "Understand App Channels",
+    "created": 1585629415,
+    "updated": 1586944361,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24429/download/17152",
+    "fileSize": "17.36 KB",
+    "fileName": "understandingapplicationchannelsv9.zip",
+    "fid": 17152,
+    "checksum": "4bb525e7f641fec69aba9c36e136b0585a649543089eb7703479a7a5801d42d2",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/understand-app-channels-0",
+    "alias": "hikes/tour/understand-app-channels-0",
+    "description": "Explore a sample app designed for various application channels.",
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn about the following channels:</p> <ul> <li>Mobile</li> <li>Tablet</li> <li>Desktop</li> <li>Wearables</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+    "cards": 11,
+    "time": "6 Mins",
+    "platformVersion": "Iris 9.0",
+    "category": [],
+    "image": "/default/hike-default.png",
+    "kuid": "70ff95t1-f7a5-4brd-99u8-8ce9b5nc",
+    "hikeVersion": "1.0",
+    "weight": "9"
+  }
+}

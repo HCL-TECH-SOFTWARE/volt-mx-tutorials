@@ -1,0 +1,25 @@
+{
+  "tourDetails": {
+    "nid": 24417,
+    "title": "Create Details Screen and Add Delete Feature",
+    "created": 1585628270,
+    "updated": 1586946868,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24417/download/17166",
+    "fileSize": "50.77 KB",
+    "fileName": "createdetailsscreen_v9.zip",
+    "fid": 17166,
+    "checksum": "eefd040feaae6e32f4763020f94009a9a9657249b6d696be5dd638e4954fa85d",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-details-screen-and-add-delete-feature",
+    "alias": "hikes/tour/create-details-screen-and-add-delete-feature",
+    "description": "Create Details Screen and Add Delete Feature",
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a&nbsp;Volt MX&nbsp;HIKE.  A HIKE is an interactive tour inside&nbsp;Volt MX&nbsp;Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a recipient details form</li> <li>Create the UI for the recipient details form using services</li> <li>Add the feature for deleting the recipients</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+    "cards": 28,
+    "time": "30 Mins",
+    "platformVersion": "Iris 9.0",
+    "category": [],
+    "image": "/default/hike-default.png",
+    "kuid": "082af3t0-74a2-4ere-a6u3-749d59n5",
+    "hikeVersion": "1.0",
+    "weight": "6"
+  }
+}

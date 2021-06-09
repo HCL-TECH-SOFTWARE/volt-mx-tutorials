@@ -1,0 +1,25 @@
+{
+  "tourDetails": {
+    "nid": 24826,
+    "title": "Launch your Responsive Web App",
+    "created": 1608540077,
+    "updated": 1615279253,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24826/download/17791",
+    "fileSize": "16.64 KB",
+    "fileName": "launchyourrwapp92.zip",
+    "fid": 17791,
+    "checksum": "537e9382e4c73b949347b7f2148ea75c5046d0273e4a96a1560c430ab53b2fe7",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-responsive-web-app-0",
+    "alias": "hikes/tour/launch-your-responsive-web-app-0",
+    "description": "Launch your Responsive Web App",
+    "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Import a sample web app that shows lists of Accounts and Recipients</li> <li>Preview the sample app on your computer using Live Preview</li> </ul> </div> </div> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+    "cards": 10,
+    "time": "10 Mins",
+    "platformVersion": "Iris 9.2",
+    "category": [],
+    "image": "/default/hike-default.png",
+    "kuid": "705a94tb-faa0-47r7-a1ud-31b3dbnf",
+    "hikeVersion": "1.0",
+    "weight": "1"
+  }
+}

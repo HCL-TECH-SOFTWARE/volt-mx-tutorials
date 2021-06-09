@@ -227,8 +227,13 @@
   padding: 0;
 }
 
-.generate {
-  display: flex;
+.pageContent {
+  height: calc(100vh - 51px);
+  background: white;
+}
+
+.forms {
+  padding: 0 15px 20px 15px;
 }
 
 .ckEditorContainer {
@@ -262,7 +267,6 @@
 }
 
 .preview {
-  flex: 1 !important;
 }
 
 .previews {
@@ -293,4 +297,11 @@
     position: relative;
     left: 10px;
   }
+}
+
+.cardPreview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 84px);
 }
