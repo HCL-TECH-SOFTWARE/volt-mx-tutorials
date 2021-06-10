@@ -19,6 +19,8 @@
     "fs": "0.0.1-security",
     "helmet": "^3.21.1",
     "humps": "^2.0.1",
+    "i18next-browser-languagedetector": "^6.1.1",
+    "i18next-http-backend": "^1.2.6",
     "isomorphic-fetch": "^2.2.1",
     "js-base64": "^2.4.9",
     "js-cookie": "^2.2.0",

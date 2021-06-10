@@ -4,6 +4,8 @@
   "platform_version": "Platform Version",
   "categories": "Categories",
   "start": "START",
+  "en-US": "English",
+  "zh-CN": "Chinese(Simplified)",
   "mobile_app_title": "Build Your First Mobile App",
   "mobile_app_desc": "<p>Create a mobile app incredibly fast, without coding. Learn how to drag and drop UI (user interface) elements into an app, integrate your app with backend data, and secure your app with an authentication mechanism.</p>",
   "tourRes": {

@@ -1,6 +1,5 @@
 import React, { Component, useEffect, useState } from "react";
-import { useTranslation } from 'next-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import i18next from 'i18next';
 import HikeHeader from "../src/components/HikeHeader";
 import Row from "antd/lib/row";
 import Col from "antd/lib/col";
@@ -8,7 +7,6 @@ import HikeBreadCrumb from "../src/components/HikeBreadCrumb";
 import KonyButton from "../src/components/KonyButton";
 import styles from "./style.scss";
 import getConfig from "next/config";
-import nextI18NextConfig from '../next-i18next.config.js';
 const {
   publicRuntimeConfig: { hikesData },
 } = getConfig();
@@ -19,13 +17,13 @@ import { getZipDownloadUrl } from "../src/utils/request";
 const TourDetailPage = ({ url }) => {
   const [tourDetails, setTourDetails] = useState(null);
   const [categoryAlias, setcategoryAlias] = useState(null);
-  const { t } = useTranslation();
 
   const getToursData = async () => {
     // get specific tour url
+    const path = url.asPath.substr(0, url.asPath.indexOf('?'));
     const urlTour = isDev
-      ? url.asPath.substring(1)
-      : url.asPath.replace(`/${BASE_PATH_URL}`, "").substring(1);
+      ? path.substring(1)
+      : path.replace(`/${BASE_PATH_URL}`, "").substring(1);
 
     const categories = await getHikesCategories(hikesData);
 
@@ -97,17 +95,17 @@ const TourDetailPage = ({ url }) => {
     <div className={styles.hikeBody}>
       <HikeHeader search={null} />
       <div className={styles.tourContainer}>
-        <HikeBreadCrumb title={t(tourDetails?.title)} search={null} />
+        <HikeBreadCrumb title={i18next.t(tourDetails?.title)} search={null} />
         <div className={styles.tourInfo}>
           <div className={styles.tourThumb}>
             <img src={tourImage} alt="Hike Thumbnail" />
           </div>
           <div className={styles.tourDesc}>
-            <h2 className={styles.tourTitle}>{t(tourDetails?.title)}</h2>
-            <h3 className={styles.tourVersion}>{`${t('hike_version')} ${tourDetails?.hikeVersion}`}</h3>
+            <h2 className={styles.tourTitle}>{i18next.t(tourDetails?.title)}</h2>
+            <h3 className={styles.tourVersion}>{`${i18next.t('hike_version')} ${tourDetails?.hikeVersion}`}</h3>
             <div
               className={styles.tourBody}
-              dangerouslySetInnerHTML={{ __html: t(tourDetails?.description) }}
+              dangerouslySetInnerHTML={{ __html: i18next.t(tourDetails?.description) }}
             />
             <Row className={styles.metaData}>
               <Col
@@ -118,7 +116,7 @@ const TourDetailPage = ({ url }) => {
                 lg={6}
                 className={styles.innerTabWrapper}
               >
-                <h3 className={styles.tourHeader}>{t('platform_version')}</h3>
+                <h3 className={styles.tourHeader}>{i18next.t('platform_version')}</h3>
                 <div className={styles.tourContent}>
                   {tourDetails?.platformVersion}
                 </div>
@@ -131,24 +129,24 @@ const TourDetailPage = ({ url }) => {
                 lg={6}
                 className={styles.innerTabWrapper}
               >
-                <h3 className={styles.tourHeader}>{t('categories')}</h3>
+                <h3 className={styles.tourHeader}>{i18next.t('categories')}</h3>
                 <ul className={styles.tourContent}>
                   {tourDetails?.category?.map((cat) => <li>{cat}</li>)}
                 </ul>
               </Col>
             </Row>
             <h3 className={styles.tourTime}>
-            {`${t(`step`, {count: tourDetails?.cards})} / ${t(tourDetails?.time)}`}
+            {`${i18next.t(`step`, {count: tourDetails?.cards})} / ${i18next.t(tourDetails?.time)}`}
             </h3>
             <div
               className={styles.tourDetails}
-              dangerouslySetInnerHTML={{ __html: t(tourDetails?.details) }}
+              dangerouslySetInnerHTML={{ __html: i18next.t(tourDetails?.details) }}
             />
           </div>
         </div>
         <div className={styles.startBtn}>
           <KonyButton
-            title={t('start')}
+            title={i18next.t('start')}
             type="blue"
             onClick={(e) => sendPostMessage(e)}
           />
@@ -157,11 +155,5 @@ const TourDetailPage = ({ url }) => {
     </div>
   );
 };
-
-export const getStaticProps = async ({ locale }) => ({
-  props: {
-    ...await serverSideTranslations(locale || nextI18NextConfig.i18n.defaultLocale, ['common'], nextI18NextConfig),
-  },
-});
 
 export default TourDetailPage;
