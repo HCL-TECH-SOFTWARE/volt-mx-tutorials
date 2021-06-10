@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState, Suspense } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import HikeHeader from '../src/components/HikeHeader';
 import ToursList from '../src/components/ToursList';
 import styles from './style.scss';
