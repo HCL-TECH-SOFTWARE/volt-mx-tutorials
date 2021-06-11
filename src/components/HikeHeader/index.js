@@ -20,21 +20,21 @@ const HikeHeader = ({ search, keyword }) => {
   const [language, setLanguage] = useState(i18next.language);
 
   useEffect(() => {
-    setLanguage(i18next.language)
+    setLanguage(i18next.language);
   }, [i18next.language]);
 
   const changeLang = useCallback((selectedLanguage) => {
-    const tour = router.query.tour;
+    const { tour } = router.query;
     const refreshPath = tour
-    ? `${publicRuntimeConfig.asset}/hikes/tour/${tour}?lang=${selectedLanguage}`
-    : `${publicRuntimeConfig.asset}/hikes?lang=${selectedLanguage}`;
+      ? `${publicRuntimeConfig.asset}/hikes/tour/${tour}?lang=${selectedLanguage}`
+      : `${publicRuntimeConfig.asset}/hikes?lang=${selectedLanguage}`;
     // redirect
     router.push(refreshPath);
   }, []);
 
   const menu = (
     <Menu>
-      {locales.map((locale) => (
+      {locales.map(locale => (
         <Menu.Item onClick={() => changeLang(locale)} key={locale}>
           {i18next.t(locale)}
         </Menu.Item>
@@ -55,17 +55,17 @@ const HikeHeader = ({ search, keyword }) => {
                 </a>
               </Link>
             </Col>
-            <Col  className={style.camp} >
+            <Col className={style.camp}>
               <img
                 src={`${publicRuntimeConfig.asset}/static/dist/images/camp-mountain.svg`}
-              
+
                 alt="camp mountain"
               />
             </Col>
           </Row>
         </Header>
-        <div 
-          {...router.query.tour &&{ style: { justifyContent: "flex-end" } }}
+        <div
+          {...router.query.tour && { style: { justifyContent: 'flex-end' } }}
           className={style.subHeader}
         >
           {search ? (
@@ -74,16 +74,17 @@ const HikeHeader = ({ search, keyword }) => {
             </div>
           ) : null}
           <div className={style.switchLang}>
-            <Dropdown overlay={menu} trigger={["click"]}>
+            <Dropdown overlay={menu} trigger={['click']}>
               <a
                 className="ant-dropdown-link"
-                onClick={(e) => e.preventDefault()}
+                onClick={e => e.preventDefault()}
               >
-                <Icon type="global" /> {i18next.t(language)}
+                <Icon type="global" />
+                {i18next.t(language)}
                 <Icon type="caret-down" />
               </a>
             </Dropdown>
-            </div>
+          </div>
         </div>
       </Layout>
     </Row>
