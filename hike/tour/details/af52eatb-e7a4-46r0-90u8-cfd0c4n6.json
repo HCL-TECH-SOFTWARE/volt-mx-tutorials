@@ -7,7 +7,7 @@
     "fileSize": "66.5 KB",
     "fileName": "editpayeemobile_v9.zip",
     "fid": 17794,
-    "checksum": "d0eb27f3f82cc0b2bd48e340da112aa4d61fd58be143ae7dd35c4798702c3a52",
+    "checksum": "68d131dfaa56c164f83c908c2a6427c5a0d6fe8c7c251e033d8cc18583310d5d",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-edit-recipient",
     "alias": "hikes/tour/add-edit-recipient",
     "description": "Add the capability to edit the details of a recipient.",
@@ -20,6 +20,6 @@
     "kuid": "af52eatb-e7a4-46r0-90u8-cfd0c4n6",
     "hikeVersion": "1.0",
     "weight": "8",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test-zips/public/contents/2-build-your-first-mobile-app/zips/editpayeemobile_v9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/editpayeemobile_v9.zip"
   }
 }

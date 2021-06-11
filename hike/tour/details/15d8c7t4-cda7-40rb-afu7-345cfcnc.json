@@ -7,7 +7,7 @@
     "fileSize": "28.24 KB",
     "fileName": "addloginservicemob_v9.zip",
     "fid": 17119,
-    "checksum": "35c9db407ccd4edf56abb5603a44223a8c61893185f157a95a4a0ad6426fe603",
+    "checksum": "0bfff88717549e6fb5184799ed4eb7957137c513c9e18851040eee270e01c656",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-authentication",
     "alias": "hikes/tour/add-authentication",
     "description": "Secure an app’s data with a user-authentication mechanism.",
@@ -20,6 +20,6 @@
     "kuid": "15d8c7t4-cda7-40rb-afu7-345cfcnc",
     "hikeVersion": "1.0",
     "weight": "3",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test-zips/public/contents/2-build-your-first-mobile-app/zips/addloginservicemob_v9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/addloginservicemob_v9.zip"
   }
 }
