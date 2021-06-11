@@ -1,0 +1,31 @@
+.exportModal {
+  width: 70% !important;
+}
+
+.steps {
+  padding: 10px 0;
+}
+
+.jsonValues {
+  padding: 10px 7px;
+  background: #212121;
+  color: white;
+}
+
+.jsonContainer {
+  position: relative;
+}
+
+.copyToClipboard {
+  position: absolute;
+  right: 0;
+  background: none;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  padding: 2px 5px;
+
+  &:hover {
+    color: red;
+  }
+}

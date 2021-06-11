@@ -22,6 +22,7 @@ const getHikeTours = () =>
 const tours = {
   "/": { page: "/" },
   "/hikes": { page: "/hikes" },
+  "/hikes/search": { page: "/hikelisting" },
 };
 
 // export and append all tours into static html page

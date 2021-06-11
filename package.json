@@ -42,6 +42,7 @@
     "qs": "^6.5.2",
     "react": "^17.0.2",
     "react-burger-menu": "^2.5.2",
+    "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.2",
     "react-google-tag-manager": "^2.2.1",
     "react-helmet": "^5.2.0",
