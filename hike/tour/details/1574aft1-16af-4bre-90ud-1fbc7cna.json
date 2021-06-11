@@ -4,7 +4,6 @@
     "title": "Dynamic UI Generation",
     "created": 1573815016,
     "updated": 1578655923,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24053/download/16131",
     "fileSize": "5.68 KB",
     "fileName": "dynamicform.zip",
     "fid": 16131,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "1574aft1-16af-4bre-90ud-1fbc7cna",
     "hikeVersion": "1.0",
-    "weight": "0"
+    "weight": "0",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/7-dbx/zips/dynamicform.zip"
   }
 }

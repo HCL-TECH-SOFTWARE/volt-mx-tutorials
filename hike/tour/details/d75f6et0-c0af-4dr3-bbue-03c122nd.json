@@ -4,7 +4,6 @@
     "title": "Use Sample Services",
     "created": 1585630127,
     "updated": 1586945117,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24436/download/17159",
     "fileSize": "17.39 KB",
     "fileName": "usesampleservicesv9.zip",
     "fid": 17159,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "d75f6et0-c0af-4dr3-bbue-03c122nd",
     "hikeVersion": "1.0",
-    "weight": "4"
+    "weight": "4",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/5-manage-back-end-services/zips/usesampleservicesv9.zip"
   }
 }

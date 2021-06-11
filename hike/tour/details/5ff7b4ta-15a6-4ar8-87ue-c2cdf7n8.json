@@ -4,7 +4,6 @@
     "title": "Internationalization with Layout",
     "created": 1608540205,
     "updated": 1608540205,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24828/download/17648",
     "fileSize": "33.85 KB",
     "fileName": "internationalizationwithlayout92.zip",
     "fid": 17648,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "5ff7b4ta-15a6-4ar8-87ue-c2cdf7n8",
     "hikeVersion": "1.0",
-    "weight": "12"
+    "weight": "12",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/internationalizationwithlayout92.zip"
   }
 }

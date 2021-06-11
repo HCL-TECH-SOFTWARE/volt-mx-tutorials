@@ -4,7 +4,6 @@
     "title": "Assign Data to Segment",
     "created": 1585629194,
     "updated": 1615281650,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24425/download/17804",
     "fileSize": "22.53 KB",
     "fileName": "assigndatatothesegmentv9.zip",
     "fid": 17804,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "06a5e8td-11a4-41r7-bbua-0696bane",
     "hikeVersion": "1.0",
-    "weight": "5"
+    "weight": "5",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/assigndatatothesegmentv9.zip"
   }
 }

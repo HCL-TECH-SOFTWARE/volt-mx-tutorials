@@ -4,11 +4,10 @@
     "title": "Creating Details Screen and Delete Recipients ",
     "created": 1585626692,
     "updated": 1586775057,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24407/download/17122",
     "fileSize": "65.26 KB",
     "fileName": "createdetailsnative_v9.zip",
     "fid": 17122,
-    "checksum": "557ace94259cbf1e9221f9c3db23c97ea9901189dbca5743d3b39e7fc44c7952",
+    "checksum": "fd8eec7501316d1044ea7283c1a43a711c0ce0c0883c5e0a8c35ac297a563d6b",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/creating-details-screen-and-delete-recipients",
     "alias": "hikes/tour/creating-details-screen-and-delete-recipients",
     "description": "Creating Details Screen and Add Delete Recipients",
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "db7f07t9-c0a5-4erb-89u0-fab1ean8",
     "hikeVersion": "1.0",
-    "weight": "6"
+    "weight": "6",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/createdetailsnative_v9.zip"
   }
 }

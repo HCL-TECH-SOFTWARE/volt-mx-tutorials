@@ -4,7 +4,6 @@
     "title": "NFIs Using Third-party Library",
     "created": 1585630293,
     "updated": 1615282130,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24439/download/17808",
     "fileSize": "29.83 KB",
     "fileName": "nfibarcodev9.zip",
     "fid": 17808,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "f9e5f0t5-a8a5-4arb-bfu1-50d392n4",
     "hikeVersion": "1.0",
-    "weight": "2"
+    "weight": "2",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/6-advanced-concepts/zips/nfibarcodev9.zip"
   }
 }

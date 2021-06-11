@@ -4,7 +4,6 @@
     "title": "Launch your Responsive Web App",
     "created": 1608540077,
     "updated": 1615279253,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24826/download/17791",
     "fileSize": "16.64 KB",
     "fileName": "launchyourrwapp92.zip",
     "fid": 17791,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "705a94tb-faa0-47r7-a1ud-31b3dbnf",
     "hikeVersion": "1.0",
-    "weight": "1"
+    "weight": "1",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/3-build-your-first-web-app/zips/launchyourrwapp92.zip"
   }
 }

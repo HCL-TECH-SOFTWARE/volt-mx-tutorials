@@ -4,11 +4,10 @@
     "title": "Publish and Share the App",
     "created": 1585626952,
     "updated": 1586775145,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24410/download/17125",
     "fileSize": "13.57 KB",
     "fileName": "shareandpreviewappmobilev9.zip",
     "fid": 17125,
-    "checksum": "868bad9ce328ec89e10ceba0eb74d3ab09e6e0e3afd974ac18ed80223ad88184",
+    "checksum": "d5d7968cfe281875d620c59ac72d1f0e9be31bc013864cc29b361cb7c39e4b2c",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/publish-and-share-app",
     "alias": "hikes/tour/publish-and-share-app",
     "description": "Use the Volt MX App to preview the Recipients app on a mobile device.",
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "ec5ceatd-50a0-4fre-b3u7-c3e41cn2",
     "hikeVersion": "1.0",
-    "weight": "9"
+    "weight": "9",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/shareandpreviewappmobilev9.zip"
   }
 }

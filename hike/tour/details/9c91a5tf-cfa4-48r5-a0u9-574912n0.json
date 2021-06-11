@@ -4,11 +4,10 @@
     "title": "Test Recorder",
     "created": 1585627017,
     "updated": 1615280146,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24411/download/17795",
     "fileSize": "30.16 KB",
     "fileName": "usingtestrecorder_v9.zip",
     "fid": 17795,
-    "checksum": "f3d0519164695f90a89ab689b9590fcca69c9fb2ff1e9f063d511a65f6f61775",
+    "checksum": "6779682924f46cb191584dc11364bfacbfef4135cc728f9ec74869e2cc74a3ca",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/test-recorder",
     "alias": "hikes/tour/test-recorder",
     "description": "Learn to use the Test Recorder on a native app",
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "9c91a5tf-cfa4-48r5-a0u9-574912n0",
     "hikeVersion": "1.0",
-    "weight": "10"
+    "weight": "10",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/usingtestrecorder_v9.zip"
   }
 }

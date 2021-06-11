@@ -4,7 +4,6 @@
     "title": "Introduction to Flex Layout",
     "created": 1585629019,
     "updated": 1615281431,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24422/download/17801",
     "fileSize": "23.96 KB",
     "fileName": "introflexlayoutv9.zip",
     "fid": 17801,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "c53dccte-f9a7-41r2-82uf-37a98an2",
     "hikeVersion": "1.0",
-    "weight": "2"
+    "weight": "2",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/introflexlayoutv9.zip"
   }
 }

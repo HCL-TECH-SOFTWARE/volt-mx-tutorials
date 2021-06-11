@@ -4,7 +4,6 @@
     "title": "Volt MX Orientation",
     "created": 1585628914,
     "updated": 1615281334,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24421/download/17800",
     "fileSize": "13.83 KB",
     "fileName": "konyquantumorientationv9.zip",
     "fid": 17800,
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "abe10dt2-d5ac-4fr1-95ub-7742abna",
     "hikeVersion": "1.0",
-    "weight": "1"
+    "weight": "1",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/konyquantumorientationv9.zip"
   }
 }
