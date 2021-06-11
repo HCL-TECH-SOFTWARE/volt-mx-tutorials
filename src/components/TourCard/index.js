@@ -16,9 +16,6 @@ const TourCard = ({ tour, dbx, search }) => (
         <Link
           href={{
             pathname: `${isProdUrl}${tour.alias}`,
-            query: {
-              search: search,
-            },
           }}
         >
           <div className={style.info}>
