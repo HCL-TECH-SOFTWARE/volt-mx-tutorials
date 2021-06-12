@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./style.scss";
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
@@ -9,7 +9,7 @@ import ToursList from "../src/components/ToursList";
 import TourDetailPage from "./tour";
 import DetailsEditor from "../src/components/DetailsEditor";
 import { Row, Col } from "antd";
-import { Form, Input, Button, Radio, Select } from "antd";
+import { Form, Input, Button, Radio, Select, message } from "antd";
 import UploadZip from "../src/components/HikeComposer/UploadZip";
 import FormSwitcher from "../src/components/HikeComposer/FormSwitcher";
 import ExportModal from "../src/components/HikeComposer/ExportModal";
@@ -32,16 +32,19 @@ const GenerateTourPage = () => {
     tourLink: "",
     time: 1,
     platformVersion: 9.2,
-    language: "en",
   });
 
   const [isCKEditorVisible, setIsCKEditorVisible] = useState(false);
   const [view, setView] = useState("card");
-
+  const [isZipValid, setIsZipValid] = useState(false);
   const [selectedFile, setSelectedFile] = useState({});
   const [tempZipFilePath, setTempZipFilePath] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState({});
   const [previewMode, setPreviewMode] = useState("split");
+  const [visible, setVisible] = useState(false);
+  const [exportJsonData, setexportJsonData] = useState({});
+
+  const inputFileRef = useRef(null);
 
   const [categories, setCategories] = useState([]);
 
@@ -90,6 +93,8 @@ const GenerateTourPage = () => {
     const { checksum, tempFilePath, kuid } = res.data;
 
     setTempZipFilePath(tempFilePath);
+    setIsZipValid(true);
+
     setValues({
       ...values,
       ["checksum"]: checksum,
@@ -133,10 +138,12 @@ const GenerateTourPage = () => {
 
       const json = await axios.post(`${BASE_API}/tour/output`, data);
 
+      setexportJsonData(json.data);
       console.log(json.data);
-      alert("Hike generated successfully. check temp directory");
+
+      setVisible(true);
     } else {
-      alert("Missing tour zip file");
+      message.error("Missing tour zip file");
     }
   };
 
@@ -165,7 +172,7 @@ const GenerateTourPage = () => {
         </div>
       </div>
       <Row>
-        <Col className={styles.pageContent} span={6}>
+        <Col className={styles.pageContent} span={isZipValid ? 6 : 24}>
           {isCKEditorVisible
             ? previewMode === "split" && (
                 <div className={styles.ckEditorContainer}>
@@ -185,141 +192,211 @@ const GenerateTourPage = () => {
               )
             : previewMode === "split" && (
                 <div className={styles.forms}>
-                  <FormSwitcher />
+                  {isZipValid && <FormSwitcher />}
+
                   <Form layout="vertical">
                     <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        marginTop: 10,
-                      }}
+                      className={isZipValid ? styles.zipValid : styles.zipEmpty}
                     >
-                      <UploadZip />
-                    </div>
-                    <Form.Item label="Checksum">
-                      <Input placeholder="input placeholder" />
-                    </Form.Item>
-                    <Form.Item label="KUID">
-                      <Input placeholder="input placeholder" />
-                    </Form.Item>
-                    <Form.Item label="Tour URL">
-                      <Input placeholder="input placeholder" />
-                    </Form.Item>
-                    <Form.Item label="Category">
-                      <Select
-                        defaultValue="Build Your First Mobile App"
-                        style={{}}
-                        onChange={handleChange}
-                      >
-                        <Option value="Build Your First Mobile App">
-                          Build Your First Mobile App
-                        </Option>
-                        <Option value="Build Your First Web App">
-                          Build Your First Web App
-                        </Option>
-                        <Option value="Develop the Front End">
-                          Develop the Front End
-                        </Option>
-                        <Option value="Manage Back-end Services">
-                          Manage Back-end Services
-                        </Option>
-                        <Option value="Advanced Concepts">
-                          Advanced Concepts
-                        </Option>
-                        <Option value="DBX">DBX</Option>
-                      </Select>
-                    </Form.Item>
-                    <Form.Item label="Title">
-                      <Input placeholder="Add Title Here..." />
-                    </Form.Item>
-                    <Form.Item label="Description">
-                      <TextArea rows={4} />
-                    </Form.Item>
-                    <Form.Item label="Details">
+                      {!isZipValid && <h3>Upload Valid Tour Zip file</h3>}
+                      <input
+                        style={{ display: "none" }}
+                        name="file"
+                        onChange={handleTourZipFile}
+                        type="file"
+                        ref={inputFileRef}
+                      />
                       <Button
-                        onClick={() => {
-                          setView("tour");
-                          setIsCKEditorVisible(true);
-                        }}
-                        type="primary"
-                        icon="edit"
+                        onClick={() => inputFileRef.current.click()}
+                        type="dashed"
                       >
-                        Open Editor
+                        Choose file
                       </Button>
-                    </Form.Item>
-                    <Row gutter={8}>
-                      <Col span={12}>
-                        <Form.Item label="Steps">
+                    </div>
+                    {isZipValid && (
+                      <>
+                        <Form.Item
+                          className={styles.formContainer}
+                          label="Checksum"
+                        >
+                          <TextArea value={values.checksum} rows={4} />
+                        </Form.Item>
+                        <Form.Item
+                          className={styles.formContainer}
+                          label="KUID"
+                        >
                           <Input
-                            defaultValue={1}
-                            min={1}
-                            type="number"
-                            placeholder="How many Steps..."
+                            value={values.kuid}
+                            placeholder="...."
+                            disabled
                           />
                         </Form.Item>
-                      </Col>
-                      <Col span={12}>
-                        <Form.Item label="Time">
+                        <Form.Item
+                          className={styles.formContainer}
+                          label="Tour URL"
+                        >
                           <Input
-                            defaultValue={1}
-                            min={1}
-                            type="number"
-                            placeholder="Input Time..."
+                            name="tourLink"
+                            value={values.tourLink}
+                            onChange={handleInputChange}
+                            placeholder="Add URL"
                           />
                         </Form.Item>
-                      </Col>
-                    </Row>
-                    <Form.Item>
-                      <Button type="primary">Generate Hike</Button>
-                    </Form.Item>
-                    <ExportModal />
+                        <Form.Item
+                          className={styles.formContainer}
+                          label="Category"
+                        >
+                          <Select
+                            defaultValue="Build Your First Mobile App"
+                            style={{}}
+                            onChange={handleChange}
+                          >
+                            <Option value="Build Your First Mobile App">
+                              Build Your First Mobile App
+                            </Option>
+                            <Option value="Build Your First Web App">
+                              Build Your First Web App
+                            </Option>
+                            <Option value="Develop the Front End">
+                              Develop the Front End
+                            </Option>
+                            <Option value="Manage Back-end Services">
+                              Manage Back-end Services
+                            </Option>
+                            <Option value="Advanced Concepts">
+                              Advanced Concepts
+                            </Option>
+                            <Option value="DBX">DBX</Option>
+                          </Select>
+                        </Form.Item>
+                        <Form.Item
+                          className={styles.formContainer}
+                          label="Title"
+                        >
+                          <Input
+                            name="title"
+                            value={values.title}
+                            onChange={handleInputChange}
+                            placeholder="Add Title..."
+                          />
+                        </Form.Item>
+                        <Form.Item
+                          className={styles.formContainer}
+                          label="Description"
+                        >
+                          <TextArea
+                            name="description"
+                            value={values.description}
+                            onChange={handleInputChange}
+                            rows={4}
+                            placeholder="Add Description..."
+                          />
+                        </Form.Item>
+                        <Form.Item
+                          className={styles.formContainer}
+                          label="Details"
+                        >
+                          <Button
+                            onClick={() => {
+                              setView("tour");
+                              setIsCKEditorVisible(true);
+                            }}
+                            type="primary"
+                            icon="edit"
+                          >
+                            Open Editor
+                          </Button>
+                        </Form.Item>
+                        <Row gutter={8}>
+                          <Col span={12}>
+                            <Form.Item
+                              className={styles.formContainer}
+                              label="Steps"
+                            >
+                              <Input
+                                min={1}
+                                type="number"
+                                name="cards"
+                                value={values.cards}
+                                onChange={handleInputChange}
+                                placeholder="How many Steps..."
+                              />
+                            </Form.Item>
+                          </Col>
+                          <Col span={12}>
+                            <Form.Item
+                              className={styles.formContainer}
+                              label="Time"
+                            >
+                              <Input
+                                min={1}
+                                type="number"
+                                name="time"
+                                value={values.time}
+                                onChange={handleInputChange}
+                                placeholder="Input Time..."
+                              />
+                            </Form.Item>
+                          </Col>
+                        </Row>
+                        <Button type="primary" onClick={onGenerate}>
+                          Generate Hike
+                        </Button>
+                        <ExportModal
+                          jsonData={exportJsonData}
+                          visible={visible}
+                          onClose={() => setVisible(false)}
+                        />
+                      </>
+                    )}
                     <div />
                   </Form>
                 </div>
               )}
         </Col>
-        <Col className={styles.preview} span={18}>
-          <ul className={styles.previews}>
-            {previewMode === "split" ? (
-              <>
-                <li onClick={() => changePreview("card")}>Card Preview</li>
-                {/* <li onClick={() => changePreview("list")}>List Preview</li> */}
-                <li onClick={() => changePreview("tour")}>Tour Preview</li>
-              </>
-            ) : (
-              <li
-                onClick={() => {
-                  setView("tour");
+        {isZipValid && (
+          <Col className={styles.preview} span={18}>
+            <ul className={styles.previews}>
+              {previewMode === "split" ? (
+                <>
+                  <li onClick={() => changePreview("card")}>Card Preview</li>
+                  {/* <li onClick={() => changePreview("list")}>List Preview</li> */}
+                  <li onClick={() => changePreview("tour")}>Tour Preview</li>
+                </>
+              ) : (
+                <li
+                  onClick={() => {
+                    setView("tour");
 
-                  setPreviewMode("split");
-                }}
-              >
-                Close Full Preview
-              </li>
-            )}
-          </ul>
-          <hr />
-          {view === "card" && (
-            <div className={styles.cardPreview}>
-              <div>
-                <h3>{selectedCategory.categoryName}</h3>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: selectedCategory.categoryDescription,
+                    setPreviewMode("split");
                   }}
-                />
-                <TourCard
-                  tour={{
-                    title: values.title,
-                    description: values.description,
-                    cards: values.cards,
-                    time: `${values.time} Mins`,
-                  }}
-                />
+                >
+                  Close Full Preview
+                </li>
+              )}
+            </ul>
+            <hr />
+            {view === "card" && (
+              <div className={styles.cardPreview}>
+                <div>
+                  <h3>{selectedCategory.categoryName}</h3>
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: selectedCategory.categoryDescription,
+                    }}
+                  />
+                  <TourCard
+                    tour={{
+                      title: values.title,
+                      description: values.description,
+                      cards: values.cards,
+                      time: `${values.time} Mins`,
+                    }}
+                  />
+                </div>
               </div>
-            </div>
-          )}
-          {/* {view === "tour" &&
+            )}
+            {/* {view === "tour" &&
             categories.map((item) =>
               item.categoryTours !== null ? (
                 <ToursList
@@ -331,34 +408,35 @@ const GenerateTourPage = () => {
                 />
               ) : null
             )} */}
-          {view === "tour" && (
-            <>
-              {previewMode === "split" ? (
-                <button
-                  onClick={() => {
-                    setPreviewMode("full");
+            {view === "tour" && (
+              <>
+                {previewMode === "split" ? (
+                  <button
+                    onClick={() => {
+                      setPreviewMode("full");
+                    }}
+                  >
+                    Full Preview
+                  </button>
+                ) : (
+                  previewMode === "full " && (
+                    <li onClick={() => setPreviewMode("split")}>
+                      Close Full Preview
+                    </li>
+                  )
+                )}
+                <TourDetailPage
+                  previewData={{
+                    ...values,
+                    time: `${values.time} Minutes`,
+                    fileName: selectedFile.name,
                   }}
-                >
-                  Full Preview
-                </button>
-              ) : (
-                previewMode === "full " && (
-                  <li onClick={() => setPreviewMode("split")}>
-                    Close Full Preview
-                  </li>
-                )
-              )}
-              <TourDetailPage
-                previewData={{
-                  ...values,
-                  time: `${values.time} Minutes`,
-                  fileName: selectedFile.name,
-                }}
-                url={{ asPath: "preview" }}
-              />
-            </>
-          )}
-        </Col>
+                  url={{ asPath: "preview" }}
+                />
+              </>
+            )}
+          </Col>
+        )}
       </Row>
     </>
   );

@@ -236,6 +236,32 @@
   padding: 0 15px 20px 15px;
 }
 
+.formContainer {
+  margin-bottom: 5px;
+
+  label {
+    font-size: 14px;
+  }
+}
+
+.zipEmpty {
+  height: calc(100vh - 71px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h3 {
+    font-size: 28px;
+  }
+}
+
+.zipValid {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
 .ckEditorContainer {
   flex: 0.6 !important;
   padding: 10px 20px;

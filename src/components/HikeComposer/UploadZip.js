@@ -8,15 +8,10 @@ function getBase64(img, callback) {
 }
 
 function beforeUpload(file) {
-  const isJpgOrPng = file.type === "image/jpeg" || file.type === "image/png";
-  if (!isJpgOrPng) {
-    message.error("You can only upload JPG/PNG file!");
+  const isZip = file.type === "application/zip";
+  if (!isZip) {
+    message.error("You can only upload Zip file!");
   }
-  const isLt2M = file.size / 1024 / 1024 < 2;
-  if (!isLt2M) {
-    message.error("Image must smaller than 2MB!");
-  }
-  return isJpgOrPng && isLt2M;
 }
 
 export default class UploadZip extends React.Component {
@@ -30,13 +25,15 @@ export default class UploadZip extends React.Component {
       return;
     }
     if (info.file.status === "done") {
-      // Get this url from response in real world.
-      getBase64(info.file.originFileObj, (imageUrl) =>
-        this.setState({
-          imageUrl,
-          loading: false,
-        })
-      );
+      // // Get this url from response in real world.
+      // getBase64(info.file.originFileObj, (imageUrl) =>
+      //   this.setState({
+      //     imageUrl,
+      //     loading: false,
+      //   })
+      // );
+
+      console.log(info);
     }
   };
 
