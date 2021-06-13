@@ -13,6 +13,7 @@ import { Form, Input, Button, Radio, Select, message } from "antd";
 import UploadZip from "../src/components/HikeComposer/UploadZip";
 import FormSwitcher from "../src/components/HikeComposer/FormSwitcher";
 import ExportModal from "../src/components/HikeComposer/ExportModal";
+import EditHike from "../src/components/HikeComposer/EditHike";
 
 const { TextArea } = Input;
 const { Option } = Select;
@@ -47,6 +48,13 @@ const GenerateTourPage = () => {
   const inputFileRef = useRef(null);
 
   const [categories, setCategories] = useState([]);
+
+  //Form Switcher states
+  const [current, setCurrent] = useState("new");
+
+  const handleSwitcherClick = (e) => {
+    setCurrent(e.key);
+  };
 
   const onChangeCategory = (categoryName) => {
     const selected = categories.filter(
@@ -192,165 +200,174 @@ const GenerateTourPage = () => {
               )
             : previewMode === "split" && (
                 <div className={styles.forms}>
-                  {isZipValid && <FormSwitcher />}
-
-                  <Form layout="vertical">
-                    <div
-                      className={isZipValid ? styles.zipValid : styles.zipEmpty}
-                    >
-                      {!isZipValid && <h3>Upload Valid Tour Zip file</h3>}
-                      <input
-                        style={{ display: "none" }}
-                        name="file"
-                        onChange={handleTourZipFile}
-                        type="file"
-                        ref={inputFileRef}
-                      />
-                      <Button
-                        onClick={() => inputFileRef.current.click()}
-                        type="dashed"
+                  {isZipValid && (
+                    <FormSwitcher
+                      setView={handleSwitcherClick}
+                      current={current}
+                    />
+                  )}
+                  {current === "new" && (
+                    <Form layout="vertical">
+                      <div
+                        className={
+                          isZipValid ? styles.zipValid : styles.zipEmpty
+                        }
                       >
-                        Choose file
-                      </Button>
-                    </div>
-                    {isZipValid && (
-                      <>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Checksum"
-                        >
-                          <TextArea value={values.checksum} rows={4} />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="KUID"
-                        >
-                          <Input
-                            value={values.kuid}
-                            placeholder="...."
-                            disabled
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Tour URL"
-                        >
-                          <Input
-                            name="tourLink"
-                            value={values.tourLink}
-                            onChange={handleInputChange}
-                            placeholder="Add URL"
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Category"
-                        >
-                          <Select
-                            defaultValue="Build Your First Mobile App"
-                            style={{}}
-                            onChange={handleChange}
-                          >
-                            <Option value="Build Your First Mobile App">
-                              Build Your First Mobile App
-                            </Option>
-                            <Option value="Build Your First Web App">
-                              Build Your First Web App
-                            </Option>
-                            <Option value="Develop the Front End">
-                              Develop the Front End
-                            </Option>
-                            <Option value="Manage Back-end Services">
-                              Manage Back-end Services
-                            </Option>
-                            <Option value="Advanced Concepts">
-                              Advanced Concepts
-                            </Option>
-                            <Option value="DBX">DBX</Option>
-                          </Select>
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Title"
-                        >
-                          <Input
-                            name="title"
-                            value={values.title}
-                            onChange={handleInputChange}
-                            placeholder="Add Title..."
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Description"
-                        >
-                          <TextArea
-                            name="description"
-                            value={values.description}
-                            onChange={handleInputChange}
-                            rows={4}
-                            placeholder="Add Description..."
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Details"
-                        >
-                          <Button
-                            onClick={() => {
-                              setView("tour");
-                              setIsCKEditorVisible(true);
-                            }}
-                            type="primary"
-                            icon="edit"
-                          >
-                            Open Editor
-                          </Button>
-                        </Form.Item>
-                        <Row gutter={8}>
-                          <Col span={12}>
-                            <Form.Item
-                              className={styles.formContainer}
-                              label="Steps"
-                            >
-                              <Input
-                                min={1}
-                                type="number"
-                                name="cards"
-                                value={values.cards}
-                                onChange={handleInputChange}
-                                placeholder="How many Steps..."
-                              />
-                            </Form.Item>
-                          </Col>
-                          <Col span={12}>
-                            <Form.Item
-                              className={styles.formContainer}
-                              label="Time"
-                            >
-                              <Input
-                                min={1}
-                                type="number"
-                                name="time"
-                                value={values.time}
-                                onChange={handleInputChange}
-                                placeholder="Input Time..."
-                              />
-                            </Form.Item>
-                          </Col>
-                        </Row>
-                        <Button type="primary" onClick={onGenerate}>
-                          Generate Hike
-                        </Button>
-                        <ExportModal
-                          jsonData={exportJsonData}
-                          visible={visible}
-                          onClose={() => setVisible(false)}
+                        {!isZipValid && <h3>Upload Valid Tour Zip file</h3>}
+                        <input
+                          style={{ display: "none" }}
+                          name="file"
+                          onChange={handleTourZipFile}
+                          type="file"
+                          ref={inputFileRef}
                         />
-                      </>
-                    )}
-                    <div />
-                  </Form>
+                        <Button
+                          onClick={() => inputFileRef.current.click()}
+                          type="dashed"
+                        >
+                          Choose file
+                        </Button>
+                      </div>
+                      {isZipValid && (
+                        <>
+                          <Form.Item
+                            className={styles.formContainer}
+                            label="Checksum"
+                          >
+                            <TextArea value={values.checksum} rows={4} />
+                          </Form.Item>
+                          <Form.Item
+                            className={styles.formContainer}
+                            label="KUID"
+                          >
+                            <Input
+                              value={values.kuid}
+                              placeholder="...."
+                              disabled
+                            />
+                          </Form.Item>
+                          <Form.Item
+                            className={styles.formContainer}
+                            label="Tour URL"
+                          >
+                            <Input
+                              name="tourLink"
+                              value={values.tourLink}
+                              onChange={handleInputChange}
+                              placeholder="Add URL"
+                            />
+                          </Form.Item>
+                          <Form.Item
+                            className={styles.formContainer}
+                            label="Category"
+                          >
+                            <Select
+                              defaultValue="Build Your First Mobile App"
+                              style={{}}
+                              onChange={handleChange}
+                            >
+                              <Option value="Build Your First Mobile App">
+                                Build Your First Mobile App
+                              </Option>
+                              <Option value="Build Your First Web App">
+                                Build Your First Web App
+                              </Option>
+                              <Option value="Develop the Front End">
+                                Develop the Front End
+                              </Option>
+                              <Option value="Manage Back-end Services">
+                                Manage Back-end Services
+                              </Option>
+                              <Option value="Advanced Concepts">
+                                Advanced Concepts
+                              </Option>
+                              <Option value="DBX">DBX</Option>
+                            </Select>
+                          </Form.Item>
+                          <Form.Item
+                            className={styles.formContainer}
+                            label="Title"
+                          >
+                            <Input
+                              name="title"
+                              value={values.title}
+                              onChange={handleInputChange}
+                              placeholder="Add Title..."
+                            />
+                          </Form.Item>
+                          <Form.Item
+                            className={styles.formContainer}
+                            label="Description"
+                          >
+                            <TextArea
+                              name="description"
+                              value={values.description}
+                              onChange={handleInputChange}
+                              rows={4}
+                              placeholder="Add Description..."
+                            />
+                          </Form.Item>
+                          <Form.Item
+                            className={styles.formContainer}
+                            label="Details"
+                          >
+                            <Button
+                              onClick={() => {
+                                setView("tour");
+                                setIsCKEditorVisible(true);
+                              }}
+                              type="primary"
+                              icon="edit"
+                            >
+                              Open Editor
+                            </Button>
+                          </Form.Item>
+                          <Row gutter={8}>
+                            <Col span={12}>
+                              <Form.Item
+                                className={styles.formContainer}
+                                label="Steps"
+                              >
+                                <Input
+                                  min={1}
+                                  type="number"
+                                  name="cards"
+                                  value={values.cards}
+                                  onChange={handleInputChange}
+                                  placeholder="How many Steps..."
+                                />
+                              </Form.Item>
+                            </Col>
+                            <Col span={12}>
+                              <Form.Item
+                                className={styles.formContainer}
+                                label="Time"
+                              >
+                                <Input
+                                  min={1}
+                                  type="number"
+                                  name="time"
+                                  value={values.time}
+                                  onChange={handleInputChange}
+                                  placeholder="Input Time..."
+                                />
+                              </Form.Item>
+                            </Col>
+                          </Row>
+                          <Button type="primary" onClick={onGenerate}>
+                            Generate Hike
+                          </Button>
+                          <ExportModal
+                            jsonData={exportJsonData}
+                            visible={visible}
+                            onClose={() => setVisible(false)}
+                          />
+                        </>
+                      )}
+                      <div />
+                    </Form>
+                  )}
+                  {current === "edit" && <EditHike />}
                 </div>
               )}
         </Col>
