@@ -2,14 +2,17 @@ import React from 'react';
 import Breadcrumb from 'antd/lib/breadcrumb';
 import Link from 'next/link';
 import i18next from 'i18next';
-import styles from './style.scss';
+import styles from "./style.scss";
+import { BASE_PATH_URL, isDev } from "../../config";
+
+const URL = !isDev ? `/${BASE_PATH_URL}` : "";
 
 export default ({ title, className, search }) => (
   <div className={`${styles.breadcrumbWrapper} ${className}`}>
     <Breadcrumb separator={<span className={styles.divider}>/</span>}>
       <Breadcrumb.Item>
         <Link 
-          href={{pathname: '/hikes',
+          href={{pathname: `${URL}/hikes`,
           query: {
             lang: i18next.language,
           }
@@ -24,7 +27,12 @@ export default ({ title, className, search }) => (
         search !== undefined && search !== null
           ? (
             <Breadcrumb.Item>
-              <Link href={`/hikes/search/${search}?lang=${i18next.language}`}>
+              <Link
+                href={{ pathname: `/hikes/search/${search}}`,
+                query: {
+                  lang: i18next.language,
+                }
+                }}>
                 <a className={styles.parent} >
                   {search}
                 </a>
@@ -33,7 +41,9 @@ export default ({ title, className, search }) => (
           )
           : null
       }
-      <Breadcrumb.Item className={styles.child}>{title || null}</Breadcrumb.Item>
+      <Breadcrumb.Item className={styles.child}>
+        {title || null}
+      </Breadcrumb.Item>
     </Breadcrumb>
   </div>
 );

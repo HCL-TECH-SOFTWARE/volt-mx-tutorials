@@ -20,7 +20,6 @@ const TourCard = ({ tour, dbx, search }) => {
             href={{
               pathname: `${isProdUrl}${tour.alias}`,
               query: {
-                search: search,
                 lang: i18next.language,
               },
             }}
