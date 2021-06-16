@@ -4,11 +4,10 @@
     "title": "Introduction to Volt MX JavaScript",
     "created": 1585629482,
     "updated": 1586944403,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24430/download/17153",
     "fileSize": "25.72 KB",
-    "fileName": "introductiontokonyjavascriptv9.zip",
+    "fileName": "introductiontoVoltMXjavascriptv9.zip",
     "fid": 17153,
-    "checksum": "b88a78e7da20bb4020f338121800c0394497b072744a21eabb32e3544eb09295",
+    "checksum": "f166c2f882dde3440215cf833e4ed4e68ec734e5e4529143dd1eaa1983986816",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-quantum-javascript",
     "alias": "hikes/tour/introduction-quantum-javascript",
     "description": "Understanding the basics of Volt MX JavaScript.",
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "7a7e14td-bda1-4fr1-bbu6-26a503nb",
     "hikeVersion": "1.0",
-    "weight": "10"
+    "weight": "10",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/introductiontoVoltMXjavascriptv9.zip"
   }
 }

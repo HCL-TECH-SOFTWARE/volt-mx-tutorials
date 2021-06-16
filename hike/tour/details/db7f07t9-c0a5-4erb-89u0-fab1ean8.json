@@ -1,25 +1,25 @@
 {
   "tourDetails": {
     "nid": 24407,
-    "title": "tourRes.24407.title",
+    "title": "Creating Details Screen and Delete Recipients ",
     "created": 1585626692,
     "updated": 1586775057,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24407/download/17122",
     "fileSize": "65.26 KB",
     "fileName": "createdetailsnative_v9.zip",
     "fid": 17122,
-    "checksum": "557ace94259cbf1e9221f9c3db23c97ea9901189dbca5743d3b39e7fc44c7952",
+    "checksum": "ae28b1e02ff881ac0a4ff17de6b2854b2a75607bbcd779a9ac50822b41030cf0",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/creating-details-screen-and-delete-recipients",
     "alias": "hikes/tour/creating-details-screen-and-delete-recipients",
-    "description": "tourRes.24407.desc",
-    "details": "tourRes.24407.detail",
+    "description": "Creating Details Screen and Add Delete Recipients",
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a Recipient details form</li> <li>Create the UI for the Recipient Details form using services</li> <li>Add the feature for deleting the recipients</li> </ul> </div> </div> <p><!--EndFragment--></p>",
     "cards": 38,
-    "time": "tourRes.24407.time",
+    "time": "37 Mins",
     "platformVersion": "Iris 9.0",
     "category": [],
     "image": "/default/hike-default.png",
     "kuid": "db7f07t9-c0a5-4erb-89u0-fab1ean8",
     "hikeVersion": "1.0",
-    "weight": "6"
+    "weight": "6",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/createdetailsnative_v9.zip"
   }
 }

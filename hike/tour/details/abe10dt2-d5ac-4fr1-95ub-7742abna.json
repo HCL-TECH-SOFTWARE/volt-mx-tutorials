@@ -4,11 +4,10 @@
     "title": "Volt MX Orientation",
     "created": 1585628914,
     "updated": 1615281334,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24421/download/17800",
     "fileSize": "13.83 KB",
-    "fileName": "konyquantumorientationv9.zip",
+    "fileName": "VoltMXOrientationV9.zip",
     "fid": 17800,
-    "checksum": "666dd51f47004cd59dbcff2f318646660803f2e1f1c83692783e2628e0bfabf1",
+    "checksum": "9ac5cdc2b306a2e2a963486c52d9d8bb5f26fce9568602bc5b88fe7a2a1976b5",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/quantum-orientation",
     "alias": "hikes/tour/quantum-orientation",
     "description": "Learn about the Volt MX Iris features",
@@ -20,6 +19,7 @@
     "image": "/default/hike-default.png",
     "kuid": "abe10dt2-d5ac-4fr1-95ub-7742abna",
     "hikeVersion": "1.0",
-    "weight": "1"
+    "weight": "1",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/VoltMXOrientationV9.zip"
   }
 }

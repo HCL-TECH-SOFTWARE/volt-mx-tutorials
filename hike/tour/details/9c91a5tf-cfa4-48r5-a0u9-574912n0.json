@@ -1,25 +1,25 @@
 {
   "tourDetails": {
     "nid": 24411,
-    "title": "tourRes.24411.title",
+    "title": "Test Recorder",
     "created": 1585627017,
     "updated": 1615280146,
-    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24411/download/17795",
     "fileSize": "30.16 KB",
     "fileName": "usingtestrecorder_v9.zip",
     "fid": 17795,
-    "checksum": "f3d0519164695f90a89ab689b9590fcca69c9fb2ff1e9f063d511a65f6f61775",
+    "checksum": "0ae8fec18a955c08c02cd5a7679fa26d412d771613a5c15ceb027767cf2febff",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/test-recorder",
     "alias": "hikes/tour/test-recorder",
-    "description": "tourRes.24411.desc",
-    "details": "tourRes.24411.detail",
+    "description": "Learn to use the Test Recorder on a native app",
+    "details": "<p><!--StartFragment--></p> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a Test Case</li> <li>Create a Test Suite</li> <li>Create a Test Plan</li> </ul> <p><!--EndFragment--></p>",
     "cards": 18,
-    "time": "tourRes.24411.time",
+    "time": "20 Mins",
     "platformVersion": "Iris 9.0",
     "category": [],
     "image": "/default/hike-default.png",
     "kuid": "9c91a5tf-cfa4-48r5-a0u9-574912n0",
     "hikeVersion": "1.0",
-    "weight": "10"
+    "weight": "10",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/usingtestrecorder_v9.zip"
   }
 }
