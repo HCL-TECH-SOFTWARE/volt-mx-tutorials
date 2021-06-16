@@ -1,25 +1,25 @@
 {
   "tourDetails": {
     "nid": 24409,
-    "title": "Add Edit Recipient",
+    "title": "tourRes.24409.title",
     "created": 1585626888,
     "updated": 1615280335,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24409/download/17794",
     "fileSize": "66.5 KB",
     "fileName": "editpayeemobile_v9.zip",
     "fid": 17794,
-    "checksum": "7dfbf31a94d254ec486b56254b13dc1beb46ee8b3c8556e8919de2fc03939366",
+    "checksum": "68d131dfaa56c164f83c908c2a6427c5a0d6fe8c7c251e033d8cc18583310d5d",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-edit-recipient",
     "alias": "hikes/tour/add-edit-recipient",
-    "description": "Add the capability to edit the details of a recipient.",
-    "details": "<p><!--StartFragment--></p> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Generate a screen for editing recipient details</li> <li>Design the UI for the Edit Recipient form</li> <li>Connect the data from service to the UI elements</li> </ul> <p><!--EndFragment--></p>",
+    "description": "tourRes.24409.desc",
+    "details": "tourRes.24409.detail",
     "cards": 37,
-    "time": "36 Mins",
+    "time": "tourRes.24409.time",
     "platformVersion": "Iris 9.0",
     "category": [],
     "image": "/default/hike-default.png",
     "kuid": "af52eatb-e7a4-46r0-90u8-cfd0c4n6",
     "hikeVersion": "1.0",
-    "weight": "8",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/editpayeemobile_v9.zip"
+    "weight": "8"
   }
 }

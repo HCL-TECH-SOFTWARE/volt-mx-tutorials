@@ -1,25 +1,25 @@
 {
   "tourDetails": {
     "nid": 24408,
-    "title": "Add Create Recipient",
+    "title": "tourRes.24408.title",
     "created": 1585626797,
     "updated": 1615280303,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24408/download/17793",
     "fileSize": "59.92 KB",
     "fileName": "addcreatemob_v9.zip",
     "fid": 17793,
-    "checksum": "ae162116556c4ed64f847fa0b613d686bce58db4eb7014ef61eebfd251491488",
+    "checksum": "241f794946affcb96592ecfb03a582dd38cf0a314a97e2d0cc7ee0c0bda9d6ff",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-create-recipient",
     "alias": "hikes/tour/add-create-recipient",
-    "description": "Add the capability to create a new recipient.",
-    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:</p> <ul> <li>Create and Design a form for creating a recipient</li> <li>Connect the services to create recipient with the UI elements</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+    "description": "tourRes.24408.desc",
+    "details": "tourRes.24408.detail",
     "cards": 34,
-    "time": "32 Mins",
+    "time": "tourRes.24408.time",
     "platformVersion": "Iris 9.0",
     "category": [],
     "image": "/default/hike-default.png",
     "kuid": "da2bbctf-3ba6-49rf-b2u9-b842dand",
     "hikeVersion": "1.0",
-    "weight": "7",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/addcreatemob_v9.zip"
+    "weight": "7"
   }
 }

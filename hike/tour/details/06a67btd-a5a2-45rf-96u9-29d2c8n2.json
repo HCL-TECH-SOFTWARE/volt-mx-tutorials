@@ -4,10 +4,11 @@
     "title": "Use Storage Services",
     "created": 1585630177,
     "updated": 1586945144,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24437/download/17160",
     "fileSize": "21.1 KB",
     "fileName": "usestorageservicev9.zip",
     "fid": 17160,
-    "checksum": "148f02f32e39a903fa405ad1ff242f9000d60281f35e767f5507c65110a61b15",
+    "checksum": "9d6dcb2ff966f66f9ec7ce697bebed54718f52b284955ed797e3d87c1bc5d5bb",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/use-storage-services",
     "alias": "hikes/tour/use-storage-services",
     "description": "Create a storage services, populate, and connect the data to the form.",
@@ -19,7 +20,6 @@
     "image": "/default/hike-default.png",
     "kuid": "06a67btd-a5a2-45rf-96u9-29d2c8n2",
     "hikeVersion": "1.0",
-    "weight": "5",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/5-manage-back-end-services/zips/usestorageservicev9.zip"
+    "weight": "5"
   }
 }

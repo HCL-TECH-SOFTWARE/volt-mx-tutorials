@@ -4,10 +4,11 @@
     "title": "Introduction to NFIs",
     "created": 1585630242,
     "updated": 1615282019,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24438/download/17807",
     "fileSize": "23.4 KB",
     "fileName": "introductiontonfiv9.zip",
     "fid": 17807,
-    "checksum": "454ce2a37d144bb90ec54257b5b2c5ed4c89f5c3322e59661f988fc6eeb302ea",
+    "checksum": "69729b2a1c54b21bd6af6f30f5fe33769d89ab92b39cf6eb36a4c9e5ed8a6d1c",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-nfis-0",
     "alias": "hikes/tour/introduction-nfis-0",
     "description": "Use NFIs to access OS specific functionality, specifically Android Device Settings.",
@@ -19,7 +20,6 @@
     "image": "/default/hike-default.png",
     "kuid": "02f90etf-7ba1-4dre-a2ud-2d734fn6",
     "hikeVersion": "1.0",
-    "weight": "1",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/6-advanced-concepts/zips/introductiontonfiv9.zip"
+    "weight": "1"
   }
 }

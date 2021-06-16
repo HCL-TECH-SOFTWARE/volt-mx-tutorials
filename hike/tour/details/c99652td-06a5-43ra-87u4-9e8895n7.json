@@ -4,10 +4,11 @@
     "title": "Introduction to Segment Templates",
     "created": 1585629249,
     "updated": 1615281715,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24426/download/17805",
     "fileSize": "26 KB",
     "fileName": "introductiontosegmenttemplatesv9.zip",
     "fid": 17805,
-    "checksum": "cc9c5a796d9191ee68c0a08935c1aa2e6638f8f5c2a263645a5413711c274e04",
+    "checksum": "3c063f185ef1bb63740362788b6469052062446a46e9703cbc5a8f8abae824b4",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-segment-templates-0",
     "alias": "hikes/tour/introduction-segment-templates-0",
     "description": "Know more about using Segment Templates.",
@@ -19,7 +20,6 @@
     "image": "/default/hike-default.png",
     "kuid": "c99652td-06a5-43ra-87u4-9e8895n7",
     "hikeVersion": "1.0",
-    "weight": "6",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/introductiontosegmenttemplatesv9.zip"
+    "weight": "6"
   }
 }

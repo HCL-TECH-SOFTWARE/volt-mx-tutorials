@@ -1,25 +1,25 @@
 {
   "tourDetails": {
     "nid": 24412,
-    "title": "Publish App to Enterprise Store",
+    "title": "tourRes.24412.title",
     "created": 1585627080,
     "updated": 1586775206,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24412/download/17127",
     "fileSize": "13.75 KB",
     "fileName": "pubishappenterprisestorev9.zip",
     "fid": 17127,
-    "checksum": "10621f87881ec61f5f27d452eef68965a1fc20e97094bb2abfdde200a73abc5f",
+    "checksum": "f9e6a6158a2569d32a76fe1fe5ac97b1d2bf9325bcbfd8f15042afde060a5ce0",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/publish-app-enterprise-store",
     "alias": "hikes/tour/publish-app-enterprise-store",
-    "description": "Learn how to publish an app to an Enterprise App store",
-    "details": "<p><!--StartFragment--></p> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Publish an app to the Enterprise App Store for Android.</li> </ul> <p><!--EndFragment--></p>",
+    "description": "tourRes.24412.desc",
+    "details": "tourRes.24412.detail",
     "cards": 7,
-    "time": "10 Mins",
+    "time": "tourRes.24412.time",
     "platformVersion": "Iris 9.0",
     "category": [],
     "image": "/default/hike-default.png",
     "kuid": "c15430t5-28ac-41r0-84u1-e8bb44na",
     "hikeVersion": "1.0",
-    "weight": "11",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/pubishappenterprisestorev9.zip"
+    "weight": "11"
   }
 }

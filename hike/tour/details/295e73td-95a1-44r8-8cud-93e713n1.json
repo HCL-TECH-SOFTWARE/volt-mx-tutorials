@@ -4,10 +4,11 @@
     "title": "Understand Identity Services",
     "created": 1585629962,
     "updated": 1586944996,
+    "fileURL": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/24433/download/17156",
     "fileSize": "21.46 KB",
     "fileName": "understandidentityservicesv9.zip",
     "fid": 17156,
-    "checksum": "b11573d5e8c4e48565f5b66de5ce160c113422201e98eb86e59792ecedcb7b27",
+    "checksum": "41ff3309c59a43ba831b05738aa9fadcaff7d67f9f4838406a9d081cfcfc8005",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/understand-identity-services-0",
     "alias": "hikes/tour/understand-identity-services-0",
     "description": "Add authentication to your app.",
@@ -19,7 +20,6 @@
     "image": "/default/hike-default.png",
     "kuid": "295e73td-95a1-44r8-8cud-93e713n1",
     "hikeVersion": "1.0",
-    "weight": "1",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/5-manage-back-end-services/zips/understandidentityservicesv9.zip"
+    "weight": "1"
   }
 }
