@@ -3,6 +3,7 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/phx-dev' # temporarily: phx-dev branch
     defaults:
       run:
         working-directory: ./
@@ -26,7 +27,7 @@ jobs:
       - run: npm run export
       - run: touch ./out/.nojekyll
         env:
-            CI: true
+          CI: true
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
