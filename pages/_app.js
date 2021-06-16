@@ -1,5 +1,6 @@
 import Router, { withRouter } from 'next/router';
-import App, { Container } from 'next/app';
+import i18next from 'i18next';
+import App from 'next/app';
 import { Provider } from 'react-redux';
 import NProgress from 'nprogress';
 import withReduxStore from '../src/store/createStore';
@@ -8,7 +9,7 @@ import Layout from '../src/components/Layout';
 import { gtmId } from '../src/config/settings';
 import GoogleTagManager from '../src/components/GoogleTagManager';
 import getConfig from 'next/config';
-const { publicRuntimeConfig } = getConfig();
+import '../i18n';
 
 NProgress.configure({ showSpinner: false, minimum: 0.1 });
 Router.events.on('beforeHistoryChange', () => NProgress.inc(0.5));
@@ -33,26 +34,28 @@ class MyApp extends App {
   }
 
   render() {
+    const { publicRuntimeConfig } = getConfig();
     const { Component, pageProps, router, store } = this.props;
     const { asPath, pathname, query } = router;
     const url = { asPath, pathname, query };
+    if (query && query.lang) {
+      i18next.changeLanguage(query.lang);
+    }
 
     return (
       <html lang='en'>
-        <Container>
-          <Head>
-            <title>HCL Volt MX Tutorials</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" href={`${publicRuntimeConfig.asset}/static/dist/css/kony.css`} type="text/css" />
-            <script src={`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`} className="next-head"></script>
-          </Head>
-          <GoogleTagManager gtmId={gtmId} />
-          <Provider store={store}>
-            <Layout>
-              <Component {...pageProps} url={url} />
-            </Layout>
-          </Provider>
-        </Container>
+        <Head>
+          <title>HCL Volt MX Tutorials</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="stylesheet" href={`${publicRuntimeConfig.asset}/static/dist/css/kony.css`} type="text/css" />
+          <script src={`${publicRuntimeConfig.asset}/static/dist/js/visualizer.js`} className="next-head"></script>
+        </Head>
+        <GoogleTagManager gtmId={gtmId} />
+        <Provider store={store}>
+          <Layout>
+            <Component {...pageProps} url={url} />
+          </Layout>
+        </Provider>
       </html>
     );
   }

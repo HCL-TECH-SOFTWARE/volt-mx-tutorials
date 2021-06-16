@@ -7,27 +7,24 @@ import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 import { getHikesCategories } from '../src/utils/populate'
 
-const HikePage = () =>   {
+const HikePage = () => {
+  const [categories, setCategories] = useState([]);
 
-    const [categories, setCategories] = useState([]);
+  const getHikes = async () => {
+    const { hikesData }  = publicRuntimeConfig;
+    const hikes = await getHikesCategories(hikesData);
+    setCategories(hikes)
+  }
 
-    const getHikes = async () => {
-      const { hikesData }  = publicRuntimeConfig;
-      const hikes = await getHikesCategories(hikesData);
-
-      setCategories(hikes)
-
+  useEffect(() => {
+    getHikes();
+    return () => {
     }
+  }, [])
 
-    useEffect(() => {
-      getHikes();
-      return () => {
-      }
-    }, [])
-
-    return (
-      <div className={styles.hikeBody}>
-        <HikeHeader />
+  return (
+    <div className={styles.hikeBody}>
+      <HikeHeader />
         <div className={styles.hikeContainer}>
           {categories
             .map(item => (
@@ -41,8 +38,8 @@ const HikePage = () =>   {
                 />) : null
             ))}
         </div>
-      </div>
-    );
-  }
+    </div>
+  );
+}
 
 export default HikePage;

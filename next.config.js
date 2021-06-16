@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const withSass = require("@zeit/next-sass");
-const withImages = require('next-images')
+const withImages = require('next-images');
 const prod = process.env.NODE_ENV === 'production';
 const test = process.env.NODE_ENV === 'testing';
 const { getHikeDirectories, tours, HIKES_BASE_URL } = require("./hike.config")
@@ -32,6 +32,6 @@ module.exports = withImages(withSass({
         };
       }
       return config;
-    }
+    },
   })
 );
