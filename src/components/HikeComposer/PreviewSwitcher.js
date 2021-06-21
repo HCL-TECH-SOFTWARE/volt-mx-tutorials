@@ -3,7 +3,7 @@ import { Menu, Icon } from "antd";
 
 const { SubMenu } = Menu;
 
-const FormSwitcher = ({ setView, current }) => {
+const PreviewSwitcher = ({ setView, current }) => {
   return (
     <Menu onClick={setView} selectedKeys={current} mode="horizontal">
       <Menu.Item key="new">

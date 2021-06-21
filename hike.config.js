@@ -14,7 +14,7 @@ const getHikeDirectories = () =>
 // get all hikes categories directory names
 const getHikeTours = () =>
   fs
-    .readdirSync("./public/_hikes/tours", { withFileTypes: true })
+    .readdirSync(HIKES_CONTENT_PATH, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => dirent.name);
 

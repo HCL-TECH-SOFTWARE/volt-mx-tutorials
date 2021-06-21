@@ -29,3 +29,20 @@
     color: red;
   }
 }
+
+.statusContainer {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+}

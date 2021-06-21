@@ -7,18 +7,31 @@ import axios from "axios";
 
 const BASE_API = "http://localhost:3200/api";
 
-const ExportModal = ({ visible, jsonData, onClose, branchName }) => {
+const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
   const [view, setView] = useState("json");
   const [pushed, setPushed] = useState(false);
+  const [pushing, setPushing] = useState(false);
+  const [forkUrl, setForkUrl] = useState("");
 
-  const onSubmitToFork = () => {
-    axios
-      .post(`${BASE_API}/export/push`, { ...jsonData, branchName })
-      .then((res) => {
-        if (res.data.success) {
-          setPushed(true);
-        }
-      });
+  const onSubmitToFork = async () => {
+    if (!pushed && !pushing) {
+      setPushing(true);
+      axios
+        .post(`${BASE_API}/export/push`, { ...jsonData, branchName, category })
+        .then((res) => {
+          const { success, remoteName } = res.data;
+          if (success) {
+            setForkUrl(remoteName);
+            setPushed(true);
+            setPushing(false);
+          }
+        });
+    }
+
+    if (pushed) {
+      onClose();
+      setPushed(false);
+    }
   };
 
   const visitFork = () => {
@@ -32,93 +45,64 @@ const ExportModal = ({ visible, jsonData, onClose, branchName }) => {
     <div>
       <Modal
         className={styles.exportModal}
-        title="Compose Successfully"
+        title={
+          pushed
+            ? "Pushed Successfully"
+            : pushing
+            ? "Please wait"
+            : "Compose Successfully"
+        }
         centered
         visible={visible}
         onOk={onSubmitToFork}
         onCancel={onClose}
-        okText="Push to Pork Repository"
+        okText={
+          pushed ? "Done" : pushing ? "Please wait" : "Push to Pork Repository"
+        }
       >
-        <ExportTabSwitcher
-          key="json"
-          changeTab={(key) => {
-            setView(key);
-          }}
-        />
-        {view === "info" && (
-          <div className={styles.steps}>
-            <h3>Steps to add it in Hikes Catalog</h3>
-            <div>
-              <h4>1. Representativeness:</h4>
-              <p>
-                When sampling method is adopted by the researcher, the basic
-                assumption is that the samples so selected out of the population
-                are the best representative of the population under study. Thus
-                good samples are those who accurately represent the population.
-                Probability sampling technique yield representative samples. On
-                measurement terms, the sample must be valid. The validity of a
-                sample depends upon its accuracy.
-              </p>
-            </div>
-            <div>
-              <h4>1. Representativeness:</h4>
-              <p>
-                When sampling method is adopted by the researcher, the basic
-                assumption is that the samples so selected out of the population
-                are the best representative of the population under study. Thus
-                good samples are those who accurately represent the population.
-                Probability sampling technique yield representative samples. On
-                measurement terms, the sample must be valid. The validity of a
-                sample depends upon its accuracy.
-              </p>
-            </div>
-            <div>
-              <h4>1. Representativeness:</h4>
-              <p>
-                When sampling method is adopted by the researcher, the basic
-                assumption is that the samples so selected out of the population
-                are the best representative of the population under study. Thus
-                good samples are those who accurately represent the population.
-                Probability sampling technique yield representative samples. On
-                measurement terms, the sample must be valid. The validity of a
-                sample depends upon its accuracy.
-              </p>
-            </div>
-            <div>
-              <h4>1. Representativeness:</h4>
-              <p>
-                When sampling method is adopted by the researcher, the basic
-                assumption is that the samples so selected out of the population
-                are the best representative of the population under study. Thus
-                good samples are those who accurately represent the population.
-                Probability sampling technique yield representative samples. On
-                measurement terms, the sample must be valid. The validity of a
-                sample depends upon its accuracy.
-              </p>
-            </div>
+        {!pushed && !pushing && (
+          <ExportTabSwitcher
+            key="json"
+            changeTab={(key) => {
+              setView(key);
+            }}
+          />
+        )}
+        {pushing && (
+          <div className={styles.statusContainer}>
+            <p>Pushing to your Fork Repository</p>
           </div>
         )}
         {view === "json" &&
           (pushed ? (
-            <>
-              <p>You can now create a Pull Request</p>
-              <Button onClick={visitFork}>Visit Fork</Button>
-            </>
-          ) : (
-            <div className={styles.jsonContainer}>
-              <CopyToClipboard
-                text={jsonData}
-                // onCopy={() => this.setState({ copied: true })}
-              >
-                <button className={styles.copyToClipboard}>
-                  Copy to clipboard
-                </button>
-              </CopyToClipboard>
-
-              <pre className={styles.jsonValues}>
-                {JSON.stringify(jsonData, null, 2)}
-              </pre>
+            <div className={styles.statusContainer}>
+              <p style={{ fontSize: 24 }}>Successful!</p>
+              <p>
+                You can now create a{" "}
+                <span style={{ fontWeight: "bold" }}>Pull Request</span>
+              </p>
+              <label>
+                Fork URL: <span style={{ fontWeight: "bold" }}>{forkUrl}</span>
+              </label>
+              <Button onClick={visitFork}>View Pull Request</Button>
             </div>
+          ) : (
+            !pushing && (
+              <div className={styles.jsonContainer}>
+                <CopyToClipboard
+                  text={jsonData}
+                  // onCopy={() => this.setState({ copied: true })}
+                >
+                  <button className={styles.copyToClipboard}>
+                    Copy to clipboard
+                  </button>
+                </CopyToClipboard>
+
+                <pre className={styles.jsonValues}>
+                  {JSON.stringify(jsonData, null, 2)}
+                </pre>
+              </div>
+            )
           ))}
       </Modal>
     </div>

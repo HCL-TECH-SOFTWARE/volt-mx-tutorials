@@ -67,8 +67,8 @@
     "tls": "0.0.1",
     "xml-js": "^1.6.11"
   },
-  "name": "kony-marketplace",
-  "version": "4.0.0",
+  "name": "hclvoltmx-marketplace",
+  "version": "4.0.1",
   "main": "server/index.js",
   "devDependencies": {
     "@babel/core": "^7.2.2",

@@ -284,6 +284,7 @@ const GenerateTourPage = () => {
                         <ExportModal
                           branchName={values.tourLink}
                           jsonData={exportJsonData}
+                          category={selectedCategory.categoryAlias}
                           visible={visible}
                           onClose={() => setVisible(false)}
                         />
