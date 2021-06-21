@@ -1,3 +1,5 @@
+import { BASE_BRANCH } from "../../../src/config";
+
 const fs = require("fs");
 const path = require("path");
 
@@ -10,7 +12,7 @@ const autoSerialize = (forms) => {
   return {
     ...forms,
     url: `https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/${tourLink}`,
-    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/${
+    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${
       categoryInfo.categoryAlias
     }/zips/${filename}.zip`,
     alias: `hikes/tour/${tourLink}`,

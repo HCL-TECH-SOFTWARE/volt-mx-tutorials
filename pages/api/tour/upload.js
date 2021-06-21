@@ -1,3 +1,5 @@
+import { BASE_BRANCH } from "../../../src/config";
+
 const fs = require("fs");
 const formidable = require("formidable");
 const path = require("path");
@@ -10,7 +12,7 @@ const autoSerialize = (forms) => {
     ...forms,
     url:
       "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-ui-collections",
-    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/${category}/${filename}`,
+    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${category}/${filename}`,
   };
 };
 
@@ -56,7 +58,7 @@ export default async function handler(req, res) {
   form.parse(req, function(err, fields, files) {
     if (!err) {
       const { name, path } = files.upload;
-      const assetURL = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/1-volt-mx-changes/assets/${name}`;
+      const assetURL = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/1-volt-mx-changes/assets/${name}`;
 
       console.log(name);
       const tempName = path.replace("public/temp/", "");

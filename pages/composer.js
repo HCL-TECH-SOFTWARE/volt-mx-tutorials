@@ -32,7 +32,7 @@ const GenerateTourPage = () => {
     category: [],
     details: "",
     cards: 1,
-    tourLink: "",
+    tourLink: zipName,
     time: 1,
     platformVersion: 9.2,
   });

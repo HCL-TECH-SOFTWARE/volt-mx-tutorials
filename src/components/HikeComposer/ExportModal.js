@@ -4,6 +4,7 @@ import styles from "./styles.scss";
 import ExportTabSwitcher from "./ExportTabSwitcher";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import axios from "axios";
+import { BASE_BRANCH } from "../../config";
 
 const BASE_API = "http://localhost:3200/api";
 
@@ -36,7 +37,7 @@ const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
 
   const visitFork = () => {
     window.open(
-      `https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/compare/phx-dev...mikeangelsilva:${branchName}?expand=1`,
+      `https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/compare/${BASE_BRANCH}...mikeangelsilva:${branchName}?expand=1`,
       "_blank"
     );
   };
