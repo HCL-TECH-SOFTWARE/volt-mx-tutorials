@@ -1,19 +1,23 @@
 const fs = require("fs");
-const formidable = require("formidable");
 const path = require("path");
 
 const TEMP_FOLDER = "./temp";
+const EXPORT_FOLDER = "./export";
 
 const autoSerialize = (forms) => {
-  const { category, filename, tourLink, time } = forms;
+  const { category, filename, tourLink, time, categoryInfo } = forms;
+
   return {
     ...forms,
     url: `https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/${tourLink}`,
-    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/${category}/${filename}`,
+    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/${
+      categoryInfo.categoryAlias
+    }/zips/${filename}.zip`,
     alias: `hikes/tour/${tourLink}`,
-    category: [category],
+    category: [categoryInfo.categoryName],
     image: "/default/hike-default.png",
     time: `${time} Mins`,
+    filename: `${filename}.zip`,
   };
 };
 
@@ -33,35 +37,33 @@ const unlinkTemp = async () => {
 
 const storeData = async (data) => {
   const serializeData = autoSerialize(data);
-  delete serializeData.tourLink;
-  const category = serializeData.categoryInfo;
-  delete serializeData.categoryInfo;
 
   const normalizeDetails = serializeData.details.replaceAll(
     "http://localhost:3200/temp",
-    "/volt-mx-tutorials/contents/1-volt-mx-changes/assets"
+    `/volt-mx-tutorials/contents/${
+      serializeData.categoryInfo.categoryAlias
+    }/assets`
   );
 
   serializeData.details = normalizeDetails;
 
+  const category = serializeData.categoryInfo;
 
-  console.log(category)
-  console.log(serializeData)
+  delete serializeData.tourLink;
+  delete serializeData.categoryInfo;
 
-  const jsonOut = {
-    ...category,
-    // categoryTours: [serializeData, ...category.categoryTours],
-    categoryTours: [serializeData],
-  };
+  category.categoryTours.push(serializeData);
 
   try {
     fs.writeFileSync(
-      `${TEMP_FOLDER}/tours.json`,
-      JSON.stringify(jsonOut, null, 2)
+      `${EXPORT_FOLDER}/tours.json`,
+      JSON.stringify(category, null, 2)
     );
   } catch (err) {
     console.error(err);
   }
+
+  return JSON.stringify(serializeData, null, 2);
 };
 
 const storeImages = async () => {
@@ -71,25 +73,14 @@ const storeImages = async () => {
       "./temp/assets/iris-desktop.png",
       (err) => {
         if (err) throw err;
-        // console.log(`${file} was copied to destination.txt`);
+        console.log(`${file} was copied to ${file}`);
       }
     );
   });
 };
 
-const copyOriginalZipFile = ({ tempZipFilePath, filename }) => {
-  fs.copyFile(tempZipFilePath, `${TEMP_FOLDER}/${filename}`, (err) => {
-    if (err) throw err;
-    console.log(`${tempZipFilePath} was copied to ${TEMP_FOLDER}/${filename}`);
-  });
-};
-
 export default async function handler(req, res) {
-  copyOriginalZipFile(req.body);
-  delete req.body.tempZipFilePath;
-  storeData(req.body);
-  storeImages();
-  res.status(200).json({
-    ...req.body,
-  });
+  const jsonOutput = await storeData(req.body);
+
+  res.status(200).json(jsonOutput);
 }

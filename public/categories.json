@@ -1,0 +1,26 @@
+{
+  "2-build-your-first-mobile-app": {
+    "categoryName": "Build Your First Mobile App",
+    "categoryDescription": "<p>Create a mobile app incredibly fast, without coding. Learn how to drag and drop UI (user interface) elements into an app, integrate your app with backend data, and secure your app with an authentication mechanism.</p>"
+  },
+  "build-your-first-web-app": {
+    "categoryName": "Build Your First Web App",
+    "categoryDescription": "<p>Create a Responsive Web app—a web app that looks and performs perfectly on any device—without coding. Take these hikes to learn how to create Web app user interface, integrate the web app with backend data, set responsivity parameters, and secure the app with an authentication mechanism.</p>"
+  },
+  "develop-the-front-end": {
+    "categoryName": "Develop the Front End",
+    "categoryDescription": "<p>Explore HCL Volt MX Iris’s simplified user interface while you build low-code and cross-channel apps. Learn about different layouts and application types that you can build.</p>"
+  },
+  "manage-back-end-services": {
+    "categoryName": "Iris User Interfaces",
+    "categoryDescription": "<p>Latest Visual Changes from HCL Volt MX Iris</p>"
+  },
+  "advanced-concepts": {
+    "categoryName": "Iris User Interfaces",
+    "categoryDescription": "<p>Latest Visual Changes from HCL Volt MX Iris</p>"
+  },
+  "dbx": {
+    "categoryName": "Iris User Interfaces",
+    "categoryDescription": "<p>Latest Visual Changes from HCL Volt MX Iris</p>"
+  }
+}

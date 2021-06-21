@@ -1,23 +1,15 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import HikeHeader from "../src/components/HikeHeader";
 import ToursList from "../src/components/ToursList";
 import styles from "./style.scss";
-import { getCookie } from "../src/utils/cookies";
-import getConfig from "next/config";
-const { publicRuntimeConfig } = getConfig();
-import { getHikesCategories } from "../src/utils/populate";
-import { useRouter } from "next/router";
+import { getMapCategories } from "../src/utils/populate";
 
 const HikePage = () => {
   const [categories, setCategories] = useState([]);
-  const router = useRouter();
-  const { lang } = router.query;
 
   const getHikes = async () => {
-    const { hikeTours } = publicRuntimeConfig;
-    console.log(hikeTours);
-    const hikes = await getHikesCategories();
-    // setCategories(hikes);
+    const categoriesMaps = await getMapCategories();
+    setCategories(categoriesMaps);
   };
 
   useEffect(() => {
@@ -28,7 +20,6 @@ const HikePage = () => {
   return (
     <div className={styles.hikeBody}>
       <HikeHeader />
-      <p>{JSON.stringify(lang)}</p>
       <div className={styles.hikeContainer}>
         {categories.map((item) =>
           item.categoryTours !== null ? (
