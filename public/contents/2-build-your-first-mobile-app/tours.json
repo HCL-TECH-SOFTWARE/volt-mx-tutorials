@@ -255,25 +255,6 @@
       "kuid": "c15430t5-28ac-41r0-84u1-e8bb44na",
       "hikeVersion": "1.0",
       "weight": "11"
-    },
-    {
-      "hikeVersion": "1.0",
-      "title": "",
-      "description": "",
-      "checksum": "5d150b9d4c744c2b75170a5092ca1e63920cfa0e976bb8269e5fac353bf12bda",
-      "kuid": "aa0231t1-3fa5-4crd-beu7-27ddf9n3",
-      "category": [
-        "Build Your First Mobile App"
-      ],
-      "details": "",
-      "cards": 1,
-      "time": "1 Mins",
-      "platformVersion": 9.2,
-      "filename": "VoltMXTour.zip",
-      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/",
-      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/2-build-your-first-mobile-app/zips/VoltMXTour.zip",
-      "alias": "hikes/tour/",
-      "image": "/default/hike-default.png"
     }
   ]
 }

@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./style.scss";
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
-import { getHikesCategories, getMapCategories } from "../src/utils/populate";
+import { getMapCategories } from "../src/utils/populate";
 import axios from "axios";
 import TourCard from "../src/components/TourCard";
 import ToursList from "../src/components/ToursList";
