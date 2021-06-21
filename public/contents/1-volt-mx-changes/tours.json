@@ -12,7 +12,7 @@
       "fileSize": "8.79 KB",
       "fileName": "voltmxirisintro.zip",
       "fid": 17243,
-      "checksum": "c23ff55adb515a0eb7b400f2e23ba2300b31cae0fafb528c7a5896f70de7c7aa",
+      "checksum": "01d78c77311046d37f0639e5cc8953297ff334b7793e7dc523de3ff14b185897",
       "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/1-import-and-launch-web-app",
       "alias": "hikes/tour/1-new-ui",
       "description": "HCL Volt MX Iris User Interface Designs",
@@ -20,9 +20,36 @@
       "cards": 7,
       "time": "8 Mins",
       "platformVersion": "Iris 9.2.3",
-      "category": ["Volt MX Changes"],
+      "category": [
+        "Volt MX Changes"
+      ],
       "image": "/default/hike-default.png",
       "kuid": "953f7at8-eba4-40rd-86uc-bf1f0dnd",
+      "hikeVersion": "1.0",
+      "weight": "1"
+    },
+    {
+      "nid": 22914,
+      "title": "2. Localized Tour Test",
+      "created": 1546833820,
+      "updated": 1578464532,
+      "fileURL": 17243,
+      "fileSize": "8.79 KB",
+      "fileName": "LocalizedTourTest.zip",
+      "fid": 17243,
+      "checksum": "25fb78bc00788e82f5bd9f030f984e305bb36264ebf11d6a52068919878d2383",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/2-localized-tour-test",
+      "alias": "hikes/tour/2-localized-tour-test",
+      "description": "Localized Tour Test",
+      "details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcos laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <img alt=\"\" src=\"/volt-mx-tutorials/contents/1-volt-mx-changes/assets/iris-desktop.png\" style=\"height:759px; width:1423px\" /></p>",
+      "cards": 7,
+      "time": "8 Mins",
+      "platformVersion": "Iris 9.2.3",
+      "category": [
+        "Volt MX Changes"
+      ],
+      "image": "/default/hike-default.png",
+      "kuid": "e3412fta-47ac-44r1-a8u6-992a0dnb",
       "hikeVersion": "1.0",
       "weight": "1"
     }

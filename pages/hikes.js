@@ -1,14 +1,16 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import i18next from 'i18next';
+import { useRouter } from 'next/router';
+import getConfig from 'next/config';
 import HikeHeader from '../src/components/HikeHeader';
 import ToursList from '../src/components/ToursList';
 import styles from './style.scss';
-import { getCookie } from '../src/utils/cookies';
-import getConfig from 'next/config';
-const { publicRuntimeConfig } = getConfig();
 import { getHikesCategories } from '../src/utils/populate'
 
 const HikePage = () => {
   const [categories, setCategories] = useState([]);
+  const router = useRouter();
+  const { publicRuntimeConfig } = getConfig();
 
   const getHikes = async () => {
     const { hikesData }  = publicRuntimeConfig;
@@ -21,6 +23,13 @@ const HikePage = () => {
     return () => {
     }
   }, [])
+
+  useEffect(() => {
+    const { lang } = router.query;
+    if (lang !== i18next.language) {
+      router.reload(router.asPath)
+    }
+  }, [i18next.language, router.query])
 
   return (
     <div className={styles.hikeBody}>

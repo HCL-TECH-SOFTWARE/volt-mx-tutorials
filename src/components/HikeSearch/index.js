@@ -4,11 +4,12 @@ import Input from "antd/lib/input";
 import Col from "antd/lib/col";
 import Modal from "antd/lib/modal";
 import Router from "next/router";
-import style from "./style.scss";
+import i18next from 'i18next';
 import getConfig from "next/config";
+import style from "./style.scss";
 import { BASE_PATH_URL, isDev } from "../../config";
-const { publicRuntimeConfig } = getConfig();
 
+const { publicRuntimeConfig } = getConfig();
 class HikeSearch extends Component {
   state = {
     keyword: this.props.keyword || "",
@@ -38,7 +39,7 @@ class HikeSearch extends Component {
         <Col span={24} className={style.innerWrapper}>
           <Input
             id="search"
-            placeholder="Search"
+            placeholder={i18next.t('search')}
             className={style.input}
             onPressEnter={(e) => this.handleSubmit(e.target.value)}
             autoComplete="off"

@@ -1,15 +1,12 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import i18next from 'i18next';
 import HikeHeader from "../src/components/HikeHeader";
 import Row from "antd/lib/row";
 import Col from "antd/lib/col";
+import getConfig from "next/config";
 import HikeBreadCrumb from "../src/components/HikeBreadCrumb";
 import KonyButton from "../src/components/KonyButton";
 import styles from "./style.scss";
-import getConfig from "next/config";
-const {
-  publicRuntimeConfig: { hikesData },
-} = getConfig();
 import { getHikesCategories } from "../src/utils/populate";
 import { isDev, BASE_PATH_URL } from "../src/config";
 import { getZipDownloadUrl } from "../src/utils/request";
@@ -17,6 +14,9 @@ import { getZipDownloadUrl } from "../src/utils/request";
 const TourDetailPage = ({ url }) => {
   const [tourDetails, setTourDetails] = useState(null);
   const [categoryAlias, setcategoryAlias] = useState(null);
+  const {
+    publicRuntimeConfig: { hikesData },
+  } = getConfig();
 
   const getToursData = async () => {
     // get specific tour url
@@ -95,17 +95,17 @@ const TourDetailPage = ({ url }) => {
     <div className={styles.hikeBody}>
       <HikeHeader search={null} />
       <div className={styles.tourContainer}>
-        <HikeBreadCrumb title={i18next.t(tourDetails?.title)} search={null} />
+        <HikeBreadCrumb title={tourDetails?.title} search={null} />
         <div className={styles.tourInfo}>
           <div className={styles.tourThumb}>
             <img src={tourImage} alt="Hike Thumbnail" />
           </div>
           <div className={styles.tourDesc}>
-            <h2 className={styles.tourTitle}>{i18next.t(tourDetails?.title)}</h2>
+            <h2 className={styles.tourTitle}>{tourDetails?.title}</h2>
             <h3 className={styles.tourVersion}>{`${i18next.t('hike_version')} ${tourDetails?.hikeVersion}`}</h3>
             <div
               className={styles.tourBody}
-              dangerouslySetInnerHTML={{ __html: i18next.t(tourDetails?.description) }}
+              dangerouslySetInnerHTML={{ __html: tourDetails?.description }}
             />
             <Row className={styles.metaData}>
               <Col
@@ -136,11 +136,11 @@ const TourDetailPage = ({ url }) => {
               </Col>
             </Row>
             <h3 className={styles.tourTime}>
-            {`${i18next.t(`step`, {count: tourDetails?.cards})} / ${i18next.t(tourDetails?.time)}`}
+            {`${i18next.t(`step`, {count: tourDetails?.cards})} / ${tourDetails?.time}`}
             </h3>
             <div
               className={styles.tourDetails}
-              dangerouslySetInnerHTML={{ __html: i18next.t(tourDetails?.details) }}
+              dangerouslySetInnerHTML={{ __html: tourDetails?.details }}
             />
           </div>
         </div>

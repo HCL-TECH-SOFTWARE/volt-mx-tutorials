@@ -6,7 +6,7 @@ import XHR from 'i18next-http-backend';
 export const locales = ['en-US', 'zh-CN', 'hi-IN'];
 const detection = {
   // order and from where user language should be detected
-  order: ['navigator'],
+  order: ['querystring', 'path'],
   lookupQuerystring: 'lang',
 };
 

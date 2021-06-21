@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import i18next from 'i18next';
 import Col from "antd/lib/col";
 import Link from "next/link";
@@ -26,10 +26,10 @@ const TourCard = ({ tour, dbx, search }) => {
           >
             <div className={style.info}>
               <h2 className={`${style.title} ${dbx ? style.dbxColor : ""} `}>
-                {truncateAdvance(i18next.t(tour.title), 34)}
+                {truncateAdvance(tour.title, 34)}
               </h2>
-              <p className={style.desc}>{i18next.t(tour.description)}</p>
-              <p className={style.meta}>{`${i18next.t(`step`, {count: tour.cards})} / ${i18next.t(tour.time)}`}</p>
+              <p className={style.desc}>{tour.description}</p>
+              <p className={style.meta}>{`${i18next.t(`step`, {count: tour.cards})} / ${tour.time}`}</p>
             </div>
           </Link>
         ) : (
@@ -43,10 +43,10 @@ const TourCard = ({ tour, dbx, search }) => {
           >
             <div className={style.info}>
               <h2 className={`${style.title} ${dbx ? style.dbxColor : ""} `}>
-                {truncateAdvance(i18next.t(tour.title), 34)}
+                {truncateAdvance(tour.title, 34)}
               </h2>
-              <p className={style.desc}>{i18next.t(tour.description)}</p>
-              <p className={style.meta}>{`${i18next.t(`step`, {count: tour.cards})} / ${i18next.t(tour.time)}`}</p>
+              <p className={style.desc}>{tour.description}</p>
+              <p className={style.meta}>{`${i18next.t(`step`, {count: tour.cards})} / ${tour.time}`}</p>
             </div>
           </Link>
         )}
