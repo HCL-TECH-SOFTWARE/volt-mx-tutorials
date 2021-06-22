@@ -9,7 +9,6 @@ import Layout from '../src/components/Layout';
 import { gtmId } from '../src/config/settings';
 import GoogleTagManager from '../src/components/GoogleTagManager';
 import getConfig from 'next/config';
-import '../i18n';
 
 NProgress.configure({ showSpinner: false, minimum: 0.1 });
 Router.events.on('beforeHistoryChange', () => NProgress.inc(0.5));
