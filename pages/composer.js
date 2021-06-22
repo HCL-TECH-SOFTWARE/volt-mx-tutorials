@@ -319,11 +319,12 @@ const GenerateTourPage = () => {
           <hr />
           {view === "card" && (
             <div className={styles.cardPreview}>
-              <div>
+              <div className={styles.previewContainer}>
                 {categories.length > 0 && (
                   <>
                     <h3>{selectedCategory.categoryName}</h3>
                     <div
+                      style={{ textAlign: "center", width: "50%" }}
                       dangerouslySetInnerHTML={{
                         __html: selectedCategory.categoryDescription,
                       }}

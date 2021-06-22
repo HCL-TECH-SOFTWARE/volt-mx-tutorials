@@ -85,7 +85,7 @@ const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
               <label>
                 Fork URL: <span style={{ fontWeight: "bold" }}>{forkUrl}</span>
               </label>
-              <Button onClick={visitFork}>View Pull Request</Button>
+              {/* <Button onClick={visitFork}>View Pull Request</Button> */}
             </div>
           ) : (
             !pushing && (

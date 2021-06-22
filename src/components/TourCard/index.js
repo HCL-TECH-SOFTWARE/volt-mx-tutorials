@@ -10,7 +10,7 @@ const isProdUrl =
   process.env.NODE_ENV === "production" ? `${BASE_PATH_URL}/` : "";
 
 const TourCard = ({ tour, dbx, search, isComposer }) => (
-  <Col sm={isComposer ? 24 : 6} xs={24}>
+  <Col sm={isComposer ? 8 : 6} xs={24}>
     <div className={style.tour}>
       {search !== undefined && search !== null ? (
         <Link

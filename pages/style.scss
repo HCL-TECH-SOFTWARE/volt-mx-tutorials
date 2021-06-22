@@ -336,3 +336,14 @@
   align-items: center;
   height: calc(100vh - 84px);
 }
+
+.previewContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  h3 {
+  }
+}
