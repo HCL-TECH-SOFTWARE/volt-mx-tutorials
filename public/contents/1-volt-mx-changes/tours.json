@@ -12,7 +12,7 @@
       "fileSize": "8.79 KB",
       "fileName": "voltmxirisintro.zip",
       "fid": 17243,
-      "checksum": "c23ff55adb515a0eb7b400f2e23ba2300b31cae0fafb528c7a5896f70de7c7aa",
+      "checksum": "01d78c77311046d37f0639e5cc8953297ff334b7793e7dc523de3ff14b185897",
       "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/1-import-and-launch-web-app",
       "alias": "hikes/tour/1-new-ui",
       "description": "HCL Volt MX Iris User Interface Designs",
@@ -20,7 +20,9 @@
       "cards": 7,
       "time": "8 Mins",
       "platformVersion": "Iris 9.2.3",
-      "category": ["Volt MX Changes"],
+      "category": [
+        "Volt MX Changes"
+      ],
       "image": "/default/hike-default.png",
       "kuid": "953f7at8-eba4-40rd-86uc-bf1f0dnd",
       "hikeVersion": "1.0",

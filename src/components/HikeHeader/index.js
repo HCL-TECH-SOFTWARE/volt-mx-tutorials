@@ -48,7 +48,14 @@ const HikeHeader = ({ search, keyword }) => {
         <Header className={style.header}>
           <Row type="flex" justify="space-between">
             <Col span={4} style={{ height: 'inherit' }}>
-              <Link href={`${publicRuntimeConfig.asset}/hikes`}>
+              <Link
+                href={{
+                  pathname: `${publicRuntimeConfig.asset}/hikes`,
+                  query: {
+                    lang: i18next.language,
+                  },
+                }}
+              >
                 <a title="Kony Logo" className={style.logo}>
                   <img src={`${publicRuntimeConfig.asset}/static/dist/images/productlogo.svg`} className={style.logo} alt="logo" />
                   <br />
