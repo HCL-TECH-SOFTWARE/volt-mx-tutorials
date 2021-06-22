@@ -26,9 +26,19 @@ const HikePage = () => {
 
   useEffect(() => {
     const { lang } = router.query;
-    if (lang !== i18next.language) {
-      router.reload(router.asPath)
+    if (lang) {
+      if (lang !== i18next.language) {
+        router.reload(router.asPath)
+      }
+    } else {
+      router.push({
+        pathname: router.pathname,
+        query: {
+          lang: 'en-US',
+        }
+      })
     }
+    
   }, [i18next.language, router.query])
 
   return (
