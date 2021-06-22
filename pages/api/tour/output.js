@@ -1,7 +1,6 @@
 import { BASE_BRANCH } from "../../../src/config";
 
 const fs = require("fs");
-const path = require("path");
 
 const TEMP_FOLDER = "./temp";
 const EXPORT_FOLDER = "./export";

@@ -90,10 +90,7 @@ const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
           ) : (
             !pushing && (
               <div className={styles.jsonContainer}>
-                <CopyToClipboard
-                  text={jsonData}
-                  // onCopy={() => this.setState({ copied: true })}
-                >
+                <CopyToClipboard text={jsonData}>
                   <button className={styles.copyToClipboard}>
                     Copy to clipboard
                   </button>
