@@ -1,5 +1,9 @@
 const fs = require("fs");
-const { getHikeDirectories, HIKES_CONTENT_PATH } = require("./hike.config");
+const {
+  getHikeDirectories,
+  HIKES_CONTENT_PATH,
+  BASE_BRANCH,
+} = require("./hike.config");
 
 const MOCK_PATH = "./public/hike";
 const hikeDirectories = getHikeDirectories();
@@ -35,8 +39,7 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
             // mock response of each hike/tour details
 
             // static temporarily
-            const download_url = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${process
-              .env.GIT_BRANCH || "phx-dev"}/public/contents/${directory}/zips/${
+            const download_url = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${directory}/zips/${
               tour.fileName
             }`;
 
