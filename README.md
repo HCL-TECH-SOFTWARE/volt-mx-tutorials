@@ -50,6 +50,20 @@ npm run-script hikeBuilder:uninstall --path="IRIS_INSTALLATION_PATH"
 
 ```
 
+eg: in macOS,
+
+```node
+
+npm run-script hikeBuilder:uninstall --path="/Applications/Volt MX Iris"
+```
+
+eg: in Windows,
+
+```node
+
+npm run-script hikeBuilder:uninstall --path="C:\Program Files\Volt MX Iris"
+```
+
 ### Production Build
 
 ```node
