@@ -20,10 +20,37 @@ const gitRemoteOriginUrl = require("git-remote-origin-url");
 
 const copyFile = promisify(fs.copyFile);
 
-const moveFiles = async ({ repoName, category, filename }) => {
+const EXPORT_PATH = "./export";
+
+const moveAssets = async (repoName, category) => {
+  const REMOTE_PATH = `${repoName}/public/contents/${category}/assets`;
+
+  const transferAssets = () => {
+    fs.readdirSync(`${EXPORT_PATH}/assets`).forEach((file) => {
+      fs.copyFile(
+        `${EXPORT_PATH}/assets/${file}`,
+        `${REMOTE_PATH}/${file}`,
+        (err) => {
+          if (err) throw err;
+          console.log(`${file} was copied to ${REMOTE_PATH}/${file}`);
+        }
+      );
+    });
+  };
+
+  if (fs.existsSync(REMOTE_PATH)) {
+    console.log("move the images");
+    transferAssets();
+  } else {
+    fs.mkdirSync(REMOTE_PATH);
+    transferAssets();
+  }
+};
+
+const moveAssetsToRemote = async ({ repoName, category, filename }) => {
   // move tours.json
   await copyFile(
-    "./export/tours.json",
+    `${EXPORT_PATH}/tours.json`,
     `${repoName}/public/contents/${category}/tours.json`
   );
 
@@ -33,13 +60,15 @@ const moveFiles = async ({ repoName, category, filename }) => {
 
   // tour file (.zip)
   await copyFile(
-    `./export/${filename}`,
+    `${EXPORT_PATH}/${filename}`,
     `${repoName}/public/contents/${category}/zips/${filename}`
   );
 
   console.log(
     `${filename} was copied to ${repoName}/public/contents/${category}/${filename}`
   );
+
+  await moveAssets(repoName, category);
 };
 
 const getRemoteUrl = async () => {
@@ -53,6 +82,7 @@ const pushToFork = async (data, files, res, req) => {
 
   exec(`git clone ${remoteName}`, (err, stdout, stderr) => {
     if (err) {
+      console.log(err);
     }
 
     exec(
@@ -64,7 +94,7 @@ const pushToFork = async (data, files, res, req) => {
 
         console.log(out);
 
-        await moveFiles(files);
+        await moveAssetsToRemote(files);
 
         exec(
           `cd ${repoName} && git add public && git commit -m "added ${branchName}"`,

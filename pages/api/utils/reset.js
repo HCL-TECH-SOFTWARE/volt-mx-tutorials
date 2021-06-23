@@ -21,9 +21,17 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     const EXPORT_ASSETS_PATH = `${EXPORT_FOLDER}/assets`;
     const TEMP_ASSETS_PATH = `${TEMP_FOLDER}/assets`;
+
+    // Delete old exports assets/temps
     fs.emptyDirSync(EXPORT_ASSETS_PATH);
     fs.emptyDirSync(TEMP_FOLDER);
     fs.emptyDirSync(TEMP_ASSETS_PATH);
+
+    // Delete old fork repository
+    const CACHED_REPO_PATH = "./volt-mx-tutorials";
+    if (fs.existsSync(CACHED_REPO_PATH)) {
+      fs.removeSync(CACHED_REPO_PATH, { recursive: true });
+    }
 
     res.status(200).json({ success: true });
   }
