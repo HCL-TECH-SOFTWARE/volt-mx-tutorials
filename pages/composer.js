@@ -98,7 +98,7 @@ const GenerateTourPage = () => {
 
     const data = {
       ...values,
-      filename: zipName,
+      filename: zipName.toLowerCase(),
       categoryInfo: selectedCategory,
     };
 
@@ -145,6 +145,7 @@ const GenerateTourPage = () => {
                     Close
                   </button>
                   <DetailsEditor
+                    checksum={checksum}
                     ckData={values.details}
                     onChangeData={(data) => {
                       setDetails(data);
@@ -186,7 +187,7 @@ const GenerateTourPage = () => {
                         >
                           <Input
                             name="tourLink"
-                            value={values.tourLink}
+                            value={values.tourLink.toLowerCase()}
                             onChange={handleInputChange}
                             placeholder="Add URL"
                           />

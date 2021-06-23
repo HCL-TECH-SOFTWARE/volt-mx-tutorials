@@ -1,6 +1,21 @@
+/* ========================================================================== *
+ * Copyright (c) 2021 HCL America, Inc.                       *
+ *                            All rights reserved.                            *
+ * ========================================================================== *
+ * Licensed under the  Apache License, Version 2.0  (the "License").  You may *
+ * not use this file except in compliance with the License.  You may obtain a *
+ * copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>.       *
+ *                                                                            *
+ * Unless  required  by applicable  law or  agreed  to  in writing,  software *
+ * distributed under the License is distributed on an  "AS IS" BASIS, WITHOUT *
+ * WARRANTIES OR  CONDITIONS OF ANY KIND, either express or implied.  See the *
+ * License for the  specific language  governing permissions  and limitations *
+ * under the License.                                                         *
+ * ========================================================================== */
+
 import { BASE_BRANCH } from "../../../src/config";
 
-const fs = require("fs");
+const fs = require("fs-extra");
 
 const TEMP_FOLDER = "./temp";
 const EXPORT_FOLDER = "./export";
@@ -22,18 +37,21 @@ const autoSerialize = (forms) => {
   };
 };
 
-const unlinkTemp = async () => {
-  try {
-    var files = fs.readdirSync(TEMP_FOLDER);
-  } catch (e) {
-    return;
-  }
-  if (files.length > 0)
-    for (var i = 0; i < files.length; i++) {
-      var filePath = TEMP_FOLDER + "/" + files[i];
-      if (fs.statSync(filePath).isFile()) fs.unlinkSync(filePath);
-      else rmDir(filePath);
+const moveAssets = async (details) => {
+  // remove old assets
+  const EXPORT_PATH = `${EXPORT_FOLDER}/assets`;
+  fs.emptyDirSync(EXPORT_PATH);
+
+  const dirPath = `./public/${TEMP_FOLDER}/assets`;
+  fs.readdirSync(dirPath).forEach((file) => {
+    const isExist = details.indexOf(file);
+    if (isExist !== -1) {
+      fs.copyFile(`${dirPath}/${file}`, `${EXPORT_PATH}/${file}`, (err) => {
+        if (err) throw err;
+        console.log(`${file} was copied to ${EXPORT_PATH}/${file}`);
+      });
     }
+  });
 };
 
 const storeData = async (data) => {
@@ -41,12 +59,12 @@ const storeData = async (data) => {
 
   const normalizeDetails = serializeData.details.replaceAll(
     "http://localhost:3200/temp",
-    `/volt-mx-tutorials/contents/${
-      serializeData.categoryInfo.categoryAlias
-    }/assets`
+    `/volt-mx-tutorials/contents/${serializeData.categoryInfo.categoryAlias}`
   );
 
   serializeData.details = normalizeDetails;
+
+  await moveAssets(normalizeDetails);
 
   const category = serializeData.categoryInfo;
 
@@ -65,19 +83,6 @@ const storeData = async (data) => {
   }
 
   return JSON.stringify(serializeData, null, 2);
-};
-
-const storeImages = async () => {
-  fs.readdirSync("./public/temp").forEach((file) => {
-    fs.copyFile(
-      `./public/temp/${file}`,
-      "./temp/assets/iris-desktop.png",
-      (err) => {
-        if (err) throw err;
-        console.log(`${file} was copied to ${file}`);
-      }
-    );
-  });
 };
 
 export default async function handler(req, res) {

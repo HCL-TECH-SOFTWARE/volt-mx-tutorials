@@ -1,72 +1,48 @@
+/* ========================================================================== *
+ * Copyright (c) 2021 HCL America, Inc.                       *
+ *                            All rights reserved.                            *
+ * ========================================================================== *
+ * Licensed under the  Apache License, Version 2.0  (the "License").  You may *
+ * not use this file except in compliance with the License.  You may obtain a *
+ * copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>.       *
+ *                                                                            *
+ * Unless  required  by applicable  law or  agreed  to  in writing,  software *
+ * distributed under the License is distributed on an  "AS IS" BASIS, WITHOUT *
+ * WARRANTIES OR  CONDITIONS OF ANY KIND, either express or implied.  See the *
+ * License for the  specific language  governing permissions  and limitations *
+ * under the License.                                                         *
+ * ========================================================================== */
+
 import { BASE_BRANCH } from "../../../src/config";
 
 const fs = require("fs");
 const formidable = require("formidable");
-const path = require("path");
 
-const TEMP_FOLDER = "./temp";
-
-const autoSerialize = (forms) => {
-  const { category, filename } = forms;
-  return {
-    ...forms,
-    url:
-      "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-ui-collections",
-    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${category}/${filename}`,
-  };
-};
-
-const unlinkTemp = async () => {
-  try {
-    var files = fs.readdirSync(TEMP_FOLDER);
-  } catch (e) {
-    return;
-  }
-  if (files.length > 0)
-    for (var i = 0; i < files.length; i++) {
-      var filePath = TEMP_FOLDER + "/" + files[i];
-      if (fs.statSync(filePath).isFile()) fs.unlinkSync(filePath);
-      else rmDir(filePath);
-    }
-};
-
-const storeData = async (data) => {
-  const serializeData = autoSerialize(data);
-  try {
-    fs.writeFileSync(
-      `${TEMP_FOLDER}/tours.json`,
-      JSON.stringify(serializeData, null, 2)
-    );
-  } catch (err) {
-    console.error(err);
-  }
-};
-
-const copyOriginalZipFile = ({ tempZipFilePath, filename }) => {
-  fs.copyFile(tempZipFilePath, `${TEMP_FOLDER}/${filename}`, (err) => {
-    if (err) throw err;
-    console.log(`${tempZipFilePath} was copied to ${TEMP_FOLDER}/${filename}`);
-  });
-};
+const TEMP_FOLDER = "./public/temp";
 
 export default async function handler(req, res) {
+  const { checksum } = req.query;
   const form = new formidable.IncomingForm({
     keepExtensions: true,
-    uploadDir: "./public/temp",
+    uploadDir: TEMP_FOLDER,
   });
 
   form.parse(req, function(err, fields, files) {
     if (!err) {
       const { name, path } = files.upload;
-      const assetURL = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/1-volt-mx-changes/assets/${name}`;
 
-      console.log(name);
-      const tempName = path.replace("public/temp/", "");
+      const stripChecksum = checksum.slice(0, 10);
+      const assetName = `${TEMP_FOLDER}/assets/${stripChecksum}_${name}`;
+      const responseAssetURL = `http://localhost:3200/temp/assets/${stripChecksum}_${name}`;
+
+      fs.copyFile(path, assetName, (err) => {
+        if (err) throw err;
+      });
 
       const uploadSuccess = {
         uploaded: true,
         fileName: name,
-        url: `http://localhost:3200/temp/${tempName}`,
+        url: responseAssetURL,
       };
       res.status(200).json(uploadSuccess);
     }
