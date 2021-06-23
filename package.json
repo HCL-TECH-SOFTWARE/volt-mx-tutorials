@@ -114,7 +114,7 @@
     "mock": "node mock-tours",
     "export": "next build && next export",
     "hikeBuilder:install": "node ./hikeBuilder",
-    "hikeBuilder:uninstall": "node ./hikeBuilder"
+    "hikeBuilder:uninstall": "node ./hikeBuilder --disable=true"
   },
   "engines": {
     "node": ">= 8"

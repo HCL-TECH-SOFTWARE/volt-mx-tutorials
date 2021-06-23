@@ -14,25 +14,25 @@
  * ========================================================================== */
 
 const { exec } = require("child_process");
-const args = process.argv;
-const IRIS_PATH = args.slice(2)[0];
+const IRIS_PATH = process.env.npm_config_path;
 const INSTALL_CMD = `node addon -i ${__dirname}/hikeBuilder.zip`;
 const UNINSTALL_CMD = `node addon -u hikeBuilder`;
 
-// exec(
-//   INSTALL_CMD,
-//   {
-//     cwd: IRIS_PATH,
-//   },
-//   (err, stdout, stderr) => {
-//     if (err) {
-//       // node couldn't execute the command
-//       console.log(err);
-//       return;
-//     }
+const task = process.argv.slice(2)[0];
 
-//     console.log(stdout);
-//   }
-// );
+const CMD = task ? UNINSTALL_CMD : INSTALL_CMD;
 
-console.log(process.argv);
+exec(
+  CMD,
+  {
+    cwd: IRIS_PATH,
+  },
+  (err, stdout, stderr) => {
+    if (err) {
+      console.log(err);
+      return;
+    }
+
+    console.log(stdout);
+  }
+);
