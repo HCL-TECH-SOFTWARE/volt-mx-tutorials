@@ -26,6 +26,10 @@
   background: white;
   height: 100%; }
 
+._1wyb7 {
+  height: calc(100vh - 145px);
+  overflow-y: auto; }
+
 ._4980 {
   background: white;
   margin: 0 auto;
@@ -180,10 +184,11 @@
 
 ._3HEcY {
   height: calc(100vh - 51px);
-  background: white; }
+  background: white;
+  border-right: 1px solid #d4d4d4; }
 
 ._3n0I_ {
-  padding: 0 15px 20px 15px; }
+  overflow-y: auto; }
 
 ._15mmt {
   margin-bottom: 5px; }
@@ -225,7 +230,8 @@
 
 ._1o1qI {
   list-style: none;
-  padding: 5px 0; }
+  padding: 0px 0;
+  margin: 0; }
   ._1o1qI li {
     cursor: pointer;
     float: left;
@@ -253,7 +259,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 84px); }
+  height: calc(100vh - 104px); }
 
 .j2Rpp {
   justify-content: center;
