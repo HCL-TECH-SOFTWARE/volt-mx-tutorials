@@ -119,7 +119,9 @@
     "test": "node_modules/.bin/jest",
     "test:watch": "npm test -- --watch",
     "mock": "node mock-tours",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "hikeBuilder:install": "node ./hikeBuilder",
+    "hikeBuilder:uninstall": "node ./hikeBuilder --disable=true"
   },
   "engines": {
     "node": ">= 15"
