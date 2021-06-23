@@ -54,14 +54,14 @@ eg: in macOS,
 
 ```node
 
-npm run-script hikeBuilder:uninstall --path="/Applications/Volt MX Iris"
+npm run-script hikeBuilder:install --path="/Applications/Volt MX Iris"
 ```
 
 eg: in Windows,
 
 ```node
 
-npm run-script hikeBuilder:uninstall --path="C:\Program Files\Volt MX Iris"
+npm run-script hikeBuilder:install --path="C:\Program Files\Volt MX Iris"
 ```
 
 ### Production Build
