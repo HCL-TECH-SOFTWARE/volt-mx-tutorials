@@ -5,7 +5,12 @@ const { SubMenu } = Menu;
 
 const FormSwitcher = ({ setView, current }) => {
   return (
-    <Menu onClick={setView} selectedKeys={current} mode="horizontal">
+    <Menu
+      style={{ background: "#f3f2f2" }}
+      onClick={setView}
+      selectedKeys={current}
+      mode="horizontal"
+    >
       <Menu.Item key="new">
         <Icon type="plus" />
         New Hike

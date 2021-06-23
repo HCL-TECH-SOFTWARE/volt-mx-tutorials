@@ -102,7 +102,7 @@ const TourDetailPage = ({ url, previewData }) => {
     : `/${BASE_PATH_URL}${tourDetails?.image}`;
 
   return (
-    <div className={styles.hikeBody}>
+    <div className={isPreview ? styles.toursDetailPreview : styles.hikeBody}>
       {/* <h1>{JSON.stringify(url)}</h1> */}
       {isPreview || <HikeHeader search={null} />}
 

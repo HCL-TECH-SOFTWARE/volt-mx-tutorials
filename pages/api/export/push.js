@@ -39,7 +39,6 @@ const moveAssets = async (repoName, category) => {
   };
 
   if (fs.existsSync(REMOTE_PATH)) {
-    console.log("move the images");
     transferAssets();
   } else {
     fs.mkdirSync(REMOTE_PATH);
@@ -92,6 +91,7 @@ const pushToFork = async (data, files, res, req) => {
           console.log(err);
         }
 
+        // show git clone logs
         console.log(out);
 
         await moveAssetsToRemote(files);

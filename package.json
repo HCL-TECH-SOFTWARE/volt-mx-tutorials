@@ -122,8 +122,8 @@
     "export": "next build && next export"
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 15"
   },
-  "author": "dotCom",
+  "author": "HCL",
   "description": "HCL Volt MX Tutorials "
 }

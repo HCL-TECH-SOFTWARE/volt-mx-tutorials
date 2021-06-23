@@ -8,12 +8,13 @@ import TourCard from "../src/components/TourCard";
 import ToursList from "../src/components/ToursList";
 import TourDetailPage from "./tour";
 import DetailsEditor from "../src/components/DetailsEditor";
-import { Row, Col } from "antd";
+import { Row, Col, Icon } from "antd";
 import { Form, Input, Button, Radio, Select, message } from "antd";
 import FormSwitcher from "../src/components/HikeComposer/FormSwitcher";
 import ExportModal from "../src/components/HikeComposer/ExportModal";
 import EditHike from "../src/components/HikeComposer/EditHike";
 import { useRouter } from "next/router";
+import PreviewSwitcher from "../src/components/HikeComposer/PreviewSwitcher";
 
 const { TextArea } = Input;
 const { Option } = Select;
@@ -40,7 +41,6 @@ const GenerateTourPage = () => {
   const [isCKEditorVisible, setIsCKEditorVisible] = useState(false);
   const [view, setView] = useState("card");
   const [selectedFile, setSelectedFile] = useState({});
-  const [tempZipFilePath, setTempZipFilePath] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState({});
   const [previewMode, setPreviewMode] = useState("split");
   const [visible, setVisible] = useState(false);
@@ -141,16 +141,20 @@ const GenerateTourPage = () => {
         </div>
       </div>
       <Row>
-        <Col className={styles.pageContent} span={6}>
+        <Col
+          className={styles.pageContent}
+          span={previewMode === "full" ? 0 : 8}
+        >
           {isCKEditorVisible
             ? previewMode === "split" && (
                 <div className={styles.ckEditorContainer}>
-                  <button
+                  <Button
                     onClick={() => setIsCKEditorVisible(false)}
                     type="button"
                   >
-                    Close
-                  </button>
+                    <Icon type="arrow-left" />
+                    Back to Forms
+                  </Button>
                   <DetailsEditor
                     checksum={checksum}
                     ckData={values.details}
@@ -167,8 +171,8 @@ const GenerateTourPage = () => {
                     current={current}
                   />
                   {current === "new" && (
-                    <Form layout="vertical">
-                      <>
+                    <Form style={{ padding: 20 }} layout="vertical">
+                      <div style={{ padding: "20px 0" }}>
                         <Form.Item
                           className={styles.formContainer}
                           label="Checksum"
@@ -296,7 +300,7 @@ const GenerateTourPage = () => {
                           visible={visible}
                           onClose={() => setVisible(false)}
                         />
-                      </>
+                      </div>
                       <div />
                     </Form>
                   )}
@@ -304,27 +308,17 @@ const GenerateTourPage = () => {
                 </div>
               )}
         </Col>
-        <Col className={styles.preview} span={18}>
+        <Col className={styles.preview} span={previewMode === "full" ? 24 : 16}>
           <ul className={styles.previews}>
-            {previewMode === "split" ? (
+            {previewMode === "split" && (
               <>
-                <li onClick={() => changePreview("card")}>Card Preview</li>
-                {/* <li onClick={() => changePreview("list")}>List Preview</li> */}
-                <li onClick={() => changePreview("tour")}>Tour Preview</li>
+                <PreviewSwitcher
+                  current={view}
+                  setView={({ key }) => changePreview(key)}
+                />
               </>
-            ) : (
-              <li
-                onClick={() => {
-                  setView("tour");
-
-                  setPreviewMode("split");
-                }}
-              >
-                Close Full Preview
-              </li>
             )}
           </ul>
-          <hr />
           {view === "card" && (
             <div className={styles.cardPreview}>
               <div className={styles.previewContainer}>
@@ -365,21 +359,35 @@ const GenerateTourPage = () => {
             )} */}
           {view === "tour" && (
             <>
-              {previewMode === "split" ? (
-                <button
-                  onClick={() => {
-                    setPreviewMode("full");
-                  }}
-                >
-                  Full Preview
-                </button>
-              ) : (
-                previewMode === "full " && (
-                  <li onClick={() => setPreviewMode("split")}>
+              <div
+                style={{
+                  background: "white",
+                  padding: "10px 10px",
+                  display: "flex",
+                  alignItems: "flex-end",
+                  justifyContent: "flex-end",
+                }}
+              >
+                {previewMode === "split" ? (
+                  <Button
+                    onClick={() => {
+                      setPreviewMode("full");
+                    }}
+                  >
+                    <Icon type="fullscreen" />
+                    Full Preview
+                  </Button>
+                ) : (
+                  <Button
+                    onClick={() => {
+                      setPreviewMode("split");
+                    }}
+                  >
+                    <Icon type="fullscreen-exit" />
                     Close Full Preview
-                  </li>
-                )
-              )}
+                  </Button>
+                )}
+              </div>
               <TourDetailPage
                 previewData={{
                   ...values,
