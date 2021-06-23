@@ -1,5 +1,5 @@
 /* ========================================================================== *
- * Copyright (c) 2021 HCL America, Inc.                       *
+ *                 Copyright (c) 2021 HCL America, Inc.                       *
  *                            All rights reserved.                            *
  * ========================================================================== *
  * Licensed under the  Apache License, Version 2.0  (the "License").  You may *
@@ -21,10 +21,7 @@ const crypto = require("crypto");
  * @returns {sha256 file checksum}
  */
 const generateChecksum = async (str) => {
-  return await crypto
-    .createHash("sha256")
-    .update(str, "utf8")
-    .digest("hex");
+  return await crypto.createHash("sha256").update(str, "utf8").digest("hex");
 };
 
 /**

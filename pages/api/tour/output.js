@@ -1,5 +1,5 @@
 /* ========================================================================== *
- * Copyright (c) 2021 HCL America, Inc.                       *
+ *                 Copyright (c) 2021 HCL America, Inc.                       *
  *                            All rights reserved.                            *
  * ========================================================================== *
  * Licensed under the  Apache License, Version 2.0  (the "License").  You may *
@@ -26,9 +26,7 @@ const autoSerialize = (forms) => {
   return {
     ...forms,
     url: `https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/${tourLink}`,
-    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${
-      categoryInfo.categoryAlias
-    }/zips/${filename}.zip`,
+    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${categoryInfo.categoryAlias}/zips/${filename}.zip`,
     alias: `hikes/tour/${tourLink}`,
     category: [categoryInfo.categoryName],
     image: "/default/hike-default.png",

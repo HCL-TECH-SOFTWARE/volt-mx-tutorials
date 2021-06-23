@@ -1,5 +1,5 @@
 /* ========================================================================== *
- * Copyright (c) 2021 HCL America, Inc.                       *
+ *                 Copyright (c) 2021 HCL America, Inc.                       *
  *                            All rights reserved.                            *
  * ========================================================================== *
  * Licensed under the  Apache License, Version 2.0  (the "License").  You may *
@@ -27,7 +27,7 @@ export default async function handler(req, res) {
     uploadDir: TEMP_FOLDER,
   });
 
-  form.parse(req, function(err, fields, files) {
+  form.parse(req, function (err, fields, files) {
     if (!err) {
       const { name, path } = files.upload;
 
