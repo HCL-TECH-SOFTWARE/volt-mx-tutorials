@@ -116,6 +116,13 @@ const GenerateTourPage = () => {
 
   useEffect(() => {
     getHikes();
+
+    // Reset Session when page refreshed/rendered
+    const resetSession = async () => {
+      await axios.post(`${BASE_API}/utils/reset`);
+    };
+
+    resetSession();
     return () => {};
   }, []);
 
