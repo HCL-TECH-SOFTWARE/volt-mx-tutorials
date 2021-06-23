@@ -3,9 +3,17 @@ const fs = require("fs");
 
 const HIKES_BASE_URL = "volt-mx-tutorials";
 const HIKES_CONTENT_PATH = "./public/contents";
+const BASE_BRANCH = "phx-dev";
 
 // get all hikes categories directory names
 const getHikeDirectories = () =>
+  fs
+    .readdirSync(HIKES_CONTENT_PATH, { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name);
+
+// get all hikes categories directory names
+const getHikeTours = () =>
   fs
     .readdirSync(HIKES_CONTENT_PATH, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
@@ -15,6 +23,7 @@ const getHikeDirectories = () =>
 const tours = {
   "/": { page: "/" },
   "/hikes": { page: "/hikes" },
+  "/hikes/search": { page: "/hikelisting" },
 };
 
 // export and append all tours into static html page
@@ -60,4 +69,6 @@ module.exports = {
   checkUploadDirExist,
   createTempDir,
   createUploadDirExist,
+  getHikeTours,
+  BASE_BRANCH,
 };

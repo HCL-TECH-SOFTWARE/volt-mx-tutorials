@@ -223,12 +223,56 @@
   padding: 20px;
 }
 
-.generate {
+.generateContainer {
+  padding: 0;
+}
+
+.pageContent {
+  height: calc(100vh - 51px);
+  background: white;
+}
+
+.forms {
+  padding: 0 15px 20px 15px;
+}
+
+.formContainer {
+  margin-bottom: 5px;
+
+  label {
+    font-size: 14px;
+  }
+}
+
+.zipEmpty {
+  height: calc(100vh - 71px);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h3 {
+    font-size: 28px;
+  }
+}
+
+.zipValid {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.ckEditorContainer {
+  flex: 0.6 !important;
+  padding: 10px 20px;
+
+  button {
+    margin: 10px 0;
+  }
 }
 
 .generateForm {
-  flex: 0.7 !important;
+  flex: 1 !important;
   padding: 0 20px;
   form {
     div {
@@ -238,6 +282,7 @@
       label {
         flex-basis: 120px;
       }
+
       input,
       select,
       textarea {
@@ -248,7 +293,6 @@
 }
 
 .preview {
-  flex: 1 !important;
 }
 
 .previews {
@@ -263,5 +307,43 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.header {
+  background-color: #121920;
+  display: flex;
+  align-items: center;
+  padding: 2px 10px;
+
+  div {
+    font-size: 18px;
+    color: white;
+    top: 10px;
+    position: relative;
+    left: 10px;
+  }
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.cardPreview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 84px);
+}
+
+.previewContainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  h3 {
   }
 }

@@ -1,5 +1,9 @@
 const fs = require("fs");
-const { getHikeDirectories, HIKES_CONTENT_PATH } = require("./hike.config");
+const {
+  getHikeDirectories,
+  HIKES_CONTENT_PATH,
+  BASE_BRANCH,
+} = require("./hike.config");
 
 const MOCK_PATH = "./public/hike";
 const hikeDirectories = getHikeDirectories();
@@ -25,22 +29,39 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
     fs.readFile(
       `${HIKES_CONTENT_PATH}/${directory}/tours.json`,
       "utf8",
-      function(err, data) {
+      (err, data) => {
         if (err) throw err;
 
-        const tours = JSON.parse(data).categoryTours;
+        try {
+          const tours = JSON.parse(data).categoryTours;
 
-        tours.forEach((tour) => {
-          // mock response of each hike/tour details
-          fs.writeFile(
-            `${MOCK_PATH}/tour/details/${tour.kuid}.json`,
-            JSON.stringify(tour, null, 2),
-            "utf-8",
-            () => {
-              console.log(`copied: ${tour.kuid}.json`);
-            }
-          );
-        });
+          tours.forEach((tour) => {
+            // mock response of each hike/tour details
+
+            // static temporarily
+            const download_url = `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${directory}/zips/${
+              tour.fileName
+            }`;
+
+            // remove fileURL key
+            delete tour.fileURL;
+
+            fs.writeFile(
+              `${MOCK_PATH}/tour/details/${tour.kuid}.json`,
+              JSON.stringify(
+                { tourDetails: { ...tour, download_url } },
+                null,
+                2
+              ),
+              "utf-8",
+              () => {
+                console.log(`copied: ${tour.kuid}.json`);
+              }
+            );
+          });
+        } catch (error) {
+          console.log(error);
+        }
       }
     );
   });
