@@ -278,6 +278,25 @@
       "kuid": "5ff7b4ta-15a6-4ar8-87ue-c2cdf7n8",
       "hikeVersion": "1.0",
       "weight": "12"
+    },
+    {
+      "hikeVersion": "1.0",
+      "title": "What's new in Volt MX Iris?",
+      "description": "Volt MX Iris Test",
+      "checksum": "325f4a8feada253ff4af443aa6cd38519318279725d46888d1a9bb8795c1894b",
+      "kuid": "103721t8-67a4-47re-9bu3-c28921n2",
+      "category": [
+        "Develop the Front End"
+      ],
+      "details": "<figure class=\"image\"><img src=\"/volt-mx-tutorials/contents/4-develop-the-front-end/assets/325f4a8fea_iris-desktop.png\"></figure>",
+      "cards": "4",
+      "time": "4 Mins",
+      "platformVersion": 9.2,
+      "filename": "newtour.zip",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/newtour-test-1",
+      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev/public/contents/4-develop-the-front-end/zips/newtour.zip",
+      "alias": "hikes/tour/newtour-test-1",
+      "image": "/default/hike-default.png"
     }
   ]
 }
