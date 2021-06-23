@@ -1,13 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 
-export default function DetailsEditor({ onChangeData, ckData }) {
+export default function DetailsEditor({ onChangeData, ckData, checksum }) {
   const editorRef = useRef();
   const [editorLoaded, setEditorLoaded] = useState(false);
   const { CKEditor, ClassicEditor } = editorRef.current || {};
 
   useEffect(() => {
     editorRef.current = {
-      // CKEditor: require('@ckeditor/ckeditor5-react'), // depricated in v3
       CKEditor: require("@ckeditor/ckeditor5-react").CKEditor,
       ClassicEditor: require("@ckeditor/ckeditor5-build-classic"),
     };
@@ -26,7 +25,7 @@ export default function DetailsEditor({ onChangeData, ckData }) {
         }}
         config={{
           ckfinder: {
-            uploadUrl: "http://localhost:3200/api/tour/upload",
+            uploadUrl: `http://localhost:3200/api/tour/upload?checksum=${checksum}`,
           },
         }}
         onChange={(event, editor) => {

@@ -13,44 +13,26 @@
  * under the License.                                                         *
  * ========================================================================== */
 
-const fs = require("fs");
-const crypto = require("crypto");
-
-/**
- * @param stringBuffer {String}
- * @returns {sha256 file checksum}
- */
-const generateChecksum = async (str) => {
-  return await crypto.createHash("sha256").update(str, "utf8").digest("hex");
-};
-
-/**
- * @param b64string {String}
- * @returns {Buffer}
- */
-const _decodeBase64ToUtf8 = (b64string) => {
-  var buffer;
-  if (typeof Buffer.from === "function") {
-    // Node 5.10+
-    buffer = Buffer.from(b64string, "base64");
-  } else {
-    // older Node versions
-    buffer = new Buffer(b64string, "base64");
-  }
-
-  return buffer;
-};
+const fs = require("fs-extra");
 
 export default async function handler(req, res) {
+  const TEMP_FOLDER = "./public/temp";
+  const EXPORT_FOLDER = "./export";
   if (req.method === "POST") {
-    const { data, id } = req.body;
+    const EXPORT_ASSETS_PATH = `${EXPORT_FOLDER}/assets`;
+    const TEMP_ASSETS_PATH = `${TEMP_FOLDER}/assets`;
 
-    const decode = _decodeBase64ToUtf8(data);
+    // Delete old exports assets/temps
+    fs.emptyDirSync(EXPORT_ASSETS_PATH);
+    fs.emptyDirSync(TEMP_FOLDER);
+    fs.emptyDirSync(TEMP_ASSETS_PATH);
 
-    fs.writeFile(`./export/${id.toLowerCase()}.zip`, decode, async (err) => {
-      // generate file checksum (sha-256)
-      const checksum = await generateChecksum(decode);
-      res.status(200).json({ checksum });
-    });
+    // Delete old fork repository
+    const CACHED_REPO_PATH = "./volt-mx-tutorials";
+    if (fs.existsSync(CACHED_REPO_PATH)) {
+      fs.removeSync(CACHED_REPO_PATH, { recursive: true });
+    }
+
+    res.status(200).json({ success: true });
   }
 }
