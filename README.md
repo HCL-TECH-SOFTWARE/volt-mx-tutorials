@@ -23,7 +23,6 @@ Read our [Contributing Guide](https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutor
 ```node
 
 npm install
-
 npm start
 
 ```
