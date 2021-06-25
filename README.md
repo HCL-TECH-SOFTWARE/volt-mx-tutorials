@@ -100,7 +100,7 @@ npm run export
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Read our [Contributing Guide](/CONTRIBUTING) to learn about our development process,  how to propose bug fixes and improvements and raise a pull a request.
+Read our [Contributing Guide](/.github/CONTRIBUTING) to learn about our development process,  how to propose bug fixes and improvements and raise a pull a request.
 
 
 <!-- LICENSE -->
