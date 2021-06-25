@@ -13,44 +13,26 @@
  * under the License.                                                         *
  * ========================================================================== */
 
-const fs = require("fs");
-const crypto = require("crypto");
+const { exec } = require("child_process");
+const IRIS_PATH = process.env.npm_config_path;
+const INSTALL_CMD = `node addon -i ${__dirname}/hikeBuilder.zip`;
+const UNINSTALL_CMD = `node addon -u hikeBuilder`;
 
-/**
- * @param stringBuffer {String}
- * @returns {sha256 file checksum}
- */
-const generateChecksum = async (str) => {
-  return await crypto.createHash("sha256").update(str, "utf8").digest("hex");
-};
+const task = process.argv.slice(2)[0];
 
-/**
- * @param b64string {String}
- * @returns {Buffer}
- */
-const _decodeBase64ToUtf8 = (b64string) => {
-  var buffer;
-  if (typeof Buffer.from === "function") {
-    // Node 5.10+
-    buffer = Buffer.from(b64string, "base64");
-  } else {
-    // older Node versions
-    buffer = new Buffer(b64string, "base64");
+const CMD = task ? UNINSTALL_CMD : INSTALL_CMD;
+
+exec(
+  CMD,
+  {
+    cwd: IRIS_PATH,
+  },
+  (err, stdout, stderr) => {
+    if (err) {
+      console.log(err);
+      return;
+    }
+
+    console.log(stdout);
   }
-
-  return buffer;
-};
-
-export default async function handler(req, res) {
-  if (req.method === "POST") {
-    const { data, id } = req.body;
-
-    const decode = _decodeBase64ToUtf8(data);
-
-    fs.writeFile(`./export/${id.toLowerCase()}.zip`, decode, async (err) => {
-      // generate file checksum (sha-256)
-      const checksum = await generateChecksum(decode);
-      res.status(200).json({ checksum });
-    });
-  }
-}
+);

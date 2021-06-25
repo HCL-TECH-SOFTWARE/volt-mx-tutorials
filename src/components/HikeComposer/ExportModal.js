@@ -58,7 +58,7 @@ const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
         onOk={onSubmitToFork}
         onCancel={onClose}
         okText={
-          pushed ? "Done" : pushing ? "Please wait" : "Push to Pork Repository"
+          pushed ? "Done" : pushing ? "Please wait" : "Push to Fork Repository"
         }
       >
         {!pushed && !pushing && (
