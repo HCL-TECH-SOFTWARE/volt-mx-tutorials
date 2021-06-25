@@ -1,0 +1,33 @@
+{
+    "kuid": "09e30ct6-1bac-4er0-83u2-f1bff2n0",
+    "id": "VoltMX.CreateServicesV9.configureAccountModel2",
+    "content": {
+        "title": "Configure the Data Model",
+        "body": "<ol>\n<li>Under&nbsp;<strong>Data Model</strong>,&nbsp;navigate to&nbsp;<strong>Accounts</strong>&nbsp;and select<strong>&nbsp;Fields</strong>.</li>\n<li>Select the check-box for&nbsp;<strong>SeqNo</strong>, and then click&nbsp;<strong>Delete</strong>.</li>\n<li>In the&nbsp;<strong>Delete Fields&nbsp;</strong>dialog box, click&nbsp;<strong>Delete</strong>.</li>\n<li>Click&nbsp;<strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Sparsh Srivastava",
+        "CreatedOn": "Wed, 18 Dec 2019 09:04:44 GMT"
+    },
+    "context": []
+}

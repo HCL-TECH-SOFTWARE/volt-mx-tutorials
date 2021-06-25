@@ -1,0 +1,33 @@
+{
+    "kuid": "ccf3c4t6-74a7-43r8-80u8-29ded1n7",
+    "id": "VoltMX.NewLaunchWebApp.Settings1",
+    "content": {
+        "title": "Settings for the Live Preview",
+        "body": "<ol>\n<li>From the main menu, select <strong>Build</strong>.</li>\n<li>Click <strong>Live Preview Settings</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:07:17 GMT"
+    },
+    "context": []
+}

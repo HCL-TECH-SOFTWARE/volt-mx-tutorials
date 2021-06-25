@@ -1,0 +1,41 @@
+{
+    "kuid": "174e3ctb-acab-4br4-94u4-3db602n6",
+    "id": "VoltMX.ConnectAppUItoDataMob_v9.recipients",
+    "content": {
+        "title": "Adding Service to Recipients Form",
+        "body": "<ol>\n<li>From the&nbsp;<strong>Project </strong>explorer, navigate to&nbsp;<strong>Mobile</strong>&nbsp;&gt;&nbsp;<strong>Forms</strong>, and select&nbsp;<strong>frmRecipients</strong>.</li>\n<li>From the top-right corner of Iris, navigate to the <strong>Properties&nbsp;</strong>panel and select the <strong>Action </strong>tab.</li>\n<li>Under the <strong>General&nbsp;</strong>section, for the <strong>preShow </strong>event, click <strong>Edit</strong>.<br /> The <strong>Action Editor</strong> window appears.</li><li>From the top-right corner of the <b>Action Editor</b> window, select the <strong>Design View</strong>.</li>\n\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "preShow",
+                "sectionDOMId": "frmKonyLib_GeneralAction",
+                "tabName": "Action"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 08:14:51 GMT"
+    },
+    "context": []
+}

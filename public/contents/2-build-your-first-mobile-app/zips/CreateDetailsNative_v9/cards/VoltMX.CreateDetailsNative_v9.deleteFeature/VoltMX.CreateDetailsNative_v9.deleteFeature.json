@@ -1,0 +1,36 @@
+{
+    "kuid": "271db0tf-06ad-47r9-a2u0-8cf217n9",
+    "id": "VoltMX.CreateDetailsNative_v9.deleteFeature",
+    "content": {
+        "title": "Adding Delete Feature",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Mobile</strong> &gt;<strong> Forms</strong> and select<strong> frmDetails</strong>.</li>\n<li>From the <strong>Data &amp; Services</strong> panel, expand <strong>Project Services </strong>&gt;<strong> RecipientStorage </strong>&gt;<strong> Recipients</strong> and select the <b>delete</b> operation.</li>\n<li>Drop the <strong>delete</strong> operation onto the canvas.<br />This creates the <strong>Delete</strong> button.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "datapanel",
+            "itemType": "dp_tab"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 09:10:28 GMT"
+    },
+    "context": []
+}

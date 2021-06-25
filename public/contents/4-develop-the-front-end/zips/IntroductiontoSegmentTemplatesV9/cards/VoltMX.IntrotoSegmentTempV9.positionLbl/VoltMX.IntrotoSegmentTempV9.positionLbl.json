@@ -1,0 +1,35 @@
+{
+    "kuid": "e30a40tf-22a2-49r4-90uf-0c563fne",
+    "id": "VoltMX.IntrotoSegmentTempV9.positionLbl",
+    "content": {
+        "title": "Assign Position to the Label",
+        "body": "<ol><li>From the <b>Properties</b> panel, navigate to the <b>Look</b> tab.</li>\n<li>Under the <b>Flex</b> section, assign the following values:<ul>\n<li>Left: <b>167 Dp</b></li>\n<li>Top: <b>7 Dp</b></li>\n<li>Width: <b>220 Dp</b></li>\n<li>Height: <b>22 Dp</b></li></ul></li></ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 11:47:20 GMT"
+    },
+    "context": []
+}

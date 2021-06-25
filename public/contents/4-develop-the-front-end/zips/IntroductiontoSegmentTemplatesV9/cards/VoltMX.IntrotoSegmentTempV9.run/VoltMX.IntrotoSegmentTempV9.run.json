@@ -1,0 +1,36 @@
+{
+    "kuid": "11cd93te-79a4-42ra-9eu5-4b797bn5",
+    "id": "VoltMX.IntrotoSegmentTempV9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol>\n<li> Connect the device to the computer with a USB cable. </li><li>Open <b>Volt MX App</b> on your <b>mobile</b> device.</li><li>Select the <b>USB</b> tab.</li><li>From the left navigation bar on your Iris, click <b>Run</b>.</li><li>Enter the name <b> EmployeeList </b> and click <b>Launch</b>. </li>You can see a list form with an image and a label.</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "shortcutbar",
+            "itemId": "frmKonyLib_preview"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 11:53:52 GMT"
+    },
+    "context": []
+}

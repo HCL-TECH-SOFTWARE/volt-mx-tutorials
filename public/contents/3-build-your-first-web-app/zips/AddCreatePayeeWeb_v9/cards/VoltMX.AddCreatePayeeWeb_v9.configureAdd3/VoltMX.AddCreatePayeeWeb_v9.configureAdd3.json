@@ -1,0 +1,39 @@
+{
+    "kuid": "05b9dft3-a3a5-4fr5-adu9-ee950cn6",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.configureAdd3",
+    "content": {
+        "title": "Configure the Success Alert",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Function</strong> section, select <strong>Add Snippet</strong>.</li>\n<li>In the right pane, type the following code:<br /><span style=\"background-color: #999999;\"> self.view.forceLayout();</span></li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Add Snippet"
+            }
+        },
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 05:19:14 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "d25c77t0-07ab-47r5-8eu4-4ac656n1",
+    "id": "VoltMX.ResponsiveBreakV9.breakpointforking1",
+    "content": {
+        "title": "Breakpoint Forking",
+        "body": "<ol>\n<li>From the Iris canvas menu, toggle the <strong>Breakpoint Forking </strong>switch <strong>ON</strong>.<br /> The breakpoints appear as inverted red triangles on the Iris canvas scale.<br />Ensure that the scale on the Iris canvas menu is set to <strong>100%</strong>.</li>\n<li>Select each breakpoint on the canvas scale to see how the form responds.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Sat, 29 Feb 2020 03:26:56 GMT"
+    },
+    "context": []
+}

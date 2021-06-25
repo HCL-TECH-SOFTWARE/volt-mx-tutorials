@@ -1,0 +1,39 @@
+{
+    "kuid": "f403ecta-b6a2-40rc-81ua-50eb95n6",
+    "id": "VoltMX.AuthApp.MappingEditor",
+    "content": {
+        "title": "Map Login Parameters to UI",
+        "body": "<ol>\n<li>From the Action Editor canvas,&nbsp;right-click <strong>Invoke Service: UserAuthentication$login</strong>, and select&nbsp;<strong>Open Mapping Editor</strong>.<br />The Mapping Editor appears in the right pane of the canvas.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>Forms</strong> &gt; <strong>frmLogin</strong>.</li>\n<li>From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Services</strong> &gt; <strong>Service &ndash; UserAuthentication$login</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Invoke Service"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Deepti Ravula",
+        "CreatedOn": "Thu, 19 Dec 2019 06:42:37 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "46488ft1-2ba0-42rb-beuc-4c5183n3",
+    "id": "VoltMX.UseStorageServiceV9.addDetails3",
+    "content": {
+        "title": "Add Details - Employee Department",
+        "body": "<ol>\n<li>Click <strong>+ Add</strong> and enter the following details:\n<ul>\n<li>Name: <strong>EmployeeDepartment</strong></li>\n<li>Type: <strong>String</strong></li>\n</ul>\n</li>\n<li>Click <strong>Save</strong>.<br />Object is saved successfully.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 10:11:29 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Hike kuid="bc6956ta-31a0-41rf-b5ue-ea7246ne" id="VoltMX.ConnectAppUItoDataMob_v9" title="VoltMX.ConnectAppUItoDataMob_v9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <CreatedOn>Mon, 23 Mar 2020 07:32:55 GMT</CreatedOn>
+    </Meta>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.intro"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9_preshow"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.preShow1"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.mapping"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.mapping1"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.static"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.recipients"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.recipients1"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.service1"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.mappingUI"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.mappingUI1"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.dismiss"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.nav"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.nav1"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.openApp"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.run"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.launch"/>
+    <Hikecard id="VoltMX.ConnectAppUItoDataMob_v9.done"/>
+</Hike>

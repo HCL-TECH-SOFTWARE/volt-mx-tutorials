@@ -1,0 +1,33 @@
+{
+    "kuid": "1a9f02t8-40ac-4fr9-a8u7-1bdd0fnc",
+    "id": "VoltMX.CreateServicesV9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully:</p>\n<ul>\n<li><strong>Created and configured services for the following data</strong>\n<ul>\n<li><strong>Accounts</strong></li>\n<li><strong>Recipients</strong></li>\n</ul>\n</li>\n<li><strong>Published the services to a run-time server</strong></li>\n</ul>\n<p>&nbsp;</p>\n<p>To learn how to map the data to the UI of the app, check out the next hike:</p><a class=\"tour-link\" tour=\"fab6d8ta-91ac-4frc-8fud-14a9f7na\"><strong> 5. Connect the App UI to Data</strong></a>."
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Sparsh Srivastava",
+        "CreatedOn": "Wed, 18 Dec 2019 09:12:19 GMT"
+    },
+    "context": []
+}

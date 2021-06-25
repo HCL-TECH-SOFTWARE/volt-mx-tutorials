@@ -1,0 +1,36 @@
+{
+    "kuid": "e19437t6-52a6-41r1-82u5-1453e6n6",
+    "id": "VoltMX.CreateDetailsNative_v9.footer1",
+    "content": {
+        "title": "Configure the Footer of Details Screen",
+        "body": "<ol>\n<li>From the results, under <strong>RecipientsMobile</strong>, right-click <strong>DetailsFooter </strong>and select <strong>Insert Into</strong>.</li>\n<li>The <b>DetailsFooter</b> is added to the <b>frmDetails</b> form.</li>\n<li>Click <strong>Close</strong> on the <strong>Resolve Conflicts</strong> window.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary",
+            "path": "default-body\\defaultlibraries\\ToursMobileCollection"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 08:39:18 GMT"
+    },
+    "context": []
+}

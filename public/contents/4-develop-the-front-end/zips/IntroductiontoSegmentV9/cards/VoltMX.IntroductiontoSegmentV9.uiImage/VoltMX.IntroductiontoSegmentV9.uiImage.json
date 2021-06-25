@@ -1,0 +1,41 @@
+{
+    "kuid": "31ee91t1-5ca7-47rc-a5uc-5b7949n6",
+    "id": "VoltMX.IntroductiontoSegmentV9.uiImage",
+    "content": {
+        "title": "Assign Position to the Image",
+        "body": "<ol><li>From the <b>Properties</b> panel, navigate to the <b>Look</b> tab.</li>\n<li>Under the <b>Flex</b> section, assign the following values:<ul>\n<li>Left: <b>14 Dp</b></li>\n<li>Width: <b>96 Dp</b></li>\n<li>Height: <b>93 Dp</b></li>\n<li>Center Y: <b>50 %</b></li></ul></li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Left",
+                "sectionDOMId": "frmKonyLib_pwwgvbx-flex",
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 10:14:20 GMT"
+    },
+    "context": []
+}

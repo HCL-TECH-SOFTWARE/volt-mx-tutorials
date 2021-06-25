@@ -1,0 +1,36 @@
+{
+    "kuid": "78f7actf-44aa-4dr1-94u5-c54900n8",
+    "id": "VoltMX.CreateEmailIdCompV9.linkCodetoWidgets",
+    "content": {
+        "title": "Add Action to TextBox Widget",
+        "body": "<ol>\n<li>From the upper-left corner of Iris, in the <strong>Templates</strong> explorer, expand <strong>Components</strong> &gt; <strong>userEntry.emailField</strong> &gt; <strong>emailField</strong> and select the <strong>txtEmailID</strong> textbox.</li>\n<li>From the upper-right corner of Iris, in the <strong>Properties</strong> panel, click <strong>Action</strong>, then click <strong>Edit</strong> for the <strong>onDone</strong> event.<br />The <strong>Action Editor</strong> window appears.</li>\n<li>From the <strong>Action Editor </strong>left menu, under <strong>Function</strong>, select <strong>Invoke Function</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, under <strong>Function Name</strong>, select the <strong>onTextEdit</strong> function.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "templates-body\\templates\\Components\\userEntry.emailField\\emailField\\txtEmailID"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:28:55 GMT"
+    },
+    "context": []
+}

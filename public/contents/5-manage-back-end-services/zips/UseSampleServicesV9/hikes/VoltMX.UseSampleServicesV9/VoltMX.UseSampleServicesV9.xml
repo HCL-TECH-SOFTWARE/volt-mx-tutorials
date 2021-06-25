@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Hike kuid="0e057et6-2ba7-40r0-a2u0-5288d7n4" id="VoltMX.UseSampleServicesV9" title="VoltMX.UseSampleServicesV9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <Createdon>Wed, 27 Nov 2019 09:11:54 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.UseSampleServicesV9.intro"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.NewProject1"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.NewProject2"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.rename"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.createObj"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.createObj1"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.mappingservice"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.addUI"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.settings"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.run"/>
+    <Hikecard id="VoltMX.UseSampleServicesV9.last"/>
+</Hike>

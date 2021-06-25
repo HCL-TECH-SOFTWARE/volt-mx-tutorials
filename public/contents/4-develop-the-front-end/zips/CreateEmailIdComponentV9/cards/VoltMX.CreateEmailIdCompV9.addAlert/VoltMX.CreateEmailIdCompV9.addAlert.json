@@ -1,0 +1,33 @@
+{
+    "kuid": "724ef0t2-50ae-46r1-a4u3-218a0fn9",
+    "id": "VoltMX.CreateEmailIdCompV9.addAlert",
+    "content": {
+        "title": "Add an Alert",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under <strong>Client</strong>, select <strong>Show Alert</strong>.</li>\n<li>Enter the following details in the right pane:<br />\n<ul>\n<li>Alert Type: <strong>Info</strong></li>\n<li>Alert Title: <strong>Your Email has been added! </strong></li>\n<li>Yes Label: <strong>OK</strong></li>\n<li>Alert Message: <strong>Email has been verified and added</strong>.</li>\n</ul>\n</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:39:59 GMT"
+    },
+    "context": []
+}

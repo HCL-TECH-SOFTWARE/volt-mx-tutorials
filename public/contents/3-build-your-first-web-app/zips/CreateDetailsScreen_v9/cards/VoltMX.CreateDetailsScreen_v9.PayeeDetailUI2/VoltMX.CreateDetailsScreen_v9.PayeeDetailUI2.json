@@ -1,0 +1,35 @@
+{
+    "kuid": "92bdfbte-ffac-46r6-98u9-ab96f0na",
+    "id": "VoltMX.CreateDetailsScreen_v9.PayeeDetailUI2",
+    "content": {
+        "title": "Recipient Delete Button",
+        "body": "<ol>\n<li>From the <strong>Project </strong>explorer, expand <strong>frmDetails</strong> &gt; <strong>flexFieldsContainer</strong>.</li>\n<li>From the bottom-left of your canvas, navigate to <strong>Default Library</strong>.</li>\n<li>Next to the <strong>Default Library</strong>, you will the <strong>My Libraries </strong>tab and a search icon. <br />Click the search icon.</li>\n<li>In the search bar that appears, enter <strong>RecipientButtons</strong>.</li>\n<li>From the results, under <strong>RecipientsWeb</strong>, select <strong>RecipientButtons</strong>.</li>\n<li>Drag the <strong>RecipientButtons </strong>collection onto the <strong>flexFieldsContainer </strong>on the canvas.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 20 Feb 2020 11:18:40 GMT"
+    },
+    "context": []
+}

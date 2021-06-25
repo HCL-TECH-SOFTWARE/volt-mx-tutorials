@@ -1,0 +1,33 @@
+{
+    "kuid": "549d34ta-fba5-4br1-87u3-478a3dn7",
+    "id": "VoltMX.UserRepositoryAuthV9.Intro",
+    "content": {
+        "title": "Introduction to User Repository",
+        "body": "In this hike, we will:<br/>\n<ul>\n<li>Add <b>Volt MX User Repository</b> as an authentication source to your app</li>\n<li>Use <b>Volt MX User Repository</b> in your app to authorize users</li></ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 06:25:02 GMT"
+    },
+    "context": []
+}

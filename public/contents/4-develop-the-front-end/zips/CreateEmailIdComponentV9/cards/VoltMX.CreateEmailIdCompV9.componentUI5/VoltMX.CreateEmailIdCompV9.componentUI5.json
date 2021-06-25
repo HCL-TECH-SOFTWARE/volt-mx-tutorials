@@ -1,0 +1,41 @@
+{
+    "kuid": "569536t0-4aa1-49r6-9fu8-7fa525nc",
+    "id": "VoltMX.CreateEmailIdCompV9.componentUI5",
+    "content": {
+        "title": "Design the Label Widget",
+        "body": "<ol><li>From the upper-right corner of Iris, in the <b>Properties</b> panel, click <b>Look</b>. </li><li>Under the <b>General</b> section, for the <b>Visible</b> property, select <b>Off</b>.</li>\n<li>Under the <b>Appearance</b> section, modify the values of the following properties:<br/>\n<ul><li> Text: <b> Invalid email ID </b></li></ul></li>\n<li>Under the <b>Flex</b> section, modify the values of the following properties:\n<ul><li>Left: <b> 10% </b></li>\n<li>Top: <b>54%</b></li></ul></li>\n\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Left",
+                "sectionDOMId": "frmKonyLib_pwwgvbx-flex",
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:16:15 GMT"
+    },
+    "context": []
+}

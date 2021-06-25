@@ -1,0 +1,36 @@
+{
+  "kuid": "bf12b4t8-f3af-48r9-a8u4-ba0100nb",
+  "id": "VoltMX.VoltMXOrientationV9.canvas",
+  "content": {
+    "title": "Canvas",
+    "body": "<p>The <b>Canvas</b> is the work area where you design an app. By selecting a device and a platform from its drop-down menus, you can view how your app UI will look on a device without leaving Volt MX Iris.</p>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": {
+      "module": "appcanvas",
+      "paneId": "ac-area-one"
+    },
+    "type": "default"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Mon, 25 Nov 2019 06:58:16 GMT"
+  },
+  "context": []
+}

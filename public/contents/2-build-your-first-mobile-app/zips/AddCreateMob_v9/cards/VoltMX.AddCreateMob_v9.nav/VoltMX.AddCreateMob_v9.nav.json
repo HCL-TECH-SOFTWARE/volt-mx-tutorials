@@ -1,0 +1,36 @@
+{
+    "kuid": "47efb3t6-5ba8-41rd-a4ub-2775a1n8",
+    "id": "VoltMX.AddCreateMob_v9.nav",
+    "content": {
+        "title": "Adding Navigation for Back Button",
+        "body": "<ol>\n<li>From the <strong>Project explorer</strong>, navigate to <strong>frmAddRecipient</strong> &gt; <strong>flexAddRecipient</strong> &gt; <strong>flexHeader,</strong> select <strong>headerButtonLeft</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action </strong>tab.</li>\n<li>For the <strong>onClick</strong> event, click <strong>Edit</strong>. <br />The <strong>Action Editor</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmAddRecipient"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 10:47:07 GMT"
+    },
+    "context": []
+}

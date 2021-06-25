@@ -1,0 +1,36 @@
+{
+    "kuid": "e43d17te-51a9-44r5-a1u6-6d2156n7",
+    "id": "VoltMX.EditPayeeMobile_v9.back",
+    "content": {
+        "title": "Navigation for Back Button",
+        "body": "<ol>\n<li>From the <strong>Project explorer</strong>, navigate to <b>Mobile</b> > <b>Forms</b> > <strong>frmEditRecipient</strong> &gt; <strong>flexEditRecipient</strong> &gt; <strong>flexHeader,</strong> select <strong>headerButtonLeft</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action </strong>tab.</li>\n<li>For the <strong>onClick</strong> event, click <strong>Edit</strong>. <br />The <strong>Action Editor</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmEditRecipient"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 11:19:25 GMT"
+    },
+    "context": []
+}

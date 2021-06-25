@@ -1,0 +1,33 @@
+{
+    "kuid": "cb9acat4-43a7-48r9-aeua-a3e191n7",
+    "id": "VoltMX.InternationalWithLayoutV9.configureA",
+    "content": {
+        "title": "Configure Arabic Locale",
+        "body": "<ol>\n<li>In the <strong>Search </strong>field, enter: <strong>ar_AE</strong>.<br /> The <strong>Arabic</strong> locale for <strong>UAE</strong>.</li>\n<li>Select <b>ar_AE</b>.</li>\n<li>Under <b>Mirror Default Layout</b> select all checkboxes. These are for <strong>Flex Position Properties, Content Alignment </strong>and <strong>Flow Horizontal Alignment.<br /> </strong>This means that the content alignment will change when the language of the device is changed to <strong>Arabic (United Arab Emirates)</strong>.</li>\n<li>Click <strong>OK </strong>to return to the <strong>Configure Internationalization </strong> window. <strong><br /> </strong>You can see that three columns are added in this window: <strong>Key</strong>, <strong>en_US</strong>, <strong>ar_AE</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:26:22 GMT"
+    },
+    "context": []
+}

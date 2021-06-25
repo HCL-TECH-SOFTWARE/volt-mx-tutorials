@@ -1,0 +1,33 @@
+{
+    "kuid": "e915dbtf-41a2-41rc-b8u2-fac422n8",
+    "id": "VoltMX.IntrotoSegmentTempV9.segAction1",
+    "content": {
+        "title": "Assign Action to Segment",
+        "body": "<ol>\n<li>From the top-right corner of the <strong>Action Editor</strong> canvas, select <strong>Design View</strong>.</li>\n<li>From the <strong>Action Editor</strong> left menu, navigate to <strong>CLIENT </strong>&gt; <strong>Show Alert</strong>.</li>\n<li>Provide the following details in the right pane:\n<ul>\n<li>Alert Type: <strong>Info</strong></li>\n<li>Alert Title: <strong>Segment Row Clicked!</strong></li>\n<li>Yes Label: <strong>OK</strong></li>\n<li>Message Type: <strong>Expression</strong></li>\n<li>Alert Message: <strong>\"You have clicked Row:\"+this.view.employeeSegment.selectedRowIndex</strong></li>\n</ul>\n</li><li>Click <b>Save</b>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 11:50:56 GMT"
+    },
+    "context": []
+}

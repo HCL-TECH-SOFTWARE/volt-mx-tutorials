@@ -1,0 +1,36 @@
+{
+    "kuid": "6d620dte-6aad-4cr6-b2ua-cb4af8n5",
+    "id": "VoltMX.AddaSalesforceServiceV9.addObj",
+    "content": {
+        "title": "Create a New Object Service",
+        "body": "<ol>\n<li>In the <strong>Configure Object Service</strong> window, provide the name of object service: <strong>SalesforceSample</strong>.<br />Other fields such as - Endpoints type (Salesforce), Security Level (Authenticated App User) and Version are pre-filled.</li>\n<li>Select the <strong>Specify Login Endpoint</strong> in the <strong>Authentication</strong> section.</li>\n<li>Provide the following data from your salesforce application in the Authentication section:\n<ul>\n<li><strong>Client ID</strong></li>\n<li><strong>Client Secret</strong></li>\n<li><strong>UserID</strong> and <strong>Password</strong> - Your Salesforce UserID and Password (Password appended with Security Token).</li>\n</ul>\n</li>\n<li>Click <strong>Save &amp; Generate</strong>.<br />The <strong>Import Objects from Backend</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "bottom",
+        "element": {
+            "module": "mfconsole",
+            "css_selector": ".form-group.pull-right.mr-15"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 08:44:58 GMT"
+    },
+    "context": []
+}

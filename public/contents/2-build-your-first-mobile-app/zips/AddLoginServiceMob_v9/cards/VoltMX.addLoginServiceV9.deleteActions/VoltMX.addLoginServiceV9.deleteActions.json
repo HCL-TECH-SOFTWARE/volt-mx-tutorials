@@ -1,0 +1,33 @@
+{
+    "kuid": "5f59f1t7-aca4-47r3-92u3-fc9a8fn3",
+    "id": "VoltMX.addLoginServiceV9.deleteActions",
+    "content": {
+        "title": "Delete Unwanted Actions",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> canvas, go to <strong>Navigate to Form frmAccount</strong>. Right-click and select <strong>Delete</strong> for this action.</li>\n<li>From the <strong>Action Editor</strong> canvas, navigate to <strong>Invoke Service: UserAuthentication$login</strong> &gt; <strong>Success</strong> &gt; <strong>Show Alert</strong>.&nbsp;Right-click and select <strong>Delete</strong> for this action.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 09:28:38 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "c57cd7t0-9ba5-48r9-aduc-a1a953n5",
+    "id": "VoltMX.CreateUIRWV9.addNavigation6",
+    "content": {
+        "title": "Add Navigation from Payee Screen",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>General </strong>section, select <strong>Navigate to Form</strong>.</li>\n<li>In the right pane of the <strong>Action Editor</strong>, select <strong>frmAccount</strong></li><li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmAccount"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:26:22 GMT"
+    },
+    "context": []
+}

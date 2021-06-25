@@ -1,0 +1,33 @@
+{
+    "kuid": "a6eb3cta-e3a3-4cr8-a7uc-780b01n8",
+    "id": "VoltMX.UsingTestRecorder_v9.testCase1",
+    "content": {
+        "title": "Create the First Test Case",
+        "body": "<ol>\n<li>In Iris, in the <strong>Test Case Recorder</strong> window, click <strong>Stop</strong>.</li>\n<li>From the top right corner of the T<strong>est Case Recorder</strong> Window screen, click <strong>Save</strong>.<br />You have successfully created your first test case.</li><li>Close the <b>Test Case Recorder</b> window.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 27 Feb 2020 09:05:23 GMT"
+    },
+    "context": []
+}

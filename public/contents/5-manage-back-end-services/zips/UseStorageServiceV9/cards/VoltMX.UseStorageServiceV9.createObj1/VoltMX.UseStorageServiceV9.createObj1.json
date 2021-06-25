@@ -1,0 +1,33 @@
+{
+    "kuid": "0395bct4-99af-49rb-b6u4-242d82ne",
+    "id": "VoltMX.UseStorageServiceV9.createObj1",
+    "content": {
+        "title": "Create an Object Service",
+        "body": "<ol>\n<li>In the Name field, enter <strong>sampleStorage</strong>.</li>\n<li>Click <strong>Save &amp; Configure</strong>.</li>\n<li>In the <strong>Configure </strong>window, click <strong>Configure New</strong>.</li>\n<li>In the Name field, enter: <strong>employees</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 10:08:02 GMT"
+    },
+    "context": []
+}

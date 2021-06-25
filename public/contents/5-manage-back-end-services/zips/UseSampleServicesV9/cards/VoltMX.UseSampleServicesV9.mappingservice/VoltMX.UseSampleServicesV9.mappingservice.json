@@ -1,0 +1,33 @@
+{
+    "kuid": "58ac89t2-5da9-45r6-87u3-259d0fn8",
+    "id": "VoltMX.UseSampleServicesV9.mappingservice",
+    "content": {
+        "title": "Map the Service",
+        "body": "<ol><li>Expand <b>employees</b> > <b>Tables</b> and select <b>employee</b>.</li>\n<li>Click <b>Next</b>.</li>\n<li>Click <b>Generate</b>.</li>\n<li>Close the window.</li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 09:22:52 GMT"
+    },
+    "context": []
+}

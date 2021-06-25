@@ -1,0 +1,39 @@
+{
+    "kuid": "94098ft0-bcaf-4ere-93uc-155bd2n7",
+    "id": "VoltMX.AddCreateMob_v9.service3",
+    "content": {
+        "title": "Setting the Value of the Last Name",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Widget </strong>section, select <strong>Set Widget Property</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, go to <strong>Mobile Forms</strong> &gt; <strong>frmAddRecipient</strong> &gt; <strong>flexAddRecipient</strong> &gt; <strong>flexFieldsContainer</strong> &gt; <strong>flexLastName</strong>, and select <strong>tbxLastName</strong>.</li>\n<li>In the right pane, modify the following values:\n<ul>\n<li>Property: <strong>Text </strong></li>\n<li>leave the <strong>Value </strong>as blank</li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Set Widget Property"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 04:45:01 GMT"
+    },
+    "context": []
+}

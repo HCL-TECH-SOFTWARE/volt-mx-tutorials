@@ -1,0 +1,33 @@
+{
+    "kuid": "a924e7t7-20af-47r4-b3u2-99a965n3",
+    "id": "VoltMX.PubishAppEnterpriseStoreV9.publish",
+    "content": {
+        "title": "Publish a Native Android App",
+        "body": "<ol>\n<li>From the main menu, select <strong>Build</strong>.</li>\n<li>Click <strong>Build and Publish Native</strong>.<br /> The <strong>Build and Publish Native</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 10:00:53 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,35 @@
+{
+    "kuid": "faee1ct6-24a9-4er9-b3uc-23ea53n5",
+    "id": "VoltMX.CreateUIRWV9.uiAccount",
+    "content": {
+        "title": "UI of Account Form",
+        "body": "<ol>\n<li>From the left corner of the Iris canvas, navigate to the <strong>Default Library</strong>.</li>\n<li>Click the search icon.</li>\n<li>In the search bar that appears, enter <strong>Account</strong>.</li>\n<li>From the results, under <strong>RecipientsWeb </strong>collection, select <strong>AccountList</strong>.</li>\n<li>Drag the <strong>AccountList </strong>collection onto <strong>frmAccount</strong> on the canvas.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:21:58 GMT"
+    },
+    "context": []
+}

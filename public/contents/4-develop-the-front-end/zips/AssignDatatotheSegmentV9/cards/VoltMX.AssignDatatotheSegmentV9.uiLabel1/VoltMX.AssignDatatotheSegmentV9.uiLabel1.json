@@ -1,0 +1,41 @@
+{
+    "kuid": "e64b63te-aba0-4fr2-80ub-521ff5n0",
+    "id": "VoltMX.AssignDatatotheSegmentV9.uiLabel1",
+    "content": {
+        "title": "Assign Position to the Label",
+        "body": "<ol>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Look</strong> tab.</li>\n<li>Under the <strong>Flex</strong> section, enter the following values:\n<ul>\n<li>Left: <strong>165 Dp</strong></li>\n<li>Bottom: 2<strong>3 Dp<br /></strong></li>\n<li>Clear out the value given on the right of <strong>Top</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Left",
+                "sectionDOMId": "frmKonyLib_pwwgvbx-flex",
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 11:03:40 GMT"
+    },
+    "context": []
+}

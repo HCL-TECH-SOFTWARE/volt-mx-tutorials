@@ -1,0 +1,39 @@
+{
+    "kuid": "0bfcd7t9-33af-4br5-81u3-5efd82na",
+    "id": "VoltMX.AddCreateMob_v9.settingData3",
+    "content": {
+        "title": "Setting Button Opacity",
+        "body": "<ol>\n<li>From the left menu of the Action Editor, under the <strong>Widget</strong> section, select <strong>Set Widget Property</strong>.</li>\n<li>From the right pane, under <strong>Mobile</strong> &gt; <strong>Forms</strong> &gt; <strong> frmAddRecipient </strong>&gt; <strong> flexAddRecipient</strong> > <b>flexFieldsContainer</b> &gt; <strong>flexAdd </strong>&gt; <strong>flexBorderedButton</strong>, select <strong>btnSquared</strong>.</li>\n<li>In the right pane, modify the following values:\n<ul>\n<li>Property: <strong>Opacity</strong></li>\n<li>Value: <strong>60%</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Set Widget Property"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 05:25:11 GMT"
+    },
+    "context": []
+}

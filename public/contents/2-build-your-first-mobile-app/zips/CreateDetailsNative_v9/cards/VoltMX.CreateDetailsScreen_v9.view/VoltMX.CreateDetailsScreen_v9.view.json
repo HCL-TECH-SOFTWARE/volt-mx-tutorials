@@ -1,0 +1,33 @@
+{
+    "kuid": "a792eft6-11ae-43r0-b7u7-ae0a89n2",
+    "id": "VoltMX.CreateDetailsScreen_v9.view",
+    "content": {
+        "title": "View the App",
+        "body": "<ol>\n<li>Enter the following login credentials in your app.\n<ul>\n<li>Username: <strong>john.doe@woodburn.com</strong></li>\n<li>Password: <strong>VoltMX@123</strong></li>\n</ul>\n</li>\n<li>Click <strong>Login</strong>.<br /> The <strong>Accounts List</strong> appears.</li>\n<li>Click <strong>Recipients</strong>.<br /> The <strong>Recipient list</strong> appears.</li>\n<li>Select a recipient from the list to view their details.<br />From the details page, you can delete the recipient.<br/>You will learn how to create and edit recipients in next hikes.</li>\n<li>To exit the app on your <strong>mobile</strong> device, swipe two fingers from left to right or shake your mobile device and click <strong>Exit App</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 21 Feb 2020 11:10:18 GMT"
+    },
+    "context": []
+}

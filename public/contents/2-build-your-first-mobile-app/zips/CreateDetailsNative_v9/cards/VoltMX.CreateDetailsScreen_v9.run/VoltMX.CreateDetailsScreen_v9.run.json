@@ -1,0 +1,36 @@
+{
+    "kuid": "58168ct3-f8aa-4er4-a8ud-619e10n2",
+    "id": "VoltMX.CreateDetailsScreen_v9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol>\n<li>From the left navigation bar, click <strong>Run</strong>.<br /> It will take some time for Iris to display the <strong>Live Preview is ready</strong> window.</li>\n<li>After Iris runs the app, on your <strong>Volt MX App</strong>, click <strong>Launch</strong>.</li>\n<li>You may see an <strong>Application Name </strong>text box. If there is a text box, enter <strong>RecipientsMobApp</strong>, and then click <strong>Launch</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "shortcutbar",
+            "itemId": "frmKonyLib_preview"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 21 Feb 2020 11:03:07 GMT"
+    },
+    "context": []
+}

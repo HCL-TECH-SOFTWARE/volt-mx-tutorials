@@ -1,0 +1,36 @@
+{
+    "kuid": "7384c2t3-3eaa-47rc-bcu7-8ee9afn4",
+    "id": "VoltMX.ConnectAppServWebV9.onNavfunction",
+    "content": {
+        "title": "PreShow Event for Accounts Form",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, navigate to <strong>Responsive Web/Desktop</strong> &gt; <strong>Forms</strong> and select <strong>frmAccount</strong>.</li>\n<li>From the <strong>Properties </strong>panel of Iris, navigate to the <strong>Action</strong> tab.</li>\n<li>For the <strong>preShow</strong> event, click <strong>Edit</strong>.<br /> The <strong>Action Editor </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmAccount"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 05:24:46 GMT"
+    },
+    "context": []
+}

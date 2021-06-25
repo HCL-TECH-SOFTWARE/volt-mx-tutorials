@@ -1,0 +1,35 @@
+{
+    "kuid": "52aaf9t1-adab-4fr1-b9u7-9047d5nb",
+    "id": "VoltMX.IntrotoActionEditorV9.createReg",
+    "content": {
+        "title": "Create the Registration Form",
+        "body": "<ol>\n<li>From the <strong>Project</strong> Explorer, expand <strong>Mobile&nbsp;</strong>&gt;&nbsp;<strong>Forms</strong> and select <strong>frmRegistration.</strong>&nbsp;</li>\n<li>From the lower-left corner of Iris, navigate to the Default Library.</li>\n<li>Next to the <strong>Default Library</strong>, you will see the <strong>My Libraries</strong> tab and a search icon. Click the search icon <img class=\"\" src=\"https://i.ibb.co/VDQ1byP/Screenshot-2019-02-26-at-1-57-46-PM.png\" alt=\"\" width=\"20\" height=\"20\" />.</li>\n<li>In the search bar that appears, enter <strong>ACMERegister</strong>.<br /><img src=\"https://i.ibb.co/DYgBS2b/Screenshot-2019-02-26-at-2-44-09-PM.png\" alt=\"\" width=\"173\" height=\"40\" /></li>\n<li>Drag the <strong>ACME</strong><strong>Register</strong> component and drop it onto&nbsp;<strong>frmRegistration </strong>on the canvas.</li>\n</ol>\n<p>In the next few cards, we will be adding validations for this Registration Screen.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 04:41:59 GMT"
+    },
+    "context": []
+}

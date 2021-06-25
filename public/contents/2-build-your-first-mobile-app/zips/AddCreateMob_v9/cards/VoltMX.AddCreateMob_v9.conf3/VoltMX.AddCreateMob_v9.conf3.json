@@ -1,0 +1,39 @@
+{
+    "kuid": "7ee7dct4-fca1-46re-8fu6-c76b02na",
+    "id": "VoltMX.AddCreateMob_v9.conf3",
+    "content": {
+        "title": "Failure Alert",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor, </strong>under the <strong>Condition</strong> section, select <strong>Else</strong>.</li>\n<li>From the left menu of the Action Editor, under the <strong>Client</strong> section, select <strong>Show Alert</strong>.</li>\n<li>In the right pane modify the following fields\n<ul>\n<li>Alert Type: <strong>Info</strong></li>\n<li>Alert Message: &ldquo;<strong>Sorry, your payee could not be added successfully. Please try again later.</strong>&rdquo;</li>\n</ul>\n</li><li>Click <b>Save</b>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Show Alert"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 05:32:05 GMT"
+    },
+    "context": []
+}

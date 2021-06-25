@@ -1,0 +1,36 @@
+{
+    "kuid": "518fbate-49a1-4cr7-bcud-24395bn7",
+    "id": "VoltMX.EditPayeeMobile_v9.navRec",
+    "content": {
+        "title": "Navigating to the Recipients List Screen",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Mobile</strong> &gt; <strong>Forms</strong> &gt; \n <strong>frmEditRecipient </strong>&gt; <b>flexEditRecipient</b> > <strong> flexFooter</strong>, and select <strong>flexRecipientSelected</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action</strong>&nbsp;tab.</li>\n<li>Under the <strong>General</strong> section, for the <strong>onClick</strong> event click <strong>Edit</strong>.<br /> The <strong>Action Editor </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmEditRecipient"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 12:12:02 GMT"
+    },
+    "context": []
+}

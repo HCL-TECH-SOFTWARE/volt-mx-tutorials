@@ -1,0 +1,33 @@
+{
+    "kuid": "dc42bfta-89a7-46rf-8euc-62f089n9",
+    "id": "VoltMX.ConnectAppServWebV9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully:</p>\n<ul>\n<li><strong>Integrated Services with the UI elements of the form</strong></li>\n</ul>\n<p>&nbsp;</p>\n<p>To learn how to create the Recipient details and add the functionality to delete a recipient, check out the next hike: <a class=\"tour-link\" tour=\"082af3t0-74a2-4ere-a6u3-749d59n5\"><strong>6. Create Recipient Details.</strong></a>.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 06:05:28 GMT"
+    },
+    "context": []
+}

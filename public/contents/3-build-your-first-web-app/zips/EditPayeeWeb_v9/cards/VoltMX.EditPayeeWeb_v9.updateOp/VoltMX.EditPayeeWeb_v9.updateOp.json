@@ -1,0 +1,36 @@
+{
+    "kuid": "744d36t4-efa1-45r2-8au8-a427f1nc",
+    "id": "VoltMX.EditPayeeWeb_v9.updateOp",
+    "content": {
+        "title": "Configuring Update Operation",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Responsive Web/ Desktop </strong>&gt;<strong> Forms</strong> &gt; <strong>frmEditRecipient </strong>&gt;<strong> flxEntryFields </strong>&gt;<strong> flxButtons</strong>, and select <strong>btnUpdate</strong>.</li>\n<li>From the <strong>Data &amp; Services</strong> panel, expand <strong>Project Services </strong>&gt;<strong> RecipientStorage </strong>&gt;<strong> Recipients</strong>.</li>\n<li>Select the <strong>update</strong> operation and drop it onto the <strong>Update</strong> button on the canvas.</li>\n<li>From the list of actions, select <strong>Action: onClick</strong>.<br />The <strong>Action Editor </strong>window appears with a mapping editor on the right pane.</li><li>From the top-right corner of the <b>Action Editor</b> window, select <b>Design View</b>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmEditPayee"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 05:50:03 GMT"
+    },
+    "context": []
+}

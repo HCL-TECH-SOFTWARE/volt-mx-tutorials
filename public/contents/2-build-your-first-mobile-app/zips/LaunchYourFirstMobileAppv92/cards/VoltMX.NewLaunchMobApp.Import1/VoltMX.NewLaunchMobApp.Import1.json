@@ -1,0 +1,33 @@
+{
+  "kuid": "a6d1fft9-44ab-42r1-b9u8-eadc2cn0",
+  "id": "VoltMX.NewLaunchMobApp.Import1",
+  "content": {
+    "title": "Open the App",
+    "body": "<ol>\n<li>After the app is imported, a <strong>Iris</strong> dialog appears.<br />Click <strong>Ok</strong>.</li>\n<li>From the main menu of the Iris, navigate to <strong>Project</strong> &gt; <strong>Open</strong> &gt; <strong>HCL Reference Architecture</strong>, and select <strong>RecipientsMobile</strong>.<br />The application opens in the <strong>Storyboard</strong> view.</li>\n</ol>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": "",
+    "type": "none"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Prem Garudadri",
+    "CreatedOn": "Wed, 18 Dec 2019 09:17:34 GMT"
+  },
+  "context": []
+}

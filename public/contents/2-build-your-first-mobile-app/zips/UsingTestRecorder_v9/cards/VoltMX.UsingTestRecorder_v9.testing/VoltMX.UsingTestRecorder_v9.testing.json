@@ -1,0 +1,33 @@
+{
+    "kuid": "4311b4t0-38a3-45ra-9eua-cc6414n1",
+    "id": "VoltMX.UsingTestRecorder_v9.testing",
+    "content": {
+        "title": "Create the First Test Case",
+        "body": "<ol>\n<li>In the <strong>Iris Preview</strong> window, enter the following credentials:\n<ul>\n<li>Username: <strong>john.doe@woodburn.com</strong></li>\n<li>Password: <strong>VoltMX@123</strong></li>\n</ul>\n</li>\n<li>Click <strong>Login</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 27 Feb 2020 09:04:20 GMT"
+    },
+    "context": []
+}

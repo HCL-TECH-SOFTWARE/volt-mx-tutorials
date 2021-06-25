@@ -1,0 +1,33 @@
+{
+    "kuid": "158f18t1-8ea3-4ar7-83ue-051521nc",
+    "id": "VoltMX.NFIBarcodeV9.addFramework1",
+    "content": {
+        "title": "Add Android Frameworks",
+        "body": "<ol>\n<li>In the search bar on top of the window, type <strong>android.app.job</strong>.</li>\n<li>Under <strong>Android API level 28 onwards,</strong> select the <strong>android.</strong><strong>app.job </strong>framework.</li>\n<li>Similarly, search and select the following frameworks:\n<ul>\n<li><strong>android.content</strong></li>\n<li><strong>android.net</strong></li>\n<li><strong>android.support.v8.renderscript</strong></li>\n<li><strong>android.view</strong></li>\n<li><strong>android.webkit</strong></li>\n<li><strong>java.lang</strong></li>\n<li><strong>java.util</strong></li>\n</ul>\n</li>\n<li>Click <strong>Add</strong>.</li>\n<li>Close the <strong>Native Function Interface:MyBarCodeScanner</strong></li>\n</ol>\n<p>All frameworks required to access the barcode scanner have been added.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 28 Nov 2019 04:37:06 GMT"
+    },
+    "context": []
+}

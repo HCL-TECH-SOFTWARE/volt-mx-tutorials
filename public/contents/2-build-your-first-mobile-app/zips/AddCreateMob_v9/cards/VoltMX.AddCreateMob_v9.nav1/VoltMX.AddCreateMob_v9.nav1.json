@@ -1,0 +1,39 @@
+{
+    "kuid": "06f02etd-eaa1-4cr4-96uc-ebfa36n2",
+    "id": "VoltMX.AddCreateMob_v9.nav1",
+    "content": {
+        "title": "Adding Navigation for Back Button",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmRecipients</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 10:48:12 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,39 @@
+{
+    "kuid": "ffd088td-21a5-46r4-a5uf-2d3247nc",
+    "id": "VoltMX.IntroductiontoNFIV9.eventCode1",
+    "content": {
+        "title": "Link the code to the UI Elements",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>Function</strong> section, select <strong>Invoke Function</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, for the drop-down <strong>Function Name</strong>, select <strong>openDeviceSettings</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Invoke Function"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 11:57:40 GMT"
+    },
+    "context": []
+}

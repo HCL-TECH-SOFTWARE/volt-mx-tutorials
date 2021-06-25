@@ -1,0 +1,33 @@
+{
+    "kuid": "440460t7-bfa0-48r8-b3u2-6dbe41n4",
+    "id": "VoltMX.UseStorageServiceV9.Intro",
+    "content": {
+        "title": "Connect to a Storage Service",
+        "body": "<b>Let’s get started.</b><br/>\nIn this hike, we will: <br/>\n<ul><li> Create a form </li>\n<li> Create a storage service</li>\n<li> Populate data in the storage service</li>\n<li>Connect data to the form. <br>You can follow the same steps to bind your own storage service to your app.</br></li></ul>\n<br/>\n\n<b>When you are ready, click Start!</b>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 09:58:51 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "d176ectb-fba7-49rb-beu7-61ec00n4",
+    "id": "VoltMX.InternationalWithLayoutV9.enable1",
+    "content": {
+        "title": "Enable Internationalization",
+        "body": "<ol>\n<li>From the <strong>Project Settings</strong> window, navigate to the <strong>Application </strong>tab,</li>\n<li>Under <strong>Internationalization(i18n): </strong>section<strong>, </strong>select <strong>Enable</strong>.<br /> Two new fields appear.</li>\n<li>Select <strong>Enable i18n Layout Config</strong>.</li>\n<li>Click <strong>Configure</strong>.<br /> The <strong>Configure Internationalization </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:24:19 GMT"
+    },
+    "context": []
+}

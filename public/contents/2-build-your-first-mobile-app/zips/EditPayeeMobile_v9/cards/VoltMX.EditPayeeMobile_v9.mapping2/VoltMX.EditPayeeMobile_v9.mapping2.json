@@ -1,0 +1,39 @@
+{
+    "kuid": "c7cb0et1-ffa4-46r4-8bu2-54494ana",
+    "id": "VoltMX.EditPayeeMobile_v9.mapping2",
+    "content": {
+        "title": "Invoking Services for Update",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Network</strong> section, select <strong>Invoke Service</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select the following values from the drop-down list:\n<ul>\n<li>Select Service: <strong>RecipientStorage$Recipients</strong></li>\n<li>Select Method: <strong>get</strong></li>\n</ul>\n</li>\n<li>Click <strong>Construct Filter Query</strong>.<br />The Mapping Editor window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Invoke Service"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 11:46:15 GMT"
+    },
+    "context": []
+}

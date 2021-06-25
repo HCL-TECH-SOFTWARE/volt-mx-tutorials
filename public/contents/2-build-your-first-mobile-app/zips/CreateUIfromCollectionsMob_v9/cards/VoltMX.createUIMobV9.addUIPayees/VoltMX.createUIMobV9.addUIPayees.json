@@ -1,0 +1,35 @@
+{
+    "kuid": "970e03t4-f8aa-49rf-b5u8-c3c278n3",
+    "id": "VoltMX.createUIMobV9.addUIPayees",
+    "content": {
+        "title": "UI for Recipients Form",
+        "body": "<ol>\n<li>From the left of the Iris canvas, navigate to the <strong>Default Library</strong>.</li>\n<li>Click the search icon.</li>\n<li>In the search bar that appears, enter <strong>RecipientList</strong>.</li>\n<li>From the results, under <strong>RecipientsMobile</strong>, select <strong>RecipientList</strong>.</li>\n<li>Drag the <strong>RecipientsList</strong> collection onto the <strong>frmRecipients</strong> form on the canvas.</li>\n<li>From the top of the Iris canvas, select the <b>Design</b> tab to open the application in the <b>Design</b> view.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 06:57:47 GMT"
+    },
+    "context": []
+}

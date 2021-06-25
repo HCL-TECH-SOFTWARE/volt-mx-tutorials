@@ -1,0 +1,33 @@
+{
+    "kuid": "2ebddct8-2bae-42r3-86ub-afe21an9",
+    "id": "VoltMX.CreateDetailsNative_v9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You&rsquo;ve successfully:</p>\n<ul>\n<li><strong>Created the Recipient detail screen</strong></li>\n<li><strong>Mapped the recipient detail UI to the services<br /></strong></li>\n<li><strong>Implemented navigation to all other forms in the app</strong></li>\n<li><strong>Implemented logout in the recipient details form<br /></strong></li>\n</ul>\n<p>For more information on creating recipients check out the next hike: <a class=\"tour-link\" tour=\"da2bbctf-3ba6-49rf-b2u9-b842dand\"><strong>7. Add Recipients</strong></a>.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 11:40:55 GMT"
+    },
+    "context": []
+}

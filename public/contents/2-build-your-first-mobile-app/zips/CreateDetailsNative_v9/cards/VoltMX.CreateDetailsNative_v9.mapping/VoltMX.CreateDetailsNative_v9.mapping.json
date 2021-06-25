@@ -1,0 +1,39 @@
+{
+    "kuid": "5757eete-28ad-4dr9-b6u9-860bd4n2",
+    "id": "VoltMX.CreateDetailsNative_v9.mapping",
+    "content": {
+        "title": "Updating the Mapping Editor",
+        "body": "<ol>\n<li>From the <b>Project</b> Explorer, select <strong>frmDetails</strong>.</li>\n<li>From the <strong>Properties </strong>panel, navigate to the <strong>Action</strong> tab.</li>\n<li>For the <strong>onMapping</strong> event, click <strong>Edit</strong>.<br /> The <b>Action Editor</b> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-tab",
+            "info": {
+                "tabName": "Action"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 08:43:17 GMT"
+    },
+    "context": []
+}

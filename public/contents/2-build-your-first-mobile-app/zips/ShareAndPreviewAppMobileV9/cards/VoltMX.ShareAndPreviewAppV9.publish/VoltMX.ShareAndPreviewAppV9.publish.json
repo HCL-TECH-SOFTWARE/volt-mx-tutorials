@@ -1,0 +1,33 @@
+{
+    "kuid": "38974ft4-e4af-44re-aeuc-48b6d4nb",
+    "id": "VoltMX.ShareAndPreviewAppV9.publish",
+    "content": {
+        "title": "Publish Live Preview",
+        "body": "<ol>\n<li>From the main menu, select <strong>Build</strong>.</li>\n<li>Click <strong>Publish Live Preview</strong>.<br /> The <strong>Publish Live Preview</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 09:35:49 GMT"
+    },
+    "context": []
+}

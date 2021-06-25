@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Hike kuid="fa3f8at6-d2a2-40r2-9du0-aeb0b3nc" id="VoltMX.PubishAppEnterpriseStoreV9" title="VoltMX.PubishAppEnterpriseStoreV9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Prem Garudadri</Creator>
+        <Createdon>Wed, 18 Dec 2019 09:56:48 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.PubishAppEnterpriseStoreV9.Intro"/>
+    <Hikecard id="VoltMX.PubishAppEnterpriseStoreV9.publish"/>
+    <Hikecard id="VoltMX.PubishAppEnterpriseStoreV9.publish2"/>
+    <Hikecard id="VoltMX.PubishAppEnterpriseStoreV9.view"/>
+    <Hikecard id="VoltMX.PubishAppEnterpriseStoreV9.explore"/>
+    <Hikecard id="VoltMX.PubishAppEnterpriseStoreV9.iOS"/>
+    <Hikecard id="VoltMX.PubishAppEnterpriseStoreV9.done"/>
+</Hike>

@@ -1,0 +1,35 @@
+{
+    "kuid": "292959ta-7ba6-42r9-b9u4-a59c52n2",
+    "id": "VoltMX.addLoginServiceV9.addUser",
+    "content": {
+        "title": "Add User for Authentication",
+        "body": "<ol>\n<li>Click&nbsp;<strong>Add User</strong>.<br /> The<strong> Add User&nbsp;</strong>window appears.</li>\n<li>Enter the following values in the respective fields:\n<ul>\n<li>Email/Username:<strong> john.doe@woodburn.com</strong></li>\n<li>First Name:<strong> John</strong></li>\n<li>Last Name:<strong> Doe</strong></li>\n<li>Password:<strong> VoltMX@123</strong></li>\n<li>Re-Enter Password:<strong> VoltMX@123</strong></li>\n<li>From&nbsp;<strong>Add/Select Group</strong>, ensure the checkbox for&nbsp;<strong>Members </strong>is selected from the drop-down.</li>\n</ul></li>\n<li>Click&nbsp;<strong>Add User</strong>.</li>\n</ol>\n<p>A user is added to the repository.<br /> Note the Login credentials for testing.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "mfconsole"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 09:10:52 GMT"
+    },
+    "context": []
+}

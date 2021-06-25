@@ -1,0 +1,33 @@
+{
+    "kuid": "51f82dt4-82aa-43r6-83u7-ce4efcnd",
+    "id": "VoltMX.NewLaunchWebApp.Viewing",
+    "content": {
+        "title": "Explore the App",
+        "body": "<ol>\n<li>Enter the following login credentials in your app:\n<ul>\n<li>Username: <strong>john.doe@woodburn.com</strong></li>\n<li>Password: <strong>VoltMX@123</strong></li>\n</ul>\n</li>\n<li>Click <strong>Login</strong>. <br /> The <strong>Accounts List </strong>appears.</li>\n<li>Click <strong>Recipients</strong>. <br /> The <strong>Recipients&nbsp;list</strong> appears.</li>\n</ol>\n<p>In the Recipients page, you can do the following:</p>\n<ul style=\"list-style-type: circle;\">\n<li>Click the add (<strong>+</strong>) icon, to add a&nbsp;recipient&nbsp;to your account.</li>\n<li>Select a recipient from the list to view their details.<br />From the details page, you can edit or delete the recipient.</li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:09:18 GMT"
+    },
+    "context": []
+}

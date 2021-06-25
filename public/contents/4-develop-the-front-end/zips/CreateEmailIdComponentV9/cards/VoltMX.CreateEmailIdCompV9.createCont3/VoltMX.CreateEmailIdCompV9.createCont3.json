@@ -1,0 +1,35 @@
+{
+    "kuid": "1372aat3-07a1-4brc-b9u9-380122n7",
+    "id": "VoltMX.CreateEmailIdCompV9.createCont3",
+    "content": {
+        "title": "Add a TextBox Widget",
+        "body": "<ol>\n<li>From the lower-left corner of Iris, go to the <b>Default Library</b> and click on the search icon <img src=\"https://i.ibb.co/gmMPVjC/search-Icon.png\" alt=\"search icon\" width=\"13\"\nheight=\"13\"> \n . </li><li>In the search bar, clear any previous text and enter <b>TextBox</b>.</li>\n<li>From the results, select <b>TextBox</b>. </li><li>Drag and drop the widget onto the <b>Contact</b> form in the canvas.</li> \n<li>From the <b>Project</b> explorer, right-click on the new text box widget and rename <b>txtName</b>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 05:53:44 GMT"
+    },
+    "context": []
+}

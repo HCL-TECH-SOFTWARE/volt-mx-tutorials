@@ -1,0 +1,39 @@
+{
+    "kuid": "89b1cat3-a5a6-43r6-81uc-c19cb3nf",
+    "id": "VoltMX.ResponsiveBreakV9.editoptLay1",
+    "content": {
+        "title": "Optimize the Layout of Names",
+        "body": "<ol>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>FlexContainer</strong> tab.</li>\n<li>Under the <strong>General </strong>section, for the <strong>Layout Type</strong>, select <strong>Flow Vertical</strong> from the drop-down list.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-tab",
+            "info": {
+                "tabName": "FlexContainer"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Sat, 29 Feb 2020 03:32:19 GMT"
+    },
+    "context": []
+}

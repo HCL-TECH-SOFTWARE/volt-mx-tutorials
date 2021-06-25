@@ -1,0 +1,33 @@
+{
+    "kuid": "eceaf1tc-52a9-40r4-90u2-4c9f43n9",
+    "id": "VoltMX.CreateDetailsNative_v9.deleteFeature11",
+    "content": {
+        "title": "Adding Delete Feature",
+        "body": "<ol>\n<li>From the top-right corner of the <strong>Action Editor</strong> window, select <strong>Design View</strong>.</li>\n<li>From the <strong>Action Editor</strong> canvas, select <strong>Invoke Service</strong> (name: <strong>RecipientStorage$Recipients$delete</strong>).</li>\n<li>From the right-pane of the Action editor, select <strong>Open Mapping Editor</strong>. <br />The Mapping Editor window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 09:48:52 GMT"
+    },
+    "context": []
+}

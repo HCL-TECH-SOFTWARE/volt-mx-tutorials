@@ -1,0 +1,33 @@
+{
+    "kuid": "f2e544t1-2aa6-4arb-96ub-70582an4",
+    "id": "VoltMX.createUIMobV9.intro",
+    "content": {
+        "title": "Build your First Mobile App",
+        "body": "<p><strong>Let&rsquo;s get started!</strong></p>\n<p>In this hike, we will:</p>\n<ul>\n<li>Create forms with UI elements for user interaction</li>\n<li>Add navigation to access the different forms in this app</li>\n</ul><br/>\n<p>Before you get started, complete the hike:</p>\n<ol><b>\n<li><a class=\"tour-link\" tour=\"7408efte-e2aa-4cr8-a9ub-d7ba36n8\">Import &amp; Launch a Native App</a></li>\n</b></ol><br/>\n<p><strong>When you are ready, click Start!</strong></p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 06:46:35 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+  "kuid": "8546fdt4-7dac-45rb-8bu3-d372adnc",
+  "id": "VoltMX.VoltMXOrientationV9.DataPanel",
+  "content": {
+    "title": "Data & Services",
+    "body": "<p>The <strong>Data &amp; Services</strong> panel enables you to link the back-end data services to your app's user interface elements. The sample services in the <strong>Data &amp; Services</strong> panel helps you to add a service to your app.</p>"
+  },
+  "pointer": {
+    "direction": "top",
+    "element": {
+      "module": "datapanel",
+      "itemType": "dp_tab"
+    },
+    "type": "default"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Mon, 25 Nov 2019 07:00:21 GMT"
+  },
+  "context": []
+}

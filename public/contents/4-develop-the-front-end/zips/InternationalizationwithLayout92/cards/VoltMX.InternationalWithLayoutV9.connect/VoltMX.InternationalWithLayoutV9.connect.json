@@ -1,0 +1,33 @@
+{
+    "kuid": "f27b0ctb-91ab-44re-9eud-9801c1n8",
+    "id": "VoltMX.InternationalWithLayoutV9.connect",
+    "content": {
+        "title": "Connect your Mobile Device",
+        "body": "<ol>\n<li>Connect your <strong>mobile</strong> device to your computer using a USB cable.<br />For an Android mobile device, ensure that the use of USB is set as <strong>Transfer</strong> <strong>files</strong>.</li>\n<li>Ensure that the device language is set as <strong>English (United States)</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:40:33 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "dd1547tc-85a1-49r7-91u4-fcbac1nc",
+    "id": "VoltMX.UserRepositoryAuthV9.navigationToHome1",
+    "content": {
+        "title": "Add Navigation from Login screen",
+        "body": "<ol>\n<li>Navigate to&nbsp;the&nbsp;<strong>Project</strong> explorer &gt;&nbsp;<strong>Responsive Web /Desktop</strong> &gt;&nbsp;<strong>Forms</strong> and select <strong>frmLogin</strong>.</li>\n<li>Right-click the <strong>Login</strong> button on your canvas and select <strong>Action: onClick</strong>.<br />The <strong>Action Editor</strong> window appears.</li>\n<li>From the top-right corner of your <strong>Action Editor</strong> window, select <strong>Design View</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmLogin"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 07:10:49 GMT"
+    },
+    "context": []
+}

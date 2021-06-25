@@ -1,0 +1,33 @@
+{
+    "kuid": "e0a61dtd-89ad-40re-9fuc-e14793n1",
+    "id": "VoltMX.AuthApp.ConfigureLogout_1",
+    "content": {
+        "title": "Configure Logout Parameters",
+        "body": "<ol>\n<li>From the Action Editor canvas, under <strong>Invoke Service: UserAuthentication$logout</strong>,&nbsp;click <strong>Success</strong>.</li>\n<li>From the left menu of the&nbsp;<strong>Action Editor</strong>, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmLogin</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Deepti Ravula",
+        "CreatedOn": "Thu, 19 Dec 2019 06:42:37 GMT"
+    },
+    "context": []
+}

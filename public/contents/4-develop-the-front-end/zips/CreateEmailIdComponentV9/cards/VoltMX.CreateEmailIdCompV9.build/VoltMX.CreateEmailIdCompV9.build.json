@@ -1,0 +1,33 @@
+{
+    "kuid": "8dd92btc-aaab-44re-b3ub-f9f84cnf",
+    "id": "VoltMX.CreateEmailIdCompV9.build",
+    "content": {
+        "title": "Build the App",
+        "body": "<ol>\n<li>From the main menu, go to <b>Build</b> and select <b>Live Preview Settings</b>.</li>\n<li>In the <b>Live Preview Settings</b> window, under <b>Native</b>, select checkboxes next to OS of the <b>mobile</b> device on which you are going to view the app.<br/>\nFor example: <b>iOS</b> and <b>Android</b><br/>\nEnsure that you have unselected the checkboxes for all other platforms and channels.\n<li>Click <b>Save & Run</b>.<br/>\nIt may take some time for the Iris to show the <b>Live Preview is ready</b> window."
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:46:10 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,41 @@
+{
+    "kuid": "ea8055t0-ffa2-48r4-b3u9-bcd1bfnd",
+    "id": "VoltMX.FlexPropertiesV9.ChBottom",
+    "content": {
+        "title": "Layout Bottom Properties",
+        "body": "<ol>\n<li>From the <strong>Properties </strong>panel, expand <strong>Look </strong> &gt; <strong>Flex</strong> on the top right of your canvas.</li>\n<li>Change the <strong>Bottom</strong> property to <strong>0 DP</strong>.</li>\n<li>Blank out the <strong>Top</strong> property.</li>\n</ol>\n<p>Notice the button is now docked to the bottom of the screen on the canvas.</p>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Top",
+                "sectionDOMId": "frmKonyLib_pwwgvbx-flex",
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 08:49:34 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "d0d202t1-84ac-4ar7-97ud-df4594n8",
+    "id": "VoltMX.ConnectAppUItoDataMob_v9.nav",
+    "content": {
+        "title": "Navigation from Recipients List",
+        "body": "<ol>\n<li>From the <strong>Project explorer</strong>, expand <strong>frmRecipients</strong> &gt; <strong>flexRecipientList</strong> &gt; <strong>flexHeader,</strong>, and select <strong>headerButtonLeft</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action </strong>tab.</li>\n<li>For the <strong>onClick</strong> event, click <strong>Edit</strong>. <br />The <strong>Action Editor</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmRecipient"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 08:41:51 GMT"
+    },
+    "context": []
+}

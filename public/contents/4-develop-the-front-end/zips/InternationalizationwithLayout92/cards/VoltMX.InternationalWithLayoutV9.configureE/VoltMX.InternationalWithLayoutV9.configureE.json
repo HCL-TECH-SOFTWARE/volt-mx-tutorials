@@ -1,0 +1,33 @@
+{
+    "kuid": "8299cctb-14a0-4er6-a9u9-f9ef4en5",
+    "id": "VoltMX.InternationalWithLayoutV9.configureE",
+    "content": {
+        "title": "Configure English Locale",
+        "body": "<ol>\n<li>In the <strong>Search </strong>field, enter: <strong><br /> </strong>The<strong> English locale </strong>for<strong> United States </strong>appears<strong>. </strong></li>\n<li>Select the locale <strong>en_US</strong>.</li>\n<li>Under <b>Mirror Default Layout</b> select the first two checkboxes. These are for <strong>Flex Position Properties </strong>and <strong>Flow Horizontal Alignment.</strong></li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:25:39 GMT"
+    },
+    "context": []
+}

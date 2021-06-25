@@ -1,0 +1,36 @@
+{
+  "kuid": "335169te-e8ae-45r4-8au9-b29ad2n6",
+  "id": "VoltMX.IntrotoVoltMXJSV9.controller1",
+  "content": {
+    "title": "Add Constants to frmLoginController",
+    "body": "<ol>\n<li>Navigate to <strong>Project</strong> &gt;<strong> Mobile</strong> &gt; <strong>Controllers</strong>, and select <strong>frmLoginController</strong>. <br /> The Controller file contains the code that manipulates the data and updates the user interface.</li><li>Open the file by clicking it and copy paste the code inside <b>define</b>:</br>\n<p style=\"background-color:lightyellow; padding-left: 2%\">\nUsrname: \"john.doe@woodburn.com\",</br>\nPsword: \"VoltMX@123\",\n</p>\n<br / >\nContent of the JS file will look as:<br/>\n<p style=\"background-color:lightyellow; padding-left: 5%\">\ndefine({ <br/>\nUsrname: \"john.doe@woodburn.com\",<br/>\nPsword: \"VoltMX@123\",<br/>\n });\n</p></li>\n</ol>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": {
+      "module": "projectexplorer",
+      "path": "project-body\\project\\Mobile\\Controllers\\frmLoginController"
+    },
+    "type": "default"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Tue, 26 Nov 2019 08:35:51 GMT"
+  },
+  "context": []
+}

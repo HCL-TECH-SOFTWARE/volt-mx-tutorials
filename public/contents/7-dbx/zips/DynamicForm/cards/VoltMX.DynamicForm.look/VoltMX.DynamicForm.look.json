@@ -1,0 +1,39 @@
+{
+    "kuid": "29a781tb-2da8-41r7-95u6-d52250n1",
+    "id": "VoltMX.DynamicForm.look",
+    "content": {
+        "title": "Customize Data Model Object",
+        "body": "<p>To dynamically configure the fields of the object model, follow these steps:</p>\n<p><strong>Note:</strong>Before you get started, ensure to select the parent container of the request/response parameter on the form.</p>\n<ol>\n<li>Navigate to the <strong>Properties </strong>panel and select the <strong> Look</strong> tab.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-tab",
+            "info": {
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 22 Oct 2019 10:09:15 GMT"
+    },
+    "context": []
+}

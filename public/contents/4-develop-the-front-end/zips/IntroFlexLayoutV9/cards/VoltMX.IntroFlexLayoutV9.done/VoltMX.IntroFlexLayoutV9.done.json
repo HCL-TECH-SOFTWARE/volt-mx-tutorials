@@ -1,0 +1,33 @@
+{
+    "kuid": "a45a92t3-31aa-46r0-b0u4-f7502fna",
+    "id": "VoltMX.IntroFlexLayoutV9.done",
+    "content": {
+        "title": "View the App",
+        "body": "<ol>\n<li>On your <b>Volt MX App</b>, click <b>Launch</b>.<br />\nIf you are prompted to provide the application name, enter <b>FlexLayout</b> and click <b>Launch</b>.</li><li>To <b>Exit</b> the preview, swipe two fingers from left to right or shake your mobile.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 08:19:58 GMT"
+    },
+    "context": []
+}

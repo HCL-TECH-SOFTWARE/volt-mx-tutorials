@@ -1,0 +1,33 @@
+{
+    "kuid": "d864afta-96a6-4dra-b9ue-a4d4d9n7",
+    "id": "VoltMX.UserRepositoryAuthV9.view",
+    "content": {
+        "title": "View the App",
+        "body": "<ol>\n<li>On the <strong>Login</strong> page of your app, enter the user credentials that you have created in the Volt MX User Repository.</li>\n<li>Click <strong>Login</strong>.<br />You will be directed to the Home page.</li>\n<li>Click <strong>Logout</strong>. <br /> You will be redirected to the Login page.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 08:11:45 GMT"
+    },
+    "context": []
+}

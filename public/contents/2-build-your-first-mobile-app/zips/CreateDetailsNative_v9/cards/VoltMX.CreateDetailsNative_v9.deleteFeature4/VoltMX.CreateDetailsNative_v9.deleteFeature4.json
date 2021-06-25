@@ -1,0 +1,33 @@
+{
+    "kuid": "5ec9f1t7-4cac-41rb-b6u5-58bdc2nc",
+    "id": "VoltMX.CreateDetailsNative_v9.deleteFeature4",
+    "content": {
+        "title": "Adding Delete Feature",
+        "body": "<ol>\n<li>From the left menu of the Action Editor, under <strong>Function</strong>, select <strong>Add Snippet</strong>.</li>\n<li>On the right pane of the Action Editor, provide the following code:<br /><span style=\"background-color: #999999;\"><strong>self.view.forceLayout();</strong></span></li>\n<li>From the left menu of the Action Editor, under <strong>General,</strong> select <strong>Set Timeout</strong>.</li>\n<li>In the right pane of the mapping editor, provide the following values:\n<ul>\n<li>Delay: <strong>2</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 11:03:16 GMT"
+    },
+    "context": []
+}

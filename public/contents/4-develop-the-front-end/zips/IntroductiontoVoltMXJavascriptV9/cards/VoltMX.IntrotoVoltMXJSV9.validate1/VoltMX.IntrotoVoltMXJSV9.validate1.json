@@ -1,0 +1,36 @@
+{
+  "kuid": "3a24adt4-e9a7-45r6-90u6-771576nc",
+  "id": "VoltMX.IntrotoVoltMXJSV9.validate1",
+  "content": {
+    "title": "Code for Success Scenario",
+    "body": "<ol>\n<li>Write the following <strong>code</strong> inside <strong>define</strong>, below the declared constants - <strong>Usrname</strong> and <strong>Psword</strong><br />\n<p style=\"background-color: lightyellow; padding-left: 2%;\">validate:function(){<br />if( this.view.usernameTextbox.text === this.Usrname &amp;&amp; this.view.passwordTextbox.text === this.Psword ){<br />var sConfig = {message:\"Your credentials have been checked successfully.\", alertTitle: \"Success\" };<br />VoltMX.ui.Alert(sConfig, {}); <br />}<br /> },</p>\n</li>\n</ol>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": {
+      "module": "appcanvas",
+      "paneId": "ac-area-one"
+    },
+    "type": "default"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Tue, 26 Nov 2019 08:42:27 GMT"
+  },
+  "context": []
+}

@@ -1,0 +1,35 @@
+{
+    "kuid": "449855td-b8ad-42r1-85u8-ae3e2en3",
+    "id": "VoltMX.CreateEmailIdCompV9.componentUI4",
+    "content": {
+        "title": "Add a Label Widget",
+        "body": "<ol>\n<li>From the <strong>Templates</strong> explorer, navigate to <strong>Components</strong> &gt; <strong>userEntry.emailField</strong> and select <strong>emailField</strong>.</li>\n<li>From the lower-left corner of Iris, go to the <strong>Default Library</strong> and click on the search icon <img src=\"https://i.ibb.co/gmMPVjC/search-Icon.png\" alt=\"search icon\" width=\"13\" height=\"13\" />.</li>\n<li>In the search bar, clear any previous text and enter <strong>Label</strong>.</li>\n<li>From the results, select <strong>Label</strong>, drag and drop the widget onto the <strong>emailField</strong> flex container in the canvas.</li>\n<li>From the <strong>Project</strong> explorer, right-click on the new label widget and rename the label <strong>BottomLabel</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:13:40 GMT"
+    },
+    "context": []
+}

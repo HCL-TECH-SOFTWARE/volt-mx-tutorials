@@ -1,0 +1,39 @@
+{
+    "kuid": "a2fb1et5-15ab-4arf-b2u6-1a772enb",
+    "id": "VoltMX.ConnectAppUItoDataMob_v9.preShow1",
+    "content": {
+        "title": "Invoke Service Action",
+        "body": "<ol>\n<li>From the left menu of the&nbsp;<strong>Action Editor</strong>, under the <strong>Network</strong> section, select&nbsp;<strong>Loading Indicator</strong>.</li>\n<li>From the left menu of the&nbsp;<strong>Action Editor</strong>, under the <strong>Network</strong> section, select&nbsp;<strong>Invoke Service</strong>.</li>\n<li>From the right pane of the&nbsp;<strong>Action Editor</strong>, for the <strong>Select Service</strong>, from the drop-down list, select&nbsp;<strong>AccountStorage$Accounts</strong>.</li>\n<li>For the <strong>Select Method</strong>, from the drop-down list, select&nbsp;<strong>get</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Invoke Service"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 07:44:42 GMT"
+    },
+    "context": []
+}

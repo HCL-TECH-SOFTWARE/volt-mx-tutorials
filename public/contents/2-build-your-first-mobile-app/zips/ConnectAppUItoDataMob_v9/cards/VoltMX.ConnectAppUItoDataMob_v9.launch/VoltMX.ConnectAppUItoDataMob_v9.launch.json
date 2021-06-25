@@ -1,0 +1,33 @@
+{
+    "kuid": "bce855t1-00ab-44rc-86uf-c8d73an9",
+    "id": "VoltMX.ConnectAppUItoDataMob_v9.launch",
+    "content": {
+        "title": "View the App",
+        "body": "<ol>\n<li>Enter the following login credentials in your app:\n<ul>\n<li>Username:&nbsp;<strong>john.doe@woodburn.com</strong></li>\n<li>Password:&nbsp;<strong>VoltMX@123</strong></li>\n</ul>\n</li>\n<li>Click&nbsp;<strong>Login&nbsp;</strong>to view the list of the accounts.</li>\n<li>Click&nbsp;<strong>Recipients</strong> to view the list of recipients.</li>\n<li>To exit the app on your&nbsp;<strong>mobile </strong>device, swipe two fingers from left to right or shake your&nbsp;<strong>mobile </strong>device and click&nbsp;<strong>Exit App</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 08:48:45 GMT"
+    },
+    "context": []
+}

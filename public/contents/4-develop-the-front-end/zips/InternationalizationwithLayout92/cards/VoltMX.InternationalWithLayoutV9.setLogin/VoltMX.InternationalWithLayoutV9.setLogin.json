@@ -1,0 +1,39 @@
+{
+    "kuid": "05f2bate-e8a6-46r9-b3u9-8b3b47n9",
+    "id": "VoltMX.InternationalWithLayoutV9.setLogin",
+    "content": {
+        "title": "Set i18n Key Login",
+        "body": "<ol>\n<li>Select the <strong>Login </strong>button on the canvas.</li>\n<li>From the <strong>Properties </strong>panel, navigate to the <strong>Look </strong> tab.</li>\n<li>Under the <strong>Appearance </strong>section, for the property <strong>Text i18n Key</strong>, select <strong>Login </strong>from the drop-down list.</li>\n</ol>\n<p>You have successfully configured i18n Keys for the texts inside <strong>frmUserLogin</strong>.</p>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-tab",
+            "info": {
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:39:57 GMT"
+    },
+    "context": []
+}

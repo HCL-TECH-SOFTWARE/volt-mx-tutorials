@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Hike kuid="a9e774t0-65a0-47r2-9cud-7135a7n1" id="VoltMX.AuthApp" title="VoltMX.AuthApp">
+    <Description>Add Authentication to the App</Description>
+    <Meta>
+        <Creator>Deepti Ravula</Creator>
+        <Createdon>Thu, 19 Dec 2019 06:32:46 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.AuthApp.Intro"/>
+    <Hikecard id="VoltMX.AuthApp.CreateRepository"/>
+    <Hikecard id="VoltMX.AuthApp.AddUser"/>
+    <Hikecard id="VoltMX.AuthApp.TestCreds"/>
+    <Hikecard id="VoltMX.AuthApp.SelectLogin"/>
+    <Hikecard id="VoltMX.AuthApp.MappingEditor"/>
+    <Hikecard id="VoltMX.AuthApp.mappingV9"/>
+    <Hikecard id="VoltMX.AuthApp.DeleteUnwanted"/>
+    <Hikecard id="VoltMX.AuthApp.ConfigureActions"/>
+    <Hikecard id="VoltMX.AuthApp.MappingLogout"/>
+    <Hikecard id="VoltMX.AuthApp.ConfigureLogout"/>
+    <Hikecard id="VoltMX.AuthApp.ConfigureLogout_1"/>
+    <Hikecard id="VoltMX.AuthApp.MappingLogout_1"/>
+    <Hikecard id="VoltMX.AuthApp.ConfigureLogout"/>
+    <Hikecard id="VoltMX.AuthApp.ConfigureLogout_1"/>
+    <Hikecard id="VoltMX.AuthApp.Congrats"/>
+    <Hikecard id="VoltMX.AuthApp.done"/>
+</Hike>

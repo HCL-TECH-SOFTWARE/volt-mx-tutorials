@@ -1,0 +1,33 @@
+{
+    "kuid": "7ee55dte-c1aa-49r8-a1ue-0cee91nb",
+    "id": "VoltMX.NFIBarcodeV9.eventCodeClick1",
+    "content": {
+        "title": "Assign Function to the Click Event",
+        "body": "<ol>\n<li>From the left pane of the <strong>Action Editor</strong>, under <strong>Functions</strong>, select <strong>Invoke Function</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, for the drop-down <strong>Function Name</strong>, select <strong>scanBarCode</strong>.</li><li>Click <b>Save</b>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 09 Apr 2020 09:30:54 GMT"
+    },
+    "context": []
+}

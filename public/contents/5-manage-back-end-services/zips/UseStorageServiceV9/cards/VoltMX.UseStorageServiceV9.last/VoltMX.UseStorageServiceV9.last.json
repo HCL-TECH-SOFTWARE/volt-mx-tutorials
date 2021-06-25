@@ -1,0 +1,33 @@
+{
+    "kuid": "ef973ctc-d6a8-45r8-bdu5-e7d03an0",
+    "id": "VoltMX.UseStorageServiceV9.last",
+    "content": {
+        "title": "Congratulations",
+        "body": "You have successfully:<ul><b><li>Created a form  </li><li>Created a sample storage service. </li>\n<li> Connected the form with  storage service data.  </li><li>Launched your app on Iris Live Preview</b></li></ul><br/>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 10:22:00 GMT"
+    },
+    "context": []
+}

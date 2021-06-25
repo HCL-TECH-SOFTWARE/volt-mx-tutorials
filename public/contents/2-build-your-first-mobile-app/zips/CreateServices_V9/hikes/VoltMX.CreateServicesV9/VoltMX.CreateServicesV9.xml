@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Hike kuid="b172c2tf-04a5-48r2-bcu2-5beb28n4" id="VoltMX.CreateServicesV9" title="VoltMX.CreateServicesV9">
+    <Description>Create Services for Back-end Data V9</Description>
+    <Meta>
+        <Creator>Sparsh Srivastava</Creator>
+        <Createdon>Wed, 18 Dec 2019 08:58:00 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.CreateServicesV9.Intro"/>
+    <Hikecard id="VoltMX.CreateServicesV9.createAccountsService"/>
+    <Hikecard id="VoltMX.CreateServicesV9.configureAccountModel1"/>
+    <Hikecard id="VoltMX.CreateServicesV9.configureAccountModel2"/>
+    <Hikecard id="VoltMX.CreateServicesV9.configureAccountService"/>
+    <Hikecard id="VoltMX.CreateServicesV9.createPayeesService"/>
+    <Hikecard id="VoltMX.CreateServicesV9.configurePayeesModel2"/>
+    <Hikecard id="VoltMX.CreateServicesV9.configurePayeesModel1"/>
+    <Hikecard id="VoltMX.CreateServicesV9.configurePayeesService"/>
+    <Hikecard id="VoltMX.CreateServicesV9.publishServices"/>
+    <Hikecard id="VoltMX.CreateServicesV9.done"/>
+</Hike>

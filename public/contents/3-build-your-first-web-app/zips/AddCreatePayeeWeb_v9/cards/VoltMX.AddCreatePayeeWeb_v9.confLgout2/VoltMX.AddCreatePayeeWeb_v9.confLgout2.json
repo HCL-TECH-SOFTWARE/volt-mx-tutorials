@@ -1,0 +1,39 @@
+{
+    "kuid": "ce74ddtb-daa1-4dr9-a3u0-bd68a6n3",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.confLgout2",
+    "content": {
+        "title": "Configure Logout",
+        "body": "<ol>\n<li>On the Action Editor canvas, click <strong>Success</strong>.</li>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmLogin</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 05:48:05 GMT"
+    },
+    "context": []
+}

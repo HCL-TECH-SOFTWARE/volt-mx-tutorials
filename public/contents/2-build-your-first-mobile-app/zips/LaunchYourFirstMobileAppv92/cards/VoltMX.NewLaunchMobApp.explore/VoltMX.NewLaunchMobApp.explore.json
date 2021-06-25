@@ -1,0 +1,36 @@
+{
+    "kuid": "e2dc1ft9-12a0-4dr5-afua-08c37dn1",
+    "id": "VoltMX.NewLaunchMobApp.explore",
+    "content": {
+        "title": "Explore the App",
+        "body": "<p>Once the application imports, you can explore the different forms in the application.</p>\n<p>You can view the forms in two different views: The <strong>Storyboard</strong> view and the <strong>Design</strong> view.</p>\n<p>&nbsp;</p>\n<p>The application opens in the <strong>Storyboard</strong> view. You can view the different forms inside the app and connections between forms in the Storyboard view.</p>\n<br/>\n<p>To view <strong>Properties</strong> of each widget in a form, double click on any form to open the form in the <strong>Design View</strong>. You can also select the <strong>Design&nbsp;</strong>tab to navigate to the Design View.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "appcanvas",
+            "paneId": "ac-area-one"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 09:18:52 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,35 @@
+{
+    "kuid": "b36a94tc-0fa2-42rf-a0ub-10f109n3",
+    "id": "VoltMX.CreateEmailIdCompV9.createCont5",
+    "content": {
+        "title": "Add a Button Widget",
+        "body": "<ol>\n<li>From the lower-left corner of Iris, go to the <b>Default library</b>, and clear the previous from the search bar. </li>\n<li>Drag and drop the <b>Button</b> widget onto the <b>Contact</b> form in the canvas.</li>\n<li>From the <b>Project</b> explorer, right-click on the new button widget, and rename the button <b>Submit</b>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 05:56:36 GMT"
+    },
+    "context": []
+}

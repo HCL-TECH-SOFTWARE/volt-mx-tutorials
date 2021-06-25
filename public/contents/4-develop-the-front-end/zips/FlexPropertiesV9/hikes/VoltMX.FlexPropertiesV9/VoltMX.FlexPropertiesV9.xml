@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Hike kuid="cc9440t0-09a9-42r5-88u2-aa2938n4" id="VoltMX.FlexPropertiesV9" title="VoltMX.FlexPropertiesV9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <Createdon>Mon, 25 Nov 2019 08:29:36 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.FlexPropertiesV9.Intro"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.project"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.project2"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.rename"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.AddButton"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.ChTop"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.ChBottom"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.ChLeftRight"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.CenteringXY"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.Zindex"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.AppViewer"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.livePreview"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.run"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.AppViewDone"/>
+    <Hikecard id="VoltMX.FlexPropertiesV9.Done"/>
+</Hike>

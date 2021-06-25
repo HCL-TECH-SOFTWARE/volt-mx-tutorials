@@ -1,0 +1,39 @@
+{
+    "kuid": "421955ta-85a4-4fra-a9uc-f805d0n0",
+    "id": "VoltMX.AddCreateMob_v9.navAcc2",
+    "content": {
+        "title": "Navigation to Accounts Screen",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>General </strong>section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmAccount</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 05:38:23 GMT"
+    },
+    "context": []
+}

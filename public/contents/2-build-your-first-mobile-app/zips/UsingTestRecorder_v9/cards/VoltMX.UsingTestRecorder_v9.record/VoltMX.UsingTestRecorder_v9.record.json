@@ -1,0 +1,33 @@
+{
+    "kuid": "78f806te-a4a1-4er2-8fue-04157fn5",
+    "id": "VoltMX.UsingTestRecorder_v9.record",
+    "content": {
+        "title": "Record the First Test Case",
+        "body": "<ol>\n<li>On the top-right corner of the <strong>Test Case Recorder </strong>window, write the test case name: <strong>Login</strong>.</li>\n<li>From the <strong>Iris Preview</strong> window, click the refresh icon.</li>\n<li>In the <strong>Test Case Recorder</strong> window, select <strong>Record</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 27 Feb 2020 08:59:04 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "815c24ta-bfa4-45re-a6u7-c20268n6",
+    "id": "VoltMX.ConnectAppServWebV9.mapping6",
+    "content": {
+        "title": "Map the Service with UI Elements",
+        "body": "<ul>\n<li>From the left pane of the <strong>Mapping Editor</strong>, select <strong>LastName{string}</strong>.<br />From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Label-lblLastName </strong>and select <strong>text{string}</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, select <strong>Phone{string}</strong>. <br /> From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Label-lblPhone</strong> and select <strong>text{string}</strong>.</li>\n</ul>\n<ol start=\"2\">\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 06:02:02 GMT"
+    },
+    "context": []
+}

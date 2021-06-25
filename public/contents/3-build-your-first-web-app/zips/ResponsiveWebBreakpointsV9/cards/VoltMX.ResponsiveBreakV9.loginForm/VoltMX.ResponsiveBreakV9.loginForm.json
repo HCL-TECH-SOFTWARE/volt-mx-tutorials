@@ -1,0 +1,36 @@
+{
+    "kuid": "45a9bdt0-9fa0-46r2-9eu4-030938n1",
+    "id": "VoltMX.ResponsiveBreakV9.loginForm",
+    "content": {
+        "title": "Adding Breakpoint for Add Recipient Screen",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Responsive Web /Desktop</strong> &gt; <strong>Forms</strong> and select <strong>frmAddRecipient</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmAddPayee"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 06:17:00 GMT"
+    },
+    "context": []
+}

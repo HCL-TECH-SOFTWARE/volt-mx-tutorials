@@ -1,0 +1,35 @@
+{
+    "kuid": "999a66td-b1a4-45r1-9eue-9714b7nb",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.uiForm",
+    "content": {
+        "title": "UI for Adding Recipients",
+        "body": "<ol>\n<li>From the bottom left panel of Iris, navigate to<strong> Default Library</strong>.</li>\n<li>Next to the <strong>Default Library</strong>, you will see the tab for <strong>My Libraries</strong> and a search icon.<br />Click the search icon.</li>\n<li>In the search bar that appears, enter <strong>AddRecipient</strong>.</li>\n<li>From the <strong>RecipientsWeb</strong>, select <strong>AddRecipient </strong>and drop it onto <strong>frmAddRecipient</strong> on the canvas.</li>\n<li>On the <strong>Resolved Conflicts</strong> dialog box, click <strong>Close</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 04:54:40 GMT"
+    },
+    "context": []
+}

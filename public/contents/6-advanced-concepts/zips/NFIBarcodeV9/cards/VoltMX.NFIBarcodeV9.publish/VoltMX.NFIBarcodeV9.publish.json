@@ -1,0 +1,33 @@
+{
+    "kuid": "b71368tf-c0a7-4cr2-a5u1-f7e86anb",
+    "id": "VoltMX.NFIBarcodeV9.publish",
+    "content": {
+        "title": "Publish the App",
+        "body": "<ol>\n<li>From the main menu, navigate to <strong>Build</strong>.</li>\n<li>Click <strong>Build and Publish Native</strong>.<br /> The<strong> Build and Publish Native </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 07 Apr 2020 11:41:58 GMT"
+    },
+    "context": []
+}

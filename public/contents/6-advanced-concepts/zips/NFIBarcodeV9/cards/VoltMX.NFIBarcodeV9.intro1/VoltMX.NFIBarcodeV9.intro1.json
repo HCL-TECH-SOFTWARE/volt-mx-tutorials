@@ -1,0 +1,33 @@
+{
+    "kuid": "a3f1a8t2-0faf-45rb-98uc-dd0c61n6",
+    "id": "VoltMX.NFIBarcodeV9.intro1",
+    "content": {
+        "title": "NFI Using Third-Party Library",
+        "body": "<p><strong>Let&rsquo;s get started!</strong></p>\n<p>In this hike, we will:</p>\n<ol>\n<li>Learn how to import a Collection library to an app and use it in a form.</li>\n<li>Configure the Native Function APIs required for barcode scanner for an Android app.</li>\n<li>Add code in the Form controller for the barcode scanning functionality.</li>\n<li>Build, Publish, and View the app.</li>\n</ol>\n<p>Before you begin:</p>\n<ul>\n<li>From the Google Play store, download the <a href='#'onClick='javascript:openURL(\"https://play.google.com/store/apps/details?id=com.google.zxing.client.android&amp;hl=en_IN\")'>Barcode Scanner</a></li>\n<li>Download the UI collection: <a href='#'onClick='javascript:openURL(\"https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/raw/master/public/samples/flxBarCodeScanner.zip\")'> flxBarcodeScanner</a>.</li>\n</ul>\n<p><strong>When you are ready, click Next!</strong></p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 28 Nov 2019 04:25:22 GMT"
+    },
+    "context": []
+}

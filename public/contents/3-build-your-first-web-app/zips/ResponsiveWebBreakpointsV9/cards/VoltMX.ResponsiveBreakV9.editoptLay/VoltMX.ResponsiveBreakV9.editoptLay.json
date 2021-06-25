@@ -1,0 +1,41 @@
+{
+    "kuid": "c8e00ftb-69a5-43re-a1ud-0f201dn9",
+    "id": "VoltMX.ResponsiveBreakV9.editoptLay",
+    "content": {
+        "title": "Optimize the Layout of Names",
+        "body": "<ol>\n<li>From the canvas scale, click <strong>640</strong> for optimizing the layout for the third breakpoint.</li>\n<li>From the <strong>Project</strong> explorer, expand <strong>frmEditRecipient </strong>&gt;<strong> flxEditRecipient </strong>&gt;<strong> flxEntryFields</strong>, and select <strong>flxNames</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Look </strong>tab.</li>\n<li>Under the <strong>Flex</strong> section, modify the following values:\n<ul>\n<li>Width: <strong>240 Dp</strong></li>\n<li>Height: <strong>156 Dp</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Left",
+                "sectionDOMId": "frmKonyLib_pwwgvbx-flex",
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Sat, 29 Feb 2020 03:31:04 GMT"
+    },
+    "context": []
+}

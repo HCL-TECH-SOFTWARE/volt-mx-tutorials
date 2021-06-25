@@ -1,0 +1,33 @@
+{
+    "kuid": "350b82t8-89ad-46r1-bcu3-19cba6n7",
+    "id": "VoltMX.EditPayeeWeb_v9.editService1",
+    "content": {
+        "title": "Configuring Services for Edit Recipients",
+        "body": "<ol>\n<li>From the left menu of the&nbsp;<strong>Action Editor</strong>, under the <strong>Condition</strong> section, select <strong>If</strong>.</li>\n<li>Modify the following fields:\n<ul>\n<li>First Field: <strong>Navigated From</strong></li>\n<li>Select Source: select <strong>frmDetails &gt; btnEdit &gt; onClick</strong></li>\n</ul>\n</li>\n<li>From the <b>Action Editor</b> left menu, under the \n <strong>Network </strong>section, select <strong>Invoke Service</strong>.</li>\n<li>From the right pane of the Action Editor, select the following values from the drop-down lists.<br />\n<ul>\n<li>Select Service: <strong>RecipientStorage$Recipients</strong></li>\n<li>Select Method: <strong>get</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 05:37:27 GMT"
+    },
+    "context": []
+}

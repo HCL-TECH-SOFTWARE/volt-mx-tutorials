@@ -1,0 +1,36 @@
+{
+    "kuid": "d7a7fdtf-44aa-44r1-81u2-c3387bnb",
+    "id": "VoltMX.UseSampleServicesV9.rename",
+    "content": {
+        "title": "Rename the Form",
+        "body": "<ol>\n<li>In the <strong>Storyboard</strong> view, above the new Form, click <strong>Form1</strong>.</li>\n<li>Rename the form <strong>frmList</strong>.</li>\n<li>Double-click on the form to open the form in <strong>Design </strong>view.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "appcanvas",
+            "paneId": "ac-area-one"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 09:15:08 GMT"
+    },
+    "context": []
+}

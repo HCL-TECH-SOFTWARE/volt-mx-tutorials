@@ -1,0 +1,33 @@
+{
+    "kuid": "ce171btd-c0a8-42rc-94ub-dc5ac7n2",
+    "id": "VoltMX.IdentityServicesV9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully:</p>\n<ul>\n<li><strong>Created a Login screen</strong></li>\n<li><strong>Associated with a sample identity services</strong></li>\n<li><strong>Launched the app in Volt MX App and checked for the success scenario</strong></li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 10:56:50 GMT"
+    },
+    "context": []
+}

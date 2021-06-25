@@ -1,0 +1,36 @@
+{
+    "kuid": "82cdd4tf-56a6-4er3-9du6-78b2dcn0",
+    "id": "VoltMX.CreateEmailIdCompV9.modifyComp",
+    "content": {
+        "title": "Add a Placeholder to the Component",
+        "body": "<ol>\n<li>From the upper-left corner of Iris, in the <strong>Templates</strong> explorer, expand <strong>Components</strong> and select the component <strong>userEntry.emailField</strong>.</li>\n<li>From the upper-right corner of Iris, in the<strong> Properties</strong> panel, click the <strong>Component</strong> tab.</li>\n<li>Modify the placeholder value to <strong>Email ID</strong>.</li>\n</ol>\n<p>You will notice that the placeholder value is now modified in the <strong>Contact</strong> form also.</p>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "projectexplorer",
+            "path": "templates-head"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:42:40 GMT"
+    },
+    "context": []
+}

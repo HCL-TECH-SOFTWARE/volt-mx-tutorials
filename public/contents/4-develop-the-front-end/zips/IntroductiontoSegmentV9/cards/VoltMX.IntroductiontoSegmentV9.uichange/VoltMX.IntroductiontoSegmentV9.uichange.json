@@ -1,0 +1,35 @@
+{
+    "kuid": "47ddd1tb-5da0-45r5-8cu2-c72b22nf",
+    "id": "VoltMX.IntroductiontoSegmentV9.uichange",
+    "content": {
+        "title": "Configure the Segment Layout",
+        "body": "<ol>\n<li>From the <strong>Properties</strong> panel, go to the <strong>Look</strong> tab.</li>\n<li>Under the <strong>Flex</strong> section, configure the following changes:\n<ul>\n<li>Left: <strong>0dp</strong></li>\n<li>Top: <strong>0dp</strong></li>\n<li>Width: <strong>100%</strong></li>\n<li>Height: <strong>100%</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 10:12:25 GMT"
+    },
+    "context": []
+}

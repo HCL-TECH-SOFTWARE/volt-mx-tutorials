@@ -1,0 +1,36 @@
+{
+    "kuid": "5ff372t9-28af-4brc-a7u1-f4d180n7",
+    "id": "VoltMX.NFIBarcodeV9.addCode",
+    "content": {
+        "title": "Add Code to the Controller",
+        "body": "<ol>\n<li>Download the code for implementing the barcode scanner from <a href='#'onClick='javascript:openURL(\"https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/samples/NFIBarcode.zip\")'>here</a>.</li>\n<li>Open the downloaded file and copy its contents.</li>\n<li>From the <strong>Project </strong>explorer, navigate to <strong>Mobile </strong>&gt; <strong>Controllers</strong>.</li>\n<li>Select <strong>barcodeScannerController</strong>.<br />The file opens in the edit mode on the canvas.</li>\n<li>Enter the copied code in the <strong>barcodeScannerController</strong>.</li><li>From the main menu, navigate to <b>Project</b> and select <b>Save All</b>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Controllers"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 28 Nov 2019 04:37:41 GMT"
+    },
+    "context": []
+}

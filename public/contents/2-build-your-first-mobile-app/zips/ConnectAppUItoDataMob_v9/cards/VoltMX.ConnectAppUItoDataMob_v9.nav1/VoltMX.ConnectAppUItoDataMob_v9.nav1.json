@@ -1,0 +1,39 @@
+{
+    "kuid": "8969d4tf-a9af-43r6-90ud-df5a0an8",
+    "id": "VoltMX.ConnectAppUItoDataMob_v9.nav1",
+    "content": {
+        "title": "Navigation from Recipients List Screen",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmAccount</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 08:43:09 GMT"
+    },
+    "context": []
+}

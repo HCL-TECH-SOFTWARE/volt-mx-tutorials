@@ -1,0 +1,36 @@
+{
+    "kuid": "273f1ct1-4bae-42re-bbu0-b396d2ne",
+    "id": "VoltMX.UsingTestRecorder_v9.runTest",
+    "content": {
+        "title": "Run the Test",
+        "body": "<ol>\n<li>From the <strong>Project</strong> Explorer, navigate to <strong>Test Resources</strong> &gt; <strong>Test Suites</strong>.</li>\n<li>Right-click <strong>Authentication </strong>and select <strong>Run</strong>.<br />The <strong>Test Suite Runner</strong> window appears.</li>\n<li>In the Iris Preview window, click the <strong>Refresh</strong>.<br /> In Iris, the <strong>Test Suite Runner</strong> window shows the message: <b>&ldquo;Device connected Successfully&rdquo;</b>.<br />In the <strong>Iris Preview</strong> window, the test suite runs the test cases in the set order.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\testresources\\Test Resources\\Jasmine\\Mobile\\Test Suites\\Authentication.js"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 27 Feb 2020 09:11:25 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "71b886t5-3daa-42r9-a6ud-c3315dnd",
+    "id": "VoltMX.CreateEmailIdCompV9.explore",
+    "content": {
+        "title": "Explore the App",
+        "body": "<p>You will now be able to view the app on your <strong>mobile</strong> device.</p>\n<ol>\n<li>Enter your username and a valid email address in the textbox with placeholder: <strong>Email ID</strong>.</li>\n<li>Click <strong>Submit</strong>.</li>\n<li>Now enter an invalid email address in the textbox with placeholder: <strong>Email ID</strong>.<br/>\nThe message <strong>Invalid email ID</strong> appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:47:29 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "7966b7ta-b7a1-4dr4-9cue-c3deebnf",
+    "id": "VoltMX.AddCreateMob_v9.navAdd",
+    "content": {
+        "title": "Navigating to Add Recipients Screen",
+        "body": "<ol>\n<li>From the&nbsp;<strong>Project</strong>explorer, navigate to&nbsp;<strong>Mobile</strong>&nbsp;&gt;&nbsp;<strong>Forms</strong>&nbsp;&gt;&nbsp;<strong>frmRecipients </strong>&gt;<strong>&nbsp;flexRecipientList </strong>&gt;<strong> flexHeader</strong>, and select&nbsp;<strong>headerButtonRight</strong>.</li>\n<li>From the&nbsp;<strong>Properties </strong>panel, navigate to the&nbsp;<strong>Action</strong> tab.</li>\n<li>Under the&nbsp;<strong>General </strong>section, for the&nbsp;<strong>onClick </strong>event, click&nbsp;<strong>Edit</strong>.<br /> The&nbsp;<strong>Action Editor&nbsp;</strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmRecipients"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 26 Mar 2020 05:26:36 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "aa02e5t3-44a7-4crb-92ub-b80cd3n2",
+    "id": "VoltMX.CreateUIRWV9.rename",
+    "content": {
+        "title": "Rename the Form",
+        "body": "<ol>\n<li>In the <strong>Storyboard</strong> view, above the new form, click <strong>Form1</strong>.</li>\n<li>Rename the form <strong>frmLogin</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:18:46 GMT"
+    },
+    "context": []
+}

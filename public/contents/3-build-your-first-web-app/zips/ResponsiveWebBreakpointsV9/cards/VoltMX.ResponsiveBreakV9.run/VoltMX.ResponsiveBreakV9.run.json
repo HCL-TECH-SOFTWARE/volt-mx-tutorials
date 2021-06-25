@@ -1,0 +1,36 @@
+{
+    "kuid": "53db07t2-afa7-4dr5-a2uf-ddab91n1",
+    "id": "VoltMX.ResponsiveBreakV9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol>\n<li>From the left navigation bar, click <strong>Run</strong>.<br /> It will take some time for Iris to display the <strong>Live Preview is ready</strong> window.<br /> The Iris Preview window launches your application.</li>\n<li>Enter the following login credentials in your app.\n<ul>\n<li>Username: <strong>john.doe@woodburn.com</strong></li>\n<li>Password: <strong>VoltMX@123</strong></li>\n</ul>\n</li>\n<li>Click <strong>Login</strong>.<br /> The account list appears.</li>\n<li>Click the <strong>Recipients</strong> tab.<br /> The recipient list appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "shortcutbar",
+            "itemId": "frmKonyLib_preview"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 06:21:30 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,39 @@
+{
+    "kuid": "6653ectb-8eaa-40r4-abuc-49d019ne",
+    "id": "VoltMX.CreateUIRWV9.addNavigation1",
+    "content": {
+        "title": "Add Navigation from Login Screen",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmAccount</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:25:33 GMT"
+    },
+    "context": []
+}

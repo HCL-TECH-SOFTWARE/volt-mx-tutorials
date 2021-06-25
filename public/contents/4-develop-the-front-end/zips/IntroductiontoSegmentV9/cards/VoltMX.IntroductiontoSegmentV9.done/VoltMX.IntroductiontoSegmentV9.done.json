@@ -1,0 +1,33 @@
+{
+    "kuid": "3d2345te-c3a0-4fr6-91ub-189dbcn4",
+    "id": "VoltMX.IntroductiontoSegmentV9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<b>Congratulations</b>\n<br/>You have successfully:<ul>\n<li>Created a list form</li>\n<li>Added widgets to the list form</li>\n<li>Added data corresponding to the widgets</li>\n<li>Viewed the application in your mobile device</li></ul><br/>\nTo learn how to use templates in your segment, check out the hike:<a class=\"tour-link\" tour=\"c99652td-06a5-43ra-87u4-9e8895n7\"><b>Introduction to Segment Templates</b></a> . <br/>To learn how to add data to your segment, check out the hike: <a class=\"tour-link\" tour=\"06a5e8td-11a4-41r7-bbua-0696bane\"><b>Assign Data to Segments</b></a>."
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 10:24:24 GMT"
+    },
+    "context": []
+}

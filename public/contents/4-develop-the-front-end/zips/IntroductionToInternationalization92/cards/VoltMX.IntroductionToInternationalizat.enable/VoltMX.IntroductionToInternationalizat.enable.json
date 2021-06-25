@@ -1,0 +1,36 @@
+{
+    "kuid": "688d85ta-d5aa-49r6-a8u2-b0c729n5",
+    "id": "VoltMX.IntroductionToInternationalizat.enable",
+    "content": {
+        "title": "Enable Internationalization",
+        "body": "<ol>\n<li>From the left Navigation menu, select <strong>Settings</strong>.<br /> The <strong>Project Settings </strong>window appears.</li>\n<li>In the <strong>Application </strong>tab, under <strong>Internationalization(i18n): </strong>select <strong>Enable</strong>.<br /> Two new fields appear.</li>\n<li>Click <strong>Configure</strong>.<br /> The <strong>Configure Internationalization </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "shortcutbar",
+            "itemId": "frmKonyLib_settings"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 05:44:24 GMT"
+    },
+    "context": []
+}

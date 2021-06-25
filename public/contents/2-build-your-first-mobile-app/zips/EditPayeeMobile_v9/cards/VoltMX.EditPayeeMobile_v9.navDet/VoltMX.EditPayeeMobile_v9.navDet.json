@@ -1,0 +1,36 @@
+{
+    "kuid": "f8d4a5t2-9ca4-4ara-a4uf-bd487en1",
+    "id": "VoltMX.EditPayeeMobile_v9.navDet",
+    "content": {
+        "title": "Mapping in Details Screen",
+        "body": "<ol>\n<li>From the&nbsp;<strong>Project </strong> explorer, expand <strong>Mobile </strong> &gt;<strong>&nbsp;Forms</strong>, and select&nbsp;<strong>frmDetails</strong>.</li>\n<li>From the&nbsp;<strong>Properties </strong>panel, navigate to the&nbsp;<strong>Action&nbsp;</strong>tab.</li>\n<li>For the&nbsp;<strong>onMapping </strong>event, click&nbsp;<strong>Edit</strong>.<br /> The&nbsp;<strong>Action Editor&nbsp;</strong>window appears.</li>\n<li>From the top right of the&nbsp;<strong>Action Editor</strong>, select&nbsp;<strong>Design View</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmDetails"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 11:23:28 GMT"
+    },
+    "context": []
+}

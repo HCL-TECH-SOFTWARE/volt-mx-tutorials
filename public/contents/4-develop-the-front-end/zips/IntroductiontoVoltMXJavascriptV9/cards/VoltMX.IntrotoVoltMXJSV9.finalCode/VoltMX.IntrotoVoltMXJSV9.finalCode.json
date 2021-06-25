@@ -1,0 +1,33 @@
+{
+  "kuid": "0df2f7t7-00a2-4erd-89uc-592e60n6",
+  "id": "VoltMX.IntrotoVoltMXJSV9.finalCode",
+  "content": {
+    "title": "Validate Function",
+    "body": "The content of <b>validate</b> function should look as:<br/></li>\n<p style=\"background-color:lightyellow; padding-left: 2%\">validate:function() {<br/>\n      \t  if( this.view.usernameTextbox.text === this.Usrname && this.view.passwordTextbox.text === this.Psword ){<br/>var sConfig =  {message:\"Your credentails are successfully checked.\", alertTitle: \"Success\" };<br/>VoltMX.ui.Alert(sConfig, {});\n    <br/>} else {\n      \t\t<br/>var  fConfig= {message:\"Your credentails are wrong.\", alertTitle: \"Failure\" };<br/>VoltMX.ui.Alert(fConfig, {});<br/>\n      \t}<br/>\n    },</p>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": "",
+    "type": "none"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Tue, 26 Nov 2019 08:57:03 GMT"
+  },
+  "context": []
+}

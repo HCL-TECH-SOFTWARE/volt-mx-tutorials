@@ -1,0 +1,33 @@
+{
+    "kuid": "d1d364t1-83af-41rc-88u7-b94ccdn3",
+    "id": "VoltMX.UserRepositoryAuthV9.last",
+    "content": {
+        "title": "Congratulations",
+        "body": "You have successfully:<ul><b>\n<li>Created an app with Volt MX User Repository as an authentication source</li>\n<li>Added users to the repository</li>\n<li>Accessed the app using the login credentials from Volt MX User Repository</li></b></ul>\nFor more details on <b>Volt MX User Repository</b> visit Volt MX documentation<br>\n<a href='#' onClick='javascript:openURL(\"https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Foundry/voltmx_foundry_release_notes/Content/V9_New_Features.html#identity\")'>Volt MX User Repository</a>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 08:12:53 GMT"
+    },
+    "context": []
+}

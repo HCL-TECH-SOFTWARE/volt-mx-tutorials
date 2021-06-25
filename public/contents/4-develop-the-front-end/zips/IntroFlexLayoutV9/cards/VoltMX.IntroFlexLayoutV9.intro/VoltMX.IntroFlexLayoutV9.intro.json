@@ -1,0 +1,33 @@
+{
+    "kuid": "d36f2ctc-c7af-4drf-a1u8-df6dc8n1",
+    "id": "VoltMX.IntroFlexLayoutV9.intro",
+    "content": {
+        "title": "Understanding FlexLayouts",
+        "body": "This hike covers the basic layouts of  the <b>FlexContainer</b> widget. Volt MX AppPlatform supports three flex layouts:\n<ul><li>Free Form</li>\n<li>Flow Vertical </li>\n<li>Flow Horizontal</li><br/ > </ul>\nThese Flex layouts help you to arrange the widgets inside a container widget such as FlexContainer.<br/>\nLet’s see how to implement these layouts and how the widgets are arranged in each of these layouts."
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 07:14:07 GMT"
+    },
+    "context": []
+}

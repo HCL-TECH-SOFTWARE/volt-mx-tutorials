@@ -1,0 +1,33 @@
+{
+    "kuid": "fff520td-f7a2-4br6-81u7-5fcdf8na",
+    "id": "VoltMX.CreateDetailsNative_v9.deleteFeature2",
+    "content": {
+        "title": "Adding Delete Feature",
+        "body": "<ol>\n<li>From the left pane of the mapping editor, expand <strong>Forms</strong> &gt; <strong>frmDetails</strong> &gt; <strong>Label - lblRecipientIDValue</strong>, and select <strong>text {string}</strong>.</li>\n<li>From the right pane of the mapping editor, expand <strong>Services</strong> &gt; <strong>RecipientStorage$Recipients$delete</strong>, and select <strong>RecipientID {number}</strong>.</li>\n<li>From the <strong>Action Editor</strong> canvas, select the <strong>IF</strong> condition.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 10:52:06 GMT"
+    },
+    "context": []
+}

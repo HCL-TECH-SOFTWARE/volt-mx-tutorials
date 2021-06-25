@@ -1,0 +1,33 @@
+{
+    "kuid": "ce152et5-36a8-46r9-80ud-d1fd8fnf",
+    "id": "VoltMX.IntroductiontoNFIV9.view",
+    "content": {
+        "title": "View the App",
+        "body": "<ol>\n<li>On your mobile device, after a successful launch, the <strong>Volt MX JavaScript Debugger Configuration </strong>window appears.<br />Click <strong>Cancel</strong>.</li>\n<li>Click <strong>Access Device Settings</strong>.<br />The <strong>Settings</strong> app in the <b>mobile</b> device opens.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 12:01:40 GMT"
+    },
+    "context": []
+}

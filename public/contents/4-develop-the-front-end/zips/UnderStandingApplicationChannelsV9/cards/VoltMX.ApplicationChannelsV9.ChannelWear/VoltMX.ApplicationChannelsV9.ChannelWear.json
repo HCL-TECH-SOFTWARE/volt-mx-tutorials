@@ -1,0 +1,36 @@
+{
+    "kuid": "b7ff2at9-70a4-40ra-bau4-f4c6d0n9",
+    "id": "VoltMX.ApplicationChannelsV9.ChannelWear",
+    "content": {
+        "title": "Application Channel:Wearables",
+        "body": "<ol>From the <b>Project</b> explorer on the top left of your canvas, expand <b>Wearables</b>.<br >\nNotice that the wearables channels are classified into <b>Apple Watch</b> and <b>Android Wear</b>.</li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Wearables"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 08:12:00 GMT"
+    },
+    "context": []
+}

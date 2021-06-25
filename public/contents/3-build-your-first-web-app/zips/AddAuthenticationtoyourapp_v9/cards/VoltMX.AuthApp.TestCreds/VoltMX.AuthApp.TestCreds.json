@@ -1,0 +1,33 @@
+{
+    "kuid": "c25c7ft9-f6a0-4drc-92ue-9c8037n4",
+    "id": "VoltMX.AuthApp.TestCreds",
+    "content": {
+        "title": "Test the Login Credentials",
+        "body": "<ol>\n<li>On the&nbsp;<strong>Configure Identity Service </strong>window, click&nbsp;<strong>TEST LOGIN</strong>.</li>\n<li>Enter the&nbsp;<strong>User ID </strong>(email) and the&nbsp;<strong>Password </strong>of the user that you created.</li>\n<li>Click&nbsp;<strong>SIGN IN</strong>.<br /> The <strong>Identity Response</strong> tab appears.</li>\n<li>Close the&nbsp;<strong>Configure Identity Service</strong>&nbsp;window.</li>\n</ol>\n<p>Iris may take some time to add the Identity Service to the <strong>Project Services</strong> section.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Deepti Ravula",
+        "CreatedOn": "Thu, 19 Dec 2019 06:38:15 GMT"
+    },
+    "context": []
+}

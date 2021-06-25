@@ -1,0 +1,33 @@
+{
+    "kuid": "b428bctd-77a4-4fr7-89u4-ceb893n2",
+    "id": "VoltMX.EditPayeeMobile_v9.detMapping5",
+    "content": {
+        "title": "Map the Service to the UI Elements",
+        "body": "<ul>\n<li>From the left pane select&nbsp;<strong>FirstName {string}</strong>.<br /> From the right pane expand&nbsp;<strong>Label - lblFirstNameValue</strong>, and select&nbsp;<strong>text {string}</strong>.</li>\n<li>From the left pane select&nbsp;<strong>LastName {string}</strong>.<br /> From the right pane expand&nbsp;<strong>Label - lblLastNameValue</strong>and select&nbsp;<strong>text {string}</strong>.</li>\n<li>From the left pane, select&nbsp;<strong>Nick Name {string}</strong>.&nbsp;<br /> From the right pane expand&nbsp;<strong>Label - lblNickNameValue</strong>and select&nbsp;<strong>text {string}</strong>.</li>\n<li>From the left pane, select&nbsp;<strong>Phone {string}</strong>.<br /> From the right pane expand&nbsp;<strong>Label - lblPhoneValue </strong>and select&nbsp;<strong>text {string}</strong>.</li>\n</ul>\n<ol start=\"3\">\n<li>Click&nbsp;<strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 11:37:17 GMT"
+    },
+    "context": []
+}

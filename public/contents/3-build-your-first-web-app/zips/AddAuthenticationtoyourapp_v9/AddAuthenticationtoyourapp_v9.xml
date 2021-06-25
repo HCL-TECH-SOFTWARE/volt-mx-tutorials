@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Guidedtour kuid="5e1da5td-37a0-44r6-beu6-374c3cn1" id="AddAuthenticationtoyourapp_v9" title="Add Authentication to your app_v9">
+    <Description>Add Authentication to your app</Description>
+    <Meta>
+        <Creator>Deepti Ravula</Creator>
+        <Createdon>Thu, 19 Dec 2019 07:02:47 GMT</Createdon>
+    </Meta>
+    <Hike id="VoltMX.AuthApp"/>
+</Guidedtour>

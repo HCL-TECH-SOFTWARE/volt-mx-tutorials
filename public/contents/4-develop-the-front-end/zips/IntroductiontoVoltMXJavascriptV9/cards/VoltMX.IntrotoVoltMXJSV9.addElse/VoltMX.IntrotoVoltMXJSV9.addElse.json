@@ -1,0 +1,36 @@
+{
+  "kuid": "8a465dt5-8fa3-4er8-8fu9-27cc97n7",
+  "id": "VoltMX.IntrotoVoltMXJSV9.addElse",
+  "content": {
+    "title": "Code for Failure Scenario",
+    "body": "<ol><li>Write the following code for  the <b>else</b> </b>condition inside the <b>validate</b> function, after the \"if\" <b>block</b>:\n<p style=\"background-color:lightyellow; padding-left: 2%\">else {\n      \t\t<br/>var  fConfig= {message:\"Incorrect Credentials!\", alertTitle: \"Failure\" };<br/>VoltMX.ui.Alert(fConfig, {});<br/>\n      \t}</p></li></ol>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": {
+      "module": "appcanvas",
+      "paneId": "ac-area-one"
+    },
+    "type": "default"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Tue, 26 Nov 2019 08:47:53 GMT"
+  },
+  "context": []
+}

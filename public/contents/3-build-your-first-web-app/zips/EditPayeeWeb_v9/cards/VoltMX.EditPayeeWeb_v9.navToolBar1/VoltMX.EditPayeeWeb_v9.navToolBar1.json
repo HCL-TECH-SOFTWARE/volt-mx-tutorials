@@ -1,0 +1,39 @@
+{
+    "kuid": "8fbe83td-33ac-40ra-8eue-cb5adan2",
+    "id": "VoltMX.EditPayeeWeb_v9.navToolBar1",
+    "content": {
+        "title": "Navigation from ToolBar",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>General </strong>section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmDetails</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 06:30:40 GMT"
+    },
+    "context": []
+}

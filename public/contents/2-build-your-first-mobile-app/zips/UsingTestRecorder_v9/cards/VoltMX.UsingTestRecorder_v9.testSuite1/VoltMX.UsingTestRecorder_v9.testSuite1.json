@@ -1,0 +1,33 @@
+{
+    "kuid": "f429dat5-55aa-41r5-bduc-c0045enb",
+    "id": "VoltMX.UsingTestRecorder_v9.testSuite1",
+    "content": {
+        "title": "Create a Test Suite",
+        "body": "<ol>\n<li>In the&nbsp;<strong>Create Test Suite</strong> window, type the Suite Name: <strong>Authentication</strong></li>\n<li>Under <strong>Available Test Cases</strong>, select&nbsp;<strong>Login.js</strong>.<strong><br /></strong></li>\n<li>Click the <strong>&gt; </strong>icon to add <strong>Login.js </strong>to the list of <strong>Added Test Cases</strong>.</li>\n<li>Under <strong>Available Test Cases</strong>, select&nbsp;<strong>Logout.js</strong>.</li>\n<li>Click the <strong>&gt; </strong>icon to add the <strong>Logout.js</strong> file to the list of <strong>Added Test Cases</strong>.</li>\n<li>Click <strong>Create</strong>.<br />You have successfully created a <strong>Test Suite</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 27 Feb 2020 09:10:36 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "dd0549t5-d8a8-46r5-8cue-1a02a4na",
+    "id": "VoltMX.InternationalWithLayoutV9.publish2",
+    "content": {
+        "title": "Publish the App",
+        "body": "<ol>\n<li>From the <strong>Post Build Action </strong>drop-down menu, select <strong>Run on my Device</strong>.</li>\n<li>From the <strong>Configured Devices </strong>section, under <strong>Mobile</strong>, select your <strong>mobile </strong></li>\n<li>From the <strong>Build Mode </strong>drop-down menu, select <strong>Debug</strong>.</li>\n<li>Click <strong>Build</strong>.<br />It may take a few minutes for Iris to build and launch the app.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "ui-library",
+            "instanceId": "buildandpublishnative_footer_donebutton"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:41:48 GMT"
+    },
+    "context": []
+}

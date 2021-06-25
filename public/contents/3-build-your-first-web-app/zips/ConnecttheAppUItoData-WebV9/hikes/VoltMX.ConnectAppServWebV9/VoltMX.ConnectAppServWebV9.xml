@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Hike kuid="adca25te-a3ae-4cra-bbu8-878c96nb" id="VoltMX.ConnectAppServWebV9" title="VoltMX.ConnectAppServWebV9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Prem Garudadri</Creator>
+        <Createdon>Thu, 19 Dec 2019 05:22:51 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.Intro"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.onNavfunction"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.invokeService"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.mapping1"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.mapping2"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.addStaticExpression"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.onNavfuncPay"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.invokeService1"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.mapping4"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.mapping5"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.mapping6"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.run"/>
+    <Hikecard id="VoltMX.ConnectAppServWebV9.done"/>
+</Hike>

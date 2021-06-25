@@ -1,0 +1,39 @@
+{
+    "kuid": "8f9976t6-ebac-4ere-9eu2-1a7b02n1",
+    "id": "VoltMX.CreateDetailsScreen_v9.backNav3",
+    "content": {
+        "title": "Implementing Back to Accounts Form",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmAccount</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 21 Feb 2020 10:57:15 GMT"
+    },
+    "context": []
+}

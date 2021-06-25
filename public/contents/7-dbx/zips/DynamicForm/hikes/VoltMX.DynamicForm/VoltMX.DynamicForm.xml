@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Hike kuid="40d64ftb-b7af-43r6-a4u0-b5fe1enc" id="VoltMX.DynamicForm" title="VoltMX.DynamicForm">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <CreatedOn>Tue, 22 Oct 2019 10:09:00 GMT</CreatedOn>
+    </Meta>
+    <Hikecard id="VoltMX.DynamicForm.look"/>
+    <Hikecard id="VoltMX.DynamicForm.customize"/>
+    <Hikecard id="VoltMX.DynamicForm.regenerate"/>
+</Hike>

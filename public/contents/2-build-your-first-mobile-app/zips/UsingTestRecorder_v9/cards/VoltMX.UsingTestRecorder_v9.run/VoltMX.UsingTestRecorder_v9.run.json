@@ -1,0 +1,33 @@
+{
+    "kuid": "a0252btb-92a3-4fr9-a9ud-c1dbb3nf",
+    "id": "VoltMX.UsingTestRecorder_v9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol>\n<li>From the main menu, click <strong>Build</strong> &gt; <strong>Live Preview Settings</strong>.</li>\n<li>From the <strong>Live Preview Settings</strong> window, under <strong>Adaptive Web</strong> select the check-boxes next to <strong>iOS</strong> and <strong>Android</strong>.</li>\n<li>Set the <strong>Preview</strong> mode as <strong>Test</strong>.</li>\n<li>Click <strong>Save &amp; Run</strong>.<br />The <strong>Live Preview is ready</strong> window appears, and the application is launched.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 27 Feb 2020 08:53:27 GMT"
+    },
+    "context": []
+}

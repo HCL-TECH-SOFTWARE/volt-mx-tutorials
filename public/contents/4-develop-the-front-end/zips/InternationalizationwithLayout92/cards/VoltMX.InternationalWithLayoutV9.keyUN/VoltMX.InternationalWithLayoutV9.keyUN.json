@@ -1,0 +1,33 @@
+{
+    "kuid": "70636btf-8aae-45ra-afu5-7d9973nf",
+    "id": "VoltMX.InternationalWithLayoutV9.keyUN",
+    "content": {
+        "title": "Key-Value Pair for Username",
+        "body": "<p>Let us provide some key-value pairs for the various display texts for <strong>frmUserLogin</strong>.</p>\n<ol>\n<li>Click <strong>+</strong>.</li>\n<li>Under the column <strong>Key</strong>, enter: <strong>Username</strong></li>\n<li>Under the column <strong>en_US</strong>, enter: <strong>Username</strong></li>\n<li>Under the column <strong>ar_AE</strong>, enter: <strong>اسم المستخدم</strong> <span hk-tooltip='Arabic Translation for Username'><img src=\"https://i.ibb.co/Dfkmg6k/Button-Info-icon.png\" alt=\"Button-Info-icon\" width=\"10\" height=\"10\" /></span></li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:26:56 GMT"
+    },
+    "context": []
+}

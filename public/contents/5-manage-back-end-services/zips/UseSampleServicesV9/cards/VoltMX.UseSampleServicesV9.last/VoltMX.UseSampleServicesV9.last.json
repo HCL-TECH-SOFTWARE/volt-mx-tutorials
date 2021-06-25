@@ -1,0 +1,33 @@
+{
+    "kuid": "498696td-afa1-4cr6-93u9-279970n5",
+    "id": "VoltMX.UseSampleServicesV9.last",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully:</p>\n<ul>\n<li><strong>Created a form</strong></li>\n<li><strong>Created an object service</strong></li>\n<li><strong>Connected the form with back-end data.</strong></li>\n<li><strong>Launched your app on Iris Live Preview<br /></strong></li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 09:31:25 GMT"
+    },
+    "context": []
+}

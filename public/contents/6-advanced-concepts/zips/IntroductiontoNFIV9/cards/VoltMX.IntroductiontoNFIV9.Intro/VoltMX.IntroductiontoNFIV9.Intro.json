@@ -1,0 +1,33 @@
+{
+    "kuid": "cbfbbft1-7ba3-48r4-82u3-aa0a00n4",
+    "id": "VoltMX.IntroductiontoNFIV9.Intro",
+    "content": {
+        "title": "Introduction to NFI",
+        "body": "<p><strong>Native Function Interfaces (NFIs)</strong> are JavaScript wrappers that help an app developer to implement Android or iOS specific features in Volt MX Iris.</p>\n<p>In this hike, using Android-specific NFIs, you will be able to access device settings on an Android device from an app.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 11:45:14 GMT"
+    },
+    "context": []
+}

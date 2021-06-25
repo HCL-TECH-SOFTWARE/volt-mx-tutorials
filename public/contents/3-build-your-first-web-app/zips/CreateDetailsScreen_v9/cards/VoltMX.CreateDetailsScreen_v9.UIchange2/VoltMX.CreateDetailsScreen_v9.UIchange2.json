@@ -1,0 +1,33 @@
+{
+    "kuid": "bd8f6etc-c2a9-4cr4-96u5-a8acb5n3",
+    "id": "VoltMX.CreateDetailsScreen_v9.UIchange2",
+    "content": {
+        "title": "UI Change of Recipients Details Screen",
+        "body": "<ol>\n<li>In the <strong>Configure Details </strong>window, for the <strong>Fields</strong>, provide the following <strong>Display Names</strong>:\n<ul>\n<li><strong>FirstName</strong> field: <strong>First Name</strong></li>\n<li><strong>LastName </strong>field: <strong>Last</strong> <strong>Name</strong></li>\n<li><strong>NickName </strong>field: <strong>Nick Name</strong></li>\n<li><strong>Phone </strong>field: <strong>Phone Number</strong></li>\n</ul>\n</li>\n<li>Click <strong>Regenerate</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 20 Feb 2020 08:05:09 GMT"
+    },
+    "context": []
+}

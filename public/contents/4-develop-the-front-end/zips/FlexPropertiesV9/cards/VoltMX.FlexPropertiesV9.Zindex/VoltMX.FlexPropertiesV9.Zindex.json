@@ -1,0 +1,33 @@
+{
+    "kuid": "54a9a6t9-ceaa-47rc-b7uf-9a5175nb",
+    "id": "VoltMX.FlexPropertiesV9.Zindex",
+    "content": {
+        "title": "Using Z Index to Move a Widget to the Background",
+        "body": "<ol>\n<li>From the <strong>Default Library</strong> tab on the bottom left of your canvas, drag and drop the following:\n<ul>\n<li><strong>Logo</strong> widget onto the <strong>frmFlex</strong> form on the canvas.</li>\n<li><strong>Search1</strong> widget onto the <strong>frmFlex</strong> form on the canvas.</li>\n</ul>\n</li>\n<li>To bring the <strong>Logo</strong> widget above the <strong>Search1</strong> widget,\n<ul>\n<li>Select <strong>headerContainer02</strong> from the <strong>Project</strong> explorer on the top left of your canvas.</li>\n<li>From the <strong>Properties</strong> panel, expand <strong>Look</strong> &gt; <strong>Flex</strong> on the top right of your canvas. Set the <strong>Z Index</strong> property to <strong>2</strong>.</li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 09:08:04 GMT"
+    },
+    "context": []
+}

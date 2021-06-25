@@ -1,0 +1,33 @@
+{
+    "kuid": "6965c7tc-aea4-4bre-9eu1-32cb8fn4",
+    "id": "VoltMX.EditPayeeMobile_v9.mapping5",
+    "content": {
+        "title": "Mapping the UI Elements",
+        "body": "<ul>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>Services</strong> &gt; <strong>Service-RecipientStorage$Recipients$get</strong>, &gt; <strong>records{collection}</strong>. <br />From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Forms </strong>&gt; <strong>frmEditRecipients</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong> select <strong>RecipientID{number}</strong>. <br />From the right pane of the <strong>Mapping Editor</strong>, expand <strong>TextField - tbxPayeeID </strong>and select <strong>text{string}</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong> select <strong>FirstName{string}</strong>. <br />From the right pane of the <strong>Mapping Editor</strong>, expand <strong>TextField - tbxFirstName </strong>and select <strong>text{string}</strong>.</li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 11:52:42 GMT"
+    },
+    "context": []
+}

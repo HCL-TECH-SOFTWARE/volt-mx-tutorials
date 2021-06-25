@@ -1,0 +1,36 @@
+{
+    "kuid": "d0c299ta-92a7-45r5-8au8-12f739ne",
+    "id": "VoltMX.CreateDetailsNative_v9.UIchange3",
+    "content": {
+        "title": "Deleting the Default Header",
+        "body": "<ol>\n<li>From the <strong>Project </strong>explorer, navigate to <strong>Mobile</strong> &gt;&nbsp;<strong>Forms</strong> &gt;&nbsp;<strong>frmDetails</strong>.</li>\n<li>Right-click and delete <strong>flexHeader</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmDetails"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 08:24:05 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "b0bd88t2-b8ab-4dr3-81uc-ebe959nc",
+    "id": "VoltMX.PubishAppEnterpriseStoreV9.iOS",
+    "content": {
+        "title": "Enterprise Store in iOS",
+        "body": "<p>For building and publishing an app in the release mode, you must meet the following platform-specific prerequisites:</p>\n<ul>\n<li>If you build the app for the <strong>iOS</strong> in the Release mode, you must provide the Mobile Provision, .P12 certificate, P12 password, and the Development method. To provide these details, navigate to <strong>Project Settings</strong> &gt; <strong>Native</strong> &gt; <strong>iPhone/iPad</strong>. For more details on iOS configurations, click <a href='#'onClick='javascript:openURL(\"https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0083760\")'>here</a>.</li>\n<li>If you build the app for <strong>Android</strong> in Release mode, you must provide the Android signing details. To do so, go to <strong>Project Settings</strong> &gt; <strong>Native</strong> &gt; <strong>Android Mobile/Tablet</strong>. For more details on Android signing details, click <a href='#'onClick='javascript:openURL(\"https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0083782\")'>here</a>.</li>\n</ul>\n<p><br /> For information on how to publish the app to the Enterprise App Store in Release mode for iOS and Android, refer  <a href='#'onClick='javascript:openURL(\"https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_user_guide/Content/EAS.html\")'>Iris User Guide</a>.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 10:06:17 GMT"
+    },
+    "context": []
+}

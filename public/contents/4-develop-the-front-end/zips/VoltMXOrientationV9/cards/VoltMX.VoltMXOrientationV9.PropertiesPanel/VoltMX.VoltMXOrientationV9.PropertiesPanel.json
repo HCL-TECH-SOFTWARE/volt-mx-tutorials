@@ -1,0 +1,35 @@
+{
+  "kuid": "26932at0-a4a2-4cr4-b7ue-85b75cnf",
+  "id": "VoltMX.VoltMXOrientationV9.PropertiesPanel",
+  "content": {
+    "title": "Properties Panel",
+    "body": "<p>The <strong>Properties </strong>panel lets you change the layout and the look and feel of the forms and widgets on the <strong>Canvas</strong>.</p>"
+  },
+  "pointer": {
+    "direction": "right",
+    "element": {
+      "module": "propertieswindow"
+    },
+    "type": "default"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Mon, 25 Nov 2019 06:59:32 GMT"
+  },
+  "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "c4450dt9-62a3-45r6-81ud-de783dn1",
+    "id": "VoltMX.IntroductionToInternationalizat.enable2",
+    "content": {
+        "title": "Enable Internationalization",
+        "body": "<ol>\n<li>In the <strong>Configure Internationalization </strong>window, click <strong>Configure Locales</strong>.<br /> The <strong>Configure Locales </strong>window appears with the Predefined tab open by default.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 05:45:02 GMT"
+    },
+    "context": []
+}

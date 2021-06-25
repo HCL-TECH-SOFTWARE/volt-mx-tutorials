@@ -1,0 +1,36 @@
+{
+    "kuid": "6380f3t8-3ca7-4cra-bbu6-175f6an0",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.configureAdd",
+    "content": {
+        "title": "Configuring the Add Operation",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Responsive Web / Desktop </strong>&gt;<strong> Forms</strong> &gt; <strong>frmAddRecipient </strong>&gt;<strong> flxAddRecipient </strong>&gt;<strong> flxEntryFields </strong>&gt; <strong>flxButtons</strong>, and select <strong>btnAdd</strong>.</li>\n<li>From the <strong>Data &amp; Services</strong> panel, expand <strong>Project Services </strong>&gt;<strong> RecipientStorage </strong>&gt;<strong> Recipients</strong>.</li>\n<li>Select the <strong>create</strong> operation and drop it onto the <strong>Add</strong> button on the canvas.</li>\n<li>From the list of actions, select <strong>Action:onClick</strong>.<br />The <strong>Action Editor</strong> window appears.<br />The mapping editor opens on the right pane of the window.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmAddPayee"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 05:02:43 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "46baa9tc-7daa-49rc-83uf-871b5cn0",
+    "id": "VoltMX.addLoginServiceV9.addMapping",
+    "content": {
+        "title": "Map the Login Operation",
+        "body": "<ol><li>From the top right of the <b>Action Editor</b> window, select the <strong>Design View</strong>.</li>\n<li>In the Action Editor canvas,&nbsp;select&nbsp;<strong>Invoke Service: UserAuthentication$login</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, click <strong>Open Mapping Editor</strong>.<br />The <strong>Mapping Editor</strong> window appears in the right pane of the canvas.</li>\n<li>From the left pane of the&nbsp;<strong>Mapping Editor</strong>, expand&nbsp;<strong>Forms </strong>&gt;&nbsp;<strong>frmLogin</strong>.</li>\n<li>From the right pane of the&nbsp;<strong>Mapping Editor</strong>, expand&nbsp;<strong>Services</strong> &gt;&nbsp;<strong>Service &ndash; UserAuthentication$login</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 09:26:09 GMT"
+    },
+    "context": []
+}

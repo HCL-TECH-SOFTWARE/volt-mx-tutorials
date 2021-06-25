@@ -1,0 +1,33 @@
+{
+    "kuid": "343616t1-8dad-4fr4-a7u4-ff3427n2",
+    "id": "VoltMX.UseStorageServiceV9.NewProject2",
+    "content": {
+        "title": "Create a New Project",
+        "body": "<ol>\n<li>In the <strong>You started with a Web App. Device size selected is Desktop. </strong>window, under <strong>Project Name</strong>, enter <strong>GetmyDataStorage</strong>.</li>\n<li>Click <strong>Create</strong>.<br />A new application is created with one flex form. <br />The application opens in the <strong>Storyboard </strong>view.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 10:00:14 GMT"
+    },
+    "context": []
+}

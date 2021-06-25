@@ -1,0 +1,33 @@
+{
+    "kuid": "91e360t7-1bac-42ra-88u8-48860an3",
+    "id": "VoltMX.UserRepositoryAuthV9.settings",
+    "content": {
+        "title": "Settings for Live Preview",
+        "body": "<ol><li>From the main menu, select <b>Build</b>.</li>\n<li>Click <b>Live Preview Settings.</b></li>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 08:06:22 GMT"
+    },
+    "context": []
+}

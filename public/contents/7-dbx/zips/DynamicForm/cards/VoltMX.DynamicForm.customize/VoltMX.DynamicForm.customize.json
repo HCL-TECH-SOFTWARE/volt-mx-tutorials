@@ -1,0 +1,41 @@
+{
+    "kuid": "0b117ete-9fa7-49r2-b8u3-396b32nc",
+    "id": "VoltMX.DynamicForm.customize",
+    "content": {
+        "title": "Customize Fields",
+        "body": "<ol>\r\n<li>Scroll down to the end of the <strong>Look</strong> tab.</li>\r\n<li>Under the <strong>Dynamic Form </strong>section, for<strong> Customize Fields,</strong> click<strong> Edit</strong>.<br />The<strong> Customize List</strong>&nbsp;window appears.</li>\r\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Customize fields",
+                "sectionDOMId": "frmKonyLib_pwwgvbx-dynamic",
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 22 Oct 2019 10:10:00 GMT"
+    },
+    "context": []
+}

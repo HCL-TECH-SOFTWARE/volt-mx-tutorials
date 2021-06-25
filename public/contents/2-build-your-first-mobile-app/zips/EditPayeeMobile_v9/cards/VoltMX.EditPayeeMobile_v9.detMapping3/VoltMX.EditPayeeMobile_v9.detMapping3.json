@@ -1,0 +1,33 @@
+{
+    "kuid": "b34d6et6-08aa-48ra-a5uf-9fcd40nc",
+    "id": "VoltMX.EditPayeeMobile_v9.detMapping3",
+    "content": {
+        "title": "Invoke Service Action",
+        "body": "<ol>\n<li>From the left menu of the&nbsp;<strong>Action Editor</strong>, under the&nbsp;<strong>Network&nbsp;</strong>section, select&nbsp;<strong>Loading Indicator</strong>.</li>\n<li>From the right pane of the&nbsp;<strong>Action Editor</strong>, set the&nbsp;<strong>Loading Indicator</strong>&nbsp;to&nbsp;<strong>Dismiss</strong>.</li>\n<li>From the left menu of the&nbsp;<strong>Action Editor</strong>, under the&nbsp;<strong>Mapping</strong>, select&nbsp;<strong>Add Mapping</strong>.<br /> The Mapping Editor window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 11:34:40 GMT"
+    },
+    "context": []
+}

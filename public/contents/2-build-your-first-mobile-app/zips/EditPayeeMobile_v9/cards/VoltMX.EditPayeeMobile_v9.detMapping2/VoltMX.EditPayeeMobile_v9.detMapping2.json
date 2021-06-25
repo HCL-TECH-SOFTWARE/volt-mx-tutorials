@@ -1,0 +1,33 @@
+{
+    "kuid": "c540f5te-b7a7-43r4-9fuf-a2ed00n5",
+    "id": "VoltMX.EditPayeeMobile_v9.detMapping2",
+    "content": {
+        "title": "Invoke Service Action",
+        "body": "<ol>\n<li>From the left pane of the mapping editor, expand&nbsp;<strong>Navigation Object </strong>and select&nbsp;<strong>tbxPayeeID_text {string}</strong>.</li>\n<li>From the right pane of the mapping editor, expand&nbsp;<strong>Services&nbsp;</strong>&gt; <strong>Service - RecipientStorage$Recipients$get</strong> and select&nbsp;<strong>RecipientID {number}</strong>.<br /> Iris displays an alert regarding a mismatch of data types. Click&nbsp;<strong>OK</strong>.</li>\n<li>From the Action Editor canvas, select&nbsp;<strong>Callback</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 11:29:22 GMT"
+    },
+    "context": []
+}

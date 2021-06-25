@@ -1,0 +1,33 @@
+{
+    "kuid": "1e4e18t9-33a5-41r4-b4u7-659da5n1",
+    "id": "VoltMX.InternationalWithLayoutV9.keyPWD",
+    "content": {
+        "title": "Key-Value Pair for Password",
+        "body": "<ol>\n<li>Click <strong>+</strong>.</li>\n<li>Under the column <strong>Key</strong>, enter: <strong>Password </strong></li>\n<li>Under the column <strong>en_US</strong>, enter: <strong>Password</strong></li>\n<li>Under the column <strong>ar_AE</strong>, enter: <b>كلمه السر</b> <span hk-tooltip='Arabic Translation for Password'><img src=\"https://i.ibb.co/Dfkmg6k/Button-Info-icon.png\" alt=\"Button-Info-icon\" width=\"10\" height=\"10\" /></span></li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:27:29 GMT"
+    },
+    "context": []
+}

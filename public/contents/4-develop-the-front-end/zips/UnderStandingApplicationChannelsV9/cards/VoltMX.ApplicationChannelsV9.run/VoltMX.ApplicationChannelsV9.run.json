@@ -1,0 +1,33 @@
+{
+    "kuid": "6969eft2-84a9-45rd-b9ud-783681nc",
+    "id": "VoltMX.ApplicationChannelsV9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol>\n<li>From the <strong>Live Preview Settings</strong> window, select the checkbox next to the <strong>Responsive Web</strong>.</li>\n<li>Under <strong>Native</strong>, select the checkboxes next to the OS of the mobile/tablet on which you are going to view the app. <br />For example- <strong>iOS</strong> and <strong>Android</strong>.</li>\n<li>Click <strong>Save &amp; Run</strong>.<br /> It may take some time for Iris to show the <strong>Live Preview is ready</strong> window.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 08:14:27 GMT"
+    },
+    "context": []
+}

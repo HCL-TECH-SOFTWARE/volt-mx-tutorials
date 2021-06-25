@@ -1,0 +1,33 @@
+{
+    "kuid": "63b92etf-89a3-40rb-b3ud-094ab6n8",
+    "id": "VoltMX.UserRepositoryAuthV9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol>\n<li>From the <strong>Live Preview Settings</strong> window, select the checkbox for <strong>Responsive Web</strong>.<br /> Make sure you have unselected all the other platforms and channels.</li>\n<li>Click <strong>Save &amp; Run</strong>.<br />It may take some time for Iris to show the <strong>Live Preview is ready </strong>window.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 08:11:07 GMT"
+    },
+    "context": []
+}

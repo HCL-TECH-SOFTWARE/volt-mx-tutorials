@@ -1,0 +1,33 @@
+{
+    "kuid": "b199b4t2-64ae-4br0-a2u9-352b62n8",
+    "id": "VoltMX.IntroFlexLayoutV9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol><li>From the <b>Live Preview Settings</b> window, under <b>Native</b>, select the checkboxes next to the OS of the mobile/tablet on which you are going to view the app. <br/>For example: <b>iOS </b> and <b>Android</b>.<br/>Make sure you have unselected all the other platforms and channels.</li>\n<li>Click <b>Save & Run</b>.<br/> It may take some time for Iris to show the <b>Live Preview is ready</b> window.</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 08:19:16 GMT"
+    },
+    "context": []
+}

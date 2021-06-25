@@ -1,0 +1,33 @@
+{
+    "kuid": "310c57t2-0faf-4fr7-a4u6-30e4fcna",
+    "id": "VoltMX.EditPayeeWeb_v9.editService4",
+    "content": {
+        "title": "Configuring Services for Edit Recipients",
+        "body": "<ol>\n<li>In the Mapping Editor, map the following service parameters from the left pane to the widgets on the right pane:\n<ul>\n<li>From the left pane select <strong>RecipientID {number}</strong>.<br />From the right pane expand<strong> Label - lblPayeeID</strong>, and select<strong> text {string}</strong>.<br /> Iris displays an alert regarding a mismatch of data types, click <strong>OK</strong>.</li>\n<li>From the left pane select <strong>FirstName {string}</strong>.<br />From the right pane expand<strong> TextField- tbxFirstName</strong>, and select<strong> text {string}</strong>.</li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 05:45:55 GMT"
+    },
+    "context": []
+}

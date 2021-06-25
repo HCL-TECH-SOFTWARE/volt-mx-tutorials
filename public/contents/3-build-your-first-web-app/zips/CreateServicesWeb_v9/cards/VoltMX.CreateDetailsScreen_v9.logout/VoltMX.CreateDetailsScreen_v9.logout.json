@@ -1,0 +1,36 @@
+{
+    "kuid": "12a604tb-03aa-4crf-91uf-34f5f7n9",
+    "id": "VoltMX.CreateDetailsScreen_v9.logout",
+    "content": {
+        "title": "Implementing Logout",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Responsive Web/ Desktop</strong> &gt; <strong>Forms</strong> &gt; <strong>frmDetails</strong> &gt; <strong>flxRecipientDetails</strong> &gt; <strong>flxHeader</strong>, and select <strong>flxUserLogout</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action</strong> tab.</li>\n<li>For the <strong>onClick </strong>event, click <strong>Edit</strong>.<br />The <strong>Action Editor</strong> window appears.</li>\n<li>From the top-right corner of the <strong>Action Editor</strong>, select <strong>Design View</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmPayeeDetails\\flexPayeeDetails"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 21 Feb 2020 10:58:12 GMT"
+    },
+    "context": []
+}

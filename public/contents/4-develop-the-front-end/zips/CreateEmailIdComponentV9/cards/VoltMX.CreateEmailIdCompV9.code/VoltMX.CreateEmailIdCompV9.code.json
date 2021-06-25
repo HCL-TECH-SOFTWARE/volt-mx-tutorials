@@ -1,0 +1,33 @@
+{
+    "kuid": "01553dt7-a3a0-4br7-abu4-02648fne",
+    "id": "VoltMX.CreateEmailIdCompV9.code",
+    "content": {
+        "title": "Enter the Code",
+        "body": "<ol>\n<li>Download the code for email validation  from <a href='#'onClick='javascript:openURL(\"https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/raw/master/public/samples/createComponent.zip\")'>here</a>.</li>\n<li>From the upper-left corner of Iris, in the <strong>Templates</strong> explorer, under <strong>Modules</strong>, open <strong>emailFieldController.js</strong> file.</li>\n<li>Open and extract the downloaded zip file and copy the code from it.</li><li>Replace the existing code in <strong>emailFieldController.js</strong> file with the copied code.</li>\n<li>From the main menu, go to <strong>Project</strong>, and select <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:27:19 GMT"
+    },
+    "context": []
+}

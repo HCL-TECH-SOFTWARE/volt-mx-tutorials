@@ -1,0 +1,36 @@
+{
+    "kuid": "2cd56ftd-feac-49r9-86u3-4eaf0cne",
+    "id": "VoltMX.IntrotoSegmentTempV9.uiTemp1",
+    "content": {
+        "title": "UI of FlexContainer",
+        "body": "<ol>\n<li>From the <strong>Templates</strong> explorer, expand <strong>Mobile</strong> &gt; <strong>Segments</strong> &gt; <strong>segmentTemp</strong>.</li>\n<li>Select the <strong>flexContainer</strong> under it.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Look</strong> tab.</li>\n<li>Make the following changes:\n<ul>\n<li>Under the <strong>General</strong> section, ID: <strong>flxSeg</strong></li>\n<li>Under the <strong>Flex</strong> section, Height: <strong>84 Dp</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "templates-body\\templates\\Mobile\\Segments"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 11:43:10 GMT"
+    },
+    "context": []
+}

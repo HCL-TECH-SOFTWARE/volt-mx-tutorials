@@ -1,0 +1,33 @@
+{
+    "kuid": "eae522t2-41a4-4cr8-b3u0-496dd8n6",
+    "id": "VoltMX.addLoginServiceV9.TestLogin",
+    "content": {
+        "title": "Test the Service of your App",
+        "body": "<ol>\n<li>On the&nbsp;<strong>Configure Identity Service </strong>window, click&nbsp;<strong>TEST LOGIN</strong>.</li>\n<li>Enter the&nbsp;<strong>User ID </strong>(email) and the&nbsp;<strong>Password </strong>you have created.</li>\n<li>Click&nbsp;<strong>SIGN IN</strong>.</li>\n<li>Close the&nbsp;<strong>Configure Identity Service</strong>&nbsp;window to add the service to your application.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 09:17:13 GMT"
+    },
+    "context": []
+}

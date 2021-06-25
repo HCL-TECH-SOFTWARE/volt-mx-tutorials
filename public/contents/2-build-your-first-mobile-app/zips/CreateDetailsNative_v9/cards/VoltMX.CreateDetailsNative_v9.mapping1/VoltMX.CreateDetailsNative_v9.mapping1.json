@@ -1,0 +1,33 @@
+{
+    "kuid": "3423a3t4-63ad-47rb-acu9-a13b32nc",
+    "id": "VoltMX.CreateDetailsNative_v9.mapping1",
+    "content": {
+        "title": "Updating the Mapping Editor",
+        "body": "<ol>\n<li>From the top-right corner of the <strong>Action Editor</strong> window, select <strong>Design View</strong>.</li>\n<li>Select <strong>Invoke Service name: RecipientStorage$Recipients$get</strong>.</li>\n<li>From the right pane, select <strong>Update Filter Query.&nbsp;<br /></strong>The <strong>Mapping Editor </strong>window appears.</li>\n<li>From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Services</strong> &gt; <strong>Service &ndash; RecipientStorage$Recipients$get</strong>.</li>\n<li>Right-click and select <strong>Unbind</strong> for the following fields:\n<ul>\n<li><strong>FirstName {string}</strong></li>\n<li><strong>LastName {string}</strong></li>\n<li><strong>NickName {string}</strong></li>\n<li><strong>Phone {string}</strong></li>\n</ul></li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 09:03:19 GMT"
+    },
+    "context": []
+}

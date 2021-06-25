@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Hike kuid="8bbab7t5-70a4-42r7-a4uf-006e97n6" id="VoltMX.IntrotoVoltMXJSV9" title="VoltMX.IntrotoVoltMXJSV9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <Createdon>Tue, 26 Nov 2019 08:31:08 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.Intro"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.NewProject1"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.NewProject2"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.rename"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.addUI"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.controller1"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.validate1"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.CodeImp"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.addElse"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.finalCode"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.navigate"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.appViewer"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.settingPre"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.publish"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.view"/>
+    <Hikecard id="VoltMX.IntrotoVoltMXJSV9.last"/>
+</Hike>

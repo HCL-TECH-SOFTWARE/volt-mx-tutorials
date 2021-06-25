@@ -1,0 +1,33 @@
+{
+    "kuid": "19f49at6-caa2-49rb-92u9-c29728nf",
+    "id": "VoltMX.NFIBarcodeV9.view",
+    "content": {
+        "title": "View the App",
+        "body": "<ol>\n<li>On your mobile device, after a successful launch, the <strong>Volt MX JavaScript Debugger Configuration </strong>window appears.<br />Click <strong>Cancel</strong>.</li>\n<li>Click <strong>Start Scan</strong>.</li>\n<li>Using the camera on the screen, scan any barcode.<br />After the barcode is scanned, the value of the barcode appears in the label in the app.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 28 Nov 2019 04:46:00 GMT"
+    },
+    "context": []
+}

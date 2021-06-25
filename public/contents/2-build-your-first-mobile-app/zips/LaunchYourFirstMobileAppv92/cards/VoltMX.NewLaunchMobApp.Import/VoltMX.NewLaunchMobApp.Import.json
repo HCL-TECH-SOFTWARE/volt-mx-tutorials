@@ -1,0 +1,34 @@
+{
+    "kuid": "a7a0a2tc-00a1-45r3-b9u8-259192n6",
+    "id": "VoltMX.NewLaunchMobApp.Import",
+    "content": {
+        "title": "Import the Native App",
+        "body": "<ol>\n<li>From the main menu of the Iris, navigate to <strong>Forge</strong> &gt; <strong>Browse</strong>.<br />The <strong>Volt MX Forge</strong> window appears</li>\n<li>On the search bar, enter, <strong>Recipients Mobile</strong>.</li>\n<li>In the list that appears, select <strong>Recipients Mobile</strong>.<br />The details of the <strong>Recipients Mobile</strong> appears.</li>\n<li>Click <strong>Import to Workspace</strong>.<br /> It may take some time for Iris to import the app.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none",
+        "isfixed": false
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 09:16:13 GMT"
+    },
+    "context": []
+}

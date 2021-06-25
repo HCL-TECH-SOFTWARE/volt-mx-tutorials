@@ -1,0 +1,33 @@
+{
+    "kuid": "03c41at5-a4aa-4fr0-a1ua-cdd375n0",
+    "id": "VoltMX.UseSampleServicesV9.intro",
+    "content": {
+        "title": "Use Sample Services",
+        "body": "<b>Let’s get started!</b><br/>\nIn this hike, we will: <br/>\n<ul><li> Create a form </li>\n<li> Connect to a sample back-end database</li>\n<li>Add data to the form. You can follow the same steps to bind your own back-end data to your app.</li></ul>\n<br/>\n\n<b>When you are ready, click Start!</b>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 09:12:24 GMT"
+    },
+    "context": []
+}

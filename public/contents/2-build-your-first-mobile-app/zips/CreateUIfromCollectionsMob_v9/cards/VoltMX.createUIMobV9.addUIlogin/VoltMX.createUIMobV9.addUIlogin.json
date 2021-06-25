@@ -1,0 +1,35 @@
+{
+    "kuid": "d63369t2-d9ac-41r9-90ub-8ea6b0n6",
+    "id": "VoltMX.createUIMobV9.addUIlogin",
+    "content": {
+        "title": "UI for Login Form",
+        "body": "<ol>\n<li>From the left of the Iris canvas, navigate to the <strong>Default Library</strong>.</li>\n<li>Click the search icon.</li>\n<li>In the search bar that appears, enter <strong>Login</strong>.</li>\n<li>From the results, under <strong>RecipientsMobile</strong>, select <strong>UserLogin</strong>.</li>\n<li>Drag the <strong>UserLogin </strong>collection onto the <strong>frmLogin</strong> form on the canvas.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 06:54:07 GMT"
+    },
+    "context": []
+}

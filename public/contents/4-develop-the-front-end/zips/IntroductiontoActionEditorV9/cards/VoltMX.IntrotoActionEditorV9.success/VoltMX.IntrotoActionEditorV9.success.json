@@ -1,0 +1,33 @@
+{
+    "kuid": "70825atb-d8a1-4drc-94u0-0127bcn1",
+    "id": "VoltMX.IntrotoActionEditorV9.success",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully completed the hike.<br />In this hike you have:</p>\n<ul>\n<li><strong>Navigated from a Login Screen to a Registration Screen</strong></li>\n<li><strong>Added Validations around the Email Id text field&nbsp;</strong></li>\n<li><strong>Shown an alert if the user input is invalid</strong></li>\n<li><strong>Changed the visibility of the widgets to display a success message</strong></li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 05:35:29 GMT"
+    },
+    "context": []
+}

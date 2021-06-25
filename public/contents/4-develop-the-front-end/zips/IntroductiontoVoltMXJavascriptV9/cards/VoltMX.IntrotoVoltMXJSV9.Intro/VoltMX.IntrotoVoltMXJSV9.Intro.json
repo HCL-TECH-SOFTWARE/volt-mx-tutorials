@@ -1,0 +1,33 @@
+{
+  "kuid": "4c4b06t5-b6a9-40r2-b1uf-663395n3",
+  "id": "VoltMX.IntrotoVoltMXJSV9.Intro",
+  "content": {
+    "title": "Introduction to Volt MX JavaScript",
+    "body": "In this hike, we will:<br/> \n\n<ul><li> Create a <b>Login</b> form which takes the <b>username</b> and the <b>password</b> as input and validates them against the stored values</li> \n\n<li>Add <b>JavaScript</b> code to validate the success and the failure scenarios</li></ul> \n\n<br/> \n\nBefore you get started, install the <b>Volt MX App</b> app on your device, from the <a href='#'onClick='javascript:openURL(\"https://play.google.com/store/apps/developer?id=HCL+Software \")'> Play store </a> or the <a href='#'onClick='javascript:openURL(\"https://apps.apple.com/us/developer/hcl-america-inc/id392909135 \")'> App store</a>.<br/><br/>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": "",
+    "type": "none"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": false,
+      "hide": true
+    },
+    "right": {
+      "text": "Start",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "CENTER",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Tue, 26 Nov 2019 08:32:23 GMT"
+  },
+  "context": []
+}

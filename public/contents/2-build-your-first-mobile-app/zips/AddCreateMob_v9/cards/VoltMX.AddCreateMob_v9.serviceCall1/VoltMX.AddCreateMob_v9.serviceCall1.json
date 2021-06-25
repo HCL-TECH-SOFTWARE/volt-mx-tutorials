@@ -1,0 +1,41 @@
+{
+    "kuid": "547ce3td-0da0-4frf-9fu4-023d7cn2",
+    "id": "VoltMX.AddCreateMob_v9.serviceCall1",
+    "content": {
+        "title": "Invoking Create Operation",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, navigate to <strong>Mobile</strong> &gt; <strong>Forms </strong>&gt;<strong> frmAddRecipient </strong>&gt; <strong> flexAddRecipient</strong> > <b>flexFieldsContainer</b> > <strong>flexAdd</strong> &gt;<strong> flexSquaredBorderedButton</strong>, and select <strong>btnSquared</strong>.</li>\n<li>From the <strong>Properties </strong>panel, navigate to the <strong>Action </strong>tab.</li>\n<li>Under the <strong>General </strong>section, for <strong>onClick</strong> event, click <strong>Edit</strong>.<br /> The <strong>Action Editor </strong>window appears.</li>\n<li>From the top-right corner of the <strong>Action Editor</strong> window, select the <strong>Design View</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "onClick",
+                "sectionDOMId": "frmKonyLib_GeneralAction",
+                "tabName": "Action"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 04:50:54 GMT"
+    },
+    "context": []
+}

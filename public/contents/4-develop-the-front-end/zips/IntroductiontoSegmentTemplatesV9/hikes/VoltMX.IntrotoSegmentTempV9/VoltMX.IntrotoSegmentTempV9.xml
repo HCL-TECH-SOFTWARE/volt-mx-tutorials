@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Hike kuid="5ca881t5-74a9-43r7-84ub-a27e65n4" id="VoltMX.IntrotoSegmentTempV9" title="VoltMX.IntrotoSegmentTempV9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <Createdon>Mon, 25 Nov 2019 11:31:31 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.Intro"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.segTemplate"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.segTemplate1"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.uiTemp1"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.uiTemp2"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.addingImg"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.positionImg"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.addingLbl"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.positionLbl"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.snLbl"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.tempEditing"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.segAction"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.segAction1"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.run"/>
+    <Hikecard id="VoltMX.IntrotoSegmentTempV9.last"/>
+</Hike>

@@ -1,0 +1,33 @@
+{
+    "kuid": "c6414et8-5ba0-4dr5-91uc-97aee4ne",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.successAlert2",
+    "content": {
+        "title": "Configuring the Success Alert",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Function </strong>section, select <strong>Add Snippet</strong>.</li>\n<li>In the right pane, type the following code:<br /><span style=\"background-color: #999999;\">self.view.forceLayout();</span></li>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmRecipients</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 05:22:11 GMT"
+    },
+    "context": []
+}

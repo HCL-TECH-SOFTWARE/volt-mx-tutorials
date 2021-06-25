@@ -1,0 +1,36 @@
+{
+    "kuid": "cce07etb-e8aa-4cr2-aeu1-1c6875n7",
+    "id": "VoltMX.CreateDetailsScreen_v9.backNavigation",
+    "content": {
+        "title": "Implementing Back to Recipient Form",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Responsive Web/ Desktop</strong> &gt; <strong>Forms</strong> &gt; <strong>frmDetails</strong> &gt; <strong>flxRecipientDetails</strong> &gt; <strong>flxToolbar</strong>, and select <strong>flxBack</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action</strong> tab.</li>\n<li>For the <strong>onClick </strong>event, click <strong>Edit</strong>.<br />The <strong>Action Editor</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmPayeeDetails\\flexPayeeDetails"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 21 Feb 2020 10:50:49 GMT"
+    },
+    "context": []
+}

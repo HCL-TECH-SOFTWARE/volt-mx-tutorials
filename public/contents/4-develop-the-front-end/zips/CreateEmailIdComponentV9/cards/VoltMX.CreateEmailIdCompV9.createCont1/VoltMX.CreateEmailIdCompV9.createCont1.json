@@ -1,0 +1,36 @@
+{
+    "kuid": "4a6840t8-78a6-4cra-a1u9-997f74n7",
+    "id": "VoltMX.CreateEmailIdCompV9.createCont1",
+    "content": {
+        "title": "Design the Label Widget",
+        "body": "<ol>\n<li>From the <strong>Properties</strong> panel, click <strong>Look</strong>.</li>\n<li>Under the <strong>Appearance</strong> section, modify the value of the following properties:\n<ul>\n<li>For the <strong>Content Align</strong> property, select <strong>Center</strong> and <strong>Middle</strong></li>\n<li>For the <strong>Text</strong> property, in the text box, enter <strong>Contact Us </strong></li>\n</ul>\n</li>\n<li>Under the <strong>Flex</strong> section, modify the value of the following properties:<br />\n<ul>\n<li>Left: <strong>0 Dp </strong></li>\n<li>Top: <strong>0 Dp </strong></li>\n<li>Width: <strong>100 % </strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-tab"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 05:50:11 GMT"
+    },
+    "context": []
+}

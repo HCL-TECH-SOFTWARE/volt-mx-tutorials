@@ -1,0 +1,33 @@
+{
+    "kuid": "b8d750t1-81a3-40r4-b1u3-5f30ddn4",
+    "id": "VoltMX.IntroductiontoSegmentV9.Intro",
+    "content": {
+        "title": "Introduction to Segment",
+        "body": "<b>Let’s get started!</b><br/>\nIn this hike, we will: <br/>\n<ul><li>Create a form with a Segment widget</li>\n<li>Assign data to the Segment widget</li>\n<li>Change the height of the rows of the Segment</li>\n</ul>\n<br/>\n<b>When you’re ready, click Start!</b>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 10:05:50 GMT"
+    },
+    "context": []
+}

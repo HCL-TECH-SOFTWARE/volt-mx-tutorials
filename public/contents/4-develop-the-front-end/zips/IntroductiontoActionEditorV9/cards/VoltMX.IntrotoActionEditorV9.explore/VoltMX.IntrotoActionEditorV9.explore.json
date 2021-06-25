@@ -1,0 +1,33 @@
+{
+    "kuid": "3f65a4t2-c3ac-4erd-b8u3-e02e61n1",
+    "id": "VoltMX.IntrotoActionEditorV9.explore",
+    "content": {
+        "title": "Explore the App",
+        "body": "<p>You will now be able to view the app on your <strong>mobile</strong> device. </p>\n<ol>\n<li>Click on the <strong>CREATE ACCOUNT&nbsp;</strong>button on your login screen, you will be navigated to the registration screen.</li>\n<li>Click on <strong>Sign Up</strong> button on your registration screen. <br/>The alert pop-up appears.</li>\n<li>Enter your Email ID in the text field&nbsp;and click on the <strong>Sign Up </strong>button.<br/>\nA notification appears giving you further instructions for Sign Up.</li>\n<li>To <strong>Exit</strong> the <strong>mobile</strong> device, swipe two fingers from left to right or shake your <strong>mobile</strong> device and click <strong>Exit App</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 05:34:27 GMT"
+    },
+    "context": []
+}

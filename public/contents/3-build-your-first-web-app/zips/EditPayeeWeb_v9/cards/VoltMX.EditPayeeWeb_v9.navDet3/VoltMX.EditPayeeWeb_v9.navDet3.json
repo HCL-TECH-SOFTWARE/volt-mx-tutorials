@@ -1,0 +1,33 @@
+{
+    "kuid": "8487e6tc-35ab-44ra-81u0-d67898n8",
+    "id": "VoltMX.EditPayeeWeb_v9.navDet3",
+    "content": {
+        "title": "Invoking Services",
+        "body": "<ol>\n<li>From the left pane of the mapping editor, expand <strong>Navigation Object</strong> and select <strong>lblPayeeID_text {string}</strong>.</li>\n<li>From the right pane of the mapping editor, expand <strong>Services </strong>&gt;<strong> Service - RecipientStorage$Recipients$get</strong> and select <strong>RecipientID {number}</strong>.<br /> Iris displays an alert regarding a mismatch of data types, click <strong>OK</strong>.</li>\n<li>From the Action Editor canvas, select <strong>Callback</strong>.</li>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Mapping</strong>, select <strong>Add Mapping</strong>.<br />The <b>Mapping Editor</b> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 06:23:12 GMT"
+    },
+    "context": []
+}

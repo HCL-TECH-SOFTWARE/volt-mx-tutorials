@@ -1,0 +1,33 @@
+{
+    "kuid": "ca7e72tf-44a4-4br0-98u1-6f68cbn2",
+    "id": "VoltMX.EditPayeeWeb_v9.mapEdit",
+    "content": {
+        "title": "Mapping the Data to Services",
+        "body": "<ul>\n<li>From the left pane select <strong>LastName {string}</strong>.<br />From the right pane expand<strong> TextField- tbxLastName</strong>, and select<strong> text {string}</strong>.</li>\n<li>From the left pane select <strong>NickName {string}</strong>.<br />From the right pane expand<strong> TextField- tbxNickName</strong>, and select<strong> text {string}</strong>.</li>\n<li>From the left pane select <strong>Phone{string}</strong>.<br />From the right pane expand<strong> TextField- tbxPhone</strong>, and select<strong> text {string}</strong>.</li>\n</ul>\n<ol start=\"2\">\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 05:47:25 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "31d4f4t3-b7a6-44r1-82u1-f36b39n2",
+    "id": "VoltMX.ConnectAppServWebV9.addStaticExpression",
+    "content": {
+        "title": "Add Static Expression in Mapping Editor",
+        "body": "<ol>\n<li>From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Label-lblDots</strong>, and right-click on <strong>text{string}</strong>, and select <strong>Add Expression</strong>.</li>\n<li>In the box that appears, type the following:<br /><span style=\"background-color: #999999;\"><strong> \"...\"</strong></span><br /> Click anywhere outside the box to close it.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 05:55:04 GMT"
+    },
+    "context": []
+}

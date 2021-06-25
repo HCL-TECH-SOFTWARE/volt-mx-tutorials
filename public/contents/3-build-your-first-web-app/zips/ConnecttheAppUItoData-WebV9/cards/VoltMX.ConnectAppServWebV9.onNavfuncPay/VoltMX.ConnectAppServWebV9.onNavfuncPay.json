@@ -1,0 +1,36 @@
+{
+    "kuid": "da78c6t2-0aa9-4crb-9eub-0d96e2n3",
+    "id": "VoltMX.ConnectAppServWebV9.onNavfuncPay",
+    "content": {
+        "title": "preShow Event in Recipients Form",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, navigate to <strong>Responsive Web/ Desktop</strong> &gt; <strong>Forms</strong> and select <strong>frmRecipients</strong>.</li>\n<li>From the top-right corner of the Iris, navigate to <strong>Properties </strong>panel and select the <strong>Action</strong> tab.</li>\n<li>Under the <strong>General </strong>section, for the <strong>preShow</strong> event, click <strong>Edit</strong>.<br /> The <strong>Action Editor </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmPayee"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 05:57:20 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,39 @@
+{
+    "kuid": "269054te-2da7-46rd-81u3-8683b6n1",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.configureAdd2",
+    "content": {
+        "title": "Action for Success",
+        "body": "<ol>\n<li>From the top-right of the <strong>Action Editor</strong> window, select the <strong>Design View</strong>.</li>\n<li>From the Action Editor canvas, select <strong>IF Recipients.opstatus is equal to 0</strong>.</li>\n<li>From the <strong>Action Editor </strong>left menu, under the <strong>Widget </strong>section, select <strong>Set Widget Property</strong>.</li>\n<li>From the right pane, expand <b>Desktop Forms</b> > <b>frmAddRecipient</b> > <b>flxAddRecipient</b> and  select <strong>flexSuccess</strong>.</li>\n<li>In the last pane modify the following values:\n<ul>\n<li>Property: <strong>Visible</strong></li>\n<li>Value: <strong>True</strong></li>\n</ul></li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Set Widget Property"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 05:10:17 GMT"
+    },
+    "context": []
+}

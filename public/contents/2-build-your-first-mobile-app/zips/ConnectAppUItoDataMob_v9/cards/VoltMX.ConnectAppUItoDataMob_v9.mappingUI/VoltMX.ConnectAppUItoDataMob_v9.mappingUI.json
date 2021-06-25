@@ -1,0 +1,33 @@
+{
+    "kuid": "bf4dd7td-66a6-42ra-93u6-75b242ne",
+    "id": "VoltMX.ConnectAppUItoDataMob_v9.mappingUI",
+    "content": {
+        "title": "Mapping Services to UI Elements",
+        "body": "<p>Map the following elements in the Mapping Editor from the left pane to the right pane.</p>\n<ul>\n<li>From the left pane of the Mapping Editor, select <strong>RecipientID{number}</strong>.<br />From the right pane of the Mapping Editor, expand <strong>Label-lblPayeeID</strong> and select <strong>text{string}</strong>.</li>\n<li>From the left pane of the Mapping Editor, select <strong>FirstName{string}</strong>.<br />From the right pane of the Mapping Editor, expand <strong>Label-lblFirstName</strong> and <strong>select text{string}</strong>.</li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 08:39:22 GMT"
+    },
+    "context": []
+}

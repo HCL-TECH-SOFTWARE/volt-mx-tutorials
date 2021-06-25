@@ -1,0 +1,38 @@
+{
+    "kuid": "7d0b22te-44a7-49r4-93uc-619deen2",
+    "id": "VoltMX.UserRepositoryAuthV9.NewUserRep",
+    "content": {
+        "title": "Create a New User Repository",
+        "body": "<ol>\n<li>From the <strong>Data &amp; Services</strong> panel on the top right of your canvas, expand <strong>Project Services</strong>.</li>\n<li>Click <strong>Configure New</strong> to get a list of prepacked services.</li>\n<li>Under the <strong>Authenticate</strong> category, select <strong>User Repository</strong>.<br />The <strong>Configure Identity Service</strong> window appears.</li>\n<li>Enter the name of the service <strong>employeeUserStore</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "datapanel",
+            "itemType": "dp_tree_entry",
+            "context": {},
+            "path": "PROJECT SERVICES\\Configure New"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 06:41:47 GMT"
+    },
+    "context": []
+}

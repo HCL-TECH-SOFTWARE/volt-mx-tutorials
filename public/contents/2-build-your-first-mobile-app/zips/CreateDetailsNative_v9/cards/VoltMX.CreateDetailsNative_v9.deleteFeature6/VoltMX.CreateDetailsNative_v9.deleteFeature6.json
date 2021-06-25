@@ -1,0 +1,39 @@
+{
+    "kuid": "4e90bft9-2ea0-45r9-b8u9-ed967an9",
+    "id": "VoltMX.CreateDetailsNative_v9.deleteFeature6",
+    "content": {
+        "title": "Adding Delete Feature",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Widget</strong> section, select <strong>Set Widget Property</strong>.</li>\n<li>From the right pane, under <strong>Mobile Forms</strong> &gt; <strong>frmDetails</strong> &gt; <strong>frmFieldsContainer</strong>, and select <strong>btnSquared</strong>.</li>\n<li>In the right pane of the mapping editor, provide the following values.\n<ul>\n<li>Property: <strong>Opacity</strong></li>\n<li>Value: <strong>100%</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Set Widget Property"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 11:19:34 GMT"
+    },
+    "context": []
+}

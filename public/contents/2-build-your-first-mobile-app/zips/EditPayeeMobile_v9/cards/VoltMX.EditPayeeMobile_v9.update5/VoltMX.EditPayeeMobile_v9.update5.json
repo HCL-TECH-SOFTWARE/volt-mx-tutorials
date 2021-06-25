@@ -1,0 +1,33 @@
+{
+    "kuid": "a18419te-cda4-42r3-a3u9-f7eafbn9",
+    "id": "VoltMX.EditPayeeMobile_v9.update5",
+    "content": {
+        "title": "Navigating to the Recipients Screen",
+        "body": "<ol>\n<li>From the right pane of the <strong>Action Editor</strong>, under <strong>Add Condition</strong> set the following:\n<ul>\n<li>First field &ndash; <strong>Value</strong>.</li>\n<li>Second field &ndash; Type <strong>Recipients.opstatus</strong></li>\n<li>Third field &ndash; <strong>Equals</strong></li>\n<li>Fourth field &ndash; <strong>Value</strong></li>\n<li>Fifth field - Type <strong>0</strong></li>\n</ul>\n</li>\n<li>From the left pane of the <strong>Action Editor</strong>, under the <strong>General </strong>section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmDetails</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>Pass data with navigation</strong>. <br />The Mapping Editor appears.</li>\n<li>From the Mapping Editor, expand <strong>frmEditRecipient</strong> &gt; <strong>TextField-tbxPayeeID</strong> and select <strong>text{string}</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 12:08:36 GMT"
+    },
+    "context": []
+}

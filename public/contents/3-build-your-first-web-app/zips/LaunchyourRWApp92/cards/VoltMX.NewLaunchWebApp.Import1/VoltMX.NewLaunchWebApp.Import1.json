@@ -1,0 +1,33 @@
+{
+  "kuid": "b17bfft9-75ab-42r7-a5u3-bbcb25nc",
+  "id": "VoltMX.NewLaunchWebApp.Import1",
+  "content": {
+    "title": "Import the Web App",
+    "body": "<ol>\n<li>After the app is imported, a <strong>Iris</strong> dialog appears.<br />Click <strong>Ok</strong>.</li>\n<li>From the main menu of the Iris, navigate to <strong>Project</strong> &gt; <strong>Open</strong> &gt; <strong>HCL Reference Architecture</strong>, and select <strong>RecipientsWeb</strong>.<br />The application opens in the <strong>Storyboard</strong> view.</li>\n<li>From the top of the Iris canvas, from the drop-down list, select <strong>Web:1380</strong>.</li>\n</ol>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": "",
+    "type": "none"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Prem Garudadri",
+    "CreatedOn": "Wed, 18 Dec 2019 16:03:53 GMT"
+  },
+  "context": []
+}

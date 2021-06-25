@@ -1,0 +1,36 @@
+{
+    "kuid": "ade231ta-95a7-4fre-81uf-8d1bcdn9",
+    "id": "VoltMX.AddaSalesforceServiceV9.generateObj",
+    "content": {
+        "title": "Add Account Object to Salesforce",
+        "body": "<ol>\n<li>Click <strong>Generate</strong> to add the <strong>Account</strong> object to your salesforce service.</li>\n<li>Close the <strong>Edit Object Service</strong> window.<br />You have successfully added the <strong>Account </strong>object to your service.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "mfconsole",
+            "css_selector": ".modal-footer-useExtntble>.pull-right>.btn.btn-primary[ng-click='importObjects();']"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 08:50:34 GMT"
+    },
+    "context": []
+}

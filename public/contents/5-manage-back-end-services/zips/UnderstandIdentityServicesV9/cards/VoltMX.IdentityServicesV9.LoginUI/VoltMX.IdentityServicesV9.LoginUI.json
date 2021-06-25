@@ -1,0 +1,35 @@
+{
+    "kuid": "04d3adt2-5fa9-4frb-83u0-1b3771n8",
+    "id": "VoltMX.IdentityServicesV9.LoginUI",
+    "content": {
+        "title": "Add a Login Screen",
+        "body": "<p>The <b>Default Library</b> tab contains pre-bundled UI components to help design forms.</p> \n<ol>\n <li>From the <b>Default Library</b> tab on the bottom left of your canvas, search for <b>Login</b>.<br >\nThe search result lists sample Login screens.</li>\n<li>Drag and drop the <b>ACMELogin</b> component onto the <b>frmLogin</b> form on your canvas.<br >\nThe login form is ready.</li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 10:26:32 GMT"
+    },
+    "context": []
+}

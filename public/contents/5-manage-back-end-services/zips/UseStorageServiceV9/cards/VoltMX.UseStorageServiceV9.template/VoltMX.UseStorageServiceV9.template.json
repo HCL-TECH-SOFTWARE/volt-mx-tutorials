@@ -1,0 +1,33 @@
+{
+    "kuid": "098397t8-c8a0-46r3-89u3-596d54n3",
+    "id": "VoltMX.UseStorageServiceV9.template",
+    "content": {
+        "title": "Sample Database",
+        "body": "<p>We will now add the sample database file in the form of a zip file.</p>\n<ol><li>Click <a href='#'onClick='javascript:openURL(\"https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/raw/master/public/samples/storageSample.zip\")'>here</a> to download the sample .zip file.</li>\n<li>Drag and drop the downloaded file on to <b>Sample Data</b>.</li>\n<li>Click <b>Save</b>.</li>\n<li>Click <b>Close</b>.</li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 10:13:20 GMT"
+    },
+    "context": []
+}

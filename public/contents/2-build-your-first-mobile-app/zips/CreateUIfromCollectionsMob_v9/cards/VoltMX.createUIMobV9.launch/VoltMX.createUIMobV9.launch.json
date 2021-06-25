@@ -1,0 +1,33 @@
+{
+    "kuid": "ae6e40tf-76a3-49r6-90ud-09edbane",
+    "id": "VoltMX.createUIMobV9.launch",
+    "content": {
+        "title": "Launch the App",
+        "body": "<ol>\n<li>On your <strong>Volt MX App</strong>, click <strong>Launch</strong>.<br /> You may see an <strong>Application Name </strong>input box. If there is an input box, enter <strong>RecipientsMobApp</strong>, and then click <strong>Launch</strong>.</li>\n<li>Click the <strong>Login</strong> button on the form to view the <strong>Accounts</strong> list. <br /> You do not need login credentials for this app. You will be adding authentication to the app in the next hike.</li>\n<li>Click <strong>Recipients</strong>. <br /> The <strong>Recipients</strong> list appears.</li>\n<li>To exit the app on your <strong>mobile</strong> device, swipe two fingers from left to right or shake your mobile device and click <strong>Exit App</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 08:50:21 GMT"
+    },
+    "context": []
+}

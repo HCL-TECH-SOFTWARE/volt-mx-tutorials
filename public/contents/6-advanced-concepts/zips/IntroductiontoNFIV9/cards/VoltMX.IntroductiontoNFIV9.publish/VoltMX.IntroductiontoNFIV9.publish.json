@@ -1,0 +1,33 @@
+{
+    "kuid": "685533ta-80a0-4dr3-88u1-e452e8nf",
+    "id": "VoltMX.IntroductiontoNFIV9.publish",
+    "content": {
+        "title": "Publish the App",
+        "body": "<ol>\n<li>From the main menu, navigate to <strong>Build</strong>.</li>\n<li>Click <strong>Build and Publish Native</strong>.<br /> The<strong> Build and Publish Native </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 12:00:45 GMT"
+    },
+    "context": []
+}

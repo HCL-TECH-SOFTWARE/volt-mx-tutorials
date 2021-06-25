@@ -1,0 +1,41 @@
+{
+    "kuid": "22adadt9-60a3-40rc-b8u0-8a2904nd",
+    "id": "VoltMX.CreateDetailsNative_v9.UIchange4",
+    "content": {
+        "title": "Customizing the UI",
+        "body": "<ol><li>From the <strong>Project</strong> explorer, navigate to <strong>Mobile</strong> &gt; <strong>Forms</strong> &gt; <strong>frmDetails</strong> and select <b>flexFieldsContainer</b>.</li>\n<li>From the <b>Properties</b> panel, navigate to the <b>Look</b> tab. </li><li>Under the <strong>Dynamic Form</strong> section, for <strong>Fields</strong>, click <strong>Customize</strong>.<br />The <strong>Configure Details</strong> window appears<strong>.</strong></li>\n<li>In the <strong>Configure Details </strong>window, for the <strong>Fields</strong>, provide the following <strong>Display Names</strong>:\n<ul>\n<li><strong>FirstName</strong> field: <strong>First Name</strong></li>\n<li><strong>LastName </strong>field: <strong>Last</strong><strong>Name</strong></li>\n<li><strong>NickName </strong>field: <strong>Nick Name</strong></li>\n<li><strong>Phone </strong>field: <strong>Phone Number</strong></li>\n</ul>\n</li>\n<li>Click <strong>Regenerate</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Fields",
+                "sectionDOMId": "frmKonyLib_pwwgvbx-dynamic",
+                "tabName": "Look"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 08:26:12 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "bf985at2-43ae-49ra-8eu7-3a9164n5",
+    "id": "VoltMX.CreateDetailsScreen_v9.UIchange",
+    "content": {
+        "title": "UI Change",
+        "body": "<ol>\n<li>From the <strong>Project </strong>explorer, navigate to&nbsp;<strong>Responsive Web /Desktop</strong> &gt;&nbsp;<strong>Forms</strong> &gt;&nbsp;<strong>frmDetails</strong>.</li>\n<li>Right-click and delete <strong>flexHeader</strong>.</li>\n<li>From the <strong>Project</strong> explorer, select <strong>flexFieldsContainer</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Look</strong> tab.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmPayeeDetails"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 20 Feb 2020 06:53:55 GMT"
+    },
+    "context": []
+}

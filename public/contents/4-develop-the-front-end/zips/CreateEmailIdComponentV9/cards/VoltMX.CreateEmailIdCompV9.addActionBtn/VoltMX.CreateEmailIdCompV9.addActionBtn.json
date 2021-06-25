@@ -1,0 +1,36 @@
+{
+    "kuid": "469a45td-d4ac-43r1-95u0-a58d03n2",
+    "id": "VoltMX.CreateEmailIdCompV9.addActionBtn",
+    "content": {
+        "title": "Add Action to Button in Contact",
+        "body": "<ol>\n<li>From the upper-left corner of Iris, in the <b>Project</b> explorer, expand <b>Mobile</b> > <b>Forms</b> > <b>Contact</b> and select the <b>Submit</b> button.</li>\n<li> From the upper-right corner of Iris, in the <b>Properties</b> panel, click <b>Action</b>.</li>\n<li>For the <b>onClick</b> event, click <b>Edit</b>.<br/>The <b>Action Editor</b> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-head"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 06:38:43 GMT"
+    },
+    "context": []
+}

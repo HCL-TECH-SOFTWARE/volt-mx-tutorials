@@ -1,0 +1,33 @@
+{
+    "kuid": "4e8755t7-8cae-4crf-a6u7-dff72fn5",
+    "id": "VoltMX.IntrotoActionEditorV9.run",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol><li>From the <b>Live Preview Settings</b> window, under <b>Native</b>, select the checkboxes next to the OS of the <b>mobile</b> device on which you are going to view the app. <br/>For example: <b>iOS </b> and <b>Android</b>.<br/>Ensure that you have unselected the checkboxes for all the other platforms and channels. </li>\n<li>Click <b>Save & Run</b>.<br/>It may take some time for Iris to show the <b>Live Preview is ready</b> window. </li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 05:16:50 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "889f26ta-29a5-4ard-aau8-c00d60n8",
+    "id": "VoltMX.UsingTestRecorder_v9.deploy",
+    "content": {
+        "title": "Deploy the Test Plan",
+        "body": "<ol>\n<li>From <strong>Project</strong> Explorer, expand <strong>Test Resources</strong>, right-click <strong>Jasmine</strong> and select <strong>Deploy</strong>.</li>\n<li>In the <strong>Iris Preview</strong> window, click the Refresh button. </li><li>Enter the login credentials:<ul><li>Username: <b>john.doe@woodburn.com</b></li><li>Password: <b>VoltMX@123</b></li></ul></li> <li>Click <b>Login</b>.</li> \n<li>After a successful login, an alert appears at the bottom of the screen, prompting you to provide access to Iris to your file system.</li>\n<li>Click <strong>Allow</strong>.<br />The <strong>Save As</strong> window appears.</li>\n<li>Save the Test result file at a desired location. <br /> The Test Result file contains details of your test.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\testresources\\Test Resources\\Jasmine"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 27 Feb 2020 09:20:44 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,39 @@
+{
+    "kuid": "d0c80ft4-41a8-44r4-87u8-3ffe9bnd",
+    "id": "VoltMX.addLoginServiceV9.addActions",
+    "content": {
+        "title": "Configure the Actions",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> canvas, under <strong>Invoke Service: UserAuthentication$login</strong>, select <strong>Success</strong>.</li>\n<li>From the left menu of the <strong>Action Editor</strong>, under <strong>General</strong>, select <strong>Navigate to Form</strong>.</li>\n<li>From the&nbsp;right&nbsp;pane of the <strong>Action Editor</strong>, select the form <strong>frmAccount</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 09:29:42 GMT"
+    },
+    "context": []
+}

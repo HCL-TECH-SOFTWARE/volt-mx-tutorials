@@ -1,0 +1,33 @@
+{
+    "kuid": "6f00fdtd-f1a7-41r6-b3ua-a4d83dn6",
+    "id": "VoltMX.IntroductionToInternationalizat.configure",
+    "content": {
+        "title": "Configure English Locale",
+        "body": "<ol>\n<li>In the <strong>Search </strong>field, enter: <strong><br /> </strong>The<strong> English locale </strong>for<strong> United States </strong>appears.</li>\n<li>Select the locale <strong>en_US</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 05:45:30 GMT"
+    },
+    "context": []
+}

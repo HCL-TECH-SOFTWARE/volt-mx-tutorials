@@ -1,0 +1,33 @@
+{
+    "kuid": "61bdc8t1-35a2-4dr8-a9ud-ac3deanb",
+    "id": "VoltMX.InternationalWithLayoutV9.import1",
+    "content": {
+        "title": "Import a Marketplace App",
+        "body": "<ol>\n<li>From the main menu of the Iris, navigate to <strong>Forge</strong> &gt; <strong>Browse</strong>.<br />The <strong>Volt MX Forge</strong> window appears</li>\n<li>On the search bar, enter, <strong>RecipientsMobile</strong>.</li>\n<li>In the list that appears, select <strong>RecipientsMobile</strong>.<br />The details of the <strong>RecipientsMobile</strong> appears.</li>\n<li>Click <strong>Import to Workspace</strong>.<br /> It may take some time for Iris to import the app.</li>\n<li>After the app is imported, a <strong>Iris</strong> dialog appears.<br />Click <strong>Ok</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:22:46 GMT"
+    },
+    "context": []
+}

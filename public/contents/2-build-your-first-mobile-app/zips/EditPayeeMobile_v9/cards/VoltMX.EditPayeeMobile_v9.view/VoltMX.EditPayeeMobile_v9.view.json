@@ -1,0 +1,33 @@
+{
+    "kuid": "94f8c9te-66a6-47r8-bau8-676a2fn4",
+    "id": "VoltMX.EditPayeeMobile_v9.view",
+    "content": {
+        "title": "Launch the App",
+        "body": "<ol>\n<li>Enter the following login credentials in your app.\n<ul>\n<li>Username: <strong>john.doe@woodburn.com</strong></li>\n<li>Password: <strong>VoltMX@123</strong></li>\n</ul>\n</li>\n<li>Click <strong>Login</strong>.<br /> The account list appears.</li>\n<li>Click the <strong>Recipients</strong> tab.<br /> The recipient list appears.</li>\n<li>Click the add <strong>(+) </strong>icon to add a recipient.</li>\n<li>Select a recipient from the list to view their details.</li>\n<li>From the Details page, click the <strong>Delete </strong>button to delete the recipient.</li>\n<li>From the Details page, click the <strong>Edit</strong> button to edit the recipient details.</li>\n<li>Click the Logout button on top of the screen to navigate to the login screen.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 12:28:40 GMT"
+    },
+    "context": []
+}

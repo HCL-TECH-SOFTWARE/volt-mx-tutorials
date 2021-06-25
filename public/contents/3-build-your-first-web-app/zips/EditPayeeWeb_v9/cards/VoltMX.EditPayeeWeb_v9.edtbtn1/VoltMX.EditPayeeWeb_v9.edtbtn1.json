@@ -1,0 +1,39 @@
+{
+    "kuid": "8575b4te-c3a8-44r0-9bu5-6db8b5ne",
+    "id": "VoltMX.EditPayeeWeb_v9.edtbtn1",
+    "content": {
+        "title": "Navigating to Edit Recipients Screen",
+        "body": "<ol>\n<li>From the&nbsp;<strong>Action Editor&nbsp;</strong>left menu, under the <strong>General </strong>section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmEditRecipient</strong>.</li>\n<li>Select the check for <strong>Pass data with navigation.</strong></li>\n<li>On the right pane, expand <strong>Forms </strong>&gt;<strong> frmDetails </strong>&gt;<strong> Label - lblRecipientIDValue</strong>, and select <strong>text {string}</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 05:31:00 GMT"
+    },
+    "context": []
+}

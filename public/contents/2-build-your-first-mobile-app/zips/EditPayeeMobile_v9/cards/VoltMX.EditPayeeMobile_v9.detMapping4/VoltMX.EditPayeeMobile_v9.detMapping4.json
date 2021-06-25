@@ -1,0 +1,33 @@
+{
+    "kuid": "0d9153ta-26a7-4br2-aau8-a2298bn0",
+    "id": "VoltMX.EditPayeeMobile_v9.detMapping4",
+    "content": {
+        "title": "Map the Service to the UI Elements",
+        "body": "<ol>\n<li>From the left pane of the mapping editor, expand&nbsp;<strong>Services&nbsp;</strong>&gt;<strong> Service - RecipientStorage$Recipients$get&nbsp;</strong>&gt;<strong>&nbsp;records {collection}</strong>.<br/>\nFrom the right pane of the mapping editor, expand&nbsp;<strong>Forms&nbsp;</strong>&gt; <strong>frmDetails</strong>.</li>\n<li>In the mapping editor, map the following service parameters to the UI elements:\n<ul>\n<li>From the left pane select <strong>RecipientID {number}</strong>.<br /> From the right pane expand&nbsp;<strong>Label - lblRecipientIDValue</strong>,and select<strong>&nbsp;text {string}</strong>.<br /> Iris displays an alert regarding a mismatch of data types. <br />Click&nbsp;<strong>OK</strong>.</li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 11:36:32 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "99717ctf-21a3-4fr6-99u0-5f4c57nd",
+    "id": "VoltMX.AddCreateMob_v9.serviceCall4",
+    "content": {
+        "title": "Mapping the Data to Service",
+        "body": "<p>In the Mapping Editor, map the following elements from the left pane to the right pane:</p>\n<ul>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>TextField &ndash; tbxFirstName</strong>, and select <strong>text{string}</strong>.<br />From the right pane of the <strong>Mapping Editor</strong>, select <strong>FirstName {string}</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>TextField &ndash; tbxLastName</strong>, and select <strong>text{string}</strong>.<br />From the right pane of the <strong>Mapping Editor</strong>, select <strong>LastName {string}</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>TextField &ndash; tbxNickName</strong>, and select <strong>text{string}</strong>.<br />From the right pane of the <strong>Mapping Editor</strong>, select <strong>NickName {string}</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>TextField &ndash; tbxPhone</strong>, and select <strong>text{string}</strong>.<br />From the right pane of the <strong>Mapping Editor</strong>, select <strong>Phone {string}</strong>.</li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 05:12:17 GMT"
+    },
+    "context": []
+}

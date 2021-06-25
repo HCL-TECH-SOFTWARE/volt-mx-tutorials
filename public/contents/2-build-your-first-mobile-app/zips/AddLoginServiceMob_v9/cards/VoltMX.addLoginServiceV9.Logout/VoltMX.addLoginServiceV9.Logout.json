@@ -1,0 +1,39 @@
+{
+    "kuid": "41dfa3td-43ad-42r2-90u0-362c7enc",
+    "id": "VoltMX.addLoginServiceV9.Logout",
+    "content": {
+        "title": "Map Logout Parameters to UI",
+        "body": "<ol>\n<li>From the&nbsp;<strong>Project&nbsp;</strong>explorer, expand&nbsp;<b>Mobile</b> &gt; <b>Forms</b> > <strong> frmAccount</strong> > <b>flexAccountList</b>  &gt;  <b>flexHeader</b> and select <strong>headerButtonRight</strong>.</li>\n<li>From the <strong>Properties </strong>panel, navigate to the <strong>Action </strong>tab.</li>\n<li>For the <strong>onClick </strong>event, click <strong>Edit</strong>.<br /> The <strong>Action Editor</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 09:29:42 GMT"
+    },
+    "context": []
+}

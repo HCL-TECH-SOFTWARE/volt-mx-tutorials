@@ -1,0 +1,33 @@
+{
+    "kuid": "fae922ta-d0a1-4cr9-80u3-cc0021n4",
+    "id": "VoltMX.CreateUIRWV9.launch",
+    "content": {
+        "title": "Launch the App",
+        "body": "<ol>\n<li>Click the <strong>Login</strong> button on the form to view the <strong>Accounts</strong> list.<br /> You do not need login credentials for this app. You will be adding authentication to the app in later hikes.</li>\n<li>Click the Recipients tab. <br /> The <b>Recipients list</b> appears.</li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:29:59 GMT"
+    },
+    "context": []
+}

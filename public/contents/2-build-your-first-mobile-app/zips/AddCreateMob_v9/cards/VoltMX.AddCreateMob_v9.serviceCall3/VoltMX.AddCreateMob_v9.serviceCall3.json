@@ -1,0 +1,33 @@
+{
+    "kuid": "82ec56te-31af-4frc-b3u9-82f383n8",
+    "id": "VoltMX.AddCreateMob_v9.serviceCall3",
+    "content": {
+        "title": "Mapping the Data to Service",
+        "body": "<ol>\n<li>In the right pane of the <strong>Action Editor</strong> window, click <strong>Open Mapping Editor</strong>. <br /> The <strong>Mapping Editor</strong> window appears.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>Forms </strong>&gt; <strong>frmAddRecipient</strong>.</li>\n<li>From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Services</strong> &gt; <strong>Service - RecipientStorage$Recipients$create</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 04:54:54 GMT"
+    },
+    "context": []
+}

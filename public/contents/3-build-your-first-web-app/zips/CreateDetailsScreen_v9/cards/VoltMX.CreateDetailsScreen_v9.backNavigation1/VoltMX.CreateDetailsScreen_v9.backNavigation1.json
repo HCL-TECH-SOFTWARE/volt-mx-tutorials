@@ -1,0 +1,39 @@
+{
+    "kuid": "618665ta-04ac-47r4-a3u5-443bednc",
+    "id": "VoltMX.CreateDetailsScreen_v9.backNavigation1",
+    "content": {
+        "title": "Implementing Back to Recipient Form",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> left menu, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmRecipients</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 21 Feb 2020 10:52:43 GMT"
+    },
+    "context": []
+}

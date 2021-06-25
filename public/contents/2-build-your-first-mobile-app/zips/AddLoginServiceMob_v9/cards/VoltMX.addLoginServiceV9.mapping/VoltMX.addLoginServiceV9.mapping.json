@@ -1,0 +1,33 @@
+{
+    "kuid": "6c8f76t6-bfa9-4frf-a1u9-243ae6nd",
+    "id": "VoltMX.addLoginServiceV9.mapping",
+    "content": {
+        "title": "Map Username and Password",
+        "body": "<p>Map the following elements from the left pane to the right pane:</p>\n<ul>\n<li>From the left pane, expand <strong>TextField &ndash; txtUserName</strong> and select <strong>text {string}</strong>. From the right pane, select <strong>userid {string}</strong></li>\n<li>From the left pane, expand <strong>TextField &ndash; txtPassword</strong> and select <strong>text {string}</strong>. From the right pane, select <strong>password {string}</strong></li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 20 Dec 2019 05:58:55 GMT"
+    },
+    "context": []
+}

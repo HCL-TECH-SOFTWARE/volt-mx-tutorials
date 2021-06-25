@@ -1,0 +1,36 @@
+{
+  "kuid": "62e4c4ta-c9a3-4ar9-82u2-4ceb92n7",
+  "id": "VoltMX.VoltMXOrientationV9.Console",
+  "content": {
+    "title": "Console",
+    "body": "<p>The <strong>Console</strong> displays the running record of Volt MX Iris's every activity. It also informs you of any failed action by showing an error while you initialize services, build your app or launch it.</p>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": {
+      "module": "console",
+      "tabName": "console-head"
+    },
+    "type": "default"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": true,
+      "hide": false
+    },
+    "right": {
+      "text": "Next",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "BOTTOM_RIGHT",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Mon, 25 Nov 2019 07:02:10 GMT"
+  },
+  "context": []
+}

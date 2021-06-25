@@ -1,0 +1,33 @@
+{
+    "kuid": "b2ca89tf-7ea9-48r4-94u8-fde3c3nd",
+    "id": "VoltMX.createUIMobV9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully:</p>\n<ul>\n<li><strong>Created forms with UI elements for user interaction</strong></li>\n<li><strong>Added navigation between the forms</strong></li>\n<li><strong>Launched your app on a mobile device using the Volt MX App</strong></li>\n</ul><br/>\n<p>To learn how to add login and logout operations for this app, check out the next hike: </p><a class=\"tour-link\" tour=\"15d8c7t4-cda7-40rb-afu7-345cfcnc\"><b>3. Add Authentication to the App</b></a>.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 08:50:53 GMT"
+    },
+    "context": []
+}

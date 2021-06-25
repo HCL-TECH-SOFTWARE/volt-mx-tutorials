@@ -1,0 +1,33 @@
+{
+    "kuid": "de9fe2t1-e6af-44rb-91uc-77114anf",
+    "id": "VoltMX.IntrotoActionEditorV9.intro",
+    "content": {
+        "title": "Introduction to Action Editor",
+        "body": "<p><strong>Action Editor</strong> is an application logic generator.<br />Using <strong>Action Editor</strong>,  you can define and modify application behavior.<br /><br />At the end of this hike, you will be able to:</p>\n<ul style=\"list-style-type: disc;\">\n<li>Navigate between forms</li>\n<li>Create conditional behavior</li>\n<li>Show an alert</li>\n<li>Set widget properties</li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 04:22:31 GMT"
+    },
+    "context": []
+}

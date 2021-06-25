@@ -1,0 +1,35 @@
+{
+    "kuid": "2bd3d5t7-a1a1-4ar4-b5u3-acaf34nd",
+    "id": "VoltMX.IntroductiontoNFIV9.addUi",
+    "content": {
+        "title": "Add a Button Widget",
+        "body": "<ol>\n<li>From the lower-left corner of Iris, navigate to the <strong>Default Library </strong>and click on the search icon. In the search bar, enter <strong>Button</strong>.</li>\n<li>From the results, select <strong>Button</strong>, and drop the widget onto the <strong>deviceSettings</strong> form in the canvas.</li>\n<li>From the upper-left corner of Iris, in the <strong>Project</strong> explorer, expand <strong>Mobile</strong> &gt; <strong>Forms</strong> &gt;<strong> deviceSettings.</strong></li>\n<li>Right-click on the new button widget and rename the button <strong>btnSettings</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 11:48:27 GMT"
+    },
+    "context": []
+}

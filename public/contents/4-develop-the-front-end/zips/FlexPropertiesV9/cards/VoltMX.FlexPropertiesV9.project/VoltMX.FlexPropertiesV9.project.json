@@ -1,0 +1,33 @@
+{
+    "kuid": "0d88ebtc-b1aa-4fr6-b2u1-1c775dna",
+    "id": "VoltMX.FlexPropertiesV9.project",
+    "content": {
+        "title": "Create a New Project",
+        "body": "<ol>\n<li>Navigate to <strong>Project</strong> &gt; <strong>New Project</strong>.</li>\n<li>From the <strong>What do you want to start with now? </strong>window, select <strong>Native App</strong>.</li>\n<li>Click <strong>Next</strong>.<br/>The <b>You started with a Native App</b> window opens. </li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 08:37:06 GMT"
+    },
+    "context": []
+}

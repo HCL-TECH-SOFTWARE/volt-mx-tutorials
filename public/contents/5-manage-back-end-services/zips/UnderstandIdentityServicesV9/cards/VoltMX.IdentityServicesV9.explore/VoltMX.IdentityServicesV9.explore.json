@@ -1,0 +1,33 @@
+{
+    "kuid": "cf7498t5-64ab-4cr3-86ud-b7a521na",
+    "id": "VoltMX.IdentityServicesV9.explore",
+    "content": {
+        "title": "View the App",
+        "body": "<ol>\n<li>On your <b>Volt MX App</b>, click <strong>Launch</strong>.<br /> If you are prompted to provide the application name, enter <strong>SampleLogin</strong> and click <strong>Launch</strong>.</li>\n<li>Use the following sample user credentials for a successful login\n<ul>\n<li>Username: <b>testuser@samples.woodburn.com</b></li>\n<li>Password: <b>test@123</b></li>\n</ul>\n</li>\n<li>To <strong>Exit</strong> the preview, swipe two fingers from left to right or shake your mobile.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 10:49:08 GMT"
+    },
+    "context": []
+}

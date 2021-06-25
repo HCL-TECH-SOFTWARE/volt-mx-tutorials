@@ -1,0 +1,33 @@
+{
+    "kuid": "cfe899ta-60ad-4frc-90ue-83c85fna",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.configureAdd1",
+    "content": {
+        "title": "Mapping the Recipients",
+        "body": "<ol>\n<li>From the left pane of the mapping editor, expand <strong>Forms </strong>&gt;<strong> frmAddRecipient</strong>.</li>\n<li>From the right pane of the mapping editor, expand <strong>Services </strong>&gt;<strong> RecipientStorage$Recipients$create</strong>.</li>\n<li>Map the following widgets from the left pane to the service parameters on the right pane:\n<ul>\n<li>From the left pane expand <strong>TextField - tbxFirstName</strong> and select <strong>text {string}.<br /></strong>From the right pane select <strong>FirstName {string}</strong>.</li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 05:04:19 GMT"
+    },
+    "context": []
+}

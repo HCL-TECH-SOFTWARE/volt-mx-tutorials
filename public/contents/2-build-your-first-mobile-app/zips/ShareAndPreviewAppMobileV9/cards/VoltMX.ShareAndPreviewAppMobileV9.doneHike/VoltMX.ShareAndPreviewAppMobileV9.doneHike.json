@@ -1,0 +1,33 @@
+{
+    "kuid": "7318fdt2-c0a9-46rc-bau0-c44395nb",
+    "id": "VoltMX.ShareAndPreviewAppMobileV9.doneHike",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You&rsquo;ve successfully: </p>\n<ul>\n<li><strong>Published the app to the cloud and created an app viewer code</strong></li>\n<li><strong>Previewed the app on  Volt MX App using the app viewer code</strong></li>\n</ul>\n<p>You can <strong>share</strong> the  Volt MX App Viewer code with your stakeholders for further review and collaboration.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 09:06:23 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "d70531tf-dcad-46rf-bau2-d30a11n0",
+    "id": "VoltMX.EditPayeeWeb_v9.editService2",
+    "content": {
+        "title": "Configuring Services for Edit Recipients",
+        "body": "<ol>\n<li>From the right pane of the <strong>Action Editor</strong>, click <strong>Construct Filter Query</strong>.<br />The <strong>Mapping Editor</strong> appears.</li>\n<li>From the left pane of the mapping editor, expand <strong>Navigation Object</strong>, and select <strong>lblRecipientIDValue_text {string}</strong>.</li>\n<li>From the right pane of the mapping editor, expand <strong>Services </strong>&gt;<strong> Service - RecipientStorage$Recipients$get</strong>, and select <strong>RecipientID {number}</strong>.<br /> Iris displays an alert regarding a mismatch of data types.</li><li> Click <strong>OK</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 05:39:41 GMT"
+    },
+    "context": []
+}

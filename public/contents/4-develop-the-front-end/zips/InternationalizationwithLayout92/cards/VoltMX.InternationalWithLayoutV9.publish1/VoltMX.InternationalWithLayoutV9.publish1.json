@@ -1,0 +1,33 @@
+{
+    "kuid": "329917tb-27a6-4drd-a1u1-33fd81n8",
+    "id": "VoltMX.InternationalWithLayoutV9.publish1",
+    "content": {
+        "title": "Publish the App",
+        "body": "<ol>\n<li>From the main menu, navigate to <strong>Build</strong>.</li>\n<li>Click <strong>Build and Publish Native</strong>.<br />The<strong> Build and Publish Native </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:41:03 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Hike kuid="8dee21tc-29a1-4er8-9du5-f4253fn3" id="VoltMX.AddCreateMob_v9" title="VoltMX.AddCreateMob_v9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <Createdon>Tue, 25 Feb 2020 07:48:33 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.AddCreateMob_v9.intro"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.createForm"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.uiAddRecipients"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.navAdd"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.nav2"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.Service1"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.service2"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.service3"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.service4"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.service5"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.service6"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.serviceCall1"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.serviceCall2"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.serviceCall3"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.serviceCall4"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.serviceCall5"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.settingData"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.settingData2"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.settingData3"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.settingData4"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.settingSuccess"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.conf"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.conf2"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.conf3"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.navRec"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.navRec2"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.navAcc"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.navAcc2"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.nav"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.nav1"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.openApp"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.run"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.view"/>
+    <Hikecard id="VoltMX.AddCreateMob_v9.done"/>
+</Hike>

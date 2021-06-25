@@ -1,0 +1,33 @@
+{
+    "kuid": "50478ata-7ba4-4arc-aduf-8baca6na",
+    "id": "VoltMX.CreateUIRWV9.done",
+    "content": {
+        "title": "Explore the App",
+        "body": "<p>You have successfully:</p>\n<ul>\n<li><strong>Created forms with UI elements for user interaction</strong></li>\n<li><strong>Added navigation between the forms</strong></li>\n<li><strong>Launched your Web app using Live Preview</strong></li>\n</ul>\n<p>To learn how to add login and logout operations&nbsp;for this app, check out the next hike: <a class=\"tour-link\" tour=\"5e1da5td-37a0-44r6-beu6-374c3cn1\"><strong>3.Add Authentication to the App</strong></a>.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 16:31:07 GMT"
+    },
+    "context": []
+}

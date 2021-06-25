@@ -1,0 +1,36 @@
+{
+    "kuid": "8fd574tc-98a6-49r9-afu6-3c6c25n1",
+    "id": "VoltMX.createUIMobV9.rename",
+    "content": {
+        "title": "Rename the Form",
+        "body": "<ol>\n<li>In the <strong>Storyboard</strong> view, above the new form, click <strong>Form1</strong>.</li>\n<li>Rename the form <strong>frmLogin</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "appcanvas",
+            "paneId": "ac-area-one"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 06:52:04 GMT"
+    },
+    "context": []
+}

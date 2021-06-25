@@ -1,0 +1,39 @@
+{
+    "kuid": "b1170dt6-53a3-41r6-93ub-a5141bn8",
+    "id": "VoltMX.IntrotoSegmentTempV9.segAction",
+    "content": {
+        "title": "Assign Action to Segment",
+        "body": "<ol><li>From the <b>Properties</b> panel, navigate to the <b>Action</b> tab.</li>\n<li>For the <b>onRowClick</b> event, click <b>Edit</b>.<br/>The <b>Action Editor</b> window appears.</li></ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-tab",
+            "info": {
+                "tabName": "Action"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 11:50:10 GMT"
+    },
+    "context": []
+}

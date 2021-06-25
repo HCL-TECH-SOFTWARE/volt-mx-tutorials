@@ -1,0 +1,36 @@
+{
+    "kuid": "246d04t0-cba5-4fra-83u2-2f8f7fnb",
+    "id": "VoltMX.AddCreateMob_v9.Service1",
+    "content": {
+        "title": "Setting Initial Value for the Texts",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, navigate to <strong>Mobile</strong> &gt; <strong>Forms</strong> and select <strong>frmAddRecipient</strong>.</li>\n<li>From the <strong>Properties </strong>panel, navigate to the <strong>Action </strong>tab.</li>\n<li>Under the <strong>General </strong>section, for <strong>onNavigate</strong> event, click <strong>Edit</strong>.<br /> The <strong>Action Editor </strong>window appears.</li><li>From the top-right corner of the <strong>Action Editor</strong>, select <strong>Design View</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmAddRecipient"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 04:37:32 GMT"
+    },
+    "context": []
+}

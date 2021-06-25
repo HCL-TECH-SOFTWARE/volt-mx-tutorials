@@ -1,0 +1,33 @@
+{
+    "kuid": "cf2529t1-6ca3-4dr9-91ue-8ecf41n3",
+    "id": "VoltMX.EditPayeeMobile_v9.update6",
+    "content": {
+        "title": "Configuring the Else Condition",
+        "body": "<ol><li>From the <b>Action Editor</b> canvas, select the <b>IF: Recipients.opstatus is equal to 0</b> node. </li>\n<li>From the left menu of the <strong>Action Editor, </strong>under the <strong>Condition</strong> section, select <strong>Else</strong>.</li>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Client</strong> section, select <strong>Show Alert</strong>.</li>\n<li>In the right pane of the <strong>Action Editor</strong>, provide the following fields:\n<ul>\n<li>Alert Type: <strong>Info</strong></li>\n<li>Alert Message: <strong>\"Sorry, your recipient details could not be edited successfully. Please try again later\"</strong></li>\n</ul>\n</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 12:09:49 GMT"
+    },
+    "context": []
+}

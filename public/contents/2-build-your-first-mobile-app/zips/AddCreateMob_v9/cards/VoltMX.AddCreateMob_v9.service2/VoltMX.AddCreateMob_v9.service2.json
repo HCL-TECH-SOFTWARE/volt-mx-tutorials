@@ -1,0 +1,39 @@
+{
+    "kuid": "716b04t3-d9a2-48r4-89uf-cbacf4n6",
+    "id": "VoltMX.AddCreateMob_v9.service2",
+    "content": {
+        "title": "Setting the Value of First Name",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Widget </strong>section, select <strong>Set Widget Property</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, go to <strong>Mobile Forms</strong> &gt; <strong>frmAddRecipient</strong>&nbsp; &gt; <strong>flexAddRecipient</strong> &gt; <strong>flexFieldsContainer</strong> &gt; <strong>flexFirstName</strong>, and select <strong>tbxFirstName</strong>.</li>\n<li>In the right pane, modify the following values:\n<ul>\n<li>Property: <strong>Text </strong></li>\n<li>leave the <strong>Value </strong>as blank</li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Set Widget Property"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 04:44:04 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,35 @@
+{
+    "kuid": "538ccft5-b0a7-4cr7-a8ud-09b182n4",
+    "id": "VoltMX.CreateDetailsScreen_v9.PayeeDetailUi",
+    "content": {
+        "title": "Recipient Detail Screen Header",
+        "body": "<ol>\n<li>From the <strong>Project </strong>explorer, expand&nbsp;<strong>Responsive Web/ Desktop</strong> &gt;&nbsp;<strong>Forms</strong>, and select <strong>frmDetails</strong>.</li>\n<li>From the left corner of the Iris canvas, navigate to the <strong>Default Library</strong> and click the search icon.</li>\n<li>In the search bar that appears, enter <strong>RecipientDetails</strong>.</li>\n<li>From the results, under the <strong>RecipientsWeb </strong>collection, select <strong>RecipientDetails</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "konylibrary"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 20 Feb 2020 08:25:13 GMT"
+    },
+    "context": []
+}

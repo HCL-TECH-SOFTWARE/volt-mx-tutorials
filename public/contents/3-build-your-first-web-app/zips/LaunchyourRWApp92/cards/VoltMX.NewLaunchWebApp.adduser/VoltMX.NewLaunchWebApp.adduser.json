@@ -1,0 +1,33 @@
+{
+    "kuid": "080c1ct7-e0af-4fr9-a6u4-f13ab7n8",
+    "id": "VoltMX.NewLaunchWebApp.adduser",
+    "content": {
+        "title": "Add Sample User",
+        "body": "<ol>\n<li>From the <strong>Data &amp; Services</strong><strong>&nbsp;</strong>panel on the top right of your canvas, expand&nbsp;<strong>Project Services</strong>.</li>\n<li>Right-click on <strong>UserAuthentication </strong> and select <strong>Edit</strong>. The <strong>Edit Identity Service</strong> window appears.</li>\n<li>Click <strong>Import Users</strong>. The <strong>Import Users</strong> window appears.</li>\n<li>Click <strong>Choose File</strong>. The window explorer appears.</li>\n<li>Navigate to the location of the <strong>exportUsers.csv</strong> file, select the file and click <strong>Open</strong>.</li>\n<li>Click <strong>Import</strong>.</li>\n<li>Close the <strong>Edit Identity Service</strong> window.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 31 Mar 2020 08:40:41 GMT"
+    },
+    "context": []
+}

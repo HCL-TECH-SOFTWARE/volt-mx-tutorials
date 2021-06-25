@@ -1,0 +1,36 @@
+{
+    "kuid": "f83c2ct2-aea2-4frb-96u7-73d9dan7",
+    "id": "VoltMX.UserRepositoryAuthV9.HomeForm",
+    "content": {
+        "title": "Create a New Form",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer on the top left of your canvas, navigate to <strong>Responsive Web /Desktop</strong> &gt; <strong>Forms</strong>.</li>\n<li>Right-click on <strong>Forms</strong>, and select <strong>New Form</strong>.</li>\n<li>Right- click on <strong>Form1</strong>, and rename the form <strong>frmHome</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 06:59:30 GMT"
+    },
+    "context": []
+}

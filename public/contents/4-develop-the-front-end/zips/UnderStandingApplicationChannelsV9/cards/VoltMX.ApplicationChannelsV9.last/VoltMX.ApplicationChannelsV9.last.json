@@ -1,0 +1,33 @@
+{
+    "kuid": "35533fta-91a4-42r5-a9ue-d6018fnf",
+    "id": "VoltMX.ApplicationChannelsV9.last",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully:</p>\n<ul>\n<li><strong>Imported a sample app designed for all the channels</strong></li>\n<li><strong>Explored the forms in all the channels</strong></li>\n<li><strong>Launched the app on a mobile device using the Volt MX App.</strong></li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 08:17:31 GMT"
+    },
+    "context": []
+}

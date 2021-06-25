@@ -1,0 +1,36 @@
+{
+    "kuid": "853266t0-77af-40rb-9dua-8a6948n0",
+    "id": "VoltMX.ShareAndPreviewAppV9.publish2",
+    "content": {
+        "title": "Publish the App",
+        "body": "<ol>\n<li>From the <strong>Publish Live Preview</strong> window, under <strong>Mobile</strong>, select the checkboxes next to the OS of the <b>mobile</b> device on which you are going to view the app.<br /> For example: <strong>iOS</strong> and <strong>Android</strong>.<br /> Ensure that you have unselected the checkboxes for all the other platforms and channels.</li>\n<li>Click <strong>Publish</strong>.<br /> After the app is published, the <strong>Live Preview is ready</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "ui-library",
+            "instanceId": "publishlivepreview_footer_donebutton"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 09:36:40 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,36 @@
+{
+    "kuid": "bb8a35tb-05af-41r7-9fub-2ba2dcn9",
+    "id": "VoltMX.CreateEmailIdCompV9.rename",
+    "content": {
+        "title": "Create the UI",
+        "body": "<ol>\n<li>In the <strong>Storyboard</strong> view, above the new Form, click <strong>Form1</strong>.</li>\n<li>Rename the form <strong>Contact</strong>.</li>\n<li>To add widgets to the form, double-click on the form to open the form in <strong>Design </strong>view.</li>\n<li>From the lower-left corner of Iris, go to the <strong>Default Library</strong> and click on the search icon <img src=\"https://i.ibb.co/gmMPVjC/search-Icon.png\" alt=\"search icon\" width=\"13\" height=\"13\" /> . In the search bar, enter <strong>Label</strong>.</li>\n<li>From the results, select <strong>Label</strong>, drag and drop the widget onto the <strong>Contact</strong> form on the canvas.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "appcanvas",
+            "paneId": "ac-area-one"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 26 Nov 2019 05:47:12 GMT"
+    },
+    "context": []
+}

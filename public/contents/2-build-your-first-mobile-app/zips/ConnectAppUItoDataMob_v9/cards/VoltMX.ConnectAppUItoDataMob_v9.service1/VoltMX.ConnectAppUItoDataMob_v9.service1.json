@@ -1,0 +1,33 @@
+{
+    "kuid": "3ab6c9t0-afa0-48r8-aeu5-2d56b8n5",
+    "id": "VoltMX.ConnectAppUItoDataMob_v9.service1",
+    "content": {
+        "title": "Invoke Service Action",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> canvas, under <strong>Invoke Service</strong>, select <strong>Callback</strong>.</li>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Mapping</strong> section, select <strong>Add Mapping</strong>.\n<br/>The <strong>Mapping Editor</strong> window appears.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>Services</strong> &gt; <strong>Service- RecipientStorage$Recipients$get</strong> and select <strong>records{collection}</strong>.</li>\n<li>From the right pane of the <strong>Mapping Editor</strong>, expand <strong>Forms</strong> &gt; <strong>frmRecipient</strong> &gt; <strong>Segment-Recipients</strong> &gt; <strong>masterdatamap</strong> and select <strong>rowData{collection}</strong>.</li>\n<li>Expand <b>records{collection}</b> in the left pane and <b>rowData{collection}</b> in the right pane.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 23 Mar 2020 08:21:37 GMT"
+    },
+    "context": []
+}

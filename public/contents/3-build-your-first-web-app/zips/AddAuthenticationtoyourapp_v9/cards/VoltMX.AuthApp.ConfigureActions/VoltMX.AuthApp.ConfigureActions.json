@@ -1,0 +1,39 @@
+{
+    "kuid": "dcbff4t9-fca6-42r1-a4ud-d77cc5ne",
+    "id": "VoltMX.AuthApp.ConfigureActions",
+    "content": {
+        "title": "Configure new Actions",
+        "body": "<ol>\n<li>From the <strong>Action Editor</strong> canvas, under <strong>Invoke Service: UserAuthentication$login</strong> select <strong>Success</strong>.</li>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane of the <strong>Action Editor</strong>, select <strong>frmAccount</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Deepti Ravula",
+        "CreatedOn": "Thu, 19 Dec 2019 06:55:15 GMT"
+    },
+    "context": []
+}

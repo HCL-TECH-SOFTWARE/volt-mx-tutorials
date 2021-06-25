@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Hike kuid="f1c54dtc-1ca6-4arb-86u5-b6a1abnb" id="VoltMX.InternationalWithLayoutV9" title="VoltMX.InternationalWithLayoutV9">
+    <Description> Description of hike</Description>
+    <Meta>
+        <Creator>Rashmi Menon</Creator>
+        <Createdon>Thu, 05 Dec 2019 06:21:10 GMT</Createdon>
+    </Meta>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.intro"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.import1"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.import2"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.enable"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.enable1"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.enable2"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.configureE"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.configureA"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.keyUN"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.keyPWD"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.keyLogin"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.default"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.setUN"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.setPWD"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.setLogin"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.connect"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.publish1"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.publish2"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.view"/>
+    <Hikecard id="VoltMX.InternationalWithLayoutV9.done"/>
+</Hike>

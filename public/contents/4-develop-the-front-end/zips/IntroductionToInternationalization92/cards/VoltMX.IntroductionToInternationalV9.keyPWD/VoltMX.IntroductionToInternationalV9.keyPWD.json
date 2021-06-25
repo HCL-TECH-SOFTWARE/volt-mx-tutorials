@@ -1,0 +1,33 @@
+{
+    "kuid": "a3f7b7t9-2da6-40r8-80u6-20a8f8nc",
+    "id": "VoltMX.IntroductionToInternationalV9.keyPWD",
+    "content": {
+        "title": "Key-Value Pair for Password",
+        "body": "<ol>\n<li>Click <strong>+</strong>.</li>\n<li>Under the column <strong>Key</strong>, enter: <strong>Password </strong></li>\n<li>Under the column <strong>en_US</strong>, enter: <strong>Password</strong></li>\n<li>Under the column <strong>es_US</strong>, enter: <strong>contrase&ntilde;a</strong><span hk-tooltip='Spanish Translation for Password'><img src=\"https://i.ibb.co/Dfkmg6k/Button-Info-icon.png\" alt=\"Button-Info-icon\" width=\"10\" height=\"10\" /></span></li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 05:55:37 GMT"
+    },
+    "context": []
+}

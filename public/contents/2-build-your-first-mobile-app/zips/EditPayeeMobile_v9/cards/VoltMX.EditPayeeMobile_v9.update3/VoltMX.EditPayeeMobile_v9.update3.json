@@ -1,0 +1,33 @@
+{
+    "kuid": "2348a7t9-a3aa-46r2-a3u0-85f5aan2",
+    "id": "VoltMX.EditPayeeMobile_v9.update3",
+    "content": {
+        "title": "Mapping the UI Elements to the Service",
+        "body": "<ul>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>TextField - tbxLastName </strong>and select <strong>text{string}</strong>. <br />From the right pane of the <strong>Mapping Editor</strong>, <strong>LastName{string}</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>TextField - tbxNickName </strong>and select <strong>text{string}</strong>. <br />From the right pane of the <strong>Mapping Editor</strong>, <strong>NickName{string}</strong>.</li>\n<li>From the left pane of the <strong>Mapping Editor</strong>, expand <strong>TextField - tbxPhone </strong>and select <strong>text{string}</strong>. <br />From the right pane of the <strong>Mapping Editor</strong>, <strong>Phone{string}</strong>.</li>\n</ul>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 12:02:10 GMT"
+    },
+    "context": []
+}

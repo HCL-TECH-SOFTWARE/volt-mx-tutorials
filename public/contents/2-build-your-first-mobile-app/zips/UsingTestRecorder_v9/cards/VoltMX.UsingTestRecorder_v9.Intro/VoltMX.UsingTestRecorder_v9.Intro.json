@@ -1,0 +1,33 @@
+{
+  "kuid": "1b7413t2-27ad-4er5-bdu6-ad3f07nc",
+  "id": "VoltMX.UsingTestRecorder_v9.Intro",
+  "content": {
+    "title": "Introduction to Test Recorder",
+    "body": "<p>In this hike, you will learn how to use <strong>Test Recorder </strong></p><br/>\n<p>Before you get started, complete the hike:</p>\n<ol><b>\n<li><a class=\"tour-link\" tour=\"7408efte-e2aa-4cr8-a9ub-d7ba36n8\">Import &amp; Launch a Native App</a></li>\n</b></ol><br/>\n<p>Ensure that you open the same project that you have created in the previous hike.</p>\n<p>To open a closed project, from the main menu, navigate to <strong>Project</strong> &gt; <strong>Open</strong> &gt; <strong>HCL Reference Architecture</strong> &gt; <b>RecipientsMobile</b>.</p><br/>\n<p><strong>When you are ready, click Start!</strong></p>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": "",
+    "type": "none"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": false,
+      "hide": true
+    },
+    "right": {
+      "text": "Start",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "CENTER",
+  "meta": {
+    "Creator": "Rashmi Menon",
+    "CreatedOn": "Thu, 27 Feb 2020 08:51:16 GMT"
+  },
+  "context": []
+}

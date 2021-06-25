@@ -1,0 +1,35 @@
+{
+    "kuid": "64b6d6t8-62a5-4ar4-8au3-e65da5n5",
+    "id": "VoltMX.UserRepositoryAuthV9.addUser",
+    "content": {
+        "title": "Add a User to the Repository",
+        "body": "<ol>\n<li>Click <strong>ADD USER</strong>.<br />The <strong>Add User </strong>window appears.</li>\n<li>Fill the following fields:\n<ul>\n<li><strong>Email/Username</strong></li>\n<li><strong>First Name</strong></li>\n<li><strong>Last Name</strong></li>\n<li><strong>Phone</strong></li>\n<li><strong>Password</strong></li>\n<li><strong>Re-Enter Password</strong></li>\n<li>From <strong>Add/Select Group</strong>, ensure the checkbox for <strong>Members</strong> is selected from the drop-down.</li>\n</ul>\n</li>\n<li>Click <strong>ADD USER</strong>.</li>\n</ol>\n<p>A user is added to the repository.<br /> Note the <strong>Username</strong> and <strong>Password</strong> credentials for testing.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "mfconsole"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 27 Nov 2019 06:49:34 GMT"
+    },
+    "context": []
+}

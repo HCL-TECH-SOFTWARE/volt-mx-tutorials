@@ -1,0 +1,33 @@
+{
+    "kuid": "839093td-70ab-45rd-b0ub-3cc358n1",
+    "id": "VoltMX.InternationalWithLayoutV9.default",
+    "content": {
+        "title": "Set Default Locale",
+        "body": "<ol>\n<li>In the <strong>Project Settings </strong>window, under the <strong>Internationalization (i18n)</strong> section, for <strong>Default Locale</strong>, from the drop-down list, select <strong>Arabic (United Arab Emirates)</strong>.</li>\n<li>Click <strong>Done</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:28:30 GMT"
+    },
+    "context": []
+}

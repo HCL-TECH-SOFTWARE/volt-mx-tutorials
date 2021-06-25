@@ -1,0 +1,33 @@
+{
+    "kuid": "37bc6btd-b0a0-40r6-8auc-2a4f3dn8",
+    "id": "VoltMX.NFIBarcodeV9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully:</p>\n<ul><b>\n<li>Added the barcode scanner Android NFIs to a project</li>\n<li>Added the code to invoke the Android NFIs.</li>\n<li>Built and viewed the application on an Android device.</li></b>\n</ul>\n<p>For more information on NFI and implementation of barcode scanner refer the sample application given <a href='#'onClick='javascript:openURL(\"https://support.hcltechsw.com/csm?id=kb_article&sys_id=5c672ff91b33e410a67e9759bc4bcb77\")'>here</a>.</p>\n<p>You can also refer the documentation for NFI <a href='#'onClick='javascript:openURL(\"https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_nf_api_dev_guide/content/native_function.html\")'> here</a>.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 28 Nov 2019 04:46:25 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,41 @@
+{
+    "kuid": "bd10c0t4-44a8-49rf-a6u9-384f11ne",
+    "id": "VoltMX.IntroFlexLayoutV9.ChHorizontalFloe",
+    "content": {
+        "title": "Change the FlexContainer to Horizontal Flow",
+        "body": "<ol>\n<li>Navigate to the <strong>Properties</strong> panel &gt; <strong>FlexContainer</strong> tab &gt; <strong>General</strong> section on the top right of your canvas.</li>\n<li>Change the <strong>Layout Type</strong> property to <strong>Flow Horizontal</strong>. <br /> The widgets are arranged side by side on the canvas.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "right",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-property",
+            "info": {
+                "propertyName": "Layout Type",
+                "sectionDOMId": "frmKonyLib_pwpspvbx-General-flex",
+                "tabName": "FlexContainer"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 08:15:55 GMT"
+    },
+    "context": []
+}

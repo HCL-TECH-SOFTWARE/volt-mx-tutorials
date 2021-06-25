@@ -1,0 +1,33 @@
+{
+    "kuid": "c0c70ata-0baf-4drd-b7u5-591379nc",
+    "id": "VoltMX.FlexPropertiesV9.Done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You have successfully changed the layout of the widgets in a  FlexContainer using its layout properties.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 09:09:08 GMT"
+    },
+    "context": []
+}

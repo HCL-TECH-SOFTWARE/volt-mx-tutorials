@@ -1,0 +1,39 @@
+{
+    "kuid": "4a64fct7-4aa5-44ra-bfua-6675a8nd",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.navigate1",
+    "content": {
+        "title": "Navigating from Recipients Screen",
+        "body": "<ol>\n<li>From the left menu of the&nbsp;<strong>Action Editor</strong>, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmAddRecipient</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 04:57:53 GMT"
+    },
+    "context": []
+}

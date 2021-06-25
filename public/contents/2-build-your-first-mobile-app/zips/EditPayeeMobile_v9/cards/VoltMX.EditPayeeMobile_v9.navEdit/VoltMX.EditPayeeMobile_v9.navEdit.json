@@ -1,0 +1,36 @@
+{
+    "kuid": "ab5e88tf-28af-4br9-b0u3-73d36dn8",
+    "id": "VoltMX.EditPayeeMobile_v9.navEdit",
+    "content": {
+        "title": "Navigating From Recipients Details Screen",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Mobile</strong> &gt; <strong>Forms</strong> &gt; <strong>frmDetails</strong> &gt;  <strong>flexHeader</strong> and select <strong>headerButtonRight</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action</strong> tab.</li>\n<li>Under the <b>General</b> section, for the <strong>onClick</strong> event click <strong>Edit</strong>.<br /> The <b>Action Editor</b> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms\\frmDetails"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 12:17:46 GMT"
+    },
+    "context": []
+}

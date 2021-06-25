@@ -1,0 +1,33 @@
+{
+    "kuid": "abf770t6-8ea5-46r8-a9u3-0ff85bna",
+    "id": "VoltMX.EditPayeeMobile_v9.done",
+    "content": {
+        "title": "Congratulations",
+        "body": "<p>You&rsquo;ve successfully:</p>\n<ul>\n<li><strong>Generated the Edit Recipients screen</strong></li>\n<li><strong>Created and customized the UI for the edit recipients screen</strong></li>\n<li><strong>Update the services with the data</strong></li>\n<li><strong>Added navigation to and from the edit Recipients screen<br /></strong></li>\n<li><strong>Added logout to the edit recipients screen</strong></li>\n</ul>\n<p>For more information on how to publish and share your app, check out the next hike: <a class=\"tour-link\" tour=\"ec5ceatd-50a0-4fre-b3u7-c3e41cn2\"><strong>9. Publish and Share the App</strong></a>.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Done",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 12:29:28 GMT"
+    },
+    "context": []
+}

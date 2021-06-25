@@ -1,0 +1,36 @@
+{
+    "kuid": "dd9965t9-2dac-49r5-b4ue-634331n2",
+    "id": "VoltMX.CreateDetailsNative_v9.finalChanges2",
+    "content": {
+        "title": "Customizing the UI",
+        "body": "<ol>\n<li>From the <strong>Project</strong> <strong>Explorer</strong>, expand <strong>Mobile</strong> &gt; <strong>Forms</strong> &gt; <b>frmDetails</b> > <strong>flexFieldsContainer</strong>, and select <strong>flexFooter1</strong>.</li>\n<li>Right-click and delete <strong>flexFooter1</strong>.</li>\n<li>From the Project Explorer, expand <strong>Mobile</strong> &gt; <strong>Forms</strong> &gt; <b>frmDetails</b> > <strong>flexFieldsContainer</strong> and select <strong>btnSquared</strong>.</li>\n<li>From the <strong>Properties </strong>panel, navigate to the <strong>Look</strong> tab.</li>\n<li>Under the <strong>Flex</strong> section, provide the following values:\n<ul>\n<li>Top: <strong>30%</strong></li>\n<li>Width: <strong>89%</strong></li>\n<li>Height: <strong>7%</strong></li>\n<li>Center X: <strong>50%</strong></li>\n<li>Center Y: <strong>Default</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "propertieswindow",
+            "itemType": "pw-tab"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 11:39:13 GMT"
+    },
+    "context": []
+}

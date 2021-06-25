@@ -1,0 +1,36 @@
+{
+    "kuid": "4e0e66ta-efaa-44rc-a9ub-b125d4nf",
+    "id": "VoltMX.createUIMobV9.createPayForm",
+    "content": {
+        "title": "Create Recipients Form",
+        "body": "<ol>\n<li>From the <b>Storyboard</b> view, select&nbsp;<strong>frmAccount</strong>, and then click the&nbsp;<strong>+&nbsp;</strong>icon.<br /> Iris creates a new form.</li>\n<li>Above the new form, click&nbsp;<strong>Form1</strong>.</li>\n<li>Rename the form&nbsp;<strong>frmRecipients</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 06:56:45 GMT"
+    },
+    "context": []
+}

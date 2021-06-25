@@ -1,0 +1,36 @@
+{
+    "kuid": "c2c55dt9-47ad-43r8-aduf-995c8cn6",
+    "id": "VoltMX.EditPayeeWeb_v9.editService",
+    "content": {
+        "title": "Configuring Services for Edit Recipients",
+        "body": "<ol>\n<li>From the <strong>Project</strong> explorer, expand <strong>Responsive / Desktop Web </strong>&gt;<strong> Forms</strong>, and select <strong>frmEditRecipient</strong>.</li>\n<li>From the <strong>Properties</strong> panel, navigate to the <strong>Action </strong>tab.</li>\n<li>For the <strong>preShow</strong> event, click <strong>Edit</strong>. <br /> The <strong>Action Editor</strong> appears.</li>\n<li>From the top right of the Action Editor, select <strong>Design View</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Responsive Web / Desktop\\Forms\\frmEditPayee"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 05:34:56 GMT"
+    },
+    "context": []
+}

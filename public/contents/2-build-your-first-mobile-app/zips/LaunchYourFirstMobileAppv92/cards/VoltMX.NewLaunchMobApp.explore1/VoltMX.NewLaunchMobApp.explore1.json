@@ -1,0 +1,36 @@
+{
+    "kuid": "c0c59at7-8ea2-42r0-9aud-8423a3n8",
+    "id": "VoltMX.NewLaunchMobApp.explore1",
+    "content": {
+        "title": "Explore the App",
+        "body": "<p>In the <strong>Design View</strong>, to view the different forms inside the app, navigate to the <strong>Project</strong> explorer, and expand <strong>Mobile</strong> &gt; <strong>Forms</strong>.</p>\n<p>&nbsp;</p>\n<p>You can see six forms inside the app. Click on each form and see what the canvas displays.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "projectexplorer",
+            "path": "project-body\\project\\Mobile\\Forms"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 09:20:07 GMT"
+    },
+    "context": []
+}

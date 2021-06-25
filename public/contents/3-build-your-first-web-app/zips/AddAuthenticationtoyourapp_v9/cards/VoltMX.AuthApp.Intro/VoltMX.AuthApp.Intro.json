@@ -1,0 +1,33 @@
+{
+  "kuid": "232be5t9-48a9-4brf-8auc-83c5a0na",
+  "id": "VoltMX.AuthApp.Intro",
+  "content": {
+    "title": "Add Authentication to the App",
+    "body": "<p><strong>Let&rsquo;s get started!</strong><br /> In this hike, we will:</p>\n<ul>\n<li>Learn to configure an Identity Service</li>\n<li>Map the identity service to the UI elements of an app</li>\n</ul>\n<p>Before getting started, complete the following hikes:</p>\n<ol><b>\n<li><a class=\"tour-link\" tour=\"5a3913t0-aba2-46rc-adub-832833n2\">Import &amp; Launch a Web App</a></li><li><a class=\"tour-link\" tour=\"220f01t3-bda6-40r0-92uf-56631bnb\">Create UI from Collections</a></li></b>\n</ol>\n<p>Ensure that you open the same project that you have created in the previous hikes.<br /> To open a closed project, from the main menu, navigate to <strong>Project</strong> &gt; <strong>Open</strong> &gt; <strong>HCL Reference Architecture</strong> &gt; <strong>RecipientsWebApp</strong>.</p>\n<p><strong>When you are ready, click Start!</strong></p>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": "",
+    "type": "none"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": false,
+      "hide": true
+    },
+    "right": {
+      "text": "Start",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "CENTER",
+  "meta": {
+    "Creator": "Deepti Ravula",
+    "CreatedOn": "Thu, 19 Dec 2019 06:27:34 GMT"
+  },
+  "context": []
+}

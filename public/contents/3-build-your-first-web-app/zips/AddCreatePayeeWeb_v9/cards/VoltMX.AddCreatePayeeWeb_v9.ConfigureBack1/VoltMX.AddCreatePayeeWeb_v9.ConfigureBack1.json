@@ -1,0 +1,39 @@
+{
+    "kuid": "4d57b9td-79a2-42r9-99ud-f07c43n1",
+    "id": "VoltMX.AddCreatePayeeWeb_v9.ConfigureBack1",
+    "content": {
+        "title": "Configure the Back Navigation",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>General</strong> section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmRecipients</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Tue, 25 Feb 2020 05:40:02 GMT"
+    },
+    "context": []
+}

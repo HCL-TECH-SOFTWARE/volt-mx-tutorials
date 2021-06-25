@@ -1,0 +1,33 @@
+{
+    "kuid": "f3f116t9-99a3-40rd-b8u9-34eb5cn9",
+    "id": "VoltMX.InternationalWithLayoutV9.enable2",
+    "content": {
+        "title": "Configure Locales",
+        "body": "<ol>\n<li>In the <strong>Configure Internationalization </strong>window, click <strong>Configure Locales</strong>.<br /> The <strong>Configure Locales </strong>window appears with the Predefined tab open by default.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Thu, 05 Dec 2019 06:25:06 GMT"
+    },
+    "context": []
+}

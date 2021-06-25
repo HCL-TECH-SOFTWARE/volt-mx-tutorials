@@ -1,0 +1,36 @@
+{
+    "kuid": "227f0bt0-73a0-4dre-8auf-0924c2nf",
+    "id": "VoltMX.NewLaunchMobApp.publish",
+    "content": {
+        "title": "Run the App",
+        "body": "<ol>\n<li>From the <strong>Live Preview Settings</strong> window, under <strong>Native</strong>, check the boxes next to the OS of the <strong>mobile</strong> device on which you are going to view the app.<br /> For example, <strong>iOS</strong> and <strong>Android</strong>.<br /> Ensure that you have unselected the checkboxes for all the other platforms and channels.</li>\n<li>Click <strong>Save &amp; Run</strong>.<br /> It may take some time for Iris to run the app.<br /> The<strong> Live Preview is ready</strong> window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "ui-library",
+            "instanceId": "livepreviewsettings_footer_donebutton"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Wed, 18 Dec 2019 09:22:53 GMT"
+    },
+    "context": []
+}

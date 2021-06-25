@@ -1,0 +1,33 @@
+{
+    "kuid": "9013aat0-fba6-4crd-8dud-142691nb",
+    "id": "VoltMX.ResponsiveBreakV9.view",
+    "content": {
+        "title": "View the Responsiveness of the Screens",
+        "body": "<ol>\n<li>Click the add <strong>(+) </strong>icon to add a recipient.<br />Drag and resize the form canvas to see the change in the layout of the form.<br />Alternatively, from the top of the <strong>Iris Preview</strong> window, use the dimensions specifier to change the dimensions and see the change in layout.</li>\n<li>Select a recipient from the list to view their details.</li>\n<li>From the details page, click the <strong>Delete </strong>button to delete the recipient.</li>\n<li>From the details page, click the <strong>Edit</strong> button to edit the recipient details.<br />Drag and resize the form canvas to see the change in the layout of the form.<br />Alternatively, from the top of the <strong>Iris Preview</strong> window, use the dimensions specifier to change the dimensions and see the change in layout.</li>\n<li>Click the logout button on top of the screen to navigate to the login screen.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Prem Garudadri",
+        "CreatedOn": "Thu, 19 Dec 2019 06:22:18 GMT"
+    },
+    "context": []
+}

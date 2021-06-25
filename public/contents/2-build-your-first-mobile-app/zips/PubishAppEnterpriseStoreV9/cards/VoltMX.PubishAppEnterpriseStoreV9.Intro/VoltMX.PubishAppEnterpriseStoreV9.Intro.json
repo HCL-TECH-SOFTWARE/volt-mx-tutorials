@@ -1,0 +1,33 @@
+{
+  "kuid": "8905aft0-69ae-4fr0-b5u0-a2b966n4",
+  "id": "VoltMX.PubishAppEnterpriseStoreV9.Intro",
+  "content": {
+    "title": "Publish an App to Enterprise Store",
+    "body": "<p><strong>Let&rsquo;s get started!</strong></p><br/>\n<p>In this hike, you will learn how to publish an app to the <strong>Enterprise App Store </strong>for Android.</p><br/>\n<p>Before you get started, complete the hike:</p>\n<ol><b>\n<li><a class=\"tour-link\" tour=\"7408efte-e2aa-4cr8-a9ub-d7ba36n8\">Import &amp; Launch a Native App</a></li>\n</b></ol><br/>\n<p>Ensure that you open the same project that you have created in the previous hike.</p>\n<p>To open a closed project, from the main menu, navigate to <strong>Project</strong> &gt; <strong>Open</strong> &gt; <strong>HCL Reference Architecture</strong> &gt; <b>RecipientsMobile</b>.</p><br/>\n<p><strong>When you are ready, click Start!</strong></p>"
+  },
+  "pointer": {
+    "direction": "left",
+    "element": "",
+    "type": "none"
+  },
+  "navigationType": "manual",
+  "navigationBar": {
+    "left": {
+      "text": "Previous",
+      "enable": false,
+      "hide": true
+    },
+    "right": {
+      "text": "Start",
+      "enable": true,
+      "hide": false
+    }
+  },
+  "navigationCondition": "",
+  "position": "CENTER",
+  "meta": {
+    "Creator": "Prem Garudadri",
+    "CreatedOn": "Wed, 18 Dec 2019 09:59:55 GMT"
+  },
+  "context": []
+}

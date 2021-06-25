@@ -1,0 +1,36 @@
+{
+    "kuid": "94bf75t0-63a1-47r1-91u7-80990bn7",
+    "id": "VoltMX.addLoginServiceV9.launch1",
+    "content": {
+        "title": "Run the App",
+        "body": "<p>In the previous hike, you could access the Account form without any credentials. Now the app will ask for login credentials.</p>\n<ol>\n<li>Enter the following login credentials in your app:\n<ul>\n<li>Username: <strong>john.doe@woodburn.com</strong></li>\n<li>Password: <strong>VoltMX@123</strong></li>\n</ul></li>\n<li>Click <strong>Login</strong>.<br /> The <strong>Accounts list</strong>  appears.</li>\n<li>Click&nbsp;<strong>Logout</strong>.&nbsp;<br /> The&nbsp;<strong>Login form</strong> appears.</li>\n<li>To <strong>Exit</strong> the app on your <strong>mobile</strong> device, swipe two fingers from left to right or shake your <strong>mobile</strong> device and click <strong>Exit App</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "shortcutbar",
+            "itemId": "frmKonyLib_preview"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 18 Dec 2019 09:33:44 GMT"
+    },
+    "context": []
+}

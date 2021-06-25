@@ -1,0 +1,39 @@
+{
+    "kuid": "b85b63t7-c3ac-4crd-a1ua-d991f4ne",
+    "id": "VoltMX.EditPayeeWeb_v9.logout2",
+    "content": {
+        "title": "Navigating to Login Screen",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>General </strong>section, select <strong>Navigate to Form</strong>.</li>\n<li>From the right pane, select <strong>frmLogin</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": {
+            "module": "actioneditor",
+            "itemType": "ae-action-type",
+            "info": {
+                "actionType": "Navigate to Form"
+            }
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 06:51:53 GMT"
+    },
+    "context": []
+}

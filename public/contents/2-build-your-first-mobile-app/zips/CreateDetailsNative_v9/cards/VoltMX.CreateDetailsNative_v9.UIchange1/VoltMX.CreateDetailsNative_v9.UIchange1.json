@@ -1,0 +1,36 @@
+{
+    "kuid": "74f24ct8-34ac-4fr3-99u7-1a77ean9",
+    "id": "VoltMX.CreateDetailsNative_v9.UIchange1",
+    "content": {
+        "title": "Recipients Details Screen UI",
+        "body": "<ol>\n<li>From the <strong>Data &amp; Services </strong>panel, expand <strong>Project Services</strong> &gt; <strong>RecipientStorage</strong> &gt; <strong>Recipients</strong>.</li>\n<li>Select the <strong>get </strong>operation and drop it on the canvas.<br />The <strong>What would you like to generate? </strong>window appears.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "top",
+        "element": {
+            "module": "datapanel",
+            "itemType": "dp_tab"
+        },
+        "type": "default"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 24 Feb 2020 07:12:22 GMT"
+    },
+    "context": []
+}

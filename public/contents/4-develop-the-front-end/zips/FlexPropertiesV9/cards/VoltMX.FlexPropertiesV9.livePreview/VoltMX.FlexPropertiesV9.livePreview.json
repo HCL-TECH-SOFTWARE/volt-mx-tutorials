@@ -1,0 +1,33 @@
+{
+    "kuid": "7546b0t1-abae-4er2-afue-490a96n8",
+    "id": "VoltMX.FlexPropertiesV9.livePreview",
+    "content": {
+        "title": "Settings for Live Preview",
+        "body": "<ol><li>From the main menu, select <b>Build</b>.</li>\n<li>Click <b>Live Preview Settings</b>.</li>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 09:10:15 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "def0e0tf-92a1-48r2-97u5-0a549fn9",
+    "id": "VoltMX.FlexPropertiesV9.Intro",
+    "content": {
+        "title": "Understanding Flex Layout Properties",
+        "body": "<p>Flex layout provides multiple properties for managing the layout of your app. <br ><br ></p>\n<p>This hike focuses on layout properties and the rules associated with them. Follow the steps in this hike to understand the layout properties.</p>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": false,
+            "hide": true
+        },
+        "right": {
+            "text": "Start",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 08:31:12 GMT"
+    },
+    "context": []
+}

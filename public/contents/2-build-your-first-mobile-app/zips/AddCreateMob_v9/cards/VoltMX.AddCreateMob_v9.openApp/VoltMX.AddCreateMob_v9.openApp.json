@@ -1,0 +1,33 @@
+{
+    "kuid": "f1e134t6-6ca3-49ra-80ue-9f1ba0n0",
+    "id": "VoltMX.AddCreateMob_v9.openApp",
+    "content": {
+        "title": "Volt MX App",
+        "body": "<ol>\n<li>Connect your mobile device to your computer using a USB cable.<br /> For an Android mobile device, ensure that the USB is set as <strong>Transfer files</strong>.<br /> For an iOS mobile device, ensure that <strong>trust </strong>has been established between the device and the computer.</li>\n<li>Launch your <strong>Volt MX App</strong> on your mobile device.</li>\n<li>Select the <strong>USB</strong> tab.<br/>On a successful connection, <strong>Iris</strong> on your computer shows a success prompt.</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "CENTER",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Wed, 26 Feb 2020 05:39:23 GMT"
+    },
+    "context": []
+}

@@ -1,0 +1,33 @@
+{
+    "kuid": "c24f85ta-d7a9-42r5-b3ud-41f307n4",
+    "id": "VoltMX.EditPayeeMobile_v9.mapping1",
+    "content": {
+        "title": "Configuring the onMapping Event",
+        "body": "<ol>\n<li>From the left menu of the <strong>Action Editor</strong>, under the <strong>Network </strong>section, select <strong>Loading Indicator</strong>.</li>\n<li>From the left menu of the <strong>Action Editor, </strong>under the <strong>Condition</strong>&nbsp;section, select <strong>If</strong>.</li>\n<li>Under <strong>Add Condition, </strong>set the following:\n<ul>\n<li>First Field: <strong>Navigated from</strong></li>\n<li>Second Field: <strong>frmDetails &gt; headerButtonRight &gt; onClick</strong></li>\n</ul>\n</li>\n</ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_LEFT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Fri, 28 Feb 2020 11:44:14 GMT"
+    },
+    "context": []
+}

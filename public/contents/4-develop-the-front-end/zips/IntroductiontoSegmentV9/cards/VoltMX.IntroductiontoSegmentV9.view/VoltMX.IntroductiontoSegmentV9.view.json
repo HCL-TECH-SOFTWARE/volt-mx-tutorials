@@ -1,0 +1,33 @@
+{
+    "kuid": "c56be9t4-b3a0-40rd-9eu2-0f8c56n5",
+    "id": "VoltMX.IntroductiontoSegmentV9.view",
+    "content": {
+        "title": "View the App",
+        "body": "<ol><li>On your <b>Volt MX App</b>, click <b>Launch</b>.</li>\n<li>You may see an <b>Application Name</b> text box. If there is a text box, enter <b>EmployeeList</b> and then click <b>Launch</b>.</li>\n<li>The form with the list appears.</li>\n<li>To <b>Exit</b> the app on your <b>mobile</b> device, swipe two fingers from left to right or shake your mobile or tablet and click <b>Exit App</b>. </li></ol>"
+    },
+    "pointer": {
+        "direction": "left",
+        "element": "",
+        "type": "none"
+    },
+    "navigationType": "manual",
+    "navigationBar": {
+        "left": {
+            "text": "Previous",
+            "enable": true,
+            "hide": false
+        },
+        "right": {
+            "text": "Next",
+            "enable": true,
+            "hide": false
+        }
+    },
+    "navigationCondition": "",
+    "position": "BOTTOM_RIGHT",
+    "meta": {
+        "Creator": "Rashmi Menon",
+        "CreatedOn": "Mon, 25 Nov 2019 10:23:37 GMT"
+    },
+    "context": []
+}
