@@ -1,0 +1,47 @@
+@import '../../assets/styles/kony';
+
+.breadcrumbWrapper {
+  width: calc(100% - 60px);
+  padding: 12px 0;
+}
+
+.basicFont {
+  font-family: $RobotoSlabRegular;
+  font-size: 20px;
+}
+
+.parent {
+  @extend .basicFont;
+  color: $active-color !important;
+
+  &:focus {
+    text-decoration: none;
+  }
+
+  @include breakpoint(mobile) {
+    color: $active-color-mobile !important;
+  }
+
+  @include breakpoint(smalldevices) {
+    font-size: 16px;
+  }
+}
+
+.child {
+  @extend .basicFont;
+  color: $title-text;
+  display: inline;
+  word-break: break-word;
+
+  @include breakpoint(mobile) {
+    color: $secondary-text-mobile-dark;
+  }
+
+  @include breakpoint(smalldevices) {
+    font-size: 16px;
+  }
+}
+
+.divider {
+  font-size: 20px;
+}

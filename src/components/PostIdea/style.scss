@@ -1,0 +1,43 @@
+@import '../../assets/styles/kony';
+
+.button {
+  margin-top: 10px;
+
+  @include breakpoint(mobile) {
+    border-radius: 40px;
+  }
+}
+
+.quillUI {
+  height: 200px;
+  padding-bottom: 40px;
+}
+
+.postCancel {
+  margin-right: 30px;
+  border-color: $secondary-text;
+}
+
+.askForm {
+  font-family: $PoppinsRegular;
+  color: $title-text;
+  overflow: auto;
+}
+
+.filterCancel {
+  margin-right: 20px;
+  border-color: $secondary-text;
+}
+
+.postToItem{
+  padding: 5px;
+  margin-bottom: 5px;
+
+  label,
+  input,
+  textarea {
+    color: $title-text;
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+  }
+}

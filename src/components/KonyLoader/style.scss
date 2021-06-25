@@ -1,0 +1,34 @@
+@import '../../assets/styles/kony';
+
+.loaderWrapper {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  opacity: 1;
+  z-index: 9999;
+
+  &.inline {
+    position: absolute !important;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    display: table;
+    user-select: text;
+
+    .center {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}
+
+.assetListLoader {
+  width: 500px;
+  height: 400px;
+}

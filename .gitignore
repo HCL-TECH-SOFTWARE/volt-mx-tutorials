@@ -1,0 +1,16 @@
+node_modules/
+.next/
+*.log
+*.swp
+*.swo
+.idea/
+server/sitemap.xml
+coverage/
+output/
+out/
+static2/
+temp/
+uploads/
+public/hike
+/export/
+volt-mx-tutorials

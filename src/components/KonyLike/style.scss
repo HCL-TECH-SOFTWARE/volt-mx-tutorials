@@ -1,0 +1,49 @@
+@import '../../assets/styles/kony';
+
+.hide {
+  display: none !important;
+}
+
+.icon {
+  font-size: 16px;
+  color: white;
+}
+
+.mobileIcon {
+  font-size: 28px;
+  color: $filter-icon-bg;
+  margin-top: 18px;
+}
+
+.likeButton {
+  background-color: $filter-icon-bg;
+  border-radius: 40px;
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  border: solid 1px $filter-icon-bg;
+  padding: 0 15px;
+  color: white;
+  height: 40px;
+  width: 90px;
+  top: 12px;
+
+  span {
+    font-size: 14px;
+    color: white;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $filter-icon-bg;
+    border: solid 1px $filter-icon-bg;
+    opacity: 0.6;
+  }
+
+  &.selected {
+    background-color: $filter-icon-bg;
+    border: solid 1px $filter-icon-bg;
+    cursor: not-allowed;
+    opacity: 0.8;
+  }
+}

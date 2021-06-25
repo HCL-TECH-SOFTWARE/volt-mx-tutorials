@@ -1,0 +1,76 @@
+
+@font-face {
+  font-family: 'Poppins Regular';
+  font-display: swap;
+  src: url('./Poppins-Regular.eot');
+  src: url('./Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./Poppins-Regular.woff2') format('woff2'),
+      url('./Poppins-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  font-display: swap;
+  src: url('./Poppins-Medium.eot');
+  src: url('./Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./Poppins-Medium.woff2') format('woff2'),
+      url('./Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Light';
+  font-display: swap;
+  src: url('./Poppins-Light.eot');
+  src: url('./Poppins-Light.eot?#iefix') format('embedded-opentype'),
+      url('./Poppins-Light.woff2') format('woff2'),
+      url('./Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins SemiBold';
+  font-display: swap;
+  src: url('./Poppins-SemiBold.eot');
+  src: url('./Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('./Poppins-SemiBold.woff2') format('woff2'),
+      url('./Poppins-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab Regular';
+  font-display: swap;
+  src: url('./RobotoSlab-Regular.eot');
+  src: url('./RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./RobotoSlab-Regular.woff2') format('woff2'),
+      url('./RobotoSlab-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoSlab Light';
+  font-display: swap;
+  src: url('./RobotoSlab-Light.eot');
+  src: url('./RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+      url('./RobotoSlab-Light.woff2') format('woff2'),
+      url('./RobotoSlab-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'RobotoSlab Bold';
+  font-display: swap;
+  src: url('./RobotoSlab-Bold.eot');
+  src: url('./RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./RobotoSlab-Bold.woff2') format('woff2'),
+      url('./RobotoSlab-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

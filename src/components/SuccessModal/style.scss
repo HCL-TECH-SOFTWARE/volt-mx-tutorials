@@ -1,0 +1,36 @@
+@import '../../assets/styles/kony';
+
+.successModalContent {
+  text-align: center;
+
+  i {
+    color: $icon-green;
+    font-size: 60px;
+  }
+
+  h3 {
+    font-family: $PoppinsMedium;
+    font-size: 24px;
+    padding: 12px 0 0;
+  }
+
+  h5 {
+    font-family: $PoppinsLight;
+    font-size: 16px;
+    padding: 0 0 12px;
+  }
+
+  @include breakpoint(mobile) {
+    h3 {
+      font-size: 20px;
+    }
+
+    h5 {
+      font-size: 15px;
+    }
+    
+    a {
+      border-radius: 40px;
+    }
+  }
+}

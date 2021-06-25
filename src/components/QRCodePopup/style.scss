@@ -1,0 +1,99 @@
+@import '../../assets/styles/kony';
+
+.common{
+  font-family: $RobotoSlabRegular;
+  text-align: center;
+}
+
+.heading{
+  font-size: 18px;
+  color: $heading-download;
+  letter-spacing: 0.26px;
+  line-height: 25px;
+  margin-bottom: 0px;
+}
+
+.appViewerDescription{
+  font-size: 12px;
+  color: $description-text;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  margin: 5px 5px 5px 0px;
+  
+}
+
+.qrCodeDescription{
+  font-size: 12px;
+  color: $description-text;
+  letter-spacing: 0.26px;
+  line-height: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.scanQrCode{
+  font-size: 12px;
+  color: $heading-download;
+  letter-spacing: 0.17px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.qrCode{
+  align-content: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.borderBox{
+  width: 184px;
+  height:51.2px;
+  background: $code-block-text;
+  border-radius: 100px 100px;
+  padding: 10px;
+  float: left;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.actionWrapper{
+  align-content: center;
+  display: inline-block;
+  margin-top: 5px;
+  display: flex ;
+  justify-content: center;
+}
+
+.textAvailable{
+  font-family: SFProText-Light;
+  font-size: 12px;
+  color: $button-text;
+  letter-spacing: 0.15px;
+  margin-top: -2px;
+  margin-bottom: -4px;
+}
+
+.textPlayStore{
+  font-family: SFProText-Bold;
+  font-size: 16px;
+  color: $button-text;
+  letter-spacing: 0.44px;
+  margin-top: -4px;
+  margin-bottom: 5px;
+}
+
+.alignment{
+  display:block;
+}
+
+.imgAlignment{
+  float:left;
+  margin:2px 15px 5px 15px;
+  width: 21.5px;
+  height: 28px;
+}
+
+.textWrapper{
+  display: table;
+  margin-top: -2px;
+}

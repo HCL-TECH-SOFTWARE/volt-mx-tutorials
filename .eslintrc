@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "jasmine": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "to", "hrefLeft", "hrefRight" ],
+      "aspects": [ "noHref", "invalidHref", "preferButton" ]
+    }],
+    "import/no-named-as-default": [0]
+  },
+  "parser": "babel-eslint"
+}

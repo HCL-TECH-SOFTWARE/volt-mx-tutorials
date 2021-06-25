@@ -1,0 +1,527 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentPerformancePage page test suite render JSX 1`] = `
+<Connect(KonyLayout)
+  url="/"
+>
+  <Connect(AnalyticsHeader)
+    filterData={[Function]}
+    placeholder="Search for Marketplace Assets"
+    search={true}
+  />
+  <div>
+    <pageNotFound />
+  </div>
+</Connect(KonyLayout)>
+`;
+
+exports[`ComponentPerformancePage page test suite render JSX with moderator Sub Menu and call setDate and filterData 1`] = `
+<Connect(KonyLayout)
+  config={Object {}}
+  url="/"
+>
+  <Connect(AnalyticsHeader)
+    filterData={[Function]}
+    placeholder="Search for Marketplace Assets"
+    search={true}
+  />
+  <div>
+    <Row
+      gutter={0}
+    >
+      <Col
+        span={14}
+      >
+        <KonyBreadcrumb
+          rootRedirect={null}
+          subRoutes={
+            Array [
+              Object {
+                "name": "Dashboard",
+                "path": "http://community.qa-kony.com/marketplace/dashboard",
+              },
+              Object {
+                "name": "Analytics",
+                "path": "/analytics",
+              },
+            ]
+          }
+          title="Component Performance"
+        />
+      </Col>
+      <Col
+        className="datePanel"
+        span={10}
+      >
+        <DateRangePicker
+          setDate={[Function]}
+        />
+      </Col>
+    </Row>
+    <Row
+      gutter={0}
+    >
+      <Col>
+        <ExportTableToCSV
+          columns={
+            Array [
+              Object {
+                "dataIndex": "component",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Comp. Name",
+                "width": 110,
+              },
+              Object {
+                "dataIndex": "Downloads",
+                "defaultSortOrder": "descend",
+                "sorter": [Function],
+                "title": "Mp Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "overallUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Imports into Forms",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Went Live",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "debug",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of Debug",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "release",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of releases",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "vizDownloads",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Viz / Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveViz",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Live / Viz",
+                "width": 80,
+              },
+              Object {
+                "dataIndex": "output",
+                "title": "Project vs Hits",
+                "width": 200,
+              },
+            ]
+          }
+          data={Array []}
+          fileNameSuffix="components_performance_analytics"
+          title="Export as Excel"
+        />
+      </Col>
+      <Col
+        className="filterTablePanel"
+      >
+        <AnalyticsFilterTable
+          columns={
+            Array [
+              Object {
+                "dataIndex": "component",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Comp. Name",
+                "width": 110,
+              },
+              Object {
+                "dataIndex": "Downloads",
+                "defaultSortOrder": "descend",
+                "sorter": [Function],
+                "title": "Mp Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "overallUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Imports into Forms",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Went Live",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "debug",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of Debug",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "release",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of releases",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "vizDownloads",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Viz / Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveViz",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Live / Viz",
+                "width": 80,
+              },
+              Object {
+                "dataIndex": "output",
+                "title": "Project vs Hits",
+                "width": 200,
+              },
+            ]
+          }
+          data={Array []}
+          onRowClick={[Function]}
+          showPagination={true}
+        />
+      </Col>
+    </Row>
+  </div>
+</Connect(KonyLayout)>
+`;
+
+exports[`ComponentPerformancePage page test suite render JSX with moderator Sub Menu and call setDate and filterData 2`] = `
+<Connect(KonyLayout)
+  config={Object {}}
+  url="/"
+>
+  <Connect(AnalyticsHeader)
+    filterData={[Function]}
+    placeholder="Search for Marketplace Assets"
+    search={true}
+  />
+  <div>
+    <Row
+      gutter={0}
+    >
+      <Col
+        span={14}
+      >
+        <KonyBreadcrumb
+          rootRedirect={null}
+          subRoutes={
+            Array [
+              Object {
+                "name": "Dashboard",
+                "path": "http://community.qa-kony.com/marketplace/dashboard",
+              },
+              Object {
+                "name": "Analytics",
+                "path": "/analytics",
+              },
+            ]
+          }
+          title="Component Performance"
+        />
+      </Col>
+      <Col
+        className="datePanel"
+        span={10}
+      >
+        <DateRangePicker
+          setDate={[Function]}
+        />
+      </Col>
+    </Row>
+    <Row
+      gutter={0}
+    >
+      <Col>
+        <ExportTableToCSV
+          columns={
+            Array [
+              Object {
+                "dataIndex": "component",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Comp. Name",
+                "width": 110,
+              },
+              Object {
+                "dataIndex": "Downloads",
+                "defaultSortOrder": "descend",
+                "sorter": [Function],
+                "title": "Mp Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "overallUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Imports into Forms",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Went Live",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "debug",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of Debug",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "release",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of releases",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "vizDownloads",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Viz / Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveViz",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Live / Viz",
+                "width": 80,
+              },
+              Object {
+                "dataIndex": "output",
+                "title": "Project vs Hits",
+                "width": 200,
+              },
+            ]
+          }
+          data={Array []}
+          fileNameSuffix="components_performance_analytics"
+          title="Export as Excel"
+        />
+      </Col>
+      <Col
+        className="filterTablePanel"
+      >
+        <AnalyticsFilterTable
+          columns={
+            Array [
+              Object {
+                "dataIndex": "component",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Comp. Name",
+                "width": 110,
+              },
+              Object {
+                "dataIndex": "Downloads",
+                "defaultSortOrder": "descend",
+                "sorter": [Function],
+                "title": "Mp Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "overallUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Imports into Forms",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveUsage",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Went Live",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "debug",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of Debug",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "release",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "No. of releases",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "vizDownloads",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Viz / Downloads",
+                "width": 100,
+              },
+              Object {
+                "dataIndex": "liveViz",
+                "sortDirections": Array [
+                  "descend",
+                  "ascend",
+                ],
+                "sorter": [Function],
+                "title": "Live / Viz",
+                "width": 80,
+              },
+              Object {
+                "dataIndex": "output",
+                "title": "Project vs Hits",
+                "width": 200,
+              },
+            ]
+          }
+          data={Array []}
+          onRowClick={[Function]}
+          showPagination={true}
+        />
+      </Col>
+    </Row>
+  </div>
+</Connect(KonyLayout)>
+`;
+
+exports[`ComponentPerformancePage page test suite render JSX with moderator menu 1`] = `
+<Connect(KonyLayout)
+  url="/"
+>
+  <Connect(AnalyticsHeader)
+    filterData={[Function]}
+    placeholder="Search for Marketplace Assets"
+    search={true}
+  />
+  <div>
+    <pageNotFound />
+  </div>
+</Connect(KonyLayout)>
+`;
+
+exports[`ComponentPerformancePage page test suite render JSX with moderator sub menu 1`] = `
+<Connect(KonyLayout)
+  config={Object {}}
+  url="/"
+>
+  <Connect(AnalyticsHeader)
+    filterData={[Function]}
+    placeholder="Search for Marketplace Assets"
+    search={true}
+  />
+  <div>
+    <KonyLoader
+      inline={false}
+    />
+  </div>
+</Connect(KonyLayout)>
+`;

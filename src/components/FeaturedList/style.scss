@@ -1,0 +1,37 @@
+@import '../../assets/styles/kony';
+
+.title {
+  font-family: $RobotoSlabRegular;
+  font-size: 20px;
+  color: $title-text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 8px;
+  margin: 18px 8px 0;
+
+  @include breakpoint(mobile) {
+    margin: 2px 18px 0;
+  }
+}
+
+.assetCardContainer {
+  float: left;
+  padding: 0;
+}
+
+.domainTitleWrapper {
+  display: inline-flex;
+  width: 100%;
+  padding-left: 8px;
+}
+
+.hide {
+  display: none;
+}
+
+.featuredCardListWrapper {
+  .assetCardContainer:first-child {
+    margin : 0 -1px;
+  }
+}

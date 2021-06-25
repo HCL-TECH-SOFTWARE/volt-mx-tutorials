@@ -1,0 +1,165 @@
+@import '../../assets/styles/kony';
+
+.supportWrapper {
+  width: 100%;
+  height: calc(100vh - 50px);
+  border: 1px solid transparent;
+
+  @include breakpoint(desktop) {
+    height: calc(100vh - 160px);
+  }
+}
+
+.hide {
+  display:none;
+}
+
+.firstQuestion {
+  cursor: pointer;
+  font-family: $PoppinsRegular;
+  font-size: 15px;
+  color: $options-text;
+  margin-bottom: 14px;
+
+  &.viz {
+    color: $title-text;
+    cursor: default;
+  }
+}
+
+.noResults {
+  height: calc(100vh - 450px) !important;
+}
+
+.postButton {
+  float: right;
+  border-radius: 40px;
+  padding: 8px 30px;
+  cursor: pointer;
+  z-index: 2;
+  height: 40px;
+  font-family: $PoppinsRegular;
+  font-size: 14px;
+  border: solid 1px $title-red;
+  background-color: $title-red;
+  color: white;
+  margin-bottom: 12px;
+
+  &.viewMoreBtn,
+  &.viewMoreBtn:hover {
+    background-color: $active-color;
+    border: solid 1px $active-color;
+  }
+
+  &:hover {
+    opacity: .6;
+    background-color: $title-red;
+    color: white;
+    border: solid 1px $title-red;
+  }
+
+  &:active,
+  &:focus {
+    background-color: $title-red;
+    color: white;
+    border: solid 1px $title-red;
+  }
+}
+
+.postItem {
+  border-bottom: none !important;
+
+  img {
+    height: 36px;
+    width: 36px;
+    background: #8A96AF;
+  }
+
+  h4 {
+    font-family: $RobotoSlabRegular;
+    font-size: 1.1rem;
+    color: $title-text;
+  }
+
+  .authorDetail {
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+    color: $secondary-text;
+    margin: 0;
+    padding-left: 20px;
+    display: inline-block;
+
+    li {
+      float: left;
+      margin: 0 50px 0 0;
+    }
+  }
+
+  .body {
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+    color: $title-text;
+    padding-top: 10px;
+
+    pre {
+      background: $code-block-bg;
+      color: $code-block-text;
+    }
+  }
+}
+
+.askForm {
+  font-family: $PoppinsRegular;
+  color: $title-text;
+}
+
+.filterCancel {
+  margin-right: 20px;
+  border-color: $secondary-text !important;
+}
+
+.quillUI {
+  height: 200px;
+  padding-bottom: 40px;
+}
+
+.postToItem,
+.quesItem,
+.detailsItem,
+.topicsItem {
+  padding: 5px;
+  margin-bottom: 5px;
+
+  label,
+  input {
+    @extend .askForm;
+    font-size: 14px;
+  }
+
+  textarea {
+    @extend .askForm;
+    font-size: 12px !important;
+  }
+}
+
+.loaderContainer {
+  width: 100%;
+  height: calc(100vh - 50px);
+  border: 1px solid transparent;
+  background: transparent;
+  position: relative;
+
+  @include breakpoint(desktop) {
+    height: calc(100vh - 160px);
+  }
+}
+
+.emptyResultsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  width: 100%;
+  vertical-align: middle;
+}

@@ -1,0 +1,151 @@
+@import 'npprogress.css';
+@import 'antd.min.css';
+@import 'quill-editor.css';
+@import 'fonts/fonts.css';
+
+body {
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+.sortDropdownListItem.ant-dropdown-menu-item-selected {
+  background-color: #EDF3F4;
+  border-left: solid 3px #297BFF;
+}
+
+.ant-breadcrumb-separator {
+  margin: 0 5px;
+}
+
+.ant-divider {
+  background: #eaeaeb;
+}
+
+.konyLoader {
+  align-items: center;
+  background: white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.noscroll {
+  overflow: hidden;
+  padding-right: 15px;
+  position: fixed;
+}
+
+.detailPageTabWrapper .ant-tabs-ink-bar {
+  background-color: #297bff;
+  height: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+  .detailPageTabWrapper .ant-tabs-ink-bar {
+    background-color: #00B9FF;
+  }
+}
+
+.ql-container {
+  border-radius: 0 0 4px 4px;
+  font-family: "Poppins Regular", sans-serif;
+  font-size: 14px;
+}
+
+.ql-toolbar.ql-snow {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px 4px 0 0;
+  font-family: "Poppins Regular", Helvetica, sans-serif;
+}
+
+.ql-editor.ql-blank::before {
+  font-style: unset;
+}
+
+html {
+  background: #f9fafc;
+}
+
+.ql-snow .ql-editor pre.ql-syntax {
+  background-color: #f4f4f4;
+  color: #212121;
+  overflow: visible;
+}
+
+.ql-tooltip.ql-editing {
+  z-index: 1;
+}
+
+.ant-calendar-picker-input {
+  height: 40px;
+  width: 416px;
+  border: 1px solid rgba(63,78,102,0.25);
+  border-radius: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 16px 0 rgba(63,78,102,0.07);
+  float: right;
+}
+
+.analyticsTable .ant-table-pagination {
+  float: left;
+}
+
+/* Pagination Class */
+.listPagination .ant-pagination-next .ant-pagination-item-link,
+.listPagination .ant-pagination-prev .ant-pagination-item-link {
+  border: 1px solid #889398;
+  border-radius: 20px;
+}
+
+/* Width for Prev & Next Button */
+.listPagination .ant-pagination-jump-next,
+.listPagination .ant-pagination-jump-prev,
+.listPagination .ant-pagination-next,
+.listPagination .ant-pagination-prev {
+  width: 70px;
+  margin: 4px 8px;
+}
+
+/* Round Border for Numbers */
+.listPagination .ant-pagination-item {
+  border-radius: 20px;
+  border: 1px solid #889398;
+}
+
+/* Round Border for Numbers */
+.listPagination .ant-pagination-item:hover {
+  border: 1px solid #1890ff;
+}
+
+/* Color for Text inside Round Pagination */
+.listPagination .ant-pagination-item-active a {
+  color: #1890ff;
+}
+
+/* Color for Border for Round Pagination */
+.listPagination .ant-pagination-item-active {
+  color: #1890ff;
+  border: 1px solid #1890ff;
+}
+
+/* If there is no Prev and Next Pagination. */
+.listPagination .ant-pagination-disabled .ant-pagination-item-link,
+.listPagination .ant-pagination-disabled:focus .ant-pagination-item-link,
+.listPagination .ant-pagination-disabled:focus a,
+.listPagination .ant-pagination-disabled:hover .ant-pagination-item-link,
+.listPagination .ant-pagination-disabled:hover a,
+.listPagination .ant-pagination-disabled a {
+  border-color: #d9d9d9;
+  color: rgba(0,0,0,.25);
+  cursor: not-allowed;
+}

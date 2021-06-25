@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>glassdoor</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-817.000000, -42.000000)">
+            <g id="social">
+                <g transform="translate(588.000000, 43.000000)">
+                    <g id="glassdoor" transform="translate(230.000000, 0.000000)">
+                        <circle id="Oval-Copy-4" stroke-opacity="0.251528533" stroke="#646E83" fill-opacity="0.504585598" fill="#FFFFFF" cx="17.5" cy="17.5" r="17.5"></circle>
+                        <g id="gd" transform="translate(12.000000, 11.000000)" fill="#646E83" fill-rule="nonzero">
+                            <path d="M8.80089838,12.0003333 L0.000641698752,12.0003333 C0.000641698752,13.1045833 0.984365885,14 2.19910162,14 L8.79961498,14 C10.0143507,14 10.9993583,13.1045833 10.9993583,12.0003333 L10.9993583,3.787 C10.9993583,3.74616667 10.9647066,3.71408333 10.9197877,3.71408333 L8.87918563,3.71408333 C8.83619181,3.71408333 8.80025668,3.74675 8.80025668,3.78758333 L8.80025668,12.0009167 L8.80089838,12.0003333 Z M8.80089838,0 C10.0149924,0 11,0.895416667 11,2.00083333 L2.20038502,2.00083333 L2.20038502,10.213 C2.20038502,10.2526667 2.16444989,10.2859167 2.12017268,10.2859167 L0.080212344,10.2859167 C0.0352934313,10.2859167 0,10.2526667 0,10.213 L0,1.99966667 C0.000641698752,0.896 0.984365885,0 2.19910162,0 L8.80025668,0 L8.80089838,0 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,209 @@
+@import '../../assets/styles/kony';
+
+.card {
+  border-radius: 6px;
+  width: 213px;
+  height: 332px;
+  margin: 10px 9px;
+  background-color: white;
+  box-shadow: 0 6px 8px $card-shadow-with-20opacity;
+  position: relative;
+
+  &:hover {
+    box-shadow: 0 6px 8px $card-shadow-with-20opacity;
+  }
+
+  @include breakpoint(mobile) {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    height: 147px;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  @include breakpoint(smalldevices) {
+    height: 120px;
+  }
+}
+
+.meta {
+  padding: 9px 12px;
+  height: 171px;
+
+  @include breakpoint(mobile) {
+    padding: 0;
+    margin-left: 10px;
+    height: 100%;
+  }
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.previewButtonWrapper {
+  position: absolute;
+  bottom: 0;
+
+  .previewButton {
+    @include breakpoint(smalldevices) {
+      font-size: 12px !important;
+      padding: 15px 10px !important;
+    }
+  }
+}
+
+.flexRow {
+  height: 150px;
+
+  @include breakpoint(mobile) {
+    height: 127px;
+  }
+
+  @include breakpoint(smalldevices) {
+    height: 110px;
+  }
+}
+
+.image {
+  background-color: $asset-bg;
+  border-radius: 6px 6px 0 0;
+  height: 163px;
+  width: 213px;
+  z-index: 2;
+
+  @include breakpoint(mobile) {
+    height: auto;
+    width: 127px;
+    border-radius: 10px;
+    background: transparent;
+  }
+
+  @include breakpoint(smalldevices) {
+    height: auto;
+    width: 110px;
+    border-radius: 8px;
+    background: transparent;
+  }
+}
+
+.cover {
+  @extend .image;
+  position: relative;
+}
+
+.title {
+  font-family: $RobotoSlabRegular;
+  font-size: 16px;
+  color: $title-text;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @include breakpoint(mobile) {
+    color: $active-color-mobile;
+  }
+
+  @include breakpoint(smalldevices) {
+    font-size: 12px;
+  }
+}
+
+.author {
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  color: $secondary-text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a {
+    color: $active-color;
+  }
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.stats {
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  color: $secondary-text;
+  position: absolute;
+  bottom: 0;
+
+  a {
+    color: $secondary-text
+  }
+
+  span {
+    display: inline-block;
+    width: auto;
+    min-width: 33%;
+
+    img {
+      height: 18px;
+      width: 24px;
+      padding-right: 6px;
+      padding-bottom: 4px;
+    }
+
+    i {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.desc {
+  height: 60px;
+  overflow: hidden;
+
+  a {
+    font-family: $PoppinsLight;
+    font-size: 13px;
+    color: $title-text;
+    margin: 0;
+    word-break: break-word;
+    height: 60px;
+    text-decoration: none;
+    overflow: hidden;
+
+    @include breakpoint(mobile) {
+      color: $secondary-text-mobile;
+      line-height: 19px;
+      word-break: break-word;
+      height: auto;
+    }
+
+    @include breakpoint(smalldevices) {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}
+
+.loadingImage {
+  position: absolute;
+  top: 42px;
+  left: 72px;
+
+  @include breakpoint(mobile) {
+    top: 26px;
+    left: 31px;
+  }
+}

@@ -1,0 +1,42 @@
+@import '../../assets/styles/kony';
+
+.base {
+  height: 169px;
+  margin: 0 7px;
+  border: 1px solid $hike-border;
+  border-radius: 8px;
+  background-color: white;
+
+  h2 {
+    height: 56px;
+    color: black;
+    font-family: $RobotoSlabRegular;
+    font-size: 18px;
+    line-height: 28px;
+    width: 210px;
+  }
+
+  h3 {
+    width: 80%;
+    margin: 14px 10%;
+    border-top: solid 1px $hike-border;
+    color: black;
+    font-family: $PoppinsSemiBold;
+    font-size: 26px;
+    padding: 14px 0;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 8px 11px 0 $panel-shadow;
+  }
+}
+
+.analyticsIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.titleIcon {
+  padding: 30px;
+}

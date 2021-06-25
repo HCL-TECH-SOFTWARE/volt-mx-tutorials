@@ -1,0 +1,23 @@
+@import '../../assets/styles/kony';
+
+.noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  height: 100%;
+
+  &.minHeight {
+    min-height: 240px;
+  }
+
+  h3 {
+    font-family: $PoppinsRegular;
+    font-size: 16px;
+    color: $options-text;
+    padding: 5px;
+    text-align: center;
+    white-space: normal;
+  }
+}

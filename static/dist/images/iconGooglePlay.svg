@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="26px" viewBox="0 0 24 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon - Google Play Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="19.2147947%" y1="-35.1571758%" x2="69.3023416%" y2="93.5367562%" id="linearGradient-1">
+            <stop stop-color="#19A3B4" offset="0%"></stop>
+            <stop stop-color="#5BC3AF" offset="34.816763%"></stop>
+            <stop stop-color="#C8F7A6" offset="92.2336229%"></stop>
+            <stop stop-color="#D7FEA5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M17.2812739,8.82283396 L2.22478094,0.263816916 C1.79786158,0.0223376588 1.40410787,-0.0338372741 1.08515324,0.069028512 L13.4178302,12.8178201 L17.2812739,8.82283396" id="path-2"></path>
+        <linearGradient x1="-14.698314%" y1="-114.321644%" x2="74.8444046%" y2="114.156353%" id="linearGradient-4">
+            <stop stop-color="#FC227C" offset="0%"></stop>
+            <stop stop-color="#FEEB7B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="28.1511582%" y1="-14.8137139%" x2="48.1878808%" y2="82.8944571%" id="linearGradient-5">
+            <stop stop-color="#0E4DA0" offset="0%"></stop>
+            <stop stop-color="#6BFED4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1.08444759,0.069028512 C0.626479554,0.217126062 0.330105787,0.696436853 0.330105787,1.42160417 L0.332928394,24.2446769 C0.332928394,24.9618192 0.620128687,25.4338346 1.06468934,25.5914162 L13.4178302,12.8200087 L1.08444759,0.069028512" id="path-6"></path>
+        <linearGradient x1="132.244588%" y1="16.465744%" x2="5.95853392%" y2="126.310354%" id="linearGradient-8">
+            <stop stop-color="#FC472E" offset="0%"></stop>
+            <stop stop-color="#FC472F" offset="0.331892433%"></stop>
+            <stop stop-color="#893CD8" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1.06468934,25.5914162 C1.38576092,25.7037661 1.78727681,25.6512388 2.22478094,25.4031937 L17.2989152,16.8325039 L13.4178302,12.8200087 L1.06468934,25.5914162" id="path-9"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-Details-Popup" transform="translate(-754.000000, -728.000000)">
+            <g id="popup" transform="translate(370.000000, 351.000000)">
+                <g id="Group-8" transform="translate(156.000000, 364.000000)">
+                    <g id="Button---App-Store-Copy-2" transform="translate(204.000000, 0.000000)">
+                        <g id="Group-6" transform="translate(24.000000, 5.000000)">
+                            <g id="Icon---Google-Play-Copy" transform="translate(0.000000, 8.000000)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="Fill-1" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                                <path d="M17.3010322,16.8325039 L22.4410001,13.9106779 C23.4832478,13.316099 23.4832478,12.3487229 22.4410001,11.7556032 L17.2819796,8.82283396 L13.4178302,12.8178201 L17.3010322,16.8325039" id="Fill-2" fill="url(#linearGradient-4)"></path>
+                                <mask id="mask-7" fill="white">
+                                    <use xlink:href="#path-6"></use>
+                                </mask>
+                                <use id="Fill-3" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <use id="Fill-4" fill="url(#linearGradient-8)" xlink:href="#path-9"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

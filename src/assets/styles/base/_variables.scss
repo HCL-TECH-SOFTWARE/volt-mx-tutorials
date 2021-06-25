@@ -1,0 +1,219 @@
+// Scaffolding
+// -------------------------
+$body-bg: #f9fafc;
+$dbx-bg: #704C9F;
+$tour-bg: #EAF0F3;
+$nav-text: #9094a5;
+$secondary-text: #8A96AF;
+$secondary-text-with-half-opacity: "unquote('#8a96af80')";
+$divider: rgba(48, 53, 63, 0.1);
+$asset-bg: #f0f0f0;
+$options-text: #646E83;
+$active-color: #297BFF;
+$post-background: #8394E0;
+$user-active: #6E86E7;
+$filter-active: #73DB9B;
+$filter-text: #878FA2;
+$filter-icon-bg: #64C489;
+$title-lightblue: #6e87f5;
+$title-lightGreen: #21cba5;
+$title-skyblue: #4CB9F9;
+$title-red: #EE6B6B;
+$filter-selected-border: #EBEBEB;
+$filter-selected-text: #64C489;
+$card-shadow: #AFBFDE;
+$card-shadow-with-20opacity: rgba(175, 191, 222, 0.2);
+$site-footer-text: #646E83;
+$menu-item-border: #889398;
+$thumb-border: #2887F2;
+$active-color-mobile: #00B9FF;
+$active-color-mobile-with-opacity: rgba(0, 185, 255, .73);
+$secondary-text-mobile: #37414B;
+$secondary-text-mobile-dark: #333333;
+$filter-text-mobile: #788EA9;
+$title-text: #30353F;
+$title-text-secondary: #525A6B;
+$suggestion-link: #1890FF;
+$error: #FF6E75;
+$error-black: #20284B;
+$menu-active-bg: #EDF3F4;
+$menu-active-border: #267BFF;
+$breadcrumb-title: #3F4E66;
+$search-text: #20284B;
+$search-border: #ced2d8;
+$search-border-shadow: rgba(63, 78, 102, 0.07);
+$hike-border: #B7CFD7;
+$hike-border-active: #2584F1;
+$kony-orange: #ff6600;
+$icon-green: #78BB2E;
+$code-border: #ccc;
+$code-block-bg: #f4f4f4;
+$code-block-text: #212121;
+$heading-download: #151515;
+$description-text: #909090;
+$button-text: #FFFFFF;
+$table-row-bg: #F6F6F6;
+$table-row-color: #303030;
+$panel-shadow: rgba(0,0,0,0.08);
+
+$PoppinsRegular: 'Poppins Regular',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$PoppinsMedium: 'Poppins Medium',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$PoppinsLight: 'Poppins Light',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$PoppinsSemiBold: 'Poppins SemiBold',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$RobotoSlabRegular: 'RobotoSlab Regular',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$RobotoSlabLight: 'RobotoSlab Light',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$RobotoSlabBold: 'RobotoSlab Bold',
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+
+:export {
+  poppinsRegular: $PoppinsRegular
+}
+
+:export {
+  poppinsMedium: $PoppinsMedium
+}
+
+:export {
+  poppinsLight: $PoppinsLight
+}
+
+:export {
+  robotoSlabRegular: $RobotoSlabRegular
+}
+
+:export {
+  robotoSlabLight: $RobotoSlabLight
+}
+
+:export {
+  robotoSlabBold: $RobotoSlabBold
+}
+
+:export {
+  bodyBg: $body-bg
+}
+
+:export {
+  dbxBg: $dbx-bg
+}
+
+:export {
+  navText: $nav-text
+}
+
+:export {
+  secondaryText: $secondary-text
+}
+
+:export {
+  divider: $divider
+}
+
+:export {
+  assetBg: $asset-bg
+}
+
+:export {
+  optionsText: $options-text
+}
+
+:export {
+  activeColor: $active-color
+}
+
+:export {
+  postBackground: $post-background
+}
+
+:export {
+  userActive: $user-active
+}
+
+:export {
+  filterActive: $filter-active
+}
+
+:export {
+  filterIconBg: $filter-icon-bg
+}
+
+:export {
+  titleLightBlue: $title-lightblue
+}
+
+:export {
+  titleRed: $title-red
+}
+
+:export {
+  titleText: $title-text
+}

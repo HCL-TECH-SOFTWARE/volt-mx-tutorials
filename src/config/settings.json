@@ -1,0 +1,19 @@
+{
+    "PORT": 3200,                            
+    "oauthEnv": "qa",     
+    "gtmId" : "GTM-KKDR5XT",
+    "siteBaseURL" : "https://community.qa-kony.com",
+    "baseURL" : "https://community.qa-kony.com",
+    "basecampURL" : "",
+    "coveoURL" : "",
+    "basecampBaseURL" :"https://basecamp.kony.com/",
+    "oauthConsumer" : {
+    "key": "",
+    "secret": ""
+    },
+    "googleSearch" : {
+    "key": "",
+    "cx": "",
+    "url": "https://www.googleapis.com/customsearch/v1"
+    }
+}

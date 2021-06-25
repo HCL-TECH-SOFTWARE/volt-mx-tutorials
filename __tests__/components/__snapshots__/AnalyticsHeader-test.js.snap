@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnalyticsHeader component test suite render JSX with search 1`] = `
+<Row
+  className="siteHeader"
+  gutter={0}
+>
+  <Col
+    span={12}
+  >
+    <h1
+      className="headerTitle"
+    >
+      Analytics Header
+    </h1>
+    <h2
+      className="headersubTitle"
+    >
+      Analytics Sub Title
+    </h2>
+  </Col>
+  <Col
+    span={12}
+  >
+    <AnalyticsSearch
+      filterData={[Function]}
+      placeholder="placeholder"
+    />
+  </Col>
+</Row>
+`;
+
+exports[`AnalyticsHeader component test suite render JSX without search 1`] = `
+<Row
+  className="siteHeader"
+  gutter={0}
+>
+  <Col
+    span={12}
+  >
+    <h1
+      className="headerTitle"
+    >
+      Analytics Header
+    </h1>
+    <h2
+      className="headersubTitle"
+    >
+      Analytics Sub Title
+    </h2>
+  </Col>
+</Row>
+`;

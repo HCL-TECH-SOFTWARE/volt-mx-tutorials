@@ -1,0 +1,86 @@
+@import '../../assets/styles/kony';
+
+.domainTitleWrapper {
+  padding: 0 7px;
+  font-family: $PoppinsLight;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.title {
+  font-family: $RobotoSlabRegular;
+  font-size: 20px;
+  color: $title-text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 8px;
+  margin: 18px 8px 0;
+
+  @include breakpoint(mobile) {
+    margin: 2px 8px 0;
+  }
+}
+
+.seeAll {
+  font-family: $RobotoSlabRegular;
+  font-size: 13px;
+  color: $active-color;
+  margin: 13px 3px 0 8px;
+  border-bottom: solid 1px $active-color;
+  position: absolute;
+  right: 0;
+  bottom: 9px;
+
+  @include breakpoint(mobile) {
+    font-size: 14px;
+    border-bottom: none;
+    margin: 8px;
+    color: $active-color-mobile;
+    text-transform: capitalize;
+  }
+
+  @include breakpoint(tablet-lg-desktop) {
+    right: 27px;
+  }
+
+  &.basecamp {
+    bottom: unset;
+  }
+}
+
+.paginationContainer {
+  margin-top: 59px;
+  margin-bottom: 78px;
+
+  i {
+    vertical-align: 0;
+    color:#889398;
+  }
+}
+
+.assetListLoader {
+  top: 60px !important;
+  background: $body-bg !important;
+  height: 700px !important;
+
+  @include breakpoint(mobile) {
+    height: 1000px !important;
+  }
+
+  @include breakpoint(tablet-lg-desktop) {
+    height: 1100px !important;
+  }
+
+  @include breakpoint(tablet) {
+    height: 1440px !important;
+  }
+}
+
+.centerAlign {
+  text-align: center;
+}

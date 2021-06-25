@@ -1,0 +1,57 @@
+@import '../../assets/styles/kony';
+
+.tour {
+  height: 120px;
+  padding: 10px;
+  margin: 0 0 20px 20px;
+  cursor: pointer;
+  background: white;
+  border: 1px solid $hike-border;
+  box-shadow: 0 10px 10px 0 rgba(175,191,222,0.19);
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: all cubic-bezier(0.4, 0, 1, 1) 0.2s;
+
+  &:hover {
+    border: 3px solid $hike-border-active;
+    padding: 8px;
+  }
+}
+
+.info {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.title {
+  font-family: $PoppinsMedium;
+  font-size: 12px;
+  color: $title-text;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 6px;
+
+  &.dbxColor {
+    color: $dbx-bg
+  }
+}
+
+.desc,
+.meta {
+  font-family: $PoppinsLight;
+  font-size: 12px;
+  color: $title-text;
+  height: 43px;
+  margin: 0;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.meta {
+  display: flex;
+  align-items: flex-end;
+}
