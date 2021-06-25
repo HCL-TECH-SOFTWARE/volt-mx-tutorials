@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<Guidedtour kuid="a7a762t5-3eac-44r5-8bu2-89b781n1" id="CreateServices_V9" title="CreateServices_V9">
-    <Description>Create Services for Back-end Data V9</Description>
-    <Meta>
-        <Creator>Sparsh Srivastava</Creator>
-        <Createdon>Wed, 18 Dec 2019 08:57:26 GMT</Createdon>
-    </Meta>
-    <Hike id="VoltMX.CreateServicesV9"/>
-</Guidedtour>
