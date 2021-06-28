@@ -13,16 +13,15 @@ const HikePage = () => {
   const { publicRuntimeConfig } = getConfig();
 
   const getHikes = async () => {
-    const { hikesData }  = publicRuntimeConfig;
+    const { hikesData } = publicRuntimeConfig;
     const hikes = await getHikesCategories(hikesData);
-    setCategories(hikes)
-  }
+    setCategories(hikes);
+  };
 
   useEffect(() => {
     getHikes();
-    return () => {
-    }
-  }, [])
+    return () => {};
+  }, []);
 
   useEffect(() => {
     const { lang } = router.query;
@@ -35,28 +34,27 @@ const HikePage = () => {
         pathname: router.pathname,
         query: {
           lang: 'en-US',
-        }
-      })
+        },
+      });
     }
-    
-  }, [i18next.language, router.query])
+  }, [i18next.language, router.query]);
 
   return (
     <div className={styles.hikeBody}>
       <HikeHeader />
-        <div className={styles.hikeContainer}>
-          {categories
-            .map(item => (
-              item.categoryTours !== null ? (
-                <ToursList
-                  key={item.categoryName}
-                  title={item.categoryName}
-                  desc={item.categoryDescription}
-                  alias={item.categoryAlias || item.categoryName}
-                  tours={item.categoryTours}
-                />) : null
-            ))}
-        </div>
+      <div className={styles.hikeContainer}>
+        {categories
+          .map(item => (
+            item.categoryTours !== null ? (
+              <ToursList
+                key={item.categoryName}
+                title={item.categoryName}
+                desc={item.categoryDescription}
+                alias={item.categoryAlias || item.categoryName}
+                tours={item.categoryTours}
+              />) : null
+          ))}
+      </div>
     </div>
   );
 }

@@ -32,7 +32,7 @@ In general, PRs should:
 
 5. Push changes to your fork
 
-6. Open a PR in our repository (**phx-dev** branch) and follow the Pull Request template so that we can efficiently review the changes.
+6. Open a PR in our repository (**master** branch) and follow the Pull Request template so that we can efficiently review the changes.
 7. Please make sure your code compiles by running `npm run export`
 
 If you raise a pull-request without having signed the **CLA**, you will be prompted to do so automatically.

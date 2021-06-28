@@ -10,10 +10,10 @@ import { BASE_PATH_URL } from "../../config";
 const isProdUrl =
   process.env.NODE_ENV === "production" ? `${BASE_PATH_URL}/` : "";
 
-const TourCard = ({ tour, dbx, search }) => {
+const TourCard = ({ tour, dbx, search, isComposer }) => {
 
   return (
-    <Col sm={8} xs={24}>
+    <Col sm={isComposer ? 8 : 6} xs={24}>
       <div className={style.tour}>
         {search !== undefined && search !== null ? (
           <Link

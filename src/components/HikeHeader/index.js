@@ -105,7 +105,7 @@ HikeHeader.propTypes = {
 
 HikeHeader.defaultProps = {
   search: true,
-  keyword: '',
+  keyword: "",
 };
 
 export default HikeHeader;

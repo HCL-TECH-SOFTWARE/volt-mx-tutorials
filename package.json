@@ -14,9 +14,12 @@
     "cross-env": "^5.2.0",
     "crypto": "^1.0.1",
     "es6-promise": "^4.2.5",
+    "event-stream": "^4.0.1",
     "express": "^4.16.2",
     "formidable": "^1.2.2",
     "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "git-remote-origin-url": "^3.1.0",
     "helmet": "^3.21.1",
     "humps": "^2.0.1",
     "i18next": "^20.3.1",
@@ -25,6 +28,7 @@
     "isomorphic-fetch": "^2.2.1",
     "js-base64": "^2.4.9",
     "js-cookie": "^2.2.0",
+    "jszip": "^3.6.0",
     "lodash": "^4.17.14",
     "moment": "latest",
     "multer": "^1.4.2",
@@ -35,7 +39,9 @@
     "next-redux-wrapper": "^2.0.0",
     "next-routes": "^1.4.2",
     "next-useragent": "^2.4.0",
+    "node-fetch": "^1.7.3",
     "node-sass": "^4.12.0",
+    "node-stream-zip": "^1.13.4",
     "normalize-scss": "^7.0.1",
     "nprogress": "^0.2.0",
     "oauth": "^0.9.15",
@@ -45,6 +51,7 @@
     "qs": "^6.5.2",
     "react": "^17.0.2",
     "react-burger-menu": "^2.5.2",
+    "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.2",
     "react-google-tag-manager": "^2.2.1",
     "react-helmet": "^5.2.0",
@@ -64,10 +71,10 @@
     "serve-favicon": "^2.5.0",
     "styled-jsx-css-loader": "^0.3.0",
     "tls": "0.0.1",
-    "xml-js": "^1.6.9"
+    "xml-js": "^1.6.11"
   },
-  "name": "kony-marketplace",
-  "version": "4.0.0",
+  "name": "hclvoltmx-marketplace",
+  "version": "4.0.1",
   "main": "server/index.js",
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -117,11 +124,13 @@
     "test": "node_modules/.bin/jest",
     "test:watch": "npm test -- --watch",
     "mock": "node mock-tours",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "hikeBuilder:install": "node ./hikeBuilder",
+    "hikeBuilder:uninstall": "node ./hikeBuilder --disable=true"
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 15"
   },
-  "author": "dotCom",
+  "author": "HCL",
   "description": "HCL Volt MX Tutorials "
 }

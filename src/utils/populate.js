@@ -1,6 +1,8 @@
 import axios from 'axios';
-import i18next from 'i18next'
-import { SERVER } from '../config'
+import i18next from 'i18next';
+import getConfig from "next/config";
+import { SERVER } from "../config";
+const { publicRuntimeConfig } = getConfig();
 
 const mergeTranslatedJson = (lang, json) => {
     for (const key in lang) {
@@ -22,21 +24,19 @@ const mergeTranslatedJson = (lang, json) => {
  *
  * @return Array.
  */
- export const getHikesCategories = async (hikesUrls) => {
-
+export const getHikesCategories = async (hikesUrls) => {
   // map all data into one request
-  const urls = hikesUrls.map(url => {
-  return axios.get(`${SERVER}/contents/${url}/tours.json`)
-  })
+  const urls = hikesUrls.map((url) => {
+    return axios.get(`${SERVER}/contents/${url}/tours.json`);
+  });
 
-  const responses = await axios.all(urls)
+  const responses = await axios.all(urls);
 
   // map all response data into single array
-  const categories = responses.map(res => {
-      return res.data
-  })
+  const categories = responses.map(res => res.data);
+
   if (i18next.language !== 'en-US') {
-    for (var url of hikesUrls.values()) {
+    for (const url of hikesUrls.values()) {
       try {
         const translatedTours = await axios.get(`${SERVER}/contents/${url}/tours_${i18next.language}.json`);
         for (const response of responses) {                    
@@ -53,4 +53,9 @@ const mergeTranslatedJson = (lang, json) => {
   }
   return categories;
 };
-  
+
+export const getMapCategories = async () => {
+  const { hikesData } = publicRuntimeConfig;
+  const hikes = await getHikesCategories(hikesData);
+  return hikes;
+};
