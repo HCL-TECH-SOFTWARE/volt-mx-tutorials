@@ -7,7 +7,7 @@
     "fileSize": "29.83 KB",
     "fileName": "nfibarcodev9.zip",
     "fid": 17808,
-    "checksum": "7d654faeb212a49fd4c2d28e69428ed5f21277a9d2dd4911aca3d7a896103335",
+    "checksum": "71bdf1ed09da0392ab4b3e1489bb56bb5f604032ca2fbea3acedad5af9c89654",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/nfis-using-third-party-library",
     "alias": "hikes/tour/nfis-using-third-party-library",
     "description": "Use NFIs to access third party libraries, specifically Android barcode scanner.",
@@ -20,6 +20,6 @@
     "kuid": "f9e5f0t5-a8a5-4arb-bfu1-50d392n4",
     "hikeVersion": "1.0",
     "weight": "2",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/6-advanced-concepts/zips/nfibarcodev9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test/public/contents/6-advanced-concepts/zips/nfibarcodev9.zip"
   }
 }

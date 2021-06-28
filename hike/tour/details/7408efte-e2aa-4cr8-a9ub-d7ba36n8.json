@@ -7,12 +7,12 @@
     "fileSize": "20.45 KB",
     "fileName": "launchyourfirstmobileappv92.zip",
     "fid": 17790,
-    "checksum": "739a8678d903d6bd0d50a655b32604880b3cf51937fb97ecb2d88f6bd56d298a",
+    "checksum": "1734cbf58a1bc1fddd151ecc696333a05b59dbcf4b1a2d3089f12bcb0b08a0d5",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-first-mobile-app-1",
     "alias": "hikes/tour/launch-your-first-mobile-app-1",
     "description": "Open a native mobile app and preview it on your mobile device.",
     "details": "<p><!--StartFragment--></p> <p><br /> This learning module is a Volt MX HIKE. &nbsp;A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <p>&nbsp; &nbsp; Import a sample native app that shows lists of Accounts and Recipients&nbsp;</p> <p>&nbsp; &nbsp; Preview the sample app on a mobile device&nbsp;</p> <p><!--EndFragment--></p>",
-    "cards": 12,
+    "cards": 11,
     "time": "11 Mins",
     "platformVersion": "Iris 9.2",
     "category": [],
@@ -20,6 +20,6 @@
     "kuid": "7408efte-e2aa-4cr8-a9ub-d7ba36n8",
     "hikeVersion": "1.0",
     "weight": "1",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip"
   }
 }

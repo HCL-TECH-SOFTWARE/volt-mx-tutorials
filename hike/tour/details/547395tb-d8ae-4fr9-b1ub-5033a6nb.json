@@ -7,7 +7,7 @@
     "fileSize": "42.82 KB",
     "fileName": "addcreatepayeeweb_v9.zip",
     "fid": 17798,
-    "checksum": "b7c7045cc04e401b80812b8629ee7dcbb4e7678271e8da7f1c419ff9deaa91d8",
+    "checksum": "97384e9ac14fe85e5a6c0a7c0ee429f93649f7a07e613bd7e122a071b7f23b8e",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-create-recipient-0",
     "alias": "hikes/tour/add-create-recipient-0",
     "description": "Add Create Recipient",
@@ -20,6 +20,6 @@
     "kuid": "547395tb-d8ae-4fr9-b1ub-5033a6nb",
     "hikeVersion": "1.0",
     "weight": "7",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/3-build-your-first-web-app/zips/addcreatepayeeweb_v9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test/public/contents/3-build-your-first-web-app/zips/addcreatepayeeweb_v9.zip"
   }
 }

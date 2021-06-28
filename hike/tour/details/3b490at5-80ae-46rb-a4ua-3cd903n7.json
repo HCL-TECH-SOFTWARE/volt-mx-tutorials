@@ -7,7 +7,7 @@
     "fileSize": "52.67 KB",
     "fileName": "createemailidcomponentv9.zip",
     "fid": 17151,
-    "checksum": "bce1e488d5b4dab4984521d39111bb7b6a10c382a702886011f5cfb487ee6b8f",
+    "checksum": "23b23ca1fdbd9b7df0a92f8218deefdc9ba7bc6790477ce526f2104f3486324f",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/creating-component-0",
     "alias": "hikes/tour/creating-component-0",
     "description": "Learn how to create a component.",
@@ -20,6 +20,6 @@
     "kuid": "3b490at5-80ae-46rb-a4ua-3cd903n7",
     "hikeVersion": "1.0",
     "weight": "8",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/4-develop-the-front-end/zips/createemailidcomponentv9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test/public/contents/4-develop-the-front-end/zips/createemailidcomponentv9.zip"
   }
 }
