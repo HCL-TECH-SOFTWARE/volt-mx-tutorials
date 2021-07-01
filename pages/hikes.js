@@ -29,16 +29,16 @@ const HikePage = () => {
     if (lang) {
       if (lang !== i18next.language) {
         console.log('reload router asPath in hikes.js with router obj: %o', router);
-        router.reload(router.asPath)
+        // router.reload(router.asPath)
       }
     } else {
       console.log('push lang params in hikes.js with router object: %o', router);
-      router.push({
-        pathname: router.pathname,
-        query: {
-          lang: 'en-US',
-        }
-      })
+      // router.push({
+      //   pathname: router.pathname,
+      //   query: {
+      //     lang: 'en-US',
+      //   }
+      // })
     }
     
   }, [i18next.language, router.query])
