@@ -6,9 +6,10 @@ import XHR from 'i18next-http-backend';
 export const locales = ['en-US', 'zh-CN', 'zh-TW', 'hi-IN'];
 const detection = {
   // order and from where user language should be detected
-  order: ['querystring', 'path'],
+  order: ['querystring'],
   lookupQuerystring: 'lang',
 };
+const getProdUrl = process.env.NODE_ENV === 'production' ? '/volt-mx-tutorials' : '';
 
 i18next
   .use(XHR)
@@ -20,6 +21,9 @@ i18next
       en: ['en-US'],
       zh: ['zh-CN'],
       default: ['en-US'],
+    },
+    backend: {
+      loadPath: `${getProdUrl}/locales/{{lng}}/{{ns}}.json`,
     },
     returnObjects: true,
     debug: false,

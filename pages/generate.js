@@ -1,30 +1,31 @@
-import React, { useEffect, useState } from "react";
-import styles from "./style.scss";
-import getConfig from "next/config";
-const { publicRuntimeConfig } = getConfig();
-import { getHikesCategories } from "../src/utils/populate";
-import axios from "axios";
-import TourCard from "../src/components/TourCard";
-import ToursList from "../src/components/ToursList";
-import TourDetailPage from "./tour";
+import React, { useEffect, useState } from 'react';
+import getConfig from 'next/config';
+import axios from 'axios';
+import styles from './style.scss';
+import getHikesCategories from '../src/utils/populate';
+import TourCard from '../src/components/TourCard';
+import ToursList from '../src/components/ToursList';
+import TourDetailPage from './tour';
 
-const BASE_API = "http://localhost:3200/api";
+const { publicRuntimeConfig } = getConfig();
+
+const BASE_API = 'http://localhost:3200/api';
 
 const GenerateTourPage = () => {
   const [values, setValues] = useState({
-    title: "",
-    description: "",
-    checksum: "",
-    kuid: "953f7at8-eba4-40rd-86uc-bf1f0dnd",
+    title: '',
+    description: '',
+    checksum: '',
+    kuid: '953f7at8-eba4-40rd-86uc-bf1f0dnd',
     category: [],
-    details: "",
+    details: '',
     cards: 0,
     time: 0,
     platformVersion: 9.2,
-    language: "en",
+    language: 'en',
   });
 
-  const [view, setView] = useState("card");
+  const [view, setView] = useState('card');
 
   const [selectedFile, setSelectedFile] = useState({});
   const [tempZipFilePath, setTempZipFilePath] = useState(null);
@@ -34,7 +35,7 @@ const GenerateTourPage = () => {
 
   const onChangeCategory = (categoryName) => {
     const selected = categories.filter(
-      (category) => categoryName === category.categoryName
+      category => categoryName === category.categoryName,
     );
     setSelectedCategory(selected[0]);
   };
@@ -51,9 +52,9 @@ const GenerateTourPage = () => {
     setCategories([...hikesCategories]);
   };
 
-  const changePreview = (view) => {
-    setView(view);
-    if (view === "list") {
+  const changePreview = (preView) => {
+    setView(preView);
+    if (view === 'list') {
       const cats = [...categories];
     }
   };
@@ -62,11 +63,11 @@ const GenerateTourPage = () => {
     const file = e.target.files[0];
     setSelectedFile(file);
     const data = new FormData();
-    data.append("file", file);
+    data.append('file', file);
 
     const res = await axios.post(`${BASE_API}/checksum/generate`, data, {
       headers: {
-        "Content-Type": "multipart/form-data",
+        'Content-Type': 'multipart/form-data',
       },
     });
 
@@ -75,14 +76,14 @@ const GenerateTourPage = () => {
     setTempZipFilePath(tempFilePath);
     setValues({
       ...values,
-      ["checksum"]: checksum,
+      checksum,
     });
   };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
 
-    if (name === "category") {
+    if (name === 'category') {
       onChangeCategory(value);
     }
 
@@ -94,9 +95,8 @@ const GenerateTourPage = () => {
 
   const onGenerate = async (e) => {
     e.preventDefault();
-    const isEmptyFile =
-      Object.keys(selectedFile).length === 0 &&
-      selectedFile.constructor === Object;
+    const isEmptyFile = Object.keys(selectedFile).length === 0
+      && selectedFile.constructor === Object;
 
     if (!isEmptyFile) {
       const data = {
@@ -109,7 +109,7 @@ const GenerateTourPage = () => {
 
       console.log(json.data);
     } else {
-      alert("Missing tour zip file");
+      alert('Missing tour zip file');
     }
   };
 
@@ -162,7 +162,7 @@ const GenerateTourPage = () => {
                 onChange={handleInputChange}
                 name="category"
               >
-                {categories.map((category) => (
+                {categories.map(category => (
                   <option value={category.categoryName}>
                     {category.categoryName}
                   </option>
@@ -225,12 +225,12 @@ const GenerateTourPage = () => {
         </div>
         <div className={styles.preview}>
           <ul className={styles.previews}>
-            <li onClick={() => changePreview("card")}>Card Preview</li>
-            <li onClick={() => changePreview("list")}>List Preview</li>
-            <li onClick={() => changePreview("inside")}>Inside Preview</li>
+            <li onClick={() => changePreview('card')}>Card Preview</li>
+            <li onClick={() => changePreview('list')}>List Preview</li>
+            <li onClick={() => changePreview('inside')}>Inside Preview</li>
           </ul>
           <hr />
-          {view === "card" && (
+          {view === 'card' && (
             <>
               {/* <h3>{JSON.stringify(selectedCategory)}</h3> */}
               <h3>{selectedCategory.categoryName}</h3>
@@ -249,21 +249,19 @@ const GenerateTourPage = () => {
               />
             </>
           )}
-          {view === "list" &&
-            categories.map((item) =>
-              item.categoryTours !== null ? (
-                <ToursList
-                  key={item.categoryName}
-                  title={item.categoryName}
-                  desc={item.categoryDescription}
-                  alias={item.categoryAlias || item.categoryName}
-                  tours={item.categoryTours}
-                />
-              ) : null
-            )}
-          {view === "inside" && (
+          {view === 'list'
+            && categories.map(item => (item.categoryTours !== null ? (
+              <ToursList
+                key={item.categoryName}
+                title={item.categoryName}
+                desc={item.categoryDescription}
+                alias={item.categoryAlias || item.categoryName}
+                tours={item.categoryTours}
+              />
+            ) : null))}
+          {view === 'inside' && (
             <TourDetailPage
-              url={{ asPath: "/hikes/tour/add-create-recipient" }}
+              url={{ asPath: '/hikes/tour/add-create-recipient' }}
             />
           )}
         </div>

@@ -5,7 +5,7 @@ import getConfig from 'next/config';
 import HikeHeader from '../src/components/HikeHeader';
 import ToursList from '../src/components/ToursList';
 import styles from './style.scss';
-import { getHikesCategories } from '../src/utils/populate'
+import getHikesCategories from '../src/utils/populate';
 
 const HikePage = () => {
   const [categories, setCategories] = useState([]);
@@ -13,54 +13,54 @@ const HikePage = () => {
   const { publicRuntimeConfig } = getConfig();
 
   const getHikes = async () => {
-    const { hikesData }  = publicRuntimeConfig;
+    const { hikesData } = publicRuntimeConfig;
     const hikes = await getHikesCategories(hikesData);
-    setCategories(hikes)
-  }
+    setCategories(hikes);
+  };
 
   useEffect(() => {
     getHikes();
     return () => {
-    }
-  }, [])
+    };
+  }, []);
 
   useEffect(() => {
-    const { lang } = router.query;
+    const path = router.asPath.split(/\?/);
+    const searchParams = new URLSearchParams(path[1]);
+    const lang = searchParams.get('lang');
+
     if (lang) {
       if (lang !== i18next.language) {
-        console.log('reload router asPath in hikes.js with router obj: %o', router);
-        // router.reload(router.asPath)
+        router.push(router.asPath);
       }
     } else {
-      console.log('push lang params in hikes.js with router object: %o', router);
-      // router.push({
-      //   pathname: router.pathname,
-      //   query: {
-      //     lang: 'en-US',
-      //   }
-      // })
+      router.push({
+        pathname: path[0] || router.pathname,
+        query: {
+          lang: 'en-US',
+        },
+      });
     }
-    
-  }, [i18next.language, router.query])
+  }, [i18next.language, router.query]);
 
   return (
     <div className={styles.hikeBody}>
       <HikeHeader />
-        <div className={styles.hikeContainer}>
-          {categories
-            .map(item => (
-              item.categoryTours !== null ? (
-                <ToursList
-                  key={item.categoryName}
-                  title={item.categoryName}
-                  desc={item.categoryDescription}
-                  alias={item.categoryAlias || item.categoryName}
-                  tours={item.categoryTours}
-                />) : null
-            ))}
-        </div>
+      <div className={styles.hikeContainer}>
+        {categories
+          .map(item => (
+            item.categoryTours !== null ? (
+              <ToursList
+                key={item.categoryName}
+                title={item.categoryName}
+                desc={item.categoryDescription}
+                alias={item.categoryAlias || item.categoryName}
+                tours={item.categoryTours}
+              />) : null
+          ))}
+      </div>
     </div>
   );
-}
+};
 
 export default HikePage;

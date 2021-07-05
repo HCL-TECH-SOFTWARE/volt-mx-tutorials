@@ -1,15 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import i18next from 'i18next';
-import HikeHeader from "../src/components/HikeHeader";
-import Row from "antd/lib/row";
-import Col from "antd/lib/col";
-import getConfig from "next/config";
-import HikeBreadCrumb from "../src/components/HikeBreadCrumb";
-import KonyButton from "../src/components/KonyButton";
-import styles from "./style.scss";
-import { getHikesCategories } from "../src/utils/populate";
-import { isDev, BASE_PATH_URL } from "../src/config";
-import { getZipDownloadUrl } from "../src/utils/request";
+import Row from 'antd/lib/row';
+import Col from 'antd/lib/col';
+import getConfig from 'next/config';
+import HikeHeader from '../src/components/HikeHeader';
+import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
+import KonyButton from '../src/components/KonyButton';
+import styles from './style.scss';
+import getHikesCategories from '../src/utils/populate';
+import { isDev, BASE_PATH_URL } from '../src/config';
+import { getZipDownloadUrl } from '../src/utils/request';
+
+const propTypes = {
+  url: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+};
 
 const TourDetailPage = ({ url }) => {
   const [tourDetails, setTourDetails] = useState(null);
@@ -23,24 +28,22 @@ const TourDetailPage = ({ url }) => {
     const path = url.asPath.substr(0, url.asPath.indexOf('?'));
     const urlTour = isDev
       ? path.substring(1)
-      : path.replace(`/${BASE_PATH_URL}`, "").substring(1);
+      : path.replace(`/${BASE_PATH_URL}`, '').substring(1);
 
     const categories = await getHikesCategories(hikesData);
 
-    const categoryTours = categories.filter((element) =>
-      element.categoryTours.some((subElement) => subElement.alias == urlTour)
+    const categoryTours = categories.filter(
+      element => element.categoryTours.some(subElement => subElement.alias == urlTour),
     );
 
     setcategoryAlias(categoryTours[0].categoryAlias);
 
-    const tours = categoryTours.map((element) => {
-      return Object.assign({}, element, {
-        categoryTours: element.categoryTours,
-      });
-    })[0];
+    const tours = categoryTours.map(element => Object.assign({}, element, {
+      categoryTours: element.categoryTours,
+    }))[0];
 
     const toursData = tours.categoryTours.filter(
-      (subElement) => subElement.alias == urlTour
+      subElement => subElement.alias == urlTour,
     )[0];
 
     setTourDetails(toursData);
@@ -57,11 +60,11 @@ const TourDetailPage = ({ url }) => {
     const fileURL = getZipDownloadUrl(tourDetails?.fileName, categoryAlias);
 
     return {
-      namespace: "hike",
+      namespace: 'hike',
       msg_id: `id_${date.getTime()}`,
-      msg_type: "POST",
+      msg_type: 'POST',
       request: {
-        context: "tour",
+        context: 'tour',
         category: tourDetails?.category,
         title: tourDetails?.title,
         checksum: tourDetails?.checksum,
@@ -78,10 +81,10 @@ const TourDetailPage = ({ url }) => {
     e.preventDefault();
     e.message = getPostMessage();
 
-    if (typeof e.message !== "undefined") {
+    if (typeof e.message !== 'undefined') {
       console.log(e.message);
 
-      getVizSource().postMessage(e.message, "*");
+      getVizSource().postMessage(e.message, '*');
     }
 
     return false;
@@ -131,12 +134,12 @@ const TourDetailPage = ({ url }) => {
               >
                 <h3 className={styles.tourHeader}>{i18next.t('categories')}</h3>
                 <ul className={styles.tourContent}>
-                  {tourDetails?.category?.map((cat) => <li>{cat}</li>)}
+                  {tourDetails?.category?.map(cat => <li>{cat}</li>)}
                 </ul>
               </Col>
             </Row>
             <h3 className={styles.tourTime}>
-            {`${i18next.t(`step`, {count: tourDetails?.cards})} / ${tourDetails?.time}`}
+              {`${i18next.t('step', { count: tourDetails?.cards })} / ${tourDetails?.time}`}
             </h3>
             <div
               className={styles.tourDetails}
@@ -148,12 +151,14 @@ const TourDetailPage = ({ url }) => {
           <KonyButton
             title={i18next.t('start')}
             type="blue"
-            onClick={(e) => sendPostMessage(e)}
+            onClick={e => sendPostMessage(e)}
           />
         </div>
       </div>
     </div>
   );
 };
+
+TourDetailPage.propTypes = propTypes;
 
 export default TourDetailPage;
