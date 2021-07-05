@@ -1,3 +1,18 @@
+/* ========================================================================== *
+ *                 Copyright (c) 2021 HCL America, Inc.                       *
+ *                            All rights reserved.                            *
+ * ========================================================================== *
+ * Licensed under the  Apache License, Version 2.0  (the "License").  You may *
+ * not use this file except in compliance with the License.  You may obtain a *
+ * copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>.       *
+ *                                                                            *
+ * Unless  required  by applicable  law or  agreed  to  in writing,  software *
+ * distributed under the License is distributed on an  "AS IS" BASIS, WITHOUT *
+ * WARRANTIES OR  CONDITIONS OF ANY KIND, either express or implied.  See the *
+ * License for the  specific language  governing permissions  and limitations *
+ * under the License.                                                         *
+ * ========================================================================== */
+
 const path = require("path");
 const express = require("express");
 const cors = require("cors");
@@ -74,8 +89,30 @@ app.prepare().then(() => {
   server.get("*", (req, res) => handler(req, res));
   server.post("*", (req, res) => handler(req, res));
 
+  const checkPrerequisites = () => {
+    const exportDir = "./export";
+    const tempDir = "./public/temp";
+
+    // check if export directory exists
+    if (!fs.existsSync(exportDir)) {
+      fs.mkdirSync(exportDir);
+      console.log("export directory has been created.");
+      fs.mkdirSync(`${exportDir}/assets`);
+      console.log("export/assets directory has been created.");
+    }
+
+    // check if temp directory exists
+    if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir);
+      console.log("public/temp directory has been created.");
+      fs.mkdirSync(`${tempDir}/assets`);
+      console.log("public/temp/assets directory has been created.");
+    }
+  };
+
   function startServer() {
     server.listen(port, () => {
+      checkPrerequisites();
       console.log(`> Ready on http://localhost:${port}`);
     });
   }
