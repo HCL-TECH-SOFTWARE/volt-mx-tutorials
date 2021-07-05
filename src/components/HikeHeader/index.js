@@ -41,7 +41,6 @@ const HikeHeader = ({ search, keyword }) => {
       ))}
     </Menu>
   );
-
   return (
     <Row className={style.headerRow}>
       <Layout className={style.headerLayout}>
@@ -57,15 +56,22 @@ const HikeHeader = ({ search, keyword }) => {
                 }}
               >
                 <a title="Kony Logo" className={style.logo}>
-                  <img src={`${publicRuntimeConfig.asset}/static/dist/images/productlogo.svg`} className={style.logo} alt="logo" />
+                  <img
+                    src={`${
+                      publicRuntimeConfig.asset
+                    }/static/dist/images/productlogo.svg`}
+                    className={style.logo}
+                    alt="logo"
+                  />
                   <br />
                 </a>
               </Link>
             </Col>
             <Col className={style.camp}>
               <img
-                src={`${publicRuntimeConfig.asset}/static/dist/images/camp-mountain.svg`}
-
+                src={`${
+                  publicRuntimeConfig.asset
+                }/static/dist/images/camp-mountain.svg`}
                 alt="camp mountain"
               />
             </Col>
@@ -82,10 +88,7 @@ const HikeHeader = ({ search, keyword }) => {
           ) : null}
           <div className={style.switchLang}>
             <Dropdown overlay={menu} trigger={['click']}>
-              <a
-                className="ant-dropdown-link"
-                onClick={e => e.preventDefault()}
-              >
+              <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
                 <Icon type="global" />
                 {i18next.t(language)}
                 <Icon type="caret-down" />
