@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/ph-dev' # temporarily: phx-dev branch
+    if: github.ref == 'refs/heads/phx-dev' # temporarily: phx-dev branch
     defaults:
       run:
         working-directory: ./
