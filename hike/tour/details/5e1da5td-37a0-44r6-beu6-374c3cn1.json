@@ -7,7 +7,7 @@
     "fileSize": "29.58 KB",
     "fileName": "addauthenticationtoyourapp_v9.zip",
     "fid": 17162,
-    "checksum": "526a6fa595d9dd2b5ee1225117af45a7b845c6c7276cadc47d3840251dec2d7a",
+    "checksum": "a716fa64fc1ff09a4257c0d03873d03656432d6f07941037ed4995ec81f73979",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-authentication-0",
     "alias": "hikes/tour/add-authentication-0",
     "description": "Secure an app’s data with a user-authentication mechanism.",
@@ -20,6 +20,6 @@
     "kuid": "5e1da5td-37a0-44r6-beu6-374c3cn1",
     "hikeVersion": "1.0",
     "weight": "3",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/3-build-your-first-web-app/zips/addauthenticationtoyourapp_v9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test/public/contents/3-build-your-first-web-app/zips/addauthenticationtoyourapp_v9.zip"
   }
 }
