@@ -18,17 +18,20 @@ const HikePage = () => {
   useEffect(() => {
     getHikes();
     return () => {};
-  }, []);
+  }, [i18next.language]);
 
   useEffect(() => {
-    const { lang } = router.query;
+    const path = router.asPath.split(/\?/);
+    const searchParams = new URLSearchParams(path[1]);
+    const lang = searchParams.get('lang');
+
     if (lang) {
       if (lang !== i18next.language) {
-        router.reload(router.asPath);
+        router.push(router.asPath);
       }
     } else {
       router.push({
-        pathname: router.pathname,
+        pathname: path[0] || router.pathname,
         query: {
           lang: 'en-US',
         },

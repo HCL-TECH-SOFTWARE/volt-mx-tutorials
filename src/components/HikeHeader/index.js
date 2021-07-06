@@ -24,11 +24,7 @@ const HikeHeader = ({ search, keyword }) => {
   }, [i18next.language]);
 
   const changeLang = useCallback((selectedLanguage) => {
-    const { tour } = router.query;
-    const refreshPath = tour
-      ? `${publicRuntimeConfig.asset}/hikes/tour/${tour}?lang=${selectedLanguage}`
-      : `${publicRuntimeConfig.asset}/hikes?lang=${selectedLanguage}`;
-    // redirect
+    const refreshPath = router.asPath.split(/=/)[0].concat(`=${selectedLanguage}`);
     router.push(refreshPath);
   }, []);
 
@@ -77,10 +73,7 @@ const HikeHeader = ({ search, keyword }) => {
             </Col>
           </Row>
         </Header>
-        <div
-          {...router.query.tour && { style: { justifyContent: 'flex-end' } }}
-          className={style.subHeader}
-        >
+        <div className={style.subHeader}>
           {search ? (
             <div className={style.search}>
               <HikeSearch keyword={keyword} />
