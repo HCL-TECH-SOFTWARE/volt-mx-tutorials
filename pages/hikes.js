@@ -18,7 +18,7 @@ const HikePage = () => {
   useEffect(() => {
     getHikes();
     return () => {};
-  }, []);
+  }, [i18next.language]);
 
   useEffect(() => {
     const path = router.asPath.split(/\?/);

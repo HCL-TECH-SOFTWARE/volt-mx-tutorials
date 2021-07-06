@@ -31,20 +31,18 @@ export const getHikesCategories = async (hikesUrls) => {
 
   // map all response data into single array
   const categories = responses.map(res => res.data);
-  if (i18next.language !== 'en-US') {
-    for (const url of hikesUrls.values()) {
-      try {
-        const translatedTours = await axios.get(`${SERVER}/contents/${url}/tours_${i18next.language}.json`);
-        for (const response of responses) {
-          const responseUrl = response.config.url.split('/');
-          const hikeUrl = responseUrl[responseUrl.length - 2];
-          if (hikeUrl === url) {
-            mergeTranslatedJson(translatedTours.data, response.data);
-          }
+  for (const url of hikesUrls.values()) {
+    try {
+      const translatedTours = await axios.get(`${SERVER}/contents/${url}/tours_${i18next.language}.json`);
+      for (const response of responses) {
+        const responseUrl = response.config.url.split('/');
+        const hikeUrl = responseUrl[responseUrl.length - 2];
+        if (hikeUrl === url) {
+          mergeTranslatedJson(translatedTours.data, response.data);
         }
-      } catch (error) {
-        console.log('Fail to get %o tours files of %o', i18next.language, url);
       }
+    } catch (error) {
+      console.log('Fail to get %o tours files of %o', i18next.language, url);
     }
   }
   return categories;
