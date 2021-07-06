@@ -1,7 +1,9 @@
 import axios from 'axios';
 import i18next from 'i18next';
-import _ from 'lodash';
+import getConfig from 'next/config';
 import { SERVER } from '../config';
+
+const { publicRuntimeConfig } = getConfig();
 
 const mergeTranslatedJson = (lang, json) => {
   for (const key in lang) {
@@ -21,7 +23,7 @@ const mergeTranslatedJson = (lang, json) => {
  *
  * @return Array.
  */
-const getHikesCategories = async (hikesUrls) => {
+export const getHikesCategories = async (hikesUrls) => {
   // map all data into one request
   const urls = hikesUrls.map(url => axios.get(`${SERVER}/contents/${url}/tours.json`));
 
@@ -48,4 +50,8 @@ const getHikesCategories = async (hikesUrls) => {
   return categories;
 };
 
-export default getHikesCategories;
+export const getMapCategories = async () => {
+  const { hikesData } = publicRuntimeConfig;
+  const hikes = await getHikesCategories(hikesData);
+  return hikes;
+};

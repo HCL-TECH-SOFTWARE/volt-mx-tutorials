@@ -10,7 +10,7 @@ import HikeHeader from '../src/components/HikeHeader';
 import TourCard from '../src/components/TourCard';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import styles from './style.scss';
-import getHikesCategories from '../src/utils/populate';
+import { getHikesCategories } from '../src/utils/populate';
 import { BASE_PATH_URL, isDev } from '../src/config';
 
 const { publicRuntimeConfig } = getConfig();
