@@ -201,7 +201,7 @@ const GenerateTourPage = () => {
               </Button>
               <DetailsEditor
                 checksum={checksum}
-                ckData={_get(values, ['localization', editingLanguage, 'details'], values.details)}
+                ckData={_get(values, ['localization', editingLanguage, 'details'], '')}
                 onChangeData={setDetails}
               />
             </div>
