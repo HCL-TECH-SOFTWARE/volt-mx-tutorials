@@ -1,1 +1,78 @@
-{"categoryName":"構建您的第一個Web應用","categoryDescription":"<p>創建一個響應迅速的Web應用程序—一個在任何設備上看起來和執行都完美無需編碼的Web應用程序。通過這些遠足學習如何創建Web應用程序使用者介面、將Web應用程序與後端數據集成、設定響應度參數以及使用身份驗證機制保護應用程序。</p>","categoryTours":[{"title":"啟動響應式Web應用程序","description":"啟動響應式Web應用程序","details":"<p><!--StartFragment--></p> <p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>導入顯示帳戶和收件人清單的示例web應用</li> <li>使用Live Preview在您的電腦上預覽示例應用程序</li> </ul> </div> </div> <p><!--EndFragment--></p> <p><!--EndFragment--></p>","time":"10分鐘","category":[]},{"title":"從集合創建UI","description":"為帶有Volt MX Iris的應用程序創建使用者介面","details":"<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>為用戶互動創建帶有UI元素的響應Web表單</li> <li>添加導航以訪問應用程序的不同形式</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"20分鐘","category":[]},{"title":"添加身份驗證","description":"使用用戶身份驗證機制保護應用程序的數據。","details":"<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>學習配寘標識服務</li> <li>將身份服務映射到應用程序的UI元素</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"15分鐘","category":[]},{"title":"為後端數據創建服務","description":"為後端數據創建服務","details":"<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>為創建和配寘存儲對象服務；<strong>帳戶</strong>&nbsp；以及；<strong>收件人</strong>.</li> <li>將項目服務發佈到運行時服務器</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"10分鐘","category":[]},{"title":"將應用程序UI連接到數據","description":"將應用程序UI連接到數據","details":"<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>使用帳戶表單連接服務</li> <li>將服務與；收件人；形式</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"15分鐘","category":[]},{"title":"創建詳細資訊荧幕和添加删除功能","description":"創建詳細資訊荧幕和添加删除功能","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是一個；伏特MX；徒步旅行。  徒步旅行是一種室內互動旅遊；伏特MX；Iris，指導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>創建收件人詳細資訊表單</li> <li>使用服務為收件人詳細資訊表單創建UI</li> <li>添加用於删除收件人的功能</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"30分鐘","category":[]},{"title":"添加創建收件人","description":"添加創建收件人","details":"<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>學習如何：</p> <ul> <li>創建和設計用於創建收件人的表單</li> <li>連接服務以使用UI元素創建收件人</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"25分鐘","category":[]},{"title":"添加編輯收件人","description":"添加編輯收件人詳細資訊的功能。","details":"<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>生成用於編輯收件人詳細資訊的荧幕</li> <li>設計“編輯收件人”表單的UI</li> <li>將服務中的數據連接到UI元素</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"35分鐘","category":[]},{"title":"響應Web中斷點","description":"通過使用中斷點使您的web應用程序具有響應性。","details":"<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>為表單“創建收件人”和“編輯收件人”荧幕添加三個中斷點。</li> <li>查看；<strong>實时顯示</strong>&nbsp；實时響應中斷點。</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"20分鐘","category":[]}]}
+{
+  "categoryName": "構建您的第一個Web應用",
+  "categoryDescription": "<p>創建一個響應迅速的Web應用程序—一個在任何設備上看起來和執行都完美無需編碼的Web應用程序。通過這些遠足學習如何創建Web應用程序使用者介面、將Web應用程序與後端數據集成、設定響應度參數以及使用身份驗證機制保護應用程序。</p>",
+  "categoryTours": [
+    {
+      "nid": 24826,
+      "title": "啟動響應式Web應用程序",
+      "description": "啟動響應式Web應用程序",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>導入顯示帳戶和收件人清單的示例web應用</li> <li>使用Live Preview在您的電腦上預覽示例應用程序</li> </ul> </div> </div> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "10分鐘",
+      "category": []
+    },
+    {
+      "nid": 24413,
+      "title": "從集合創建UI",
+      "description": "為帶有Volt MX Iris的應用程序創建使用者介面",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>為用戶互動創建帶有UI元素的響應Web表單</li> <li>添加導航以訪問應用程序的不同形式</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20分鐘",
+      "category": []
+    },
+    {
+      "nid": 24414,
+      "title": "添加身份驗證",
+      "description": "使用用戶身份驗證機制保護應用程序的數據。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>學習配寘標識服務</li> <li>將身份服務映射到應用程序的UI元素</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": []
+    },
+    {
+      "nid": 24415,
+      "title": "為後端數據創建服務",
+      "description": "為後端數據創建服務",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>為創建和配寘存儲對象服務；<strong>帳戶</strong>&nbsp；以及；<strong>收件人</strong>.</li> <li>將項目服務發佈到運行時服務器</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10分鐘",
+      "category": []
+    },
+    {
+      "nid": 24416,
+      "title": "將應用程序UI連接到數據",
+      "description": "將應用程序UI連接到數據",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>使用帳戶表單連接服務</li> <li>將服務與；收件人；形式</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": []
+    },
+    {
+      "nid": 24417,
+      "title": "創建詳細資訊荧幕和添加删除功能",
+      "description": "創建詳細資訊荧幕和添加删除功能",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是一個；伏特MX；徒步旅行。  徒步旅行是一種室內互動旅遊；伏特MX；Iris，指導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>創建收件人詳細資訊表單</li> <li>使用服務為收件人詳細資訊表單創建UI</li> <li>添加用於删除收件人的功能</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "30分鐘",
+      "category": []
+    },
+    {
+      "nid": 24418,
+      "title": "添加創建收件人",
+      "description": "添加創建收件人",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>學習如何：</p> <ul> <li>創建和設計用於創建收件人的表單</li> <li>連接服務以使用UI元素創建收件人</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "25分鐘",
+      "category": []
+    },
+    {
+      "nid": 24419,
+      "title": "添加編輯收件人",
+      "description": "添加編輯收件人詳細資訊的功能。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>生成用於編輯收件人詳細資訊的荧幕</li> <li>設計“編輯收件人”表單的UI</li> <li>將服務中的數據連接到UI元素</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "35分鐘",
+      "category": []
+    },
+    {
+      "nid": 24420,
+      "title": "響應Web中斷點",
+      "description": "通過使用中斷點使您的web應用程序具有響應性。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是Volt MX徒步旅行。  徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的遠足圖標來訪問遠足目錄：；</p> <p> &nbsp；</p> <p>瞭解如何：；</p> <ul> <li>為表單“創建收件人”和“編輯收件人”荧幕添加三個中斷點。</li> <li>查看；<strong>實时顯示</strong>&nbsp；實时響應中斷點。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20分鐘",
+      "category": []
+    }
+  ]
+}

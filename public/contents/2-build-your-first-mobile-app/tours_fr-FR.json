@@ -1,1 +1,94 @@
-{"categoryName":"Créer votre première application mobile","categoryDescription":"<p>Créer une application mobile est incroyablement rapide sans codage.Apprenez comment faire glisser et déposer des éléments d'interface utilisateur dans une application, intégrer l'application aux données d'arrière - plan et protéger l'application en utilisant des mécanismes d'authentification.</p>","categoryTours":[{"title":"Démarrer votre première application mobile","description":"Ouvrez l'application mobile Native et prévisualisez sur votre appareil mobile.","details":"<p><!--StartFragment--></p> <p><br />Ce module d'apprentissage est la randonnée volt MX. &Nbsp;La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <p>NbspNbsp;Importer un exemple d'application Native qui affiche une liste de comptes et de destinataires;</p> <p>NbspNbsp;Prévisualiser l'exemple d'application sur l'appareil mobile;</p> <p><!--EndFragment--></p>","time":"11 minutes","category":[]},{"title":"Créer une interface utilisateur à partir d'une collection","description":"Créer une interface utilisateur pour les applications avec volt MX Iris","details":"<p><!--StartFragment--></p> <div> <div> <p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer des formulaires avec des éléments d'interface utilisateur pour l'interaction utilisateur</li> <li>Ajouter une navigation pour accéder aux différents formulaires de cette application</li> </ul> </div> </div> </div> </div> <p><!--EndFragment--></p>","time":"20 minutes","category":[]},{"title":"Ajouter l'authentification","description":"Utilisez le mécanisme d'authentification de l'utilisateur pour protéger les données de l'application.","details":"<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Apprendre à configurer le Service d'identité</li> <li>Cartographie des services d'identité aux éléments de l'interface utilisateur de l'application</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"15 minutes","category":[]},{"title":"Créer un service pour les données d'arrière - plan","description":"Créer un service pour les données d'arrière - plan","details":"<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer et configurer des services d'objets de stockage;<strong>Comptes</strong>Nbsp;Et<strong>Destinataires</strong>.</li> <li>Publier les services de projet sur le serveur d'exécution.</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"10 minutes","category":[]},{"title":"Connexion de l'interface utilisateur de l'application aux données","description":"Connectez l'interface utilisateur de l'application aux données.","details":"<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Connectez - vous au service en utilisant le formulaire de compte</li> <li>Mettre les services en relation avec;Formulaire du destinataire</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"20 minutes","category":[]},{"title":"Créer un écran de détails et supprimer les destinataires","description":"Créer un écran de détails et ajouter supprimer les destinataires","details":"<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer un formulaire de détails du destinataire</li> <li>Créer une interface utilisateur pour le formulaire de détails du destinataire en utilisant le Service</li> <li>Ajouter une fonctionnalité pour supprimer les destinataires</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"37 minutes","category":[]},{"title":"Ajouter créer un destinataire","description":"Ajouter une fonctionnalité pour créer un nouveau destinataire.","details":"<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:</p> <ul> <li>Créer et concevoir des formulaires pour créer des destinataires</li> <li>Connectez le service pour créer un destinataire en utilisant l'élément UI</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"32 minutes","category":[]},{"title":"Ajouter un destinataire d'édition","description":"Ajouter une fonctionnalité pour modifier les détails du destinataire.","details":"<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Générer un écran pour modifier les détails du destinataire</li> <li>Concevoir l'interface utilisateur pour le formulaire modifier les destinataires</li> <li>Connexion des données du service aux éléments de l'interface utilisateur</li> </ul> <p><!--EndFragment--></p>","time":"36 minutes","category":[]},{"title":"Publier et partager des applications","description":"Prévisualiser l'application destinataire sur l'appareil mobile en utilisant l'application volt MX.","details":"<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Prévisualiser l'application destinataire sur l'appareil mobile.</li> </ul> <p><!--EndFragment--></p>","time":"10 minutes","category":[]},{"title":"Enregistreur d'essai","description":"Apprendre à utiliser l'enregistreur de test sur les applications natives","details":"<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer un cas de test</li> <li>Créer une suite de test</li> <li>Créer un plan de test</li> </ul> <p><!--EndFragment--></p>","time":"20 minutes","category":[]},{"title":"Publier l'application dans le magasin d'entreprise","description":"Apprenez Comment publier des applications dans le magasin d'applications d'entreprise","details":"<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Publier l'application dans Android Enterprise app store.</li> </ul> <p><!--EndFragment--></p>","time":"10 minutes","category":[]}]}
+{
+  "categoryName": "Créer votre première application mobile",
+  "categoryDescription": "<p>Créer une application mobile est incroyablement rapide sans codage.Apprenez comment faire glisser et déposer des éléments d'interface utilisateur dans une application, intégrer l'application aux données d'arrière - plan et protéger l'application en utilisant des mécanismes d'authentification.</p>",
+  "categoryTours": [
+    {
+      "nid": 24825,
+      "title": "Démarrer votre première application mobile",
+      "description": "Ouvrez l'application mobile Native et prévisualisez sur votre appareil mobile.",
+      "details": "<p><!--StartFragment--></p> <p><br />Ce module d'apprentissage est la randonnée volt MX. &Nbsp;La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <p>NbspNbsp;Importer un exemple d'application Native qui affiche une liste de comptes et de destinataires;</p> <p>NbspNbsp;Prévisualiser l'exemple d'application sur l'appareil mobile;</p> <p><!--EndFragment--></p>",
+      "time": "11 minutes",
+      "category": []
+    },
+    {
+      "nid": 24403,
+      "title": "Créer une interface utilisateur à partir d'une collection",
+      "description": "Créer une interface utilisateur pour les applications avec volt MX Iris",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer des formulaires avec des éléments d'interface utilisateur pour l'interaction utilisateur</li> <li>Ajouter une navigation pour accéder aux différents formulaires de cette application</li> </ul> </div> </div> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 minutes",
+      "category": []
+    },
+    {
+      "nid": 24404,
+      "title": "Ajouter l'authentification",
+      "description": "Utilisez le mécanisme d'authentification de l'utilisateur pour protéger les données de l'application.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Apprendre à configurer le Service d'identité</li> <li>Cartographie des services d'identité aux éléments de l'interface utilisateur de l'application</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 minutes",
+      "category": []
+    },
+    {
+      "nid": 24405,
+      "title": "Créer un service pour les données d'arrière - plan",
+      "description": "Créer un service pour les données d'arrière - plan",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer et configurer des services d'objets de stockage;<strong>Comptes</strong>Nbsp;Et<strong>Destinataires</strong>.</li> <li>Publier les services de projet sur le serveur d'exécution.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10 minutes",
+      "category": []
+    },
+    {
+      "nid": 24406,
+      "title": "Connexion de l'interface utilisateur de l'application aux données",
+      "description": "Connectez l'interface utilisateur de l'application aux données.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Connectez - vous au service en utilisant le formulaire de compte</li> <li>Mettre les services en relation avec;Formulaire du destinataire</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 minutes",
+      "category": []
+    },
+    {
+      "nid": 24407,
+      "title": "Créer un écran de détails et supprimer les destinataires",
+      "description": "Créer un écran de détails et ajouter supprimer les destinataires",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer un formulaire de détails du destinataire</li> <li>Créer une interface utilisateur pour le formulaire de détails du destinataire en utilisant le Service</li> <li>Ajouter une fonctionnalité pour supprimer les destinataires</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "37 minutes",
+      "category": []
+    },
+    {
+      "nid": 24408,
+      "title": "Ajouter créer un destinataire",
+      "description": "Ajouter une fonctionnalité pour créer un nouveau destinataire.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:</p> <ul> <li>Créer et concevoir des formulaires pour créer des destinataires</li> <li>Connectez le service pour créer un destinataire en utilisant l'élément UI</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "32 minutes",
+      "category": []
+    },
+    {
+      "nid": 24409,
+      "title": "Ajouter un destinataire d'édition",
+      "description": "Ajouter une fonctionnalité pour modifier les détails du destinataire.",
+      "details": "<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Générer un écran pour modifier les détails du destinataire</li> <li>Concevoir l'interface utilisateur pour le formulaire modifier les destinataires</li> <li>Connexion des données du service aux éléments de l'interface utilisateur</li> </ul> <p><!--EndFragment--></p>",
+      "time": "36 minutes",
+      "category": []
+    },
+    {
+      "nid": 24410,
+      "title": "Publier et partager des applications",
+      "description": "Prévisualiser l'application destinataire sur l'appareil mobile en utilisant l'application volt MX.",
+      "details": "<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Prévisualiser l'application destinataire sur l'appareil mobile.</li> </ul> <p><!--EndFragment--></p>",
+      "time": "10 minutes",
+      "category": []
+    },
+    {
+      "nid": 24411,
+      "title": "Enregistreur d'essai",
+      "description": "Apprendre à utiliser l'enregistreur de test sur les applications natives",
+      "details": "<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Créer un cas de test</li> <li>Créer une suite de test</li> <li>Créer un plan de test</li> </ul> <p><!--EndFragment--></p>",
+      "time": "20 minutes",
+      "category": []
+    },
+    {
+      "nid": 24412,
+      "title": "Publier l'application dans le magasin d'entreprise",
+      "description": "Apprenez Comment publier des applications dans le magasin d'applications d'entreprise",
+      "details": "<p><!--StartFragment--></p> <p>Ce module d'apprentissage est la randonnée volt MX.  La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire des excursions en cliquant sur l'icône excursions dans la barre d'outils iris:;</p> <p> &Nbsp;</p> <p>Apprenez Comment:;</p> <ul> <li>Publier l'application dans Android Enterprise app store.</li> </ul> <p><!--EndFragment--></p>",
+      "time": "10 minutes",
+      "category": []
+    }
+  ]
+}

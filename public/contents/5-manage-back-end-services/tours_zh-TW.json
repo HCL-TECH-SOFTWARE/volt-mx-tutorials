@@ -1,1 +1,46 @@
-{"categoryName":"管理後端服務","categoryDescription":"<p>瞭解可以與前端連接的不同服務。這些服務包括：標識服務、集成服務和編排服務。</p>","categoryTours":[{"title":"瞭解身份服務","description":"向應用程序添加身份驗證。","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；瞭解如何使用身份驗證機制保護應用程序。</p> </div> </div> <p><!--EndFragment--></p>","time":"15分鐘","category":[]},{"title":"添加Salesforce服務","description":"瞭解如何將Salesforce服務添加到應用程序。","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>瞭解如何配寘通過使用Salesforce數據連接器與外部資料來源通信的服務。</p> </div> </div> <p><!--EndFragment--></p>","time":"15分鐘","category":[]},{"title":"添加身份驗證源","description":"將Volt MX用戶存儲庫添加到應用程序以授權用戶。","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>添加Volt MX用戶存儲庫作為身份驗證源</li> <li>將用戶添加到存儲庫</li> <li>使用Volt MX用戶存儲庫中的登入憑據訪問應用程序</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"17分鐘","category":[]},{"title":"使用示例服務","description":"將示例後端資料庫連接到表單","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>創建表單</li> <li>連接到示例後端資料庫</li> <li>向表單中添加數據。您可以按照相同的步驟將自己的後端數據綁定到應用程序。</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"12分鐘","category":[]},{"title":"使用存儲服務","description":"創建存儲服務，填充數據，並將數據連接到表單。","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>創建表單</li> <li>創建存儲服務</li> <li>在存儲服務中填充數據</li> <li>將數據連接到表單</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"15分鐘","category":[]}]}
+{
+  "categoryName": "管理後端服務",
+  "categoryDescription": "<p>瞭解可以與前端連接的不同服務。這些服務包括：標識服務、集成服務和編排服務。</p>",
+  "categoryTours": [
+    {
+      "nid": 24433,
+      "title": "瞭解身份服務",
+      "description": "向應用程序添加身份驗證。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；瞭解如何使用身份驗證機制保護應用程序。</p> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": []
+    },
+    {
+      "nid": 24434,
+      "title": "添加Salesforce服務",
+      "description": "瞭解如何將Salesforce服務添加到應用程序。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>瞭解如何配寘通過使用Salesforce數據連接器與外部資料來源通信的服務。</p> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": []
+    },
+    {
+      "nid": 24435,
+      "title": "添加身份驗證源",
+      "description": "將Volt MX用戶存儲庫添加到應用程序以授權用戶。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>添加Volt MX用戶存儲庫作為身份驗證源</li> <li>將用戶添加到存儲庫</li> <li>使用Volt MX用戶存儲庫中的登入憑據訪問應用程序</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "17分鐘",
+      "category": []
+    },
+    {
+      "nid": 24436,
+      "title": "使用示例服務",
+      "description": "將示例後端資料庫連接到表單",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>創建表單</li> <li>連接到示例後端資料庫</li> <li>向表單中添加數據。您可以按照相同的步驟將自己的後端數據綁定到應用程序。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12分鐘",
+      "category": []
+    },
+    {
+      "nid": 24437,
+      "title": "使用存儲服務",
+      "description": "創建存儲服務，填充數據，並將數據連接到表單。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>創建表單</li> <li>創建存儲服務</li> <li>在存儲服務中填充數據</li> <li>將數據連接到表單</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": []
+    }
+  ]
+}

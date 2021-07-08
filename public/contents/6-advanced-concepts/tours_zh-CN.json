@@ -1,1 +1,22 @@
-{"categoryName":"先进的理念","categoryDescription":"","categoryTours":[{"title":"NFIs简介","description":"使用NFIs访问操作系统特定的功能，特别是Android设备设置。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>配置从使用Volt MX的应用程序访问Android设备上的设备设置所需的Android本机函数api。</li> </ul> <ul> <li>在窗体控制器中添加代码以访问设备设置</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"16分钟","category":[]},{"title":"NFIs使用第三方库","description":"使用NFIs访问第三方库，特别是Android条形码扫描仪。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>学习如何：</p> <ul> <li>将集合库导入应用程序并在窗体中使用</li> <li>为Android应用程序配置条形码扫描仪所需的本机函数API</li> <li>在表单控制器中为条形码扫描功能添加代码</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"20分钟","category":[]}]}
+{
+  "categoryName": "先进的理念",
+  "categoryDescription": "",
+  "categoryTours": [
+    {
+      "nid": 24438,
+      "title": "NFIs简介",
+      "description": "使用NFIs访问操作系统特定的功能，特别是Android设备设置。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>配置从使用Volt MX的应用程序访问Android设备上的设备设置所需的Android本机函数api。</li> </ul> <ul> <li>在窗体控制器中添加代码以访问设备设置</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16分钟",
+      "category": []
+    },
+    {
+      "nid": 24439,
+      "title": "NFIs使用第三方库",
+      "description": "使用NFIs访问第三方库，特别是Android条形码扫描仪。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>学习如何：</p> <ul> <li>将集合库导入应用程序并在窗体中使用</li> <li>为Android应用程序配置条形码扫描仪所需的本机函数API</li> <li>在表单控制器中为条形码扫描功能添加代码</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20分钟",
+      "category": []
+    }
+  ]
+}

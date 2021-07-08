@@ -4,6 +4,8 @@ import { initReactI18next } from 'react-i18next';
 import XHR from 'i18next-http-backend';
 
 export const locales = ['en-US', 'zh-CN', 'zh-TW', 'hi-IN'];
+export const defaultLocale = 'en-US';
+
 const detection = {
   // order and from where user language should be detected
   order: ['querystring', 'path'],
@@ -19,7 +21,7 @@ i18next
     fallbackLng: {
       en: ['en-US'],
       zh: ['zh-CN'],
-      default: ['en-US'],
+      default: [defaultLocale],
     },
     returnObjects: true,
     debug: false,

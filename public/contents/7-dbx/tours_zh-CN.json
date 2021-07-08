@@ -1,1 +1,14 @@
-{"categoryName":"数据库","categoryDescription":"","categoryTours":[{"title":"动态UI生成","description":"使用数据面板动态生成用户界面。","details":"","time":"5分钟","category":[]}]}
+{
+  "categoryName": "数据库",
+  "categoryDescription": "",
+  "categoryTours": [
+    {
+      "nid": 24053,
+      "title": "动态UI生成",
+      "description": "使用数据面板动态生成用户界面。",
+      "details": "",
+      "time": "5分钟",
+      "category": []
+    }
+  ]
+}

@@ -7,5 +7,7 @@
   "en-US": "English",
   "zh-CN": "Chinese(Simplified)",
   "zh-TW": "Chinese(Traditional)",
-  "hi-IN": "Hindi"
+  "hi-IN": "Hindi",
+  "composer_editing_language": "Edit Language",
+  "composer_editing_language_tooltip": "Switch between languages to preview and edit the content for that language. Falls back to English when no content is found for the selected language."
 }

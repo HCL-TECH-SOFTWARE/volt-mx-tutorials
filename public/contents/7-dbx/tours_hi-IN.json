@@ -1,1 +1,14 @@
-{"categoryName":" डीबीएक्स","categoryDescription":"","categoryTours":[{"title":" गतिशील UI जनरेशन","description":" डेटा पैनल का उपयोग करके गतिशील UI पीढ़ी।","details":"","time":" 5 मिनट","category":[]}]}
+{
+  "categoryName": " डीबीएक्स",
+  "categoryDescription": "",
+  "categoryTours": [
+    {
+      "nid": 24053,
+      "title": " गतिशील UI जनरेशन",
+      "description": " डेटा पैनल का उपयोग करके गतिशील UI पीढ़ी।",
+      "details": "",
+      "time": " 5 मिनट",
+      "category": []
+    }
+  ]
+}

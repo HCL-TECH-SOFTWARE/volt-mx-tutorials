@@ -1,1 +1,102 @@
-{"categoryName":"开发前端","categoryDescription":"<p>探索HCL伏MX虹膜的简化用户界面，而你建立低代码和跨渠道的应用程序。了解可以构建的不同布局和应用程序类型。</p>","categoryTours":[{"title":"伏特MX方向","description":"了解Volt MX虹膜功能","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>简要了解Volt MX Iris的特性及其功能。</p> </div> </div> <p><!--EndFragment--></p>","time":"3分钟","category":[]},{"title":"Flex布局简介","description":"了解Flex布局属性。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>对于FlexContainer小部件，了解如何：</p> <ul> <li>定义小部件排列</li> <li>修改自由形式属性</li> <li>添加徽标和标题小部件</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"16分钟","category":[]},{"title":"Flex布局属性","description":"使用属性管理flex布局。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>设置按钮小部件的属性</li> <li>沿X轴和Y轴对齐按钮</li> <li>探索zIndex属性</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"16分钟","category":[]},{"title":"细分市场简介","description":"学习Segment小部件的基础知识。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>使用段小部件创建FlexForm</li> <li>向段小部件添加小部件</li> <li>将示例数据分配给段小部件</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"15分钟","category":[]},{"title":"将数据分配给段","description":"了解如何将数据分配给段小部件。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>更改UI并向段小部件添加新小部件</li> <li>将后端服务绑定到段中的UI元素</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"10分钟","category":[]},{"title":"段模板简介","description":"了解有关使用段模板的更多信息。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>将段中的行转换为模板。</li> <li>使用模板将示例数据添加到段中的小部件。</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"12分钟","category":[]},{"title":"动作编辑器简介","description":"学习如何使用动作编辑器。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>学习如何：</p> <p>使用动作编辑器，</p> <ul> <li>在窗体之间导航</li> <li>设置if，else条件</li> <li>显示警报</li> <li>设置小部件属性</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"15分钟","category":[]},{"title":"创建零部件","description":"学习如何创建组件。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>创建登录窗体</li> <li>为组件创建布局</li> <li>向小部件添加数据验证</li> <li>将组件添加到登录窗体</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"22分钟","category":[]},{"title":"了解应用程序频道","description":"探索为各种应用程序频道设计的示例应用程序。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>了解以下频道：</p> <ul> <li>手机</li> <li>平板电脑</li> <li>桌面</li> <li>可穿戴设备</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"6分钟","category":[]},{"title":"Volt MX JavaScript简介","description":"了解Volt MX JavaScript的基础知识。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>使用JavaScript创建登录表单</li> <li>深入了解validate和onNavigate函数</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"20分钟","category":[]},{"title":"国际化概论","description":"学习国际化的基础知识（i18n）。","details":"<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris中的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的Hikes图标来访问Hikes目录。</p> <p>学习如何：</p> <ul> <li>为不同地区配置应用程序</li> <li>查看设备上应用程序的区域设置更改</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>","time":"17分钟","category":[]},{"title":"布局国际化","description":"学习布局配置更改的国际化（i18n）基础知识。","details":"<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris中的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的Hikes图标来访问Hikes目录。</p> <p>学习如何：</p> <ul> <li>为不同地区配置应用程序</li> <li>查看设备上应用程序的区域设置和布局更改</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>","time":"17分钟","category":[]}]}
+{
+  "categoryName": "开发前端",
+  "categoryDescription": "<p>探索HCL伏MX虹膜的简化用户界面，而你建立低代码和跨渠道的应用程序。了解可以构建的不同布局和应用程序类型。</p>",
+  "categoryTours": [
+    {
+      "nid": 24421,
+      "title": "伏特MX方向",
+      "description": "了解Volt MX虹膜功能",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>简要了解Volt MX Iris的特性及其功能。</p> </div> </div> <p><!--EndFragment--></p>",
+      "time": "3分钟",
+      "category": []
+    },
+    {
+      "nid": 24422,
+      "title": "Flex布局简介",
+      "description": "了解Flex布局属性。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>对于FlexContainer小部件，了解如何：</p> <ul> <li>定义小部件排列</li> <li>修改自由形式属性</li> <li>添加徽标和标题小部件</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16分钟",
+      "category": []
+    },
+    {
+      "nid": 24423,
+      "title": "Flex布局属性",
+      "description": "使用属性管理flex布局。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>设置按钮小部件的属性</li> <li>沿X轴和Y轴对齐按钮</li> <li>探索zIndex属性</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16分钟",
+      "category": []
+    },
+    {
+      "nid": 24424,
+      "title": "细分市场简介",
+      "description": "学习Segment小部件的基础知识。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>使用段小部件创建FlexForm</li> <li>向段小部件添加小部件</li> <li>将示例数据分配给段小部件</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": []
+    },
+    {
+      "nid": 24425,
+      "title": "将数据分配给段",
+      "description": "了解如何将数据分配给段小部件。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>更改UI并向段小部件添加新小部件</li> <li>将后端服务绑定到段中的UI元素</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10分钟",
+      "category": []
+    },
+    {
+      "nid": 24426,
+      "title": "段模板简介",
+      "description": "了解有关使用段模板的更多信息。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>将段中的行转换为模板。</li> <li>使用模板将示例数据添加到段中的小部件。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12分钟",
+      "category": []
+    },
+    {
+      "nid": 24427,
+      "title": "动作编辑器简介",
+      "description": "学习如何使用动作编辑器。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>学习如何：</p> <p>使用动作编辑器，</p> <ul> <li>在窗体之间导航</li> <li>设置if，else条件</li> <li>显示警报</li> <li>设置小部件属性</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": []
+    },
+    {
+      "nid": 24428,
+      "title": "创建零部件",
+      "description": "学习如何创建组件。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>创建登录窗体</li> <li>为组件创建布局</li> <li>向小部件添加数据验证</li> <li>将组件添加到登录窗体</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "22分钟",
+      "category": []
+    },
+    {
+      "nid": 24429,
+      "title": "了解应用程序频道",
+      "description": "探索为各种应用程序频道设计的示例应用程序。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>了解以下频道：</p> <ul> <li>手机</li> <li>平板电脑</li> <li>桌面</li> <li>可穿戴设备</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "6分钟",
+      "category": []
+    },
+    {
+      "nid": 24430,
+      "title": "Volt MX JavaScript简介",
+      "description": "了解Volt MX JavaScript的基础知识。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>使用JavaScript创建登录表单</li> <li>深入了解validate和onNavigate函数</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20分钟",
+      "category": []
+    },
+    {
+      "nid": 24827,
+      "title": "国际化概论",
+      "description": "学习国际化的基础知识（i18n）。",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris中的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的Hikes图标来访问Hikes目录。</p> <p>学习如何：</p> <ul> <li>为不同地区配置应用程序</li> <li>查看设备上应用程序的区域设置更改</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "17分钟",
+      "category": []
+    },
+    {
+      "nid": 24828,
+      "title": "布局国际化",
+      "description": "学习布局配置更改的国际化（i18n）基础知识。",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris中的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的Hikes图标来访问Hikes目录。</p> <p>学习如何：</p> <ul> <li>为不同地区配置应用程序</li> <li>查看设备上应用程序的区域设置和布局更改</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "17分钟",
+      "category": []
+    }
+  ]
+}

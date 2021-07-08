@@ -1,1 +1,46 @@
-{"categoryName":"管理后端服务","categoryDescription":"<p>了解可以与前端连接的不同服务。这些服务包括：标识服务、集成服务和编排服务。</p>","categoryTours":[{"title":"了解身份服务","description":"向应用程序添加身份验证。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；了解如何使用身份验证机制保护应用程序。</p> </div> </div> <p><!--EndFragment--></p>","time":"15分钟","category":[]},{"title":"添加Salesforce服务","description":"了解如何将Salesforce服务添加到应用程序。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>了解如何配置通过使用Salesforce数据连接器与外部数据源通信的服务。</p> </div> </div> <p><!--EndFragment--></p>","time":"15分钟","category":[]},{"title":"添加身份验证源","description":"将Volt MX用户存储库添加到应用程序以授权用户。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>添加Volt MX用户存储库作为身份验证源</li> <li>将用户添加到存储库</li> <li>使用Volt MX用户存储库中的登录凭据访问应用程序</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"17分钟","category":[]},{"title":"使用示例服务","description":"将示例后端数据库连接到窗体","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>创建窗体</li> <li>连接到示例后端数据库</li> <li>向窗体中添加数据。您可以按照相同的步骤将自己的后端数据绑定到应用程序。</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"12分钟","category":[]},{"title":"使用存储服务","description":"创建存储服务，填充数据，并将数据连接到表单。","details":"<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>创建窗体</li> <li>创建存储服务</li> <li>在存储服务中填充数据</li> <li>将数据连接到窗体</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"15分钟","category":[]}]}
+{
+  "categoryName": "管理后端服务",
+  "categoryDescription": "<p>了解可以与前端连接的不同服务。这些服务包括：标识服务、集成服务和编排服务。</p>",
+  "categoryTours": [
+    {
+      "nid": 24433,
+      "title": "了解身份服务",
+      "description": "向应用程序添加身份验证。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；了解如何使用身份验证机制保护应用程序。</p> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": []
+    },
+    {
+      "nid": 24434,
+      "title": "添加Salesforce服务",
+      "description": "了解如何将Salesforce服务添加到应用程序。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>了解如何配置通过使用Salesforce数据连接器与外部数据源通信的服务。</p> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": []
+    },
+    {
+      "nid": 24435,
+      "title": "添加身份验证源",
+      "description": "将Volt MX用户存储库添加到应用程序以授权用户。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>添加Volt MX用户存储库作为身份验证源</li> <li>将用户添加到存储库</li> <li>使用Volt MX用户存储库中的登录凭据访问应用程序</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "17分钟",
+      "category": []
+    },
+    {
+      "nid": 24436,
+      "title": "使用示例服务",
+      "description": "将示例后端数据库连接到窗体",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>创建窗体</li> <li>连接到示例后端数据库</li> <li>向窗体中添加数据。您可以按照相同的步骤将自己的后端数据绑定到应用程序。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12分钟",
+      "category": []
+    },
+    {
+      "nid": 24437,
+      "title": "使用存储服务",
+      "description": "创建存储服务，填充数据，并将数据连接到表单。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此学习模块是Volt MX徒步旅行；徒步旅行是Volt MX Iris内部的一种交互式旅行，它引导您逐步完成每个模块的过程。您可以通过单击Iris工具栏中的HIKES图标来访问HIKES目录。</p> <p>&nbsp；学习如何：</p> <ul> <li>创建窗体</li> <li>创建存储服务</li> <li>在存储服务中填充数据</li> <li>将数据连接到窗体</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": []
+    }
+  ]
+}

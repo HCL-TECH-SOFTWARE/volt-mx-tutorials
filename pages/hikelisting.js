@@ -1,23 +1,20 @@
-import React, { Component, useEffect, useState } from "react";
-import Row from "antd/lib/row";
-import Col from "antd/lib/col";
-import InfiniteScroll from "react-infinite-scroller";
-import Skeleton from "antd/lib/skeleton";
-import _uniqWith from "lodash/uniqWith";
-import _isEqual from "lodash/isEqual";
-import HikeHeader from "../src/components/HikeHeader";
-import TourCard from "../src/components/TourCard";
-import HikeBreadCrumb from "../src/components/HikeBreadCrumb";
-import styles from "./style.scss";
-import getConfig from "next/config";
-const { publicRuntimeConfig } = getConfig();
-import { getHikesCategories } from "../src/utils/populate";
-import queryString from "querystring";
-import { BASE_PATH_URL, isDev } from "../src/config";
+import React, { useEffect, useState } from 'react';
+import Row from 'antd/lib/row';
+import Col from 'antd/lib/col';
+import InfiniteScroll from 'react-infinite-scroller';
+import Skeleton from 'antd/lib/skeleton';
+import _flatten from 'lodash/flatten';
+import queryString from 'querystring';
+import HikeHeader from '../src/components/HikeHeader';
+import TourCard from '../src/components/TourCard';
+import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
+import styles from './style.scss';
+import { getMapCategories } from '../src/utils/populate';
+import { BASE_PATH_URL, isDev } from '../src/config';
 
 const LoadingSkeleton = () => (
   <Row type="flex" gutter={32} className={styles.skeletonWrapper}>
-    {[1, 2, 3].map((x) => (
+    {[1, 2, 3].map(x => (
       <Col key={x} className={styles.skeletonCard} span={8}>
         <Skeleton active title paragraph={{ rows: 2 }} />
       </Col>
@@ -30,27 +27,23 @@ const HikePage = ({ url }) => {
   const [hasMore, setHasMore] = useState(false);
 
   const parsed = queryString.parse(url.asPath);
-  const parseUrl = !isDev ? `/${BASE_PATH_URL}` : "";
+  const parseUrl = !isDev ? `/${BASE_PATH_URL}` : '';
   const keyword = parsed[`${parseUrl}/hikes/search?keyword`];
 
   const getHikeTours = async () => {
-    const { hikesData } = publicRuntimeConfig;
-    const hikes = await getHikesCategories(hikesData);
+    const hikes = await getMapCategories();
 
     // map all tours
-    const mapTours = hikes.map((hike) => hike.categoryTours);
-
-    // flatten tour details
-    const tours = mapTours.reduce((a, b) => a.concat(b), []);
+    const mapTours = hikes.map(hike => hike.categoryTours);
 
     // find matches via keyword
-    const results = tours.filter((tour) => {
+    const results = _flatten(mapTours).filter((tour) => {
       const { description, title, details } = tour;
 
       return (
-        description.toLowerCase().includes(keyword.toLowerCase()) ||
-        title.toLowerCase().includes(keyword.toLowerCase()) ||
-        details.toLowerCase().includes(keyword.toLowerCase())
+        description.toLowerCase().includes(keyword.toLowerCase())
+        || title.toLowerCase().includes(keyword.toLowerCase())
+        || details.toLowerCase().includes(keyword.toLowerCase())
       );
     });
 
@@ -79,9 +72,9 @@ const HikePage = ({ url }) => {
             className={`${styles.assetsContainer} hikesCategoryPage`}
           >
             {tours.length > 0
-              ? tours.map((item) => (
-                  <TourCard tour={item} key={item.nid} search={keyword} />
-                ))
+              ? tours.map(item => (
+                <TourCard tour={item} key={item.nid} search={keyword} />
+              ))
               : null}
             {tours.length === 0 && !hasMore ? (
               <h2 className={styles.noresult}>
