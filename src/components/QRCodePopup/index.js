@@ -26,11 +26,11 @@ class QRCodePopup extends Component {
   };
 
   redirectToAppStore = () => {
-    location.href = 'https://itunes.apple.com/app/kony-quantum/id1459085071';
+    location.href = 'https://apps.apple.com/us/developer/hcl-america-inc/id392909135';
   };
 
   redirectToGooglePlay = () => {
-    location.href = 'https://play.google.com/store/apps/details?id=com.kony.FunctionPreviewApp&hl=en';
+    location.href = 'https://play.google.com/store/apps/developer?id=HCL+Software';
   };
 
   render() {
