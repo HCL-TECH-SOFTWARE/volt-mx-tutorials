@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import i18next from 'i18next';
 import Row from 'antd/lib/row';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
@@ -17,10 +18,10 @@ const ToursList = ({
           <img src={`${publicRuntimeConfig.asset}/static/dist/images/dbx_logo.png`} className={style.title} />
         ) : (
           <h1 className={style.title}>
-            {title.toUpperCase()}
+            {i18next.t(title).toUpperCase()}
           </h1>
         )}
-        <div className={style.desc} dangerouslySetInnerHTML={{ __html: desc }} />
+        <div className={style.desc} dangerouslySetInnerHTML={{ __html: i18next.t(desc) }} />
       </div>
     </Row>
     <Row type="flex" className={style.assetsContainer}>
@@ -30,6 +31,7 @@ const ToursList = ({
     </Row>
   </div>
 );
+
 TourCard.propTypes = {
   title: PropTypes.string,
   tours: PropTypes.array,
