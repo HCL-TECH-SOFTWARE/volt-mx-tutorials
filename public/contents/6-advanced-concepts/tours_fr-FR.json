@@ -1,1 +1,22 @@
-{"categoryName":"Concept avancé","categoryDescription":"","categoryTours":[{"title":"Nfis Introduction","description":"Utilisez nfis pour accéder à des fonctionnalités spécifiques au système d'exploitation, en particulier les paramètres du périphérique Android.","details":"<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX;La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire hikes en cliquant sur l'icône hikes dans la barre d'outils iris.</p> <p>Nbsp;Apprenez Comment:</p> <ul> <li>Configurer l'API de fonctions natives Android nécessaire pour accéder aux paramètres de l'appareil sur l'appareil Android à partir d'une application utilisant volt MX.</li> </ul> <ul> <li>Ajouter du Code au Contrôleur de formulaire pour accéder aux paramètres du périphérique</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"16 minutes","category":[]},{"title":"Nfis utilise des bibliothèques tierces","description":"Utilisez nfis pour accéder aux bibliothèques tierces, en particulier aux scanners de code à barres Android.","details":"<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX;La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire hikes en cliquant sur l'icône hikes dans la barre d'outils iris.</p> <p>Apprenez Comment:</p> <ul> <li>Importer une bibliothèque de collection dans une application et l'utiliser dans un formulaire</li> <li>API de fonctions natives pour configurer les scanners de code à barres pour les applications Android</li> <li>Ajouter du Code à la fonction de numérisation des codes à barres dans le Contrôleur de formulaire</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"20 minutes","category":[]}]}
+{
+  "categoryName": "Concept avancé",
+  "categoryDescription": "",
+  "categoryTours": [
+    {
+      "nid": 24438,
+      "title": "Nfis Introduction",
+      "description": "Utilisez nfis pour accéder à des fonctionnalités spécifiques au système d'exploitation, en particulier les paramètres du périphérique Android.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX;La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire hikes en cliquant sur l'icône hikes dans la barre d'outils iris.</p> <p>Nbsp;Apprenez Comment:</p> <ul> <li>Configurer l'API de fonctions natives Android nécessaire pour accéder aux paramètres de l'appareil sur l'appareil Android à partir d'une application utilisant volt MX.</li> </ul> <ul> <li>Ajouter du Code au Contrôleur de formulaire pour accéder aux paramètres du périphérique</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16 minutes",
+      "category": []
+    },
+    {
+      "nid": 24439,
+      "title": "Nfis utilise des bibliothèques tierces",
+      "description": "Utilisez nfis pour accéder aux bibliothèques tierces, en particulier aux scanners de code à barres Android.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>Ce module d'apprentissage est la randonnée volt MX;La randonnée pédestre est un voyage interactif à l'intérieur de la volt MX Iris qui vous guide à travers chaque module étape par étape.Vous pouvez accéder au Répertoire hikes en cliquant sur l'icône hikes dans la barre d'outils iris.</p> <p>Apprenez Comment:</p> <ul> <li>Importer une bibliothèque de collection dans une application et l'utiliser dans un formulaire</li> <li>API de fonctions natives pour configurer les scanners de code à barres pour les applications Android</li> <li>Ajouter du Code à la fonction de numérisation des codes à barres dans le Contrôleur de formulaire</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 minutes",
+      "category": []
+    }
+  ]
+}

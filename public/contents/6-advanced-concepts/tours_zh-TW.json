@@ -1,1 +1,22 @@
-{"categoryName":"先進的理念","categoryDescription":"","categoryTours":[{"title":"NFIs簡介","description":"使用NFIs訪問作業系統特定的功能，特別是Android設備設定。","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>配寘從使用Volt MX的應用程序訪問Android設備上的設備設定所需的Android本機函數api。</li> </ul> <ul> <li>在表單控制器中添加程式碼以訪問設備設定</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"16分鐘","category":[]},{"title":"NFIs使用協力廠商庫","description":"使用NFIs訪問協力廠商庫，特別是Android條碼掃描儀。","details":"<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>學習如何：</p> <ul> <li>將集合庫導入應用程序並在表單中使用</li> <li>為Android應用程序配寘條碼掃描儀所需的本機函數API</li> <li>在表單控制器中為條碼掃描功能添加程式碼</li> </ul> </div> </div> <p><!--EndFragment--></p>","time":"20分鐘","category":[]}]}
+{
+  "categoryName": "先進的理念",
+  "categoryDescription": "",
+  "categoryTours": [
+    {
+      "nid": 24438,
+      "title": "NFIs簡介",
+      "description": "使用NFIs訪問作業系統特定的功能，特別是Android設備設定。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>&nbsp；學習如何：</p> <ul> <li>配寘從使用Volt MX的應用程序訪問Android設備上的設備設定所需的Android本機函數api。</li> </ul> <ul> <li>在表單控制器中添加程式碼以訪問設備設定</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16分鐘",
+      "category": []
+    },
+    {
+      "nid": 24439,
+      "title": "NFIs使用協力廠商庫",
+      "description": "使用NFIs訪問協力廠商庫，特別是Android條碼掃描儀。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>此學習模塊是Volt MX徒步旅行；徒步旅行是Volt MX Iris內部的一種互動式旅行，它引導您逐步完成每個模塊的過程。您可以通過按一下Iris工具列中的HIKES圖標來訪問HIKES目錄。</p> <p>學習如何：</p> <ul> <li>將集合庫導入應用程序並在表單中使用</li> <li>為Android應用程序配寘條碼掃描儀所需的本機函數API</li> <li>在表單控制器中為條碼掃描功能添加程式碼</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20分鐘",
+      "category": []
+    }
+  ]
+}

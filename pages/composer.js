@@ -1,55 +1,80 @@
-import React, { useEffect, useState } from "react";
-import styles from "./style.scss";
-import getConfig from "next/config";
+import React, { useEffect, useState, useCallback } from 'react';
+import _set from 'lodash/set';
+import _get from 'lodash/get';
+import _merge from 'lodash/merge';
+import getConfig from 'next/config';
+import axios from 'axios';
+import {
+  Row, Col, Icon, Tooltip, Divider,
+  Form, Input, Button, Select,
+} from 'antd';
+import { useRouter } from 'next/router';
+import i18next from 'i18next';
+import styles from './style.scss';
+import { getMapCategories, translateCategory } from '../src/utils/populate';
+import TourCard from '../src/components/TourCard';
+// import ToursList from '../src/components/ToursList';
+import TourDetailPage from './tour';
+import DetailsEditor from '../src/components/DetailsEditor';
+import FormSwitcher from '../src/components/HikeComposer/FormSwitcher';
+import ExportModal from '../src/components/HikeComposer/ExportModal';
+import EditHike from '../src/components/HikeComposer/EditHike';
+import PreviewSwitcher from '../src/components/HikeComposer/PreviewSwitcher';
+import { locales, defaultLocale } from '../i18n';
+
 const { publicRuntimeConfig } = getConfig();
-import { getMapCategories } from "../src/utils/populate";
-import axios from "axios";
-import TourCard from "../src/components/TourCard";
-import ToursList from "../src/components/ToursList";
-import TourDetailPage from "./tour";
-import DetailsEditor from "../src/components/DetailsEditor";
-import { Row, Col, Icon } from "antd";
-import { Form, Input, Button, Radio, Select, message } from "antd";
-import FormSwitcher from "../src/components/HikeComposer/FormSwitcher";
-import ExportModal from "../src/components/HikeComposer/ExportModal";
-import EditHike from "../src/components/HikeComposer/EditHike";
-import { useRouter } from "next/router";
-import PreviewSwitcher from "../src/components/HikeComposer/PreviewSwitcher";
 
 const { TextArea } = Input;
 const { Option } = Select;
 
-const BASE_API = "http://localhost:3200/api";
+const BASE_API = 'http://localhost:3200/api';
 
-const GenerateTourPage = () => {
-  const { query } = useRouter();
-  const { checksum, kuid, zipName } = query;
-  const [values, setValues] = useState({
-    hikeVersion: "1.0",
-    title: "",
-    description: "",
+const localizedFields = ['title', 'description', 'details'];
+const getDefaultLocalizationObj = () => locales.reduce((previous, locale) => ({
+  ...previous,
+  [locale]: {},
+}), {});
+const getNewTourTemplate = ({ checksum, kuid, zipName }) => {
+  const timestamp = Math.floor(Date.now() / 1000);
+  return {
+    nid: timestamp,
+    created: timestamp,
+    updated: timestamp,
+    hikeVersion: '1.0',
+    title: '',
+    description: '',
     checksum,
     kuid,
     category: [],
-    details: "",
+    details: '',
     cards: 1,
     tourLink: zipName,
     time: 1,
     platformVersion: 9.2,
-  });
+    localization: getDefaultLocalizationObj(),
+  };
+};
+
+const GenerateTourPage = () => {
+  const { query } = useRouter();
+  const { checksum, kuid, zipName } = query;
+  const [values, setValues] = useState(getNewTourTemplate({ checksum, kuid, zipName }));
 
   const [isCKEditorVisible, setIsCKEditorVisible] = useState(false);
-  const [view, setView] = useState("card");
-  const [selectedFile, setSelectedFile] = useState({});
+  const [view, setView] = useState('card');
+  const [selectedFile/* , setSelectedFile */] = useState({});
   const [selectedCategory, setSelectedCategory] = useState({});
-  const [previewMode, setPreviewMode] = useState("split");
+  const [previewMode, setPreviewMode] = useState('split');
   const [visible, setVisible] = useState(false);
   const [exportJsonData, setexportJsonData] = useState({});
 
   const [categories, setCategories] = useState([]);
 
-  //Form Switcher states
-  const [current, setCurrent] = useState("new");
+  // Form Switcher states
+  const [current, setCurrent] = useState('new');
+
+  // Editing Language switch
+  const [editingLanguage, setEditingLanguage] = useState(defaultLocale);
 
   const handleSwitcherClick = (e) => {
     setCurrent(e.key);
@@ -57,41 +82,53 @@ const GenerateTourPage = () => {
 
   const onChangeCategory = (categoryName) => {
     const selected = categories.find(
-      (category) => categoryName === category.categoryName
+      category => categoryName === category.categoryName,
     );
     setSelectedCategory(selected);
   };
 
-  const changePreview = (view) => {
-    setView(view);
-    if (view === "list") {
-      setPreviewMode("split");
+  const changePreview = (v) => {
+    setView(v);
+    if (visible === 'list') {
+      setPreviewMode('split');
     }
 
-    if (view === "tour") {
-      setPreviewMode("split");
+    if (v === 'tour') {
+      setPreviewMode('split');
     }
   };
 
-  const setDetails = (ckData) => {
-    setValues({
-      ...values,
-      details: ckData,
-    });
-  };
-
-  const handleInputChange = (e) => {
+  const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
 
-    if (name === "category") {
+    if (name === 'category') {
       onChangeCategory(value);
     }
 
-    setValues({
-      ...values,
-      [name]: value,
+    const valuesToMerge = {};
+    if (localizedFields.includes(name)) {
+      _set(valuesToMerge, ['localization', editingLanguage, name], value);
+      if (editingLanguage === defaultLocale) {
+        _set(valuesToMerge, name, value);
+      }
+    } else {
+      _set(valuesToMerge, name, value);
+    }
+    setValues(currentValues => _merge( // use _merge to deeply merge localization obj
+      {},
+      currentValues,
+      valuesToMerge,
+    ));
+  }, [editingLanguage, onChangeCategory]);
+
+  const setDetails = useCallback((ckData) => {
+    handleInputChange({
+      target: {
+        name: 'details',
+        value: ckData,
+      },
     });
-  };
+  }, [handleInputChange]);
 
   const onGenerate = async (e) => {
     e.preventDefault();
@@ -109,7 +146,7 @@ const GenerateTourPage = () => {
   };
 
   const getHikes = async () => {
-    const categoriesMaps = await getMapCategories();
+    const categoriesMaps = await getMapCategories(false);
     setSelectedCategory(categoriesMaps[0]);
     setCategories(categoriesMaps);
   };
@@ -125,6 +162,13 @@ const GenerateTourPage = () => {
     resetSession();
     return () => {};
   }, []);
+
+
+  const languageOptions = locales.map(locale => (
+    <Option value={locale}>
+      {i18next.t(locale)}
+    </Option>
+  ));
 
   return (
     <>
@@ -143,174 +187,196 @@ const GenerateTourPage = () => {
       <Row>
         <Col
           className={styles.pageContent}
-          span={previewMode === "full" ? 0 : 8}
+          span={previewMode === 'full' ? 0 : 8}
         >
           {isCKEditorVisible
-            ? previewMode === "split" && (
-                <div className={styles.ckEditorContainer}>
-                  <Button
-                    onClick={() => setIsCKEditorVisible(false)}
-                    type="button"
-                  >
-                    <Icon type="arrow-left" />
+            ? previewMode === 'split' && (
+            <div className={styles.ckEditorContainer}>
+              <Button
+                onClick={() => setIsCKEditorVisible(false)}
+                type="button"
+              >
+                <Icon type="arrow-left" />
                     Back to Forms
-                  </Button>
-                  <DetailsEditor
-                    checksum={checksum}
-                    ckData={values.details}
-                    onChangeData={(data) => {
-                      setDetails(data);
-                    }}
-                  />
-                </div>
-              )
-            : previewMode === "split" && (
-                <div className={styles.forms}>
-                  <FormSwitcher
-                    setView={handleSwitcherClick}
-                    current={current}
-                  />
-                  {current === "new" && (
-                    <Form style={{ padding: 20 }} layout="vertical">
-                      <div style={{ padding: "20px 0" }}>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Checksum"
-                        >
-                          <TextArea
-                            style={{ color: "#1890ff" }}
-                            value={values.checksum}
-                            rows={2}
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="KUID"
-                        >
-                          <Input
-                            style={{ color: "#1890ff" }}
-                            value={values.kuid}
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Tour URL"
-                        >
-                          <Input
-                            name="tourLink"
-                            value={values.tourLink.toLowerCase()}
-                            onChange={handleInputChange}
-                            placeholder="Add URL"
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Category"
-                        >
-                          {categories.length > 0 && (
-                            <Select
-                              defaultValue={categories[0].categoryName}
-                              onChange={onChangeCategory}
-                            >
-                              {categories.map((category) => (
-                                <Option value={category.categoryName}>
-                                  {category.categoryName}
-                                </Option>
-                              ))}
-                            </Select>
+              </Button>
+              <DetailsEditor
+                checksum={checksum}
+                ckData={_get(values, ['localization', editingLanguage, 'details'], '')}
+                onChangeData={setDetails}
+              />
+            </div>
+            )
+            : previewMode === 'split' && (
+            <div className={styles.forms}>
+              <FormSwitcher
+                setView={handleSwitcherClick}
+                current={current}
+              />
+              {current === 'new' && (
+              <Form style={{ padding: 20 }} layout="vertical">
+                <div style={{ padding: '20px 0' }}>
+                  <Form.Item
+                    className={styles.formContainer}
+                    label="Checksum"
+                  >
+                    <TextArea
+                      style={{ color: '#1890ff' }}
+                      value={values.checksum}
+                      rows={2}
+                    />
+                  </Form.Item>
+                  <Form.Item
+                    className={styles.formContainer}
+                    label="KUID"
+                  >
+                    <Input
+                      style={{ color: '#1890ff' }}
+                      value={values.kuid}
+                    />
+                  </Form.Item>
+                  <Form.Item
+                    className={styles.formContainer}
+                    label="Tour URL"
+                  >
+                    <Input
+                      name="tourLink"
+                      value={values.tourLink.toLowerCase()}
+                      onChange={handleInputChange}
+                      placeholder="Add URL"
+                    />
+                  </Form.Item>
+                  <Form.Item
+                    className={styles.formContainer}
+                    label="Category"
+                  >
+                    {categories.length > 0 && (
+                    <Select
+                      defaultValue={categories[0].categoryName}
+                      onChange={onChangeCategory}
+                    >
+                      {categories.map(category => (
+                        <Option value={category.categoryName}>
+                          {_get(
+                            category,
+                            ['localization', editingLanguage, 'categoryName'],
+                            category.categoryName,
                           )}
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Title"
-                        >
-                          <Input
-                            name="title"
-                            value={values.title}
-                            onChange={handleInputChange}
-                            placeholder="Add Title..."
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Description"
-                        >
-                          <TextArea
-                            name="description"
-                            value={values.description}
-                            onChange={handleInputChange}
-                            rows={4}
-                            placeholder="Add Description..."
-                          />
-                        </Form.Item>
-                        <Form.Item
-                          className={styles.formContainer}
-                          label="Details"
-                        >
-                          <Button
-                            onClick={() => {
-                              setView("tour");
-                              setIsCKEditorVisible(true);
-                            }}
-                            type="primary"
-                            icon="edit"
-                          >
+                        </Option>
+                      ))}
+                    </Select>
+                    )}
+                  </Form.Item>
+                  <Divider />
+                  <Form.Item
+                    className={styles.formContainer}
+                    label={(
+                      <Row>
+                        <span>{i18next.t('composer_editing_language')}</span>
+                        &nbsp;
+                        <Tooltip title={i18next.t('composer_editing_language_tooltip')}>
+                          <Icon type="question-circle-o" />
+                        </Tooltip>
+                      </Row>
+                    )}
+                  >
+                    <Select
+                      onSelect={setEditingLanguage}
+                      value={editingLanguage}
+                    >
+                      {languageOptions}
+                    </Select>
+                  </Form.Item>
+                  <Form.Item
+                    className={styles.formContainer}
+                    label="Title"
+                  >
+                    <Input
+                      name="title"
+                      value={values.localization[editingLanguage].title}
+                      onChange={handleInputChange}
+                      placeholder="Add Title..."
+                    />
+                  </Form.Item>
+                  <Form.Item
+                    className={styles.formContainer}
+                    label="Description"
+                  >
+                    <TextArea
+                      name="description"
+                      value={values.localization[editingLanguage].description}
+                      onChange={handleInputChange}
+                      rows={4}
+                      placeholder="Add Description..."
+                    />
+                  </Form.Item>
+                  <Form.Item
+                    className={styles.formContainer}
+                    label="Details"
+                  >
+                    <Button
+                      onClick={() => {
+                        setView('tour');
+                        setIsCKEditorVisible(true);
+                      }}
+                      type="primary"
+                      icon="edit"
+                    >
                             Open Editor
-                          </Button>
-                        </Form.Item>
-                        <Row gutter={8}>
-                          <Col span={12}>
-                            <Form.Item
-                              className={styles.formContainer}
-                              label="Steps"
-                            >
-                              <Input
-                                min={1}
-                                type="number"
-                                name="cards"
-                                value={values.cards}
-                                onChange={handleInputChange}
-                                placeholder="How many Steps..."
-                              />
-                            </Form.Item>
-                          </Col>
-                          <Col span={12}>
-                            <Form.Item
-                              className={styles.formContainer}
-                              label="Time"
-                            >
-                              <Input
-                                min={1}
-                                type="number"
-                                name="time"
-                                value={values.time}
-                                onChange={handleInputChange}
-                                placeholder="Input Time..."
-                              />
-                            </Form.Item>
-                          </Col>
-                        </Row>
-                        <Button type="primary" onClick={onGenerate}>
-                          Generate Hike
-                        </Button>
-                        <ExportModal
-                          branchName={values.tourLink}
-                          jsonData={exportJsonData}
-                          category={selectedCategory.categoryAlias}
-                          visible={visible}
-                          onClose={() => setVisible(false)}
+                    </Button>
+                  </Form.Item>
+                  <Row gutter={8}>
+                    <Col span={12}>
+                      <Form.Item
+                        className={styles.formContainer}
+                        label="Steps"
+                      >
+                        <Input
+                          min={1}
+                          type="number"
+                          name="cards"
+                          value={values.cards}
+                          onChange={handleInputChange}
+                          placeholder="How many Steps..."
                         />
-                      </div>
-                      <div />
-                    </Form>
-                  )}
-                  {current === "edit" && <EditHike />}
+                      </Form.Item>
+                    </Col>
+                    <Col span={12}>
+                      <Form.Item
+                        className={styles.formContainer}
+                        label="Time"
+                      >
+                        <Input
+                          min={1}
+                          type="number"
+                          name="time"
+                          value={values.time}
+                          onChange={handleInputChange}
+                          placeholder="Input Time..."
+                        />
+                      </Form.Item>
+                    </Col>
+                  </Row>
+                  <Button type="primary" onClick={onGenerate}>
+                          Generate Hike
+                  </Button>
+                  <ExportModal
+                    branchName={values.tourLink}
+                    jsonData={exportJsonData}
+                    category={selectedCategory.categoryAlias}
+                    visible={visible}
+                    onClose={() => setVisible(false)}
+                  />
                 </div>
+                <div />
+              </Form>
               )}
+              {current === 'edit' && <EditHike />}
+            </div>
+            )}
         </Col>
-        <Col className={styles.preview} span={previewMode === "full" ? 24 : 16}>
+        <Col className={styles.preview} span={previewMode === 'full' ? 24 : 16}>
           <ul className={styles.previews}>
-            {previewMode === "split" && (
+            {previewMode === 'split' && (
               <>
                 <PreviewSwitcher
                   current={view}
@@ -319,25 +385,35 @@ const GenerateTourPage = () => {
               </>
             )}
           </ul>
-          {view === "card" && (
+          {view === 'card' && (
             <div className={styles.cardPreview}>
               <div className={styles.previewContainer}>
                 {categories.length > 0 && (
                   <>
-                    <h3>{selectedCategory.categoryName}</h3>
+                    <h3>
+                      {_get(
+                        selectedCategory,
+                        ['localization', editingLanguage, 'categoryName'],
+                        selectedCategory.categoryName,
+                      )}
+                    </h3>
                     <div
-                      style={{ textAlign: "center", width: "50%" }}
-                      dangerouslySetInnerHTML={{
-                        __html: selectedCategory.categoryDescription,
+                      style={{ textAlign: 'center', width: '50%' }}
+                      dangerouslySetInnerHTML={{ // eslint-disable-line react/no-danger
+                        __html: _get(
+                          selectedCategory,
+                          ['localization', editingLanguage, 'categoryDescription'],
+                          selectedCategory.categoryDescription,
+                        ),
                       }}
                     />
                   </>
                 )}
                 <TourCard
-                  isComposer={true}
+                  isComposer
                   tour={{
-                    title: values.title,
-                    description: values.description,
+                    title: _get(values, ['localization', editingLanguage, 'title'], values.title),
+                    description: _get(values, ['localization', editingLanguage, 'description'], values.description),
                     cards: values.cards,
                     time: `${values.time} Mins`,
                   }}
@@ -357,21 +433,21 @@ const GenerateTourPage = () => {
                 />
               ) : null
             )} */}
-          {view === "tour" && (
+          {view === 'tour' && (
             <>
               <div
                 style={{
-                  background: "white",
-                  padding: "10px 10px",
-                  display: "flex",
-                  alignItems: "flex-end",
-                  justifyContent: "flex-end",
+                  background: 'white',
+                  padding: '10px 10px',
+                  display: 'flex',
+                  alignItems: 'flex-end',
+                  justifyContent: 'flex-end',
                 }}
               >
-                {previewMode === "split" ? (
+                {previewMode === 'split' ? (
                   <Button
                     onClick={() => {
-                      setPreviewMode("full");
+                      setPreviewMode('full');
                     }}
                   >
                     <Icon type="fullscreen" />
@@ -380,7 +456,7 @@ const GenerateTourPage = () => {
                 ) : (
                   <Button
                     onClick={() => {
-                      setPreviewMode("split");
+                      setPreviewMode('split');
                     }}
                   >
                     <Icon type="fullscreen-exit" />
@@ -390,11 +466,11 @@ const GenerateTourPage = () => {
               </div>
               <TourDetailPage
                 previewData={{
-                  ...values,
+                  ...translateCategory(values, editingLanguage),
                   time: `${values.time} Minutes`,
                   fileName: selectedFile.name,
                 }}
-                url={{ asPath: "preview" }}
+                url={{ asPath: 'preview' }}
               />
             </>
           )}
