@@ -5,10 +5,10 @@
   "platform_version": "平台版本",
   "categories": "類別",
   "start": "開始",
-  "en-US": "英語",
-  "zh-CN": "簡體中文",
+  "en-US": "英語 / English",
+  "zh-CN": "簡體中文 / 简体中文",
   "zh-TW": "繁體中文",
-  "hi-IN": "印地語",
+  "hi-IN": "印地語 / हिंदी",
   "composer_editing_language": "編輯語言",
   "composer_editing_language_tooltip": "切換語言以編輯和預覽該語言的內容。當沒有找到所選語言的內容時，將回退到英語。"
 }
