@@ -1,7 +1,18 @@
 import axios from "axios";
 import getConfig from "next/config";
 import { SERVER } from "../config";
+import i18next from 'i18next';
 const { publicRuntimeConfig } = getConfig();
+
+const mergeTranslatedJson = (lang, json) => {
+  for (const key in lang) {
+    if (typeof (lang[key]) === 'object') {
+        mergeTranslatedJson(lang[key], json[key]);
+    } else if (json.hasOwnProperty(key)) {
+      json[key] = lang[key];
+    }
+  }
+};
 
 /**
  * Fetch all hikes data in /public/contents directory.
@@ -20,10 +31,21 @@ export const getHikesCategories = async (hikesUrls) => {
   const responses = await axios.all(urls);
 
   // map all response data into single array
-  const categories = responses.map((res) => {
-    return res.data;
-  });
-
+  const categories = responses.map(res => res.data);
+  for (const url of hikesUrls.values()) {
+    try {
+      const translatedTours = await axios.get(`${SERVER}/contents/${url}/tours_${i18next.language}.json`);
+      for (const response of responses) {
+        const responseUrl = response.config.url.split('/');
+        const hikeUrl = responseUrl[responseUrl.length - 2];
+        if (hikeUrl === url) {
+          mergeTranslatedJson(translatedTours.data, response.data);
+        }
+      }
+    } catch (error) {
+      console.log('Fail to get %o tours files of %o', i18next.language, url);
+    }
+  }
   return categories;
 };
 

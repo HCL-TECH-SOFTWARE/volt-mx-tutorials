@@ -9,6 +9,8 @@ import { gtmId } from '../src/config/settings';
 import GoogleTagManager from '../src/components/GoogleTagManager';
 import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
+import i18next from 'i18next';
+import '../i18n';
 
 NProgress.configure({ showSpinner: false, minimum: 0.1 });
 Router.events.on('beforeHistoryChange', () => NProgress.inc(0.5));
@@ -36,6 +38,13 @@ class MyApp extends App {
     const { Component, pageProps, router, store } = this.props;
     const { asPath, pathname, query } = router;
     const url = { asPath, pathname, query };
+    const searchParams = new URLSearchParams(asPath.split(/\?/)[1]);
+    const lang = searchParams.get('lang');
+    if (query && query.lang) {
+      i18next.changeLanguage(query.lang);
+    } else if (lang) {
+      i18next.changeLanguage(lang);
+    }
 
     return (
       <html lang='en'>

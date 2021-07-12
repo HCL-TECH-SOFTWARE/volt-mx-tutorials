@@ -12,6 +12,7 @@ const {
 import { getHikesCategories } from "../src/utils/populate";
 import { isDev, BASE_PATH_URL } from "../src/config";
 import { getZipDownloadUrl } from "../src/utils/request";
+import i18next from 'i18next';
 
 const TourDetailPage = ({ url, previewData }) => {
   const [tourDetails, setTourDetails] = useState(null);
@@ -28,15 +29,15 @@ const TourDetailPage = ({ url, previewData }) => {
       });
     } else {
       const urlTour = isDev
-        ? url.asPath.substring(1)
-        : url.asPath.replace(`/${BASE_PATH_URL}`, "").substring(1);
+        ? url.asPath.substring(1).replace(/\?lang=.*/,"")
+        : url.asPath.replace(`/${BASE_PATH_URL}`, "").substring(1).replace(/\?lang=.*/,"");
 
       const categories = await getHikesCategories(hikesData);
-
+      
       const categoryTours = categories.filter((element) =>
         element.categoryTours.some((subElement) => subElement.alias == urlTour)
       );
-
+      
       setcategoryAlias(categoryTours[0].categoryAlias);
 
       const tours = categoryTours.map((element) => {
@@ -80,6 +81,7 @@ const TourDetailPage = ({ url, previewData }) => {
         filename: tourDetails?.fileName,
         kuid: tourDetails?.kuid,
         id: `${date.getTime()}`,
+        langid: i18next.language,
       },
     };
   };
@@ -120,7 +122,7 @@ const TourDetailPage = ({ url, previewData }) => {
           <div className={styles.tourDesc}>
             <h2 className={styles.tourTitle}>{tourDetails?.title}</h2>
             <h3 className={styles.tourVersion}>
-              Hike Version: {tourDetails?.hikeVersion}
+              {`${i18next.t('hike_version')} ${tourDetails?.hikeVersion}`}
             </h3>
             <div
               className={styles.tourBody}
@@ -135,7 +137,7 @@ const TourDetailPage = ({ url, previewData }) => {
                 lg={6}
                 className={styles.innerTabWrapper}
               >
-                <h3 className={styles.tourHeader}>Platform Version</h3>
+                <h3 className={styles.tourHeader}>{i18next.t('platform_version')}</h3>
                 <div className={styles.tourContent}>
                   {tourDetails?.platformVersion}
                 </div>
@@ -148,14 +150,14 @@ const TourDetailPage = ({ url, previewData }) => {
                 lg={6}
                 className={styles.innerTabWrapper}
               >
-                <h3 className={styles.tourHeader}>Categories</h3>
+                <h3 className={styles.tourHeader}>{i18next.t('categories')}</h3>
                 <ul className={styles.tourContent}>
                   {tourDetails?.category?.map((cat) => <li>{cat}</li>)}
                 </ul>
               </Col>
             </Row>
             <h3 className={styles.tourTime}>
-              {`${tourDetails?.cards} Steps - ${tourDetails?.time}`}
+              {`${tourDetails?.cards} ${i18next.t('step')} - ${tourDetails?.time}`}
             </h3>
             <div
               className={styles.tourDetails}
@@ -166,7 +168,7 @@ const TourDetailPage = ({ url, previewData }) => {
         {isPreview || (
           <div className={styles.startBtn}>
             <KonyButton
-              title="START"
+              title={i18next.t('start')}
               type="blue"
               onClick={(e) => sendPostMessage(e)}
             />

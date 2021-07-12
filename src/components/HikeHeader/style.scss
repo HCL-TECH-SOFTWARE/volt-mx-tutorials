@@ -39,9 +39,20 @@
 .search {
   display: block;
   position: relative;
+  flex: 1;
 }
 
 .camp {
   position: absolute;
   right: 0;
+}
+
+.subHeader {
+  justify-content: flex-end;
+  display: flex;
+  z-index: 1;
+}
+
+.switchLang {
+  padding: 10px 0;
 }

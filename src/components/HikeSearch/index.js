@@ -7,6 +7,8 @@ import Router from "next/router";
 import style from "./style.scss";
 import getConfig from "next/config";
 import { BASE_PATH_URL, isDev } from "../../config";
+import i18next from 'i18next';
+
 const { publicRuntimeConfig } = getConfig();
 
 class HikeSearch extends Component {
@@ -38,7 +40,7 @@ class HikeSearch extends Component {
         <Col span={24} className={style.innerWrapper}>
           <Input
             id="search"
-            placeholder="Search"
+            placeholder={i18next.t('search')}
             className={style.input}
             onPressEnter={(e) => this.handleSubmit(e.target.value)}
             autoComplete="off"

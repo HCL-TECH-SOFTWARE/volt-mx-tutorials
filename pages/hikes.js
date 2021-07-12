@@ -3,9 +3,12 @@ import HikeHeader from "../src/components/HikeHeader";
 import ToursList from "../src/components/ToursList";
 import styles from "./style.scss";
 import { getMapCategories } from "../src/utils/populate";
+import { useRouter } from 'next/router';
+import i18next from 'i18next';
 
 const HikePage = () => {
   const [categories, setCategories] = useState([]);
+  const router = useRouter();
 
   const getHikes = async () => {
     const categoriesMaps = await getMapCategories();
@@ -15,8 +18,26 @@ const HikePage = () => {
   useEffect(() => {
     getHikes();
     return () => {};
-  }, []);
+  }, [i18next.language]);
 
+  useEffect(() => {
+    const path = router.asPath.split(/\?/);
+    const searchParams = new URLSearchParams(path[1]);
+    const lang = searchParams.get('lang');
+
+    if (lang) {
+      if (lang !== i18next.language) {
+        router.push(router.asPath);
+      }
+    } else {
+      router.push({
+        pathname: path[0] || router.pathname,
+        query: {
+          lang: 'en-US',
+        },
+      });
+    }
+  }, [i18next.language, router.query]);
   return (
     <div className={styles.hikeBody}>
       <HikeHeader />

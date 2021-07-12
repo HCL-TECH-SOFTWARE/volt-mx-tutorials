@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import style from "./style.scss";
 import { truncateAdvance } from "../../utils";
 import { BASE_PATH_URL } from "../../config";
+import i18next from 'i18next';
 
 const isProdUrl =
   process.env.NODE_ENV === "production" ? `${BASE_PATH_URL}/` : "";
@@ -16,6 +17,9 @@ const TourCard = ({ tour, dbx, search, isComposer }) => (
         <Link
           href={{
             pathname: `${isProdUrl}${tour.alias}`,
+            query: {
+              lang: i18next.language,
+            },
           }}
         >
           <div className={style.info}>
@@ -23,17 +27,24 @@ const TourCard = ({ tour, dbx, search, isComposer }) => (
               {truncateAdvance(tour.title, 34)}
             </h2>
             <p className={style.desc}>{tour.description}</p>
-            <p className={style.meta}>{`${tour.cards} Steps / ${tour.time}`}</p>
+            <p className={style.meta}>{`${i18next.t('step', { count: tour.cards })} / ${tour.time}`}</p>
           </div>
         </Link>
       ) : (
-        <Link href={`${isProdUrl}${tour.alias}`}>
+        <Link
+          href={{
+            pathname: `${isProdUrl}${tour.alias}`,
+            query: {
+              lang: i18next.language,
+            },
+          }}
+        >
           <div className={style.info}>
-            <h2 className={`${style.title} ${dbx ? style.dbxColor : ""} `}>
+            <h2 className={`${style.title} ${dbx ? style.dbxColor : ''} `}>
               {truncateAdvance(tour.title, 34)}
             </h2>
             <p className={style.desc}>{tour.description}</p>
-            <p className={style.meta}>{`${tour.cards} Steps / ${tour.time}`}</p>
+            <p className={style.meta}>{`${i18next.t('step', { count: tour.cards })} / ${tour.time}`}</p>
           </div>
         </Link>
       )}
