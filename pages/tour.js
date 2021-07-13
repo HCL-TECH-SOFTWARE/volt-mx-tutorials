@@ -15,6 +15,7 @@ import { getZipDownloadUrl } from '../src/utils/request';
 
 const propTypes = {
   url: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
+  previewData: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
 };
 
 const TourDetailPage = ({ url, previewData }) => {
@@ -41,9 +42,7 @@ const TourDetailPage = ({ url, previewData }) => {
 
       const categories = await getHikesCategories(hikesData);
 
-    const categoryTours = categories.filter(
-      element => element.categoryTours.some(subElement => subElement.alias == urlTour),
-    );
+      const categoryTours = categories.filter(element => element.categoryTours.some(subElement => subElement.alias == urlTour));
 
       setcategoryAlias(categoryTours[0].categoryAlias);
 
