@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
-<<<<<<< HEAD
 import PropTypes from 'prop-types';
-=======
->>>>>>> HPHX5988
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
 import InfiniteScroll from 'react-infinite-scroller';
