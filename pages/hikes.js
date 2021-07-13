@@ -38,6 +38,7 @@ const HikePage = () => {
       });
     }
   }, [i18next.language, router.query]);
+
   return (
     <div className={styles.hikeBody}>
       <HikeHeader />
