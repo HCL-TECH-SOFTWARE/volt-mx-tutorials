@@ -3,13 +3,12 @@ import PropTypes from 'prop-types';
 import i18next from 'i18next';
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
-import getConfig from 'next/config';
 import HikeHeader from '../src/components/HikeHeader';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import KonyButton from '../src/components/KonyButton';
 import styles from './style.scss';
-import { getHikesCategories } from '../src/utils/populate';
 import { isDev, BASE_PATH_URL } from '../src/config';
+import { getMapCategories } from '../src/utils/populate';
 import { getZipDownloadUrl } from '../src/utils/request';
 
 
@@ -21,9 +20,6 @@ const propTypes = {
 const TourDetailPage = ({ url, previewData }) => {
   const [tourDetails, setTourDetails] = useState(null);
   const [categoryAlias, setcategoryAlias] = useState(null);
-  const {
-    publicRuntimeConfig: { hikesData },
-  } = getConfig();
 
   const isPreview = url.asPath === 'preview';
 
@@ -37,12 +33,14 @@ const TourDetailPage = ({ url, previewData }) => {
     } else {
       const path = url.asPath.substr(0, url.asPath.indexOf('?'));
       const urlTour = isDev
-        ? url.asPath.substring(1).replace(/\?lang=.*/,"")
-        : url.asPath.replace(`/${BASE_PATH_URL}`, "").substring(1).replace(/\?lang=.*/,"");
+        ? url.asPath.substring(1).replace(/\?lang=.*/, '')
+        : url.asPath.replace(`/${BASE_PATH_URL}`, '').substring(1).replace(/\?lang=.*/, '');
 
-      const categories = await getHikesCategories(hikesData);
+      const categories = await getMapCategories();
 
-      const categoryTours = categories.filter(element => element.categoryTours.some(subElement => subElement.alias == urlTour));
+      const categoryTours = categories.filter(
+        element => element.categoryTours.some(subElement => subElement.alias === urlTour),
+      );
 
       setcategoryAlias(categoryTours[0].categoryAlias);
 
@@ -51,7 +49,7 @@ const TourDetailPage = ({ url, previewData }) => {
       }))[0];
 
       const toursData = tours.categoryTours.filter(
-        subElement => subElement.alias == urlTour,
+        subElement => subElement.alias === urlTour,
       )[0];
 
       setTourDetails(toursData);

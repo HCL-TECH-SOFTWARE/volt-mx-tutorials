@@ -236,10 +236,12 @@
   height: calc(100vh - 51px);
   background: white;
   border-right: 1px solid #d4d4d4;
+  overflow: hidden;
 }
 
 .forms {
   overflow-y: auto;
+  height: 100%;
 }
 
 .formContainer {
