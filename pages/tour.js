@@ -37,8 +37,8 @@ const TourDetailPage = ({ url, previewData }) => {
     } else {
       const path = url.asPath.substr(0, url.asPath.indexOf('?'));
       const urlTour = isDev
-        ? path.substring(1)
-        : path.replace(`/${BASE_PATH_URL}`, '').substring(1);
+        ? url.asPath.substring(1).replace(/\?lang=.*/,"")
+        : url.asPath.replace(`/${BASE_PATH_URL}`, "").substring(1).replace(/\?lang=.*/,"");
 
       const categories = await getHikesCategories(hikesData);
 
@@ -85,6 +85,7 @@ const TourDetailPage = ({ url, previewData }) => {
         filename: tourDetails?.fileName,
         kuid: tourDetails?.kuid,
         id: `${date.getTime()}`,
+        langid: i18next.language,
       },
     };
   };

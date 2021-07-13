@@ -15,6 +15,7 @@ import ExportModal from "../src/components/HikeComposer/ExportModal";
 import EditHike from "../src/components/HikeComposer/EditHike";
 import { useRouter } from "next/router";
 import PreviewSwitcher from "../src/components/HikeComposer/PreviewSwitcher";
+import i18next from 'i18next';
 
 const { TextArea } = Input;
 const { Option } = Select;
@@ -134,10 +135,10 @@ const GenerateTourPage = () => {
           src={`${
             publicRuntimeConfig.asset
           }/static/dist/images/productlogo.svg`}
-          alt="logo"
+          alt={i18next.t("logo")}
         />
         <div>
-          <p>Volt MX Tutorials</p>
+          <p>{i18next.t("Volt MX Tutorials")}</p>
         </div>
       </div>
       <Row>
@@ -153,7 +154,7 @@ const GenerateTourPage = () => {
                     type="button"
                   >
                     <Icon type="arrow-left" />
-                    Back to Forms
+                    {i18next.t("Back to Forms")}
                   </Button>
                   <DetailsEditor
                     checksum={checksum}
@@ -175,7 +176,7 @@ const GenerateTourPage = () => {
                       <div style={{ padding: "20px 0" }}>
                         <Form.Item
                           className={styles.formContainer}
-                          label="Checksum"
+                          label={i18next.t("Checksum")}
                         >
                           <TextArea
                             style={{ color: "#1890ff" }}
@@ -185,7 +186,7 @@ const GenerateTourPage = () => {
                         </Form.Item>
                         <Form.Item
                           className={styles.formContainer}
-                          label="KUID"
+                          label={i18next.t("KUID")}
                         >
                           <Input
                             style={{ color: "#1890ff" }}
@@ -194,18 +195,18 @@ const GenerateTourPage = () => {
                         </Form.Item>
                         <Form.Item
                           className={styles.formContainer}
-                          label="Tour URL"
+                          label={i18next.t("Tour URL")}
                         >
                           <Input
                             name="tourLink"
                             value={values.tourLink.toLowerCase()}
                             onChange={handleInputChange}
-                            placeholder="Add URL"
+                            placeholder={i18next.t("Add URL")}
                           />
                         </Form.Item>
                         <Form.Item
                           className={styles.formContainer}
-                          label="Category"
+                          label={i18next.t("Category")}
                         >
                           {categories.length > 0 && (
                             <Select
@@ -222,30 +223,30 @@ const GenerateTourPage = () => {
                         </Form.Item>
                         <Form.Item
                           className={styles.formContainer}
-                          label="Title"
+                          label={i18next.t("Title")}
                         >
                           <Input
                             name="title"
                             value={values.title}
                             onChange={handleInputChange}
-                            placeholder="Add Title..."
+                            placeholder={i18next.t("Add Title...")}
                           />
                         </Form.Item>
                         <Form.Item
                           className={styles.formContainer}
-                          label="Description"
+                          label={i18next.t("Description")}
                         >
                           <TextArea
                             name="description"
                             value={values.description}
                             onChange={handleInputChange}
                             rows={4}
-                            placeholder="Add Description..."
+                            placeholder={i18next.t("Add Description...")}
                           />
                         </Form.Item>
                         <Form.Item
                           className={styles.formContainer}
-                          label="Details"
+                          label={i18next.t("Details")}
                         >
                           <Button
                             onClick={() => {
@@ -255,14 +256,14 @@ const GenerateTourPage = () => {
                             type="primary"
                             icon="edit"
                           >
-                            Open Editor
+                            {i18next.t("Open Editor")}
                           </Button>
                         </Form.Item>
                         <Row gutter={8}>
                           <Col span={12}>
                             <Form.Item
                               className={styles.formContainer}
-                              label="Steps"
+                              label={i18next.t("Steps")}
                             >
                               <Input
                                 min={1}
@@ -270,14 +271,14 @@ const GenerateTourPage = () => {
                                 name="cards"
                                 value={values.cards}
                                 onChange={handleInputChange}
-                                placeholder="How many Steps..."
+                                placeholder={i18next.t("How many Steps...")}
                               />
                             </Form.Item>
                           </Col>
                           <Col span={12}>
                             <Form.Item
                               className={styles.formContainer}
-                              label="Time"
+                              label={i18next.t("Time")}
                             >
                               <Input
                                 min={1}
@@ -285,13 +286,13 @@ const GenerateTourPage = () => {
                                 name="time"
                                 value={values.time}
                                 onChange={handleInputChange}
-                                placeholder="Input Time..."
+                                placeholder={i18next.t("Input Time...")}
                               />
                             </Form.Item>
                           </Col>
                         </Row>
                         <Button type="primary" onClick={onGenerate}>
-                          Generate Hike
+                        {i18next.t("Generate Hike")}
                         </Button>
                         <ExportModal
                           branchName={values.tourLink}
@@ -339,7 +340,7 @@ const GenerateTourPage = () => {
                     title: values.title,
                     description: values.description,
                     cards: values.cards,
-                    time: `${values.time} Mins`,
+                    time: `${values.time} ${i18next.t("Mins")}`,
                   }}
                 />
               </div>
@@ -375,7 +376,7 @@ const GenerateTourPage = () => {
                     }}
                   >
                     <Icon type="fullscreen" />
-                    Full Preview
+                    {i18next.t("Full Preview")}
                   </Button>
                 ) : (
                   <Button
@@ -384,14 +385,14 @@ const GenerateTourPage = () => {
                     }}
                   >
                     <Icon type="fullscreen-exit" />
-                    Close Full Preview
+                    {i18next.t("Close Full Preview")}
                   </Button>
                 )}
               </div>
               <TourDetailPage
                 previewData={{
                   ...values,
-                  time: `${values.time} Minutes`,
+                  time: `${values.time} ${i18next.t("Minutes")}`,
                   fileName: selectedFile.name,
                 }}
                 url={{ asPath: "preview" }}
