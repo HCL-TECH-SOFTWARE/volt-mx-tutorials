@@ -8,5 +8,34 @@
   "en-US": "英語",
   "zh-CN": "簡體中文",
   "zh-TW": "繁體中文",
-  "hi-IN": "印地語"
+  "hi-IN": "印地語",
+  "logo": "徽標",
+  "Checksum": "校驗和",
+  "KUID": "庫伊特ID",
+  "Tour URL": "巡更URL",
+  "Add URL": "添加URL",
+  "Category": "類別",
+  "Title": "標題",
+  "Add Title...": "添加標題…",
+  "Description": "描述",
+  "Add Description...": "添加說明…",
+  "Details": "詳細資訊",
+  "Open Editor": "打開編輯器",
+  "Steps": "步驟",
+  "How many Steps...": "多少步……",
+  "Time": "時間",
+  "Input Time...": "輸入時間…",
+  "Mins": "分鐘",
+  "Generate Hike": "生成遠足",
+  "New Hike": "新遠足",
+  "Card Preview": "卡片預覽",
+  "Tour Preview": "巡演預覽",
+  "Volt MX Tutorials": "Volt MX教程",
+  "Back to Forms": "返回表單",
+  "Full Preview": "完整預覽",
+  "Close Full Preview": "關閉完整預覽",
+  "Minutes": "分鐘"
 }
+
+
+ 

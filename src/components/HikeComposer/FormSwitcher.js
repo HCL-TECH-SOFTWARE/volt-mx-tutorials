@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu, Icon } from "antd";
+import i18next from 'i18next';
 
 const { SubMenu } = Menu;
 
@@ -13,7 +14,7 @@ const FormSwitcher = ({ setView, current }) => {
     >
       <Menu.Item key="new">
         <Icon type="plus" />
-        New Hike
+        {i18next.t("New Hike")}
       </Menu.Item>
       {/* <Menu.Item key="edit">
         <Icon type="edit" />
