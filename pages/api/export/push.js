@@ -13,14 +13,15 @@
  * under the License.                                                         *
  * ========================================================================== */
 
-const fs = require("fs");
-const { exec } = require("child_process");
-const { promisify } = require("util");
-const gitRemoteOriginUrl = require("git-remote-origin-url");
+const fs = require('fs');
+const { exec } = require('child_process');
+const { promisify } = require('util');
+const gitRemoteOriginUrl = require('git-remote-origin-url');
+const { locales } = require('../../../i18n');
 
 const copyFile = promisify(fs.copyFile);
 
-const EXPORT_PATH = "./export";
+const EXPORT_PATH = './export';
 
 const moveAssets = async (repoName, category) => {
   const REMOTE_PATH = `${repoName}/public/contents/${category}/assets`;
@@ -33,7 +34,7 @@ const moveAssets = async (repoName, category) => {
         (err) => {
           if (err) throw err;
           console.log(`${file} was copied to ${REMOTE_PATH}/${file}`);
-        }
+        },
       );
     });
   };
@@ -50,31 +51,40 @@ const moveAssetsToRemote = async ({ repoName, category, filename }) => {
   // move tours.json
   await copyFile(
     `${EXPORT_PATH}/tours.json`,
-    `${repoName}/public/contents/${category}/tours.json`
+    `${repoName}/public/contents/${category}/tours.json`,
   );
 
   console.log(
-    `tours.json was copied to ${repoName}/public/contents/${category}/tours.json`
+    `tours.json was copied to ${repoName}/public/contents/${category}/tours.json`,
   );
+
+  // move tours_<locale>.json
+  const localizedTourFiles = locales.map(locale => ({
+    src: `${EXPORT_PATH}/tours_${locale}.json`,
+    dest: `${repoName}/public/contents/${category}/tours_${locale}.json`,
+  }));
+  await Promise.all(localizedTourFiles.map(async (localizedTourFile) => {
+    await copyFile(
+      localizedTourFile.src,
+      localizedTourFile.dest,
+    );
+    console.log(`${localizedTourFile.src} was copied to ${localizedTourFile.dest}`);
+  }));
 
   // tour file (.zip)
   await copyFile(
     `${EXPORT_PATH}/${filename}`,
-    `${repoName}/public/contents/${category}/zips/${filename}`
+    `${repoName}/public/contents/${category}/zips/${filename}`,
   );
 
   console.log(
-    `${filename} was copied to ${repoName}/public/contents/${category}/${filename}`
+    `${filename} was copied to ${repoName}/public/contents/${category}/zips/${filename}`,
   );
 
   await moveAssets(repoName, category);
 };
 
-const getRemoteUrl = async () => {
-  return (async () => {
-    return await gitRemoteOriginUrl();
-  })();
-};
+const getRemoteUrl = async () => (async () => gitRemoteOriginUrl())();
 
 const pushToFork = async (data, files, res, req) => {
   const { repoName, remoteName, branchName } = data;
@@ -86,9 +96,9 @@ const pushToFork = async (data, files, res, req) => {
 
     exec(
       `cd ${repoName} && git checkout -b ${branchName}`,
-      async (err, out, stderrr) => {
+      async (e, out, stderrr) => {
         if (stderrr) {
-          console.log(err);
+          console.log(e);
         }
 
         // show git clone logs
@@ -107,29 +117,31 @@ const pushToFork = async (data, files, res, req) => {
                   remoteName,
                 });
                 console.log(
-                  `changes has been successfully pushed into ${repoName} via ${branchName} branch`
+                  `changes has been successfully pushed into ${repoName} via ${branchName} branch`,
                 );
               });
             });
-          }
+          },
         );
-      }
+      },
     );
   });
 };
 
 export default async function handler(req, res) {
   const { branchName, filename, category } = req.body;
-  const repoName = "volt-mx-tutorials";
+  const repoName = 'volt-mx-tutorials';
   const remoteName = await getRemoteUrl();
+  console.log('lelel');
+  console.log(remoteName);
 
-  if (req.method === "POST") {
+  if (req.method === 'POST') {
     // push to fork repository
     await pushToFork(
       { repoName, remoteName, branchName },
       { repoName, category, filename },
       res,
-      req
+      req,
     );
   }
 }

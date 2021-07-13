@@ -4,16 +4,14 @@ import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
 import InfiniteScroll from 'react-infinite-scroller';
 import Skeleton from 'antd/lib/skeleton';
-import getConfig from 'next/config';
+import _flatten from 'lodash/flatten';
 import queryString from 'querystring';
 import HikeHeader from '../src/components/HikeHeader';
 import TourCard from '../src/components/TourCard';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import styles from './style.scss';
-import { getHikesCategories } from '../src/utils/populate';
+import { getMapCategories } from '../src/utils/populate';
 import { BASE_PATH_URL, isDev } from '../src/config';
-
-const { publicRuntimeConfig } = getConfig();
 
 const LoadingSkeleton = () => (
   <Row type="flex" gutter={32} className={styles.skeletonWrapper}>
@@ -38,17 +36,13 @@ const HikePage = ({ url }) => {
   const keyword = parsed[`${parseUrl}/hikes/search?keyword`];
 
   const getHikeTours = async () => {
-    const { hikesData } = publicRuntimeConfig;
-    const hikes = await getHikesCategories(hikesData);
+    const hikes = await getMapCategories();
 
     // map all tours
     const mapTours = hikes.map(hike => hike.categoryTours);
 
-    // flatten tour details
-    const reducedTours = mapTours.reduce((a, b) => a.concat(b), []);
-
     // find matches via keyword
-    const results = reducedTours.filter((tour) => {
+    const results = _flatten(mapTours).filter((tour) => {
       const { description, title, details } = tour;
 
       return (

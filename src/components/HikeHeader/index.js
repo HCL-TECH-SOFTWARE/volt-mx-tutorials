@@ -51,7 +51,7 @@ const HikeHeader = ({ search, keyword }) => {
                   },
                 }}
               >
-                <a title="Kony Logo" className={style.logo}>
+                <a title="HCL Volt MX Logo" className={style.logo}>
                   <img
                     src={`${
                       publicRuntimeConfig.asset

@@ -5,9 +5,9 @@
   "categories": "Categories",
   "start": "START",
   "en-US": "English",
-  "zh-CN": "Chinese(Simplified)",
-  "zh-TW": "Chinese(Traditional)",
-  "hi-IN": "Hindi",
+  "zh-CN": "Chinese(Simplified) / 简体中文",
+  "zh-TW": "Chinese(Traditional) / 繁體中文",
+  "hi-IN": "Hindi / हिंदी",
   "logo": "logo",
   "Checksum": "Checksum",
   "KUID": "KUID",
@@ -33,5 +33,7 @@
   "Back to Forms": "Back to Forms",
   "Full Preview": "Full Preview",
   "Close Full Preview": "Close Full Preview",
-  "Minutes": "Minutes"
+  "Minutes": "Minutes",
+  "composer_editing_language": "Editing Language",
+  "composer_editing_language_tooltip": "Switch between languages to edit and preview the content for that language. Falls back to English when no content is found for the selected language."
 }

@@ -1,24 +1,28 @@
-import React, { useState } from "react";
-import { Modal, Button } from "antd";
-import styles from "./styles.scss";
-import ExportTabSwitcher from "./ExportTabSwitcher";
-import { CopyToClipboard } from "react-copy-to-clipboard";
-import axios from "axios";
-import { BASE_BRANCH } from "../../config";
+import React, { useState } from 'react';
+import { Modal } from 'antd';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+import axios from 'axios';
+import styles from './styles.scss';
+import ExportTabSwitcher from './ExportTabSwitcher';
+// import { BASE_BRANCH } from '../../config';
 
-const BASE_API = "http://localhost:3200/api";
+const BASE_API = 'http://localhost:3200/api';
 
-const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
-  const [view, setView] = useState("json");
+const ExportModal = ({
+  visible, jsonData, onClose, branchName, category,
+}) => {
+  const [view, setView] = useState('json');
   const [pushed, setPushed] = useState(false);
   const [pushing, setPushing] = useState(false);
-  const [forkUrl, setForkUrl] = useState("");
+  const [forkUrl, setForkUrl] = useState('');
+
+  const displayContent = view === 'json' ? jsonData.output : jsonData.localization[view];
 
   const onSubmitToFork = async () => {
     if (!pushed && !pushing) {
       setPushing(true);
       axios
-        .post(`${BASE_API}/export/push`, { ...jsonData, branchName, category })
+        .post(`${BASE_API}/export/push`, { ...jsonData.output, branchName, category })
         .then((res) => {
           const { success, remoteName } = res.data;
           if (success) {
@@ -35,12 +39,12 @@ const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
     }
   };
 
-  const visitFork = () => {
-    window.open(
-      `https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/compare/${BASE_BRANCH}...mikeangelsilva:${branchName}?expand=1`,
-      "_blank"
-    );
-  };
+  // const visitFork = () => {
+  //   window.open(
+  //     `https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/compare/${BASE_BRANCH}...mikeangelsilva:${branchName}?expand=1`,
+  //     '_blank',
+  //   );
+  // };
 
   return (
     <div>
@@ -48,17 +52,17 @@ const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
         className={styles.exportModal}
         title={
           pushed
-            ? "Pushed Successfully"
+            ? 'Pushed Successfully'
             : pushing
-            ? "Please wait"
-            : "Compose Successfully"
+              ? 'Please wait'
+              : 'Compose Successfully'
         }
         centered
         visible={visible}
         onOk={onSubmitToFork}
         onCancel={onClose}
         okText={
-          pushed ? "Done" : pushing ? "Please wait" : "Push to Fork Repository"
+          pushed ? 'Done' : pushing ? 'Please wait' : 'Push to Fork Repository'
         }
       >
         {!pushed && !pushing && (
@@ -74,30 +78,33 @@ const ExportModal = ({ visible, jsonData, onClose, branchName, category }) => {
             <p>Pushing to your Fork Repository</p>
           </div>
         )}
-        {view === "json" &&
-          (pushed ? (
+        {view
+          && (pushed ? (
             <div className={styles.statusContainer}>
               <p style={{ fontSize: 24 }}>Successful!</p>
               <p>
-                You can now create a{" "}
-                <span style={{ fontWeight: "bold" }}>Pull Request</span>
+                You can now create a
+                {' '}
+                <span style={{ fontWeight: 'bold' }}>Pull Request</span>
               </p>
               <label>
-                Fork URL: <span style={{ fontWeight: "bold" }}>{forkUrl}</span>
+                Fork URL:
+                {' '}
+                <span style={{ fontWeight: 'bold' }}>{forkUrl}</span>
               </label>
               {/* <Button onClick={visitFork}>View Pull Request</Button> */}
             </div>
           ) : (
             !pushing && (
               <div className={styles.jsonContainer}>
-                <CopyToClipboard text={jsonData}>
+                <CopyToClipboard text={displayContent}>
                   <button className={styles.copyToClipboard}>
                     Copy to clipboard
                   </button>
                 </CopyToClipboard>
 
                 <pre className={styles.jsonValues}>
-                  {JSON.stringify(jsonData, null, 2)}
+                  {JSON.stringify(displayContent, null, 2)}
                 </pre>
               </div>
             )
