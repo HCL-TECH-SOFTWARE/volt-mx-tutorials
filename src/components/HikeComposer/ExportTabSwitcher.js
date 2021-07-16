@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { Menu, Icon } from 'antd';
-import i18next from 'i18next';
-import { locales } from '../../../i18n';
+import i18next, { locales } from '../../../i18n';
+
+const propTypes = {
+  changeTab: PropTypes.func.isRequired,
+};
 
 const ExportTabSwitcher = ({ changeTab }) => {
   const [current, setCurrent] = useState('json');
@@ -27,4 +31,5 @@ const ExportTabSwitcher = ({ changeTab }) => {
   );
 };
 
+ExportTabSwitcher.propTypes = propTypes;
 export default ExportTabSwitcher;

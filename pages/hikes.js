@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import i18next from 'i18next';
 import HikeHeader from '../src/components/HikeHeader';
 import ToursList from '../src/components/ToursList';
 import styles from './style.scss';
 import { getMapCategories } from '../src/utils/populate';
+import i18next from '../i18n';
 
 const HikePage = () => {
   const [categories, setCategories] = useState([]);
@@ -18,7 +18,7 @@ const HikePage = () => {
   useEffect(() => {
     getHikes();
     return () => {};
-  }, [i18next.language]);
+  }, [i18next.language, router.asPath]);
 
   useEffect(() => {
     const path = router.asPath.split(/\?/);
@@ -37,7 +37,8 @@ const HikePage = () => {
         },
       });
     }
-  }, [i18next.language, router.query]);
+  }, []);
+
   return (
     <div className={styles.hikeBody}>
       <HikeHeader />

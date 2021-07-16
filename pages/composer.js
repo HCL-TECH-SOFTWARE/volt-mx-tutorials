@@ -9,18 +9,16 @@ import {
   Form, Input, Button, Select,
 } from 'antd';
 import { useRouter } from 'next/router';
-import i18next from 'i18next';
 import styles from './style.scss';
 import { getMapCategories, translateCategory } from '../src/utils/populate';
 import TourCard from '../src/components/TourCard';
-// import ToursList from '../src/components/ToursList';
 import TourDetailPage from './tour';
 import DetailsEditor from '../src/components/DetailsEditor';
 import FormSwitcher from '../src/components/HikeComposer/FormSwitcher';
 import ExportModal from '../src/components/HikeComposer/ExportModal';
 import EditHike from '../src/components/HikeComposer/EditHike';
 import PreviewSwitcher from '../src/components/HikeComposer/PreviewSwitcher';
-import { locales, defaultLocale } from '../i18n';
+import i18next, { locales, defaultLocale } from '../i18n';
 
 const { publicRuntimeConfig } = getConfig();
 

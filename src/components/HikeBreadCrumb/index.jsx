@@ -1,24 +1,32 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Breadcrumb from 'antd/lib/breadcrumb';
 import Link from 'next/link';
-import i18next from 'i18next';
-import styles from "./style.scss";
-import { BASE_PATH_URL, isDev } from "../../config";
+import styles from './style.scss';
+import { BASE_PATH_URL, isDev } from '../../config';
+import i18next from '../../../i18n';
 
-const URL = !isDev ? `/${BASE_PATH_URL}` : "";
+const URL = !isDev ? `/${BASE_PATH_URL}` : '';
 
-export default ({ title, className, search }) => (
+const propTypes = {
+  title: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  search: PropTypes.string.isRequired,
+};
+
+const HikeBreadCrumb = ({ title, className, search }) => (
   <div className={`${styles.breadcrumbWrapper} ${className}`}>
     <Breadcrumb separator={<span className={styles.divider}>/</span>}>
       <Breadcrumb.Item>
-        <Link 
-          href={{pathname: `${URL}/hikes`,
-          query: {
-            lang: i18next.language,
-          }
+        <Link
+          href={{
+            pathname: `${URL}/hikes`,
+            query: {
+              lang: i18next.language,
+            },
           }}
         >
-          <a className={styles.parent} >
+          <a className={styles.parent}>
             HIKES
           </a>
         </Link>
@@ -28,12 +36,14 @@ export default ({ title, className, search }) => (
           ? (
             <Breadcrumb.Item>
               <Link
-                href={{ pathname: `/hikes/search/${search}}`,
-                query: {
-                  lang: i18next.language,
-                }
-                }}>
-                <a className={styles.parent} >
+                href={{
+                  pathname: `/hikes/search/${search}}`,
+                  query: {
+                    lang: i18next.language,
+                  },
+                }}
+              >
+                <a className={styles.parent}>
                   {search}
                 </a>
               </Link>
@@ -47,3 +57,6 @@ export default ({ title, className, search }) => (
     </Breadcrumb>
   </div>
 );
+
+HikeBreadCrumb.propTypes = propTypes;
+export default HikeBreadCrumb;

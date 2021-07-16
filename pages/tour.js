@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import i18next from 'i18next';
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
 import HikeHeader from '../src/components/HikeHeader';
@@ -10,6 +9,7 @@ import styles from './style.scss';
 import { isDev, BASE_PATH_URL } from '../src/config';
 import { getMapCategories } from '../src/utils/populate';
 import { getZipDownloadUrl } from '../src/utils/request';
+import i18next from '../i18n';
 
 
 const propTypes = {
@@ -31,7 +31,6 @@ const TourDetailPage = ({ url, previewData }) => {
         category: [previewData.category],
       });
     } else {
-      const path = url.asPath.substr(0, url.asPath.indexOf('?'));
       const urlTour = isDev
         ? url.asPath.substring(1).replace(/\?lang=.*/, '')
         : url.asPath.replace(`/${BASE_PATH_URL}`, '').substring(1).replace(/\?lang=.*/, '');
