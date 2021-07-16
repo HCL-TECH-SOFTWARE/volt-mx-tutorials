@@ -1,5 +1,4 @@
 import axios from 'axios';
-import i18next from 'i18next';
 import getConfig from 'next/config';
 import _get from 'lodash/get';
 import _merge from 'lodash/merge';
@@ -7,7 +6,7 @@ import _mergeWith from 'lodash/mergeWith';
 import _zipObject from 'lodash/zipObject';
 import _isArray from 'lodash/isArray';
 import { SERVER } from '../config';
-import { locales } from '../../i18n';
+import i18next, { locales } from '../../i18n';
 
 const { publicRuntimeConfig } = getConfig();
 

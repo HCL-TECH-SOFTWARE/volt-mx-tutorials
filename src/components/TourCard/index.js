@@ -1,11 +1,11 @@
 import React from 'react';
-import i18next from 'i18next';
 import Col from 'antd/lib/col';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import style from './style.scss';
 import { truncateAdvance } from '../../utils';
 import { BASE_PATH_URL } from '../../config';
+import i18next from '../../../i18n';
 
 const isProdUrl = process.env.NODE_ENV === 'production' ? `${BASE_PATH_URL}/` : '';
 

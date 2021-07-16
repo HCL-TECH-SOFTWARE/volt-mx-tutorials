@@ -1,5 +1,4 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import i18next from 'i18next';
 import PropTypes from 'prop-types';
 import Layout from 'antd/lib/layout';
 import Row from 'antd/lib/row';
@@ -10,7 +9,7 @@ import getConfig from 'next/config';
 import { useRouter } from 'next/router';
 import style from './style.scss';
 import HikeSearch from '../HikeSearch';
-import { locales } from '../../../i18n';
+import i18next, { locales } from '../../../i18n';
 
 const { Header } = Layout;
 
@@ -24,7 +23,9 @@ const HikeHeader = ({ search, keyword }) => {
   }, [i18next.language]);
 
   const changeLang = useCallback((selectedLanguage) => {
-    const refreshPath = router.asPath.split(/=/)[0].concat(`=${selectedLanguage}`);
+    const refreshPath = router.asPath.includes('lang=') ? router.asPath.split(/=/)[0].concat(`=${selectedLanguage}`)
+      : router.asPath.split(/=/)[0].concat(`?lang=${selectedLanguage}`);
+    i18next.changeLanguage(selectedLanguage);
     router.push(refreshPath);
   }, []);
 
@@ -51,7 +52,7 @@ const HikeHeader = ({ search, keyword }) => {
                   },
                 }}
               >
-                <a title="HCL Volt MX Logo" className={style.logo}>
+                <a title="Kony Logo" className={style.logo}>
                   <img
                     src={`${
                       publicRuntimeConfig.asset

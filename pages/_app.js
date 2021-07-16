@@ -1,6 +1,5 @@
 import React from 'react';
 import Router, { withRouter } from 'next/router';
-import i18next from 'i18next';
 import App from 'next/app';
 import { Provider } from 'react-redux';
 import NProgress from 'nprogress';
@@ -10,7 +9,7 @@ import withReduxStore from '../src/store/createStore';
 import Layout from '../src/components/Layout';
 import { gtmId } from '../src/config/settings';
 import GoogleTagManager from '../src/components/GoogleTagManager';
-import '../i18n';
+import i18next from '../i18n';
 
 NProgress.configure({ showSpinner: false, minimum: 0.1 });
 Router.events.on('beforeHistoryChange', () => NProgress.inc(0.5));

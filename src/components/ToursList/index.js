@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import i18next from 'i18next';
+import React from 'react';
 import Row from 'antd/lib/row';
-import Link from 'next/link';
 import PropTypes from 'prop-types';
+import getConfig from 'next/config';
 import TourCard from '../TourCard';
 import style from './style.scss';
-import getConfig from 'next/config';
+import i18next from '../../../i18n';
+
 const { publicRuntimeConfig } = getConfig();
 
 const ToursList = ({
-  alias, title, desc, tours,
+  title, desc, tours,
 }) => (
   <div>
     <Row className={style.domainTitleWrapper}>
@@ -32,14 +32,15 @@ const ToursList = ({
   </div>
 );
 
-TourCard.propTypes = {
+ToursList.propTypes = {
   title: PropTypes.string,
-  tours: PropTypes.array,
+  desc: PropTypes.string,
+  tours: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
-TourCard.defaultProps = {
+ToursList.defaultProps = {
   title: '',
-  tours: [],
+  desc: '',
 };
 
 export default ToursList;
