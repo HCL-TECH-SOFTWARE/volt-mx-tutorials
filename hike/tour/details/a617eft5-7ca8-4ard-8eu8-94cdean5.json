@@ -7,7 +7,7 @@
     "fileSize": "30.95 KB",
     "fileName": "createuifromcollectionsmob_v9.zip",
     "fid": 17118,
-    "checksum": "2c7a73ed7f3a26a95a2ceeae50c30f564c52ac71c24b205d72ef7b97b1efbc23",
+    "checksum": "cd6622dddac33d4a380a58c631e0bad6e5511617b0e4a1124faed558e1a71f67",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-ui-collections",
     "alias": "hikes/tour/create-ui-collections",
     "description": "Create the user interface for an app with Volt MX Iris",
@@ -20,6 +20,6 @@
     "kuid": "a617eft5-7ca8-4ard-8eu8-94cdean5",
     "hikeVersion": "1.0",
     "weight": "2",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/createuifromcollectionsmob_v9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test/public/contents/2-build-your-first-mobile-app/zips/createuifromcollectionsmob_v9.zip"
   }
 }

@@ -7,7 +7,7 @@
     "fileSize": "20.45 KB",
     "fileName": "launchyourfirstmobileappv92.zip",
     "fid": 17790,
-    "checksum": "fc7eca5af840e065cfd8f93410a4b70a5b397b69dc9d99fa5ba0ba4901a2ed37",
+    "checksum": "fec0a067a77d9b5fccd05c4ff13504ae9bdfd2da1642b152ce5d1800e7967aac",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-first-mobile-app-1",
     "alias": "hikes/tour/launch-your-first-mobile-app-1",
     "description": "Open a native mobile app and preview it on your mobile device.",
@@ -20,6 +20,6 @@
     "kuid": "7408efte-e2aa-4cr8-a9ub-d7ba36n8",
     "hikeVersion": "1.0",
     "weight": "1",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/test/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip"
   }
 }
