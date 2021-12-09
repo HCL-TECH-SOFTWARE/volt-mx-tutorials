@@ -48,6 +48,25 @@
       "kuid": "f9e5f0t5-a8a5-4arb-bfu1-50d392n4",
       "hikeVersion": "1.0",
       "weight": "2"
+    },
+    {
+      "hikeVersion": "1.0",
+      "title": "",
+      "description": "",
+      "checksum": "05f9744236ee5be5ddd0f4ca4173a9bcda3d459ce745b4631dba0004bedf7296",
+      "kuid": "f9e5f0t5-a8a5-4arb-bfu1-50d392n4",
+      "category": [
+        "Advanced Concepts"
+      ],
+      "details": "",
+      "cards": 1,
+      "time": "1 Mins",
+      "platformVersion": 9.2,
+      "filename": "nfibarcodev9.zip",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/nfis-using-third-party-library",
+      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/6-advanced-concepts/zips/nfibarcodev9.zip",
+      "alias": "hikes/tour/nfis-using-third-party-library",
+      "image": "/default/hike-default.png"
     }
   ]
 }
