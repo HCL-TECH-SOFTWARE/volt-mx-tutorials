@@ -278,6 +278,25 @@
       "kuid": "5ff7b4ta-15a6-4ar8-87ue-c2cdf7n8",
       "hikeVersion": "1.0",
       "weight": "12"
+    },
+    {
+      "hikeVersion": "1.0",
+      "title": "Introduction to Segment",
+      "description": "Learn the basics of the Segment widget.",
+      "checksum": "efe8541f7e58630d0804c9ac193f797b44e1e12f04f8ba38697029d4dc301968",
+      "kuid": "9b0f07t4-e9a8-49rb-83u2-876264n4",
+      "category": [
+        "Develop the Front End"
+      ],
+      "details": "",
+      "cards": 1,
+      "time": "1 Mins",
+      "platformVersion": 9.2,
+      "filename": "introductiontosegmentv9.zip",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/IntroductiontoSegmentV9",
+      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/4-develop-the-front-end/zips/introductiontosegmentv9.zip",
+      "alias": "hikes/tour/IntroductiontoSegmentV9",
+      "image": "/default/hike-default.png"
     }
   ]
 }
