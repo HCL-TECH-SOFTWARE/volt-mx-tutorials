@@ -255,6 +255,44 @@
       "kuid": "c15430t5-28ac-41r0-84u1-e8bb44na",
       "hikeVersion": "1.0",
       "weight": "11"
+    },
+    {
+      "hikeVersion": "1.0",
+      "title": "",
+      "description": "",
+      "checksum": "38696cb94c1af8a058a735c7a16921fbcbacea6e936e5baf9d09cdeb4526ab22",
+      "kuid": "7408efte-e2aa-4cr8-a9ub-d7ba36n8",
+      "category": [
+        "Build Your First Mobile App"
+      ],
+      "details": "",
+      "cards": 1,
+      "time": "1 Mins",
+      "platformVersion": 9.2,
+      "filename": "launchyourfirstmobileappv92.zip",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-first-mobile-app-1",
+      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip",
+      "alias": "hikes/tour/launch-your-first-mobile-app-1",
+      "image": "/default/hike-default.png"
+    },
+    {
+      "hikeVersion": "1.0",
+      "title": "",
+      "description": "",
+      "checksum": "14606d84c908095bd9e98f67570d449d1d19d8a3189ec5584473bfd6f668870e",
+      "kuid": "7408efte-e2aa-4cr8-a9ub-d7ba36n8",
+      "category": [
+        "Build Your First Mobile App"
+      ],
+      "details": "",
+      "cards": 1,
+      "time": "1 Mins",
+      "platformVersion": 9.2,
+      "filename": "launchyourfirstmobileappv92.zip",
+      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-first-mobile-app-1",
+      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip",
+      "alias": "hikes/tour/launch-your-first-mobile-app-1",
+      "image": "/default/hike-default.png"
     }
   ]
 }
