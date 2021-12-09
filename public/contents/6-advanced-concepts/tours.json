@@ -51,8 +51,8 @@
     },
     {
       "hikeVersion": "1.0",
-      "title": "",
-      "description": "",
+      "title": "NFIs Using Third-party Library",
+      "description": "Use NFIs to access third party libraries, specifically Android barcode scanner.",
       "checksum": "05f9744236ee5be5ddd0f4ca4173a9bcda3d459ce745b4631dba0004bedf7296",
       "kuid": "f9e5f0t5-a8a5-4arb-bfu1-50d392n4",
       "category": [
