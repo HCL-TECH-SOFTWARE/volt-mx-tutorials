@@ -12,7 +12,7 @@
       "fileSize": "20.45 KB",
       "fileName": "launchyourfirstmobileappv92.zip",
       "fid": 17790,
-      "checksum": "fec0a067a77d9b5fccd05c4ff13504ae9bdfd2da1642b152ce5d1800e7967aac",
+      "checksum": "b21a7f6f2edf3eb11e89854c2e98ad64ec5716e08ba94d49244a5163b952fa6a",
       "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-first-mobile-app-1",
       "alias": "hikes/tour/launch-your-first-mobile-app-1",
       "description": "Open a native mobile app and preview it on your mobile device.",
@@ -35,7 +35,7 @@
       "fileSize": "30.95 KB",
       "fileName": "createuifromcollectionsmob_v9.zip",
       "fid": 17118,
-      "checksum": "cd6622dddac33d4a380a58c631e0bad6e5511617b0e4a1124faed558e1a71f67",
+      "checksum": "177b380cad45fa7eb10a3e13b23a91dd8308fd004399665c5cd549c121c9a380",
       "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-ui-collections",
       "alias": "hikes/tour/create-ui-collections",
       "description": "Create the user interface for an app with Volt MX Iris",
@@ -62,7 +62,7 @@
       "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-authentication",
       "alias": "hikes/tour/add-authentication",
       "description": "Secure an app’s data with a user-authentication mechanism.",
-      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Configure an Identity Service</li> <li>Map the Identity Service to the UI elements of an app</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Learn to configure an Identity Service</li> <li>Map the Identity Service to the UI elements of an app</li> </ul> </div> </div> <p><!--EndFragment--></p>",
       "cards": 16,
       "time": "15 Mins",
       "platformVersion": "Iris 9.0",
@@ -255,44 +255,6 @@
       "kuid": "c15430t5-28ac-41r0-84u1-e8bb44na",
       "hikeVersion": "1.0",
       "weight": "11"
-    },
-    {
-      "hikeVersion": "1.0",
-      "title": "",
-      "description": "",
-      "checksum": "38696cb94c1af8a058a735c7a16921fbcbacea6e936e5baf9d09cdeb4526ab22",
-      "kuid": "7408efte-e2aa-4cr8-a9ub-d7ba36n8",
-      "category": [
-        "Build Your First Mobile App"
-      ],
-      "details": "",
-      "cards": 1,
-      "time": "1 Mins",
-      "platformVersion": 9.2,
-      "filename": "launchyourfirstmobileappv92.zip",
-      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-first-mobile-app-1",
-      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip",
-      "alias": "hikes/tour/launch-your-first-mobile-app-1",
-      "image": "/default/hike-default.png"
-    },
-    {
-      "hikeVersion": "1.0",
-      "title": "",
-      "description": "",
-      "checksum": "14606d84c908095bd9e98f67570d449d1d19d8a3189ec5584473bfd6f668870e",
-      "kuid": "7408efte-e2aa-4cr8-a9ub-d7ba36n8",
-      "category": [
-        "Build Your First Mobile App"
-      ],
-      "details": "",
-      "cards": 1,
-      "time": "1 Mins",
-      "platformVersion": 9.2,
-      "filename": "launchyourfirstmobileappv92.zip",
-      "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/launch-your-first-mobile-app-1",
-      "fileURL": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/launchyourfirstmobileappv92.zip",
-      "alias": "hikes/tour/launch-your-first-mobile-app-1",
-      "image": "/default/hike-default.png"
     }
   ]
 }
