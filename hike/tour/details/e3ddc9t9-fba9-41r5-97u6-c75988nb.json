@@ -11,11 +11,13 @@
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/add-salesforce-service-0",
     "alias": "hikes/tour/add-salesforce-service-0",
     "description": "Learn how to add a Salesforce service to your app.",
-    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn how to configure a service that communicates with an external data source by using a Salesforce data connector.</p> </div> </div> <p><!--EndFragment--></p>",
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li> Configure a service that communicates with an external data source by using a Salesforce data connector.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
     "cards": 14,
     "time": "15 Mins",
     "platformVersion": "Iris 9.0",
-    "category": [],
+    "category": [
+      "Manage Back-End Services"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "e3ddc9t9-fba9-41r5-97u6-c75988nb",
     "hikeVersion": "1.0",
