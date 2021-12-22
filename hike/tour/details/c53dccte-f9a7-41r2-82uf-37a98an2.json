@@ -7,7 +7,7 @@
     "fileSize": "23.96 KB",
     "fileName": "introflexlayoutv9.zip",
     "fid": 17801,
-    "checksum": "6a0a3da372bbee6dd8bd5da142e434eb3857479b71dedb7f3da9c57973b47e1b",
+    "checksum": "c14265218d0a666ab4f1ea91f33b68f9b9f66c2c07a26125156a9f62043d269e",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-flex-layout-0",
     "alias": "hikes/tour/introduction-flex-layout-0",
     "description": "Learn about Flex layout properties.",
@@ -15,7 +15,9 @@
     "cards": 15,
     "time": "16 Mins",
     "platformVersion": "Iris 9.0",
-    "category": [],
+    "category": [
+      "Develop the Front End"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "c53dccte-f9a7-41r2-82uf-37a98an2",
     "hikeVersion": "1.0",

@@ -15,7 +15,9 @@
     "cards": 30,
     "time": "22 Mins",
     "platformVersion": "Iris 9.0",
-    "category": [],
+    "category": [
+      "Develop the Front End"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "3b490at5-80ae-46rb-a4ua-3cd903n7",
     "hikeVersion": "1.0",

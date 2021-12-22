@@ -7,7 +7,7 @@
     "fileSize": "33.85 KB",
     "fileName": "internationalizationwithlayout92.zip",
     "fid": 17648,
-    "checksum": "97633d4ee7aae58d94d6d9a0dc4f9925e3b9845f94a143e61c8ea1f7abe523fa",
+    "checksum": "5c1223ac72b3cf760d32e1d8a2b021216c755e57c8b042a32e79aefc0bf87ec8",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/internationalization-layout-1",
     "alias": "hikes/tour/internationalization-layout-1",
     "description": "Learn the basics of Internationalization(i18n) with layout configuration changes.",
@@ -15,7 +15,9 @@
     "cards": 20,
     "time": "17 Mins",
     "platformVersion": "Iris 9.2",
-    "category": [],
+    "category": [
+      "Develop the Front End"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "5ff7b4ta-15a6-4ar8-87ue-c2cdf7n8",
     "hikeVersion": "1.0",

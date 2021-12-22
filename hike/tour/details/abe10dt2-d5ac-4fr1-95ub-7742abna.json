@@ -7,7 +7,7 @@
     "fileSize": "13.83 KB",
     "fileName": "VoltMXOrientationV9.zip",
     "fid": 17800,
-    "checksum": "7d7c6773118e63b73c6e25724d8f6d199afdcf2c6f996de82c8ac9acb99fe9d6",
+    "checksum": "e1a408c624a98ecfd9df9bf347e31ffa25a72a0331d8f89d5f383c2e6007d6eb",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/quantum-orientation",
     "alias": "hikes/tour/quantum-orientation",
     "description": "Learn about the Volt MX Iris features",
@@ -15,7 +15,9 @@
     "cards": 9,
     "time": "3 Mins",
     "platformVersion": "Iris 9.0",
-    "category": [],
+    "category": [
+      "Develop the Front End"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "abe10dt2-d5ac-4fr1-95ub-7742abna",
     "hikeVersion": "1.0",

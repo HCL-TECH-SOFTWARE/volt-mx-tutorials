@@ -7,7 +7,7 @@
     "fileSize": "32.3 KB",
     "fileName": "introductiontointernationalization92.zip",
     "fid": 17647,
-    "checksum": "7fb8e6c3dee8ae1dfa8b85ff8a08296bdc71d0f086aa0d2d57a5fb1a0690757b",
+    "checksum": "7fb6743b6f5a634b7d338fa57d6698fa9142f960b0e69c0120227ad1f893f2ad",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-internationalization-1",
     "alias": "hikes/tour/introduction-internationalization-1",
     "description": "Learn the basics of Internationalization(i18n).",
@@ -15,7 +15,9 @@
     "cards": 19,
     "time": "17 Mins",
     "platformVersion": "Iris 9.2",
-    "category": [],
+    "category": [
+      "Develop the Front End"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "9167adt8-36ac-4crc-90ua-da60c8n7",
     "hikeVersion": "1.0",
