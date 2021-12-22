@@ -15,7 +15,9 @@
     "cards": 28,
     "time": "30 Mins",
     "platformVersion": "Iris 9.0",
-    "category": [],
+    "category": [
+      "Build Your First Web App"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "082af3t0-74a2-4ere-a6u3-749d59n5",
     "hikeVersion": "1.0",

@@ -15,7 +15,9 @@
     "cards": 16,
     "time": "15 Mins",
     "platformVersion": "Iris 9.0",
-    "category": "Build Your First Mobile App",
+    "category": [
+      "Build Your First Mobile App"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "15d8c7t4-cda7-40rb-afu7-345cfcnc",
     "hikeVersion": "1.0",

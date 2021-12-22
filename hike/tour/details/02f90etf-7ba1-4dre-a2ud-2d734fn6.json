@@ -15,7 +15,9 @@
     "cards": 15,
     "time": "16 Mins",
     "platformVersion": "Iris 9.0",
-    "category": "Advanced Concepts",
+    "category": [
+      "Advanced Concepts"
+    ],
     "image": "/default/hike-default.png",
     "kuid": "02f90etf-7ba1-4dre-a2ud-2d734fn6",
     "hikeVersion": "1.0",
