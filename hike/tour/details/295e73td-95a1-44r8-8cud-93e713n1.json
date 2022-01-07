@@ -11,7 +11,7 @@
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/understand-identity-services-0",
     "alias": "hikes/tour/understand-identity-services-0",
     "description": "Add authentication to your app.",
-    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li> Configure a service that communicates with an external data source by using a Salesforce data connector.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li> Secure your application by using an authentication mechanism.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
     "cards": 13,
     "time": "15 MIns",
     "platformVersion": "Iris 9.0",
