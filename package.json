@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^27.1.1",
     "@ckeditor/ckeditor5-react": "^3.0.2",
     "@zeit/next-sass": "^1.0.1",
     "antd": "3.11.2",
