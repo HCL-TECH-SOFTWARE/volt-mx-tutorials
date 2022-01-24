@@ -7,13 +7,13 @@
     "fileSize": "21.46 KB",
     "fileName": "understandidentityservicesv9.zip",
     "fid": 17156,
-    "checksum": "b5516b18106a875c8b0e83015e7559f924ce248ad3c46d99b53d05277a83fce2",
+    "checksum": "127ee74d6cf2d79baf33422cfa728fa70865fe8dc19a2d9d1297549e3efa59cc",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/understand-identity-services-0",
     "alias": "hikes/tour/understand-identity-services-0",
     "description": "Add authentication to your app.",
     "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li> Secure your application by using an authentication mechanism.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
     "cards": 13,
-    "time": "15 MIns",
+    "time": "15 Mins",
     "platformVersion": "Iris 9.0",
     "category": [
       "Manage Back-End Services"
