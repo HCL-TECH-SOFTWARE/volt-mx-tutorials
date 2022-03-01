@@ -1,0 +1,15 @@
+diff --git a/pages/tour.js b/pages/tour.js
+index f3bc046..4947019 100644
+--- a/pages/tour.js
++++ b/pages/tour.js
+@@ -161,6 +161,10 @@ const TourDetailPage = ({ url, previewData }) => {
+               className={styles.tourDetails}
+               dangerouslySetInnerHTML={{ __html: tourDetails?.details }}
+             />
++
++            <div className={styles.tourDetails}>
++              Please follow all instructions on hike to successfully complete the tutorial.
++            </div>
+           </div>
+         </div>
+         {isPreview || (
