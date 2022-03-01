@@ -161,6 +161,10 @@ const TourDetailPage = ({ url, previewData }) => {
               className={styles.tourDetails}
               dangerouslySetInnerHTML={{ __html: tourDetails?.details }}
             />
+
+            <div className={styles.tourDetails}>
+              Please follow all instructions on hike to successfully complete the tutorial.
+            </div>
           </div>
         </div>
         {isPreview || (
