@@ -30,11 +30,12 @@
   "New Hike": "新建Hike",
   "Card Preview": "预览卡片",
   "Tour Preview": "预览向导",
-  "Volt MX Tutorials": "Volt MX 向导",
+  "Volt MX Tutorials": "Volt MX 教程",
   "Back to Forms": "回到表单",
   "Full Preview": "全屏预览",
   "Close Full Preview": "关闭全屏预览",
   "Minutes": "分钟",
   "composer_editing_language": "编辑语言",
-  "composer_editing_language_tooltip": "切换语言以编辑和预览该语言的内容。当没有找到所选语言的内容时，将回退到英语。"
+  "composer_editing_language_tooltip": "切换语言以编辑和预览该语言的内容。当没有找到所选语言的内容时，将回退到英语。",
+  "follow_instructions_on_hike_to_complete": "请跟从 Hike 里的所有指示以完成整个教程。"
 }

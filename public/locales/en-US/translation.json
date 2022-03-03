@@ -1,4 +1,5 @@
 {
+  "search": "Search",
   "step": "{{count}} Steps",
   "hike_version": "Hike Version: ",
   "platform_version": "Platform Version",
@@ -35,5 +36,6 @@
   "Close Full Preview": "Close Full Preview",
   "Minutes": "Minutes",
   "composer_editing_language": "Editing Language",
-  "composer_editing_language_tooltip": "Switch between languages to edit and preview the content for that language. Falls back to English when no content is found for the selected language."
+  "composer_editing_language_tooltip": "Switch between languages to edit and preview the content for that language. Falls back to English when no content is found for the selected language.",
+  "follow_instructions_on_hike_to_complete": "Please follow all instructions on hike to successfully complete the tutorial."
 }

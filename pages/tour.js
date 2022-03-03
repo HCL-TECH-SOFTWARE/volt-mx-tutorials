@@ -164,7 +164,7 @@ const TourDetailPage = ({ url, previewData }) => {
             />
 
             <div className={styles.tourDetails}>
-              Please follow all instructions on hike to successfully complete the tutorial.
+              {i18next.t('follow_instructions_on_hike_to_complete')}
             </div>
           </div>
         </div>

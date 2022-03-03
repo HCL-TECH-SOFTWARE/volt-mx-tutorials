@@ -36,5 +36,6 @@
   "Close Full Preview": "पूरा पूर्वावलोकन बन्द करें",
   "Minutes": "मिनट",
   "composer_editing_language": "संपादन भाषा",
-  "composer_editing_language_tooltip": "उस भाषा की सामग्री का पूर्वावलोकन और संपादन करने के लिए भाषाओं के बीच स्विच करें। जब चयनित भाषा के लिए कोई सामग्री नहीं मिलती है तो अंग्रेजी में वापस आ जाता है।"
+  "composer_editing_language_tooltip": "उस भाषा की सामग्री का पूर्वावलोकन और संपादन करने के लिए भाषाओं के बीच स्विच करें। जब चयनित भाषा के लिए कोई सामग्री नहीं मिलती है तो अंग्रेजी में वापस आ जाता है।",
+  "follow_instructions_on_hike_to_complete": "Please follow all instructions on hike to successfully complete the tutorial."
 }
