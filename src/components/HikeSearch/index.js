@@ -23,11 +23,15 @@ class HikeSearch extends Component {
     const searchTerm = keyword.trim().replace(/\\|\/|  +/g, ' ');
     if (searchTerm.length > 2) {
       const URL = !isDev ? BASE_PATH_URL : '';
-      const searchUrl = `${URL}/hikes/search?keyword=${searchTerm}`;
+      const params = new URLSearchParams({
+        ...Router.params,
+        keyword: searchTerm,
+      });
+      const searchUrl = `${URL}/hikes/search?${params.toString()}`;
       Router.replace(searchUrl);
     } else {
       Modal.error({
-        title: 'Please enter minimum 3 characters',
+        title: i18next.t('search_min_char_limit', { count: 3 }),
       });
       return false;
     }

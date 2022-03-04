@@ -23,8 +23,12 @@ const HikeHeader = ({ search, keyword }) => {
   }, [i18next.language]);
 
   const changeLang = useCallback((selectedLanguage) => {
-    const refreshPath = router.asPath.includes('lang=') ? router.asPath.split(/=/)[0].concat(`=${selectedLanguage}`)
-      : router.asPath.split(/=/)[0].concat(`?lang=${selectedLanguage}`);
+    const params = new URLSearchParams({
+      ...router.query,
+      lang: selectedLanguage,
+    });
+
+    const refreshPath = `${router.asPath.split('?')[0]}?${params.toString()}`;
     i18next.changeLanguage(selectedLanguage);
     router.push(refreshPath);
   }, []);

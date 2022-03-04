@@ -12,6 +12,7 @@ import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import styles from './style.scss';
 import { getMapCategories } from '../src/utils/populate';
 import { BASE_PATH_URL, isDev } from '../src/config';
+import i18next from '../i18n';
 
 const LoadingSkeleton = () => (
   <Row type="flex" gutter={32} className={styles.skeletonWrapper}>
@@ -83,7 +84,7 @@ const HikePage = ({ url }) => {
               : null}
             {tours.length === 0 && !hasMore ? (
               <h2 className={styles.noresult}>
-                No matching records found. Please modify search criteria.
+                {i18next.t('search_no_results')}
               </h2>
             ) : null}
           </Row>

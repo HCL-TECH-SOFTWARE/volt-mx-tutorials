@@ -37,5 +37,7 @@
   "Minutes": "分钟",
   "composer_editing_language": "编辑语言",
   "composer_editing_language_tooltip": "切换语言以编辑和预览该语言的内容。当没有找到所选语言的内容时，将回退到英语。",
-  "follow_instructions_on_hike_to_complete": "请跟从 Hike 里的所有指示以完成整个教程。"
+  "follow_instructions_on_hike_to_complete": "请跟从 Hike 里的所有指示以完成整个教程。",
+  "search_min_char_limit": "请输入至少 {{count}} 个字符",
+  "search_no_results": "未找到匹配的记录。 请修改搜索条件。"
 }

@@ -37,5 +37,8 @@
   "Minutes": "मिनट",
   "composer_editing_language": "संपादन भाषा",
   "composer_editing_language_tooltip": "उस भाषा की सामग्री का पूर्वावलोकन और संपादन करने के लिए भाषाओं के बीच स्विच करें। जब चयनित भाषा के लिए कोई सामग्री नहीं मिलती है तो अंग्रेजी में वापस आ जाता है।",
-  "follow_instructions_on_hike_to_complete": "Please follow all instructions on hike to successfully complete the tutorial."
+  "follow_instructions_on_hike_to_complete": "Please follow all instructions on hike to successfully complete the tutorial.",
+  "search_min_char_limit": "कृपया कम से कम {{count}} वर्ण दर्ज करें",
+  "search_min_char_limit_plural": "कृपया कम से कम {{count}} अक्षर दर्ज करें",
+  "search_no_results": "कोई मिलान रिकॉर्ड पाया। कृपया खोज मानदंड संशोधित करें।"
 }

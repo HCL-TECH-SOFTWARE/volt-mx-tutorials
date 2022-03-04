@@ -37,5 +37,8 @@
   "Minutes": "Minutes",
   "composer_editing_language": "Editing Language",
   "composer_editing_language_tooltip": "Switch between languages to edit and preview the content for that language. Falls back to English when no content is found for the selected language.",
-  "follow_instructions_on_hike_to_complete": "Please follow all instructions on hike to successfully complete the tutorial."
+  "follow_instructions_on_hike_to_complete": "Please follow all instructions on hike to successfully complete the tutorial.",
+  "search_min_char_limit": "Please enter at least {{count}} character",
+  "search_min_char_limit_plural": "Please enter at least {{count}} characters",
+  "search_no_results": "No matching records found. Please modify search criteria."
 }
