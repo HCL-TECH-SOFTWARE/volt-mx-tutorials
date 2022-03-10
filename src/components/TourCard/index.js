@@ -20,7 +20,7 @@ const TourCard = ({ tour, dbx, search, isComposer }) => (
         >
           <div className={style.info}>
             <h2 className={`${style.title} ${dbx ? style.dbxColor : ""} `}>
-              {truncateAdvance(tour.title, 34)}
+              {truncateAdvance(tour.title, 50)}
             </h2>
             <p className={style.desc}>{tour.description}</p>
             <p className={style.meta}>{`${tour.cards} Steps / ${tour.time}`}</p>
@@ -30,7 +30,7 @@ const TourCard = ({ tour, dbx, search, isComposer }) => (
         <Link href={`${isProdUrl}${tour.alias}`}>
           <div className={style.info}>
             <h2 className={`${style.title} ${dbx ? style.dbxColor : ""} `}>
-              {truncateAdvance(tour.title, 34)}
+              {truncateAdvance(tour.title, 50)}
             </h2>
             <p className={style.desc}>{tour.description}</p>
             <p className={style.meta}>{`${tour.cards} Steps / ${tour.time}`}</p>
