@@ -1,0 +1,46 @@
+{
+  "categoryName": "管理後端服務",
+  "categoryDescription": "<p>了解可以與前端連接的不同服務。這些服務包括：身份服務、集成服務和編排服務。</p>",
+  "categoryTours": [
+    {
+      "nid": 24433,
+      "title": "了解身份服務",
+      "description": "向您的應用程序添加身份驗證。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標來訪問 HIKES 目錄。</p> <p>&nbsp;了解如何：</p> <ul><li>使用身份驗證機制保護您的應用程序。</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": ["管理後端服務"]
+    },
+    {
+      "nid": 24434,
+      "title": "添加 Salesforce 服務",
+      "description": "了解如何將 Salesforce 服務添加到您的應用程序。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標來訪問 HIKES 目錄。</p> <p>了解如何：</p> <ul><li>使用 Salesforce 數據連接器配置與外部數據源通信的服務。</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": ["管理後端服務"]
+    },
+    {
+      "nid": 24435,
+      "title": "添加認證源",
+      "description": "將 Volt MX 用戶存儲庫添加到您的應用程序以授權用戶。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標來訪問 HIKES 目錄。</p> <p> &nbsp;了解如何：</p> <ul> <li>添加 Volt MX 用戶存儲庫作為身份驗證源</li> <li>將用戶添加到存儲庫</li> <li>使用來自 Volt MX 用戶存儲庫的登錄憑據訪問應用程序</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "17分鐘",
+      "category": ["管理後端服務"]
+    },
+    {
+      "nid": 24436,
+      "title": "使用示例服務",
+      "description": "將示例後端數據庫連接到表單",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標來訪問 HIKES 目錄。</p> <p> &nbsp;了解如何：</p> <ul> <li>創建表單</li> <li>連接到示例後端數據庫</li> <li>向表單添加數據。您可以按照相同的步驟將您自己的後端數據綁定到您的應用程序。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12 分鐘",
+      "category": ["管理後端服務"]
+    },
+    {
+      "nid": 24437,
+      "title": "使用存儲服務",
+      "description": "創建存儲服務，填充數據並將數據連接到表單。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標來訪問 HIKES 目錄。</p> <p> &nbsp;了解如何：</p> <ul> <li>創建表單</li> <li>創建存儲服務</li> <li>在存儲服務中填充數據</li> <li>將數據連接到表單</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": ["管理後端服務"]
+    }
+  ]
+}

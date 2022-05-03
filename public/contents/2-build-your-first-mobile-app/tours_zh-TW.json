@@ -1,0 +1,94 @@
+{
+  "categoryName": "構建您的第一個移動應用程序",
+  "categoryDescription": "<p>無需編碼即可快速創建移動應用程序。了解如何將 UI（用戶界面）元素拖放到應用程序中，如何將您的應用程序與後端數據集成，以及如何使用身份驗證機制保護您的應用程序。</p>",
+  "categoryTours": [
+    {
+      "nid": 24825,
+      "title": "啟動您的第一個移動應用",
+      "description": "打開本機移動應用程序並在您的移動設備上預覽它。",
+      "details": "<p><!--StartFragment--></p> <p><br /> 這個學習模塊是一個 Volt MX HIKE。 &nbsp;HIKE 是 Volt MX Iris 內部的交互式導覽，可引導您逐步完成每個模塊的流程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：&nbsp;</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p><ul> <li>導入顯示帳戶和收件人列表的示例本機應用程序</li> <li>在移動設備上預覽示例應用程序</li></ul><p><!--EndFragment--></p>",
+      "time": "11 分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24403,
+      "title": "從集合創建用戶界面",
+      "description": "使用 Volt MX Iris 為應用程序創建用戶界面",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>為用戶交互創建帶有 UI 元素的表單</li> <li>添加導航以訪問此應用程序中的不同表單</li> </ul> </div> </div> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24404,
+      "title": "添加身份驗證",
+      "description": "使用用戶身份驗證機制保護應用程序的數據。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>配置身份服務</li> <li>將身份服務映射到應用程序的 UI 元素</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24405,
+      "title": "為後端數據創建服務",
+      "description": "為後端數據創建服務",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>創建和配置存儲對象服務<strong>賬戶</strong>&nbsp;和&nbsp;<strong>收件人</strong>.</li> <li>將項目服務發佈到運行時服務器。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24406,
+      "title": "將應用程序用戶界面連接到數據",
+      "description": "將應用程序 UI 連接到數據。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li> 使用 Account 表單連接服務</li> <li>使用收件人表單連接服務</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24407,
+      "title": "創建詳細信息屏幕並刪除收件人",
+      "description": "創建詳細信息屏幕並添加刪除收件人",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>創建收件人詳細信息表單</li> <li>使用服務為收件人詳細信息表單創建 UI</li> <li> 添加刪除收件人功能</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "37 分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24408,
+      "title": "添加創建收件人",
+      "description": "添加創建新收件人的功能。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：</p> <ul> <li>創建和設計用於創建收件人的表單</li> <li>連接服務以使用 UI 元素創建接收者</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "32 分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24409,
+      "title": "添加編輯收件人",
+      "description": "添加編輯收件人詳細信息的功能。",
+      "details": "<p><!--StartFragment--></p> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>生成用於編輯收件人詳細信息的屏幕</li> <li>設計編輯收件人表單的用戶界面</li> <li>將數據從服務連接到 UI 元素</li> </ul> <p><!--EndFragment--></p>",
+      "time": "36 分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24410,
+      "title": "發布和分享應用",
+      "description": "使用 Volt MX 應用程序在移動設備上預覽收件人應用程序。",
+      "details": "<p><!--StartFragment--></p> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>在您的移動設備上預覽收件人應用程序。</li> </ul> <p><!--EndFragment--></p>",
+      "time": "10分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24411,
+      "title": "測試記錄器",
+      "description": "學習在本機應用程序上使用測試記錄器",
+      "details": "<p><!--StartFragment--></p> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>創建測試用例</li> <li>創建測試套件</li> <li>創建測試計劃</li> </ul> <p><!--EndFragment--></p>",
+      "time": "20 分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    },
+    {
+      "nid": 24412,
+      "title": "將應用程序發佈到企業商店",
+      "description": "了解如何將應用發佈到企業應用商店",
+      "details": "<p><!--StartFragment--></p> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標訪問 HIKES 目錄：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>將應用程序發佈到適用於 Android 的企業應用程序商店。</li> </ul> <p><!--EndFragment--></p>",
+      "time": "10分鐘",
+      "category": ["構建您的第一個移動應用程序"]
+    }
+  ]
+}

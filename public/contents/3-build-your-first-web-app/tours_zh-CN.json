@@ -1,0 +1,78 @@
+{
+  "categoryName": "构建您的第一个 Web 应用程序",
+  "categoryDescription": "<p>创建一个响应式 Web 应用程序——一个在任何设备上看起来和运行都完美的 Web 应用程序——无需编码。通过这些远足学习如何创建 Web 应用程序用户界面、将 Web 应用程序与后端数据集成、设置响应参数以及使用身份验证机制保护应用程序。</p>",
+  "categoryTours": [
+    {
+      "nid": 24826,
+      "title": "启动响应式 Web 应用程序",
+      "description": "启动响应式 Web 应用程序",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>导入显示帐户和收件人列表的示例 Web 应用程序</li> <li>使用实时预览在您的计算机上预览示例应用程序</li> </ul> </div> </div> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "10分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24413,
+      "title": "从集合创建用户界面",
+      "description": "使用 Volt MX Iris 为应用程序创建用户界面",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>创建具有用户交互的 UI 元素的响应式 Web 表单</li> <li>添加导航以访问应用程序的不同形式</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24414,
+      "title": "添加身份验证",
+      "description": "使用用户身份验证机制保护应用程序的数据。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>配置身份服务</li> <li>将身份服务映射到应用程序的 UI 元素</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24415,
+      "title": "为后端数据创建服务",
+      "description": "为后端数据创建服务",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>为&nbsp;创建和配置存储对象服务<strong>账户</strong>&nbsp;和&nbsp;<strong>收件人</strong>.</li> <li>将项目服务发布到运行时服务器</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24416,
+      "title": "将应用程序用户界面连接到数据",
+      "description": "将应用程序用户界面连接到数据",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li> 使用 Account 表单连接服务</li> <li>将服务与接收者表单联系起来</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24417,
+      "title": "创建详细信息屏幕并添加删除功能",
+      "description": "创建详细信息屏幕并添加删除功能",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个&nbsp;Volt MX&nbsp;HIKE。 A HIKE 是 Volt MX Iris 内部的交互式导览，可引导您逐步完成每个模块的流程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>创建收件人详细信息表单</li> <li>使用服务为收件人详细信息表单创建用户界面</li> <li> 添加删除收件人功能</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "30 分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24418,
+      "title": "添加创建收件人",
+      "description": "添加创建收件人",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：</p> <ul> <li>创建和设计用于创建收件人的表单</li> <li>连接服务以使用 UI 元素创建接收者</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "25分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24419,
+      "title": "添加编辑收件人",
+      "description": "添加编辑收件人详细信息的功能。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>生成用于编辑收件人详细信息的屏幕</li> <li>设计编辑收件人表单的用户界面</li> <li>将数据从服务连接到 UI 元素</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "35 分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    },
+    {
+      "nid": 24420,
+      "title": "响应式网页断点",
+      "description": "使用断点使您的网络应用程序响应。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标访问 HIKES 目录：</p> <p> &nbsp;</p> <p>了解如何：&nbsp;</p> <ul> <li>为表单创建收件人和编辑收件人屏幕添加三个断点。</li> <li>看看如何<strong>实时预览</strong> &nbsp;实时响应断点。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 分钟",
+      "category": ["构建您的第一个 Web 应用程序"]
+    }
+  ]
+}

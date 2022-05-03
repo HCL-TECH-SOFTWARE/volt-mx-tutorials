@@ -1,0 +1,46 @@
+{
+  "categoryName": "Manage Back-end Services",
+  "categoryDescription": "<p>Get to know the different services that you can connect with your front end. The services include: Identity Services, Integration Services, and Orchestration services.</p>",
+  "categoryTours": [
+    {
+      "nid": 24433,
+      "title": "Understand Identity Services",
+      "description": "Add authentication to your app.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li> Secure your application by using an authentication mechanism.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 MIns",
+      "category": ["Manage Back-End Services"]
+    },
+    {
+      "nid": 24434,
+      "title": "Add a Salesforce Service",
+      "description": "Learn how to add a Salesforce service to your app.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li> Configure a service that communicates with an external data source by using a Salesforce data connector.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": ["Manage Back-End Services"]
+    },
+    {
+      "nid": 24435,
+      "title": "Add an Authentication Source",
+      "description": "Add Volt MX User Repository to your app to authorize users.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Add Volt MX User Repository as an authentication source</li> <li>Add users to the repository</li> <li>Access app using the login credentials from the Volt MX User Repository</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "17 Mins",
+      "category": ["Manage Back-End Services"]
+    },
+    {
+      "nid": 24436,
+      "title": "Use Sample Services",
+      "description": "Connect a sample back-end database to a form",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Create a form</li> <li>Connect to a sample back-end database</li> <li>Add data to the form. You can follow the same steps to bind your own back-end data to your app.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12 Mins",
+      "category": ["Manage Back-End Services"]
+    },
+    {
+      "nid": 24437,
+      "title": "Use Storage Services",
+      "description": "Create a storage service, populate, and connect the data to the form.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Create a form</li> <li>Create a storage service</li> <li>Populate data in the storage service</li> <li>Connect data to the form</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": ["Manage Back-End Services"]
+    }
+  ]
+}

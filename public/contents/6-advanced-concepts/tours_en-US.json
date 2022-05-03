@@ -1,0 +1,22 @@
+{
+  "categoryName": "Advanced Concepts",
+  "categoryDescription": "",
+  "categoryTours": [
+    {
+      "nid": 24438,
+      "title": "Introduction to NFIs",
+      "description": "Use NFIs to access OS specific functionality, specifically Android Device Settings.",
+      "details": "<p><!--StartFragment--></p><div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Configure the Android Native Function APIs required to access Device settings on Android device from an app using Volt MX Iris.</li> <li>Add code in the Form controller to access Device Settings</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16 Mins",
+      "category": ["Advanced Concepts"]
+    },
+    {
+      "nid": 24439,
+      "title": "NFIs Using Third-party Library",
+      "description": "Use NFIs to access third-party libraries, specifically Android barcode scanner.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn how to:</p> <ul> <li>Import a Collection library to an app and use it in a form</li> <li>Configure the Native Function APIs required for barcode scanner for an Android app</li> <li>Add code in the Form controller for the barcode scanning functionality</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": ["Advanced Concepts"]
+    }
+  ]
+}
