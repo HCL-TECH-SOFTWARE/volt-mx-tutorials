@@ -5,13 +5,11 @@ import Col from 'antd/lib/col';
 import InfiniteScroll from 'react-infinite-scroller';
 import Skeleton from 'antd/lib/skeleton';
 import _flatten from 'lodash/flatten';
-import queryString from 'querystring';
 import HikeHeader from '../src/components/HikeHeader';
 import TourCard from '../src/components/TourCard';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
 import styles from './style.scss';
 import { getMapCategories } from '../src/utils/populate';
-import { BASE_PATH_URL, isDev } from '../src/config';
 import i18next from '../i18n';
 
 const LoadingSkeleton = () => (
@@ -32,9 +30,7 @@ const HikePage = ({ url }) => {
   const [tours, setTours] = useState([]);
   const [hasMore] = useState(false);
 
-  const parsed = queryString.parse(url.asPath);
-  const parseUrl = !isDev ? `/${BASE_PATH_URL}` : '';
-  const keyword = parsed[`${parseUrl}/hikes/search?keyword`];
+  const { keyword } = url.query;
 
   const getHikeTours = async () => {
     const hikes = await getMapCategories();
