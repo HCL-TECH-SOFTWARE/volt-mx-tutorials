@@ -30,6 +30,8 @@ const HikePage = ({ url }) => {
   const [tours, setTours] = useState([]);
   const [hasMore] = useState(false);
 
+  console.log('***');
+  console.log(url);
   const { keyword } = url.query;
 
   const getHikeTours = async () => {
