@@ -32,10 +32,12 @@ const HikePage = ({ url }) => {
   const [hasMore] = useState(false);
 
   const keyword = _get(url, 'query.keyword', '');
-  console.log('***');
-  console.log(keyword);
 
   const getHikeTours = async () => {
+    if (!keyword) {
+      return;
+    }
+
     const hikes = await getMapCategories();
 
     // map all tours
@@ -58,7 +60,7 @@ const HikePage = ({ url }) => {
   useEffect(() => {
     getHikeTours();
     return () => {};
-  }, []);
+  }, [keyword]);
 
   return (
     <div className={styles.hikeBody}>
