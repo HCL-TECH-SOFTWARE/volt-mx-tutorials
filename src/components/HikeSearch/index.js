@@ -24,7 +24,7 @@ class HikeSearch extends Component {
     if (searchTerm.length > 2) {
       const URL = !isDev ? BASE_PATH_URL : '';
       const params = new URLSearchParams({
-        ...Router.params,
+        ...Router.query,
         keyword: searchTerm,
       });
       const searchUrl = `${URL}/hikes/search?${params.toString()}`;
