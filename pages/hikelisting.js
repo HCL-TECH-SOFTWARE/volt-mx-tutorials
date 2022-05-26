@@ -5,6 +5,7 @@ import Col from 'antd/lib/col';
 import InfiniteScroll from 'react-infinite-scroller';
 import Skeleton from 'antd/lib/skeleton';
 import _flatten from 'lodash/flatten';
+import _get from 'lodash/get';
 import HikeHeader from '../src/components/HikeHeader';
 import TourCard from '../src/components/TourCard';
 import HikeBreadCrumb from '../src/components/HikeBreadCrumb';
@@ -30,9 +31,9 @@ const HikePage = ({ url }) => {
   const [tours, setTours] = useState([]);
   const [hasMore] = useState(false);
 
+  const keyword = _get(url, 'query.keyword', '');
   console.log('***');
-  console.log(url);
-  const { keyword } = url.query;
+  console.log(keyword);
 
   const getHikeTours = async () => {
     const hikes = await getMapCategories();
