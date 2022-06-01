@@ -87,7 +87,7 @@ const GenerateTourPage = () => {
 
   const changePreview = (v) => {
     setView(v);
-    if (visible === 'list') {
+    if (v === 'list') {
       setPreviewMode('split');
     }
 

@@ -39,13 +39,6 @@ const ExportModal = ({
     }
   };
 
-  // const visitFork = () => {
-  //   window.open(
-  //     `https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/compare/${BASE_BRANCH}...mikeangelsilva:${branchName}?expand=1`,
-  //     '_blank',
-  //   );
-  // };
-
   return (
     <div>
       <Modal
@@ -92,7 +85,6 @@ const ExportModal = ({
                 {' '}
                 <span style={{ fontWeight: 'bold' }}>{forkUrl}</span>
               </label>
-              {/* <Button onClick={visitFork}>View Pull Request</Button> */}
             </div>
           ) : (
             !pushing && (
