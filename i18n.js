@@ -7,7 +7,6 @@ export const locales = ['en-US', 'zh-CN', 'zh-TW', 'hi-IN'];
 export const defaultLocale = 'en-US';
 
 const detection = {
-  // order and from where user language should be detected
   order: ['querystring'],
   lookupQuerystring: 'lang',
 };
