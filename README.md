@@ -106,5 +106,5 @@ Read our [Contributing Guide](/.github/CONTRIBUTING.md) to learn about our devel
 <!-- LICENSE -->
 ## License
 
-Copyright HCL America, Inc. under [Apache License](/LICENSE) Testing
+Copyright HCL America, Inc. under [Apache License](/LICENSE)
 
