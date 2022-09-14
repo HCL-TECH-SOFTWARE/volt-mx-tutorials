@@ -1,0 +1,78 @@
+{
+  "categoryName": "Build Your First Web App",
+  "categoryDescription": "<p>Create a Responsive Web app—a web app that looks and performs perfectly on any device—without coding. Take these hikes to learn how to create Web app user interface, integrate the web app with backend data, set responsivity parameters, and secure the app with an authentication mechanism.</p>",
+  "categoryTours": [
+    {
+      "nid": 24826,
+      "title": "Launch your Responsive Web App",
+      "description": "Launch your Responsive Web App",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Import a sample web app that shows lists of Accounts and Recipients</li> <li>Preview the sample app on your computer using Live Preview</li> </ul> </div> </div> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "10 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24413,
+      "title": "Create UI from Collections",
+      "description": "Create the user interface for an app with Volt MX Iris",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create Responsive Web forms with UI elements for user interaction</li> <li>Add navigation to access the different forms of the app</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24414,
+      "title": "Add Authentication",
+      "description": "Secure an app’s data with a user-authentication mechanism.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Configure an Identity Service</li> <li>Map the identity service to the UI elements of an app</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24415,
+      "title": "Creating Services for Back-end Data",
+      "description": "Creating Services for Back-end Data",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create and configure Storage Object Services for&nbsp;<strong>Accounts</strong>&nbsp;and&nbsp;<strong>Recipients</strong>.</li> <li>Publish the Project Services to a run-time server</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24416,
+      "title": "Connect App UI to Data",
+      "description": "Connect App UI to Data",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Connect services with the Account form</li> <li>Connect services with the&nbsp;Recipient&nbsp;form</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24417,
+      "title": "Create Details Screen and Add Delete Feature",
+      "description": "Create Details Screen and Add Delete Feature",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a&nbsp;Volt MX&nbsp;HIKE.  A HIKE is an interactive tour inside&nbsp;Volt MX&nbsp;Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a recipient details form</li> <li>Create the UI for the recipient details form using services</li> <li>Add the feature for deleting the recipients</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "30 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24418,
+      "title": "Add Create Recipient",
+      "description": "Add Create Recipient",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:</p> <ul> <li>Create and Design a form for creating a recipient</li> <li>Connect the services to create recipient with the UI elements</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "25 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24419,
+      "title": "Add Edit Recipient",
+      "description": "Add the capability to edit the details of a recipient.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Generate a screen for editing recipient details</li> <li>Design the UI for the Edit Recipient form</li> <li>Connect the data from the services to the UI elements</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "35 Mins",
+      "category": ["Build Your First Web App"]
+    },
+    {
+      "nid": 24420,
+      "title": "Responsive Web Breakpoints",
+      "description": "Make your web app responsive by using breakpoints.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Add three breakpoints for the forms Create Recipient and Edit Recipient screens.</li> <li>See how the&nbsp;<strong>Live Preview</strong>&nbsp;reacts to breakpoints in real-time.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": ["Build Your First Web App"]
+    }
+  ]
+}

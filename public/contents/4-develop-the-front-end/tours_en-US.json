@@ -1,0 +1,102 @@
+{
+  "categoryName": "Develop the Front End",
+  "categoryDescription": "<p>Explore HCL Volt MX Iris’s simplified user interface while you build low-code and cross-channel apps. Learn about different layouts and application types that you can build.</p>",
+  "categoryTours": [
+    {
+      "nid": 24421,
+      "title": "Volt MX Orientation",
+      "description": "Learn about the Volt MX Iris features",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Get a brief understanding of the Volt MX Iris features and their functionality.</p> </div> </div> <p><!--EndFragment--></p>",
+      "time": "3 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24422,
+      "title": "Introduction to Flex Layout",
+      "description": "Learn about Flex layout properties.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>For a FlexContainer widget, learn how to:</p> <ul> <li>Define widget arrangement</li> <li>Modify free form attributes</li> <li>Add logo and header widgets</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24423,
+      "title": "Flex Layout Properties",
+      "description": "Manage flex layout using properties.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Set properties to a Button widget</li> <li>Align a button across the X and Y axis</li> <li>Explore the zIndex property</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24424,
+      "title": "Introduction to Segment",
+      "description": "Learn the basics of the Segment widget.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Create a FlexForm with a Segment widget</li> <li>Add widgets to a Segment widget</li> <li>Assign sample data to a Segment widget</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24425,
+      "title": "Assign Data to Segment",
+      "description": "Learn how to assign data to a Segment widget.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Change the UI and add new widgets to a Segment widget</li> <li>Bind back-end services to the UI elements in a Segment</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24426,
+      "title": "Introduction to Segment Templates",
+      "description": "Know more about using Segment Templates.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Convert a row in a Segment into a template.</li> <li>Add sample data to widgets in a Segment using template.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24427,
+      "title": "Introduction to Action Editor",
+      "description": "Learn how to use Action Editor.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn how to:</p> <p>Using the Action Editor,</p> <ul> <li>Navigate between forms</li> <li>Set if, else conditions</li> <li>Show an alert</li> <li>Set widget properties</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24428,
+      "title": "Creating a Component",
+      "description": "Learn how to create a component.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Create a login form</li> <li>Create a layout for the component</li> <li>Add data validations to widgets</li> <li>Add the component to the login form</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "22 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24429,
+      "title": "Understand App Channels",
+      "description": "Explore a sample app designed for various application channels.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>Learn about the following channels:</p> <ul> <li>Mobile</li> <li>Tablet</li> <li>Desktop</li> <li>Wearables</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "6 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24430,
+      "title": "Introduction to Volt MX JavaScript",
+      "description": "Understanding the basics of Volt MX JavaScript.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Use JavaScript to create a login form</li> <li>Get insights on the validate and onNavigate functions</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24827,
+      "title": "Introduction to Internationalization",
+      "description": "Learn the basics of Internationalization(i18n).",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>This learning module is a Volt MX Hike.&nbsp;A Hike is an interactive tour in Volt MX Iris that guides you through a step-by-step process of each module. You can access the Hikes catalog by clicking the Hikes icon in the Iris toolbar.</p> <p>Learn how to:</p> <ul> <li>Configure an app for different locales</li> <li>View the locale changes for the app on a device</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "17 Mins",
+      "category": ["Develop the Front End"]
+    },
+    {
+      "nid": 24828,
+      "title": "Internationalization with Layout",
+      "description": "Learn the basics of Internationalization(i18n) with layout configuration changes.",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>This learning module is a Volt MX Hike.&nbsp;A Hike is an interactive tour in Volt MX Iris that guides you through a step-by-step process of each module. You can access the Hikes catalog by clicking the Hikes icon in the Iris toolbar.</p> <p>Learn how to:</p> <ul> <li>Configure an app for different locales</li> <li>View the locale and layout changes for the app on a device</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "17 Mins",
+      "category": ["Develop the Front End"]
+    }
+  ]
+}

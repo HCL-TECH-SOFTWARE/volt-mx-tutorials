@@ -1,0 +1,94 @@
+{
+  "categoryName": "Build Your First Mobile App",
+  "categoryDescription": "<p>Create a mobile app incredibly fast, without coding. Learn how to drag and drop UI (user interface) elements into an app, integrate your app with backend data, and secure your app with an authentication mechanism.</p>",
+  "categoryTours": [
+    {
+      "nid": 24825,
+      "title": "Launch your First Mobile App",
+      "description": "Open a native mobile app and preview it on your mobile device.",
+      "details": "<p><!--StartFragment--></p> <p><br /> This learning module is a Volt MX HIKE. &nbsp;A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p><ul> <li>Import a sample native app that shows lists of Accounts and Recipients</li> <li>Preview the sample app on a mobile device</li></ul><p><!--EndFragment--></p>",
+      "time": "11 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24403,
+      "title": "Create UI from Collections",
+      "description": "Create the user interface for an app with Volt MX Iris",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create forms with UI elements for user interaction</li> <li>Add navigation to access the different forms in this app</li> </ul> </div> </div> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24404,
+      "title": "Add Authentication",
+      "description": "Secure an app’s data with a user-authentication mechanism.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Configure an Identity Service</li> <li>Map the Identity Service to the UI elements of an app</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24405,
+      "title": "Creating Services for the Back-end Data",
+      "description": "Create services for the back-end data",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create and configure Storage Object Services&nbsp;<strong>Accounts</strong>&nbsp;and&nbsp;<strong>Recipients</strong>.</li> <li>Publish the Project Services to a run-time server.</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24406,
+      "title": "Connect App UI to Data",
+      "description": "Connect App UI to the data.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Connect services with the Account form</li> <li>Connect services with the&nbsp;Recipients form</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24407,
+      "title": "Creating Details Screen and Delete Recipients ",
+      "description": "Creating Details Screen and Add Delete Recipients",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a Recipient details form</li> <li>Create the UI for the Recipient Details form using services</li> <li>Add the feature for deleting the recipients</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "37 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24408,
+      "title": "Add Create Recipient",
+      "description": "Add the capability to create a new recipient.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:</p> <ul> <li>Create and Design a form for creating a recipient</li> <li>Connect the services to create recipient with the UI elements</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "32 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24409,
+      "title": "Add Edit Recipient",
+      "description": "Add the capability to edit the details of a recipient.",
+      "details": "<p><!--StartFragment--></p> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Generate a screen for editing recipient details</li> <li>Design the UI for the Edit Recipient form</li> <li>Connect the data from service to the UI elements</li> </ul> <p><!--EndFragment--></p>",
+      "time": "36 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24410,
+      "title": "Publish and Share the App",
+      "description": "Use the Volt MX App to preview the Recipients app on a mobile device.",
+      "details": "<p><!--StartFragment--></p> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Preview the Recipients app on your mobile device.</li> </ul> <p><!--EndFragment--></p>",
+      "time": "10 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24411,
+      "title": "Test Recorder",
+      "description": "Learn to use the Test Recorder on a native app",
+      "details": "<p><!--StartFragment--></p> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Create a Test Case</li> <li>Create a Test Suite</li> <li>Create a Test Plan</li> </ul> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": ["Build Your First Mobile App"]
+    },
+    {
+      "nid": 24412,
+      "title": "Publish App to Enterprise Store",
+      "description": "Learn how to publish an app to an Enterprise App store",
+      "details": "<p><!--StartFragment--></p> <p>This learning module is a Volt MX HIKE.  A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar:&nbsp;</p> <p> &nbsp;</p> <p>Learn how to:&nbsp;</p> <ul> <li>Publish an app to the Enterprise App Store for Android.</li> </ul> <p><!--EndFragment--></p>",
+      "time": "10 Mins",
+      "category": ["Build Your First Mobile App"]
+    }
+  ]
+}

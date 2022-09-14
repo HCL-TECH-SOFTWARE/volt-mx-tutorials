@@ -1,0 +1,22 @@
+{
+  "categoryName": "高級概念",
+  "categoryDescription": "",
+  "categoryTours": [
+    {
+      "nid": 24438,
+      "title": " NFI 簡介",
+      "description": "使用 NFI 訪問操作系統特定功能，特別是 Android 設備設置。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標來訪問 HIKES 目錄。</p> <p> &nbsp;了解如何：</p> <ul> <li>配置從使用 Volt MX Iris 的應用程序訪問 Android 設備上的設備設置所需的 Android Native Function API。</li> <li>在表單控制器中添加代碼以訪問設備設置</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16分鐘",
+      "category": ["高級概念"]
+    },
+    {
+      "nid": 24439,
+      "title": "使用第三方庫的 NFI",
+      "description": "使用 NFI 訪問第三方庫，特別是 Android 條碼掃描器。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>這個學習模塊是一個 Volt MX HIKE。徒步旅行是 Volt MX Iris 內部的交互式導覽，引導您逐步完成每個模塊的過程。您可以通過單擊 Iris 工具欄中的 Hike 圖標來訪問 HIKES 目錄。</p> <p>了解如何：</p> <ul> <li>將集合庫導入應用程序並在表單中使用</li> <li>為Android應用程序配置條碼掃描器所需的本機功能API</li> <li>在表單控制器中為條碼掃描功能添加代碼</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 分鐘",
+      "category": ["高級概念"]
+    }
+  ]
+}

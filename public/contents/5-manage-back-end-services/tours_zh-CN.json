@@ -1,0 +1,46 @@
+{
+  "categoryName": "管理后端服务",
+  "categoryDescription": "<p>了解可以与前端连接的不同服务。这些服务包括：身份服务、集成服务和编排服务。</p>",
+  "categoryTours": [
+    {
+      "nid": 24433,
+      "title": "了解身份服务",
+      "description": "向您的应用程序添加身份验证。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p>&nbsp;了解如何：</p> <ul><li>使用身份验证机制保护您的应用程序。</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": ["管理后端服务"]
+    },
+    {
+      "nid": 24434,
+      "title": "添加 Salesforce 服务",
+      "description": "了解如何将 Salesforce 服务添加到您的应用程序。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p>&nbsp;了解如何：</p> <ul></li>使用 Salesforce 数据连接器配置与外部数据源通信的服务。</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": ["管理后端服务"]
+    },
+    {
+      "nid": 24435,
+      "title": "添加认证源",
+      "description": "将 Volt MX 用户存储库添加到您的应用程序以授权用户。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>添加 Volt MX 用户存储库作为身份验证源</li> <li>将用户添加到存储库</li> <li>使用来自 Volt MX 用户存储库的登录凭据访问应用程序</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "17分钟",
+      "category": ["管理后端服务"]
+    },
+    {
+      "nid": 24436,
+      "title": "使用示例服务",
+      "description": "将示例后端数据库连接到表单",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>创建表单</li> <li>连接到示例后端数据库</li> <li>向表单添加数据。您可以按照相同的步骤将您自己的后端数据绑定到您的应用程序。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12 分钟",
+      "category": ["管理后端服务"]
+    },
+    {
+      "nid": 24437,
+      "title": "使用存储服务",
+      "description": "创建存储服务，填充数据并将数据连接到表单。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>创建表单</li> <li>创建存储服务</li> <li>在存储服务中填充数据</li> <li>将数据连接到表单</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": ["管理后端服务"]
+    }
+  ]
+}

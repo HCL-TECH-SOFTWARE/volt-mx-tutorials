@@ -1,0 +1,102 @@
+{
+  "categoryName": "开发前端",
+  "categoryDescription": "<p>在构建低代码和跨渠道应用程序的同时探索 HCL Volt MX Iris 的简化用户界面。了解您可以构建的不同布局和应用程序类型。</p>",
+  "categoryTours": [
+    {
+      "nid": 24421,
+      "title": "伏特MX方向",
+      "description": "了解 Volt MX Iris 功能",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p>简要了解 Volt MX Iris 特性及其功能。</p> </div> </div> <p><!--EndFragment--></p>",
+      "time": "3分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24422,
+      "title": "Flex布局介绍",
+      "description": "了解 Flex 布局属性。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p>对于 FlexContainer 小部件，了解如何：</p> <ul> <li>定义小部件排列</li> <li> 修改自由形式属性</li> <li>添加徽标和标题小部件</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24423,
+      "title": "Flex布局属性",
+      "description": "使用属性管理 flex 布局。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>将属性设置为按钮小部件</li> <li>在 X 和 Y 轴上对齐按钮</li> <li>探索 zIndex 属性</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "16分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24424,
+      "title": "段介绍",
+      "description": "了解 Segment 小部件的基础知识。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>创建一个带有段小部件的 FlexForm</li> <li>将小部件添加到细分小部件</li> <li>将示例数据分配给 Segment 小部件</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24425,
+      "title": "将数据分配给段",
+      "description": "了解如何将数据分配给 Segment 小部件。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>更改 UI 并将新小部件添加到 Segment 小部件</li> <li>将后端服务绑定到 Segment 中的 UI 元素</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24426,
+      "title": "段模板简介",
+      "description": "了解有关使用段模板的更多信息。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>将 Segment 中的一行转换为模板。</li> <li>使用模板将示例数据添加到 Segment 中的小部件。</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "12 分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24427,
+      "title": "动作编辑器简介",
+      "description": "了解如何使用动作编辑器。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p>了解如何：</p> <p>使用动作编辑器，</p> <ul> <li>在表单之间导航</li> <li>设置if，else条件</li> <li>显示警报</li> <li>设置小部件属性</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24428,
+      "title": "创建组件",
+      "description": "了解如何创建组件。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>创建登录表单</li> <li>为组件创建布局</li> <li>向小部件添加数据验证</li> <li>将组件添加到登录表单</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "22分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24429,
+      "title": "了解应用渠道",
+      "description": "探索为各种应用渠道设计的示例应用。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p>了解以下渠道：</p> <ul> <li>手机</li> <li>平板电脑</li> <li>桌面</li> <li>可穿戴设备</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "6分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24430,
+      "title": "Volt MX JavaScript 简介",
+      "description": "了解 Volt MX JavaScript 的基础知识。",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>这个学习模块是一个 Volt MX HIKE。徒步旅行是 Volt MX Iris 内部的交互式导览，引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hike 图标来访问 HIKES 目录。</p> <p> &nbsp;了解如何：</p> <ul> <li>使用 JavaScript 创建登录表单</li> <li>深入了解验证和 onNavigate 功能</li> </ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24827,
+      "title": "国际化简介",
+      "description": "学习国际化（i18n）的基础知识。",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>此学习模块是 Volt MX 远足。远足是 Volt MX Iris 中的交互式导览，可引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hikes 图标来访问 Hikes 目录。</p> <p>了解如何：</p> <ul> <li>为不同的语言环境配置应用程序</li> <li>查看设备上应用程序的区域设置更改</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "17分钟",
+      "category": ["开发前端"]
+    },
+    {
+      "nid": 24828,
+      "title": "布局国际化",
+      "description": "通过布局配置更改学习国际化（i18n）的基础知识。",
+      "details": "<p><!--StartFragment--></p> <p><!--StartFragment--></p> <p>此学习模块是 Volt MX 远足。远足是 Volt MX Iris 中的交互式导览，可引导您逐步完成每个模块的过程。您可以通过单击 Iris 工具栏中的 Hikes 图标来访问 Hikes 目录。</p> <p>了解如何：</p> <ul> <li>为不同的语言环境配置应用程序</li> <li>查看设备上应用程序的区域设置和布局更改</li> </ul> <p><!--EndFragment--></p> <p><!--EndFragment--></p>",
+      "time": "17分钟",
+      "category": ["开发前端"]
+    }
+  ]
+}
