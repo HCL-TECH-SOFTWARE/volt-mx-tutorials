@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/l10n'
     defaults:
       run:
         working-directory: ./
