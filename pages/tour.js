@@ -156,7 +156,7 @@ const TourDetailPage = ({ url, previewData }) => {
               </Col>
             </Row>
             <h3 className={styles.tourTime}>
-              {`${i18next.t('step', { count: tourDetails?.cards })} / ${tourDetails?.time}`}
+              {`${i18next.t('step', { count: tourDetails?.cards })} - ${tourDetails?.time}`}
             </h3>
             <div
               className={styles.tourDetails}
