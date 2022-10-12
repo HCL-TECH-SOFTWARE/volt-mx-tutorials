@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Row from 'antd/lib/row';
-import Link from 'next/link';
 import PropTypes from 'prop-types';
+import getConfig from 'next/config';
 import TourCard from '../TourCard';
 import style from './style.scss';
-import getConfig from 'next/config';
+import i18next from '../../../i18n';
+
 const { publicRuntimeConfig } = getConfig();
 
 const ToursList = ({
-  alias, title, desc, tours,
+  title, desc, tours,
 }) => (
   <div>
     <Row className={style.domainTitleWrapper}>
@@ -17,10 +18,10 @@ const ToursList = ({
           <img src={`${publicRuntimeConfig.asset}/static/dist/images/dbx_logo.png`} className={style.title} />
         ) : (
           <h1 className={style.title}>
-            {title.toUpperCase()}
+            {i18next.t(title).toUpperCase()}
           </h1>
         )}
-        <div className={style.desc} dangerouslySetInnerHTML={{ __html: desc }} />
+        <div className={style.desc} dangerouslySetInnerHTML={{ __html: i18next.t(desc) }} />
       </div>
     </Row>
     <Row type="flex" className={style.assetsContainer}>
@@ -30,14 +31,16 @@ const ToursList = ({
     </Row>
   </div>
 );
-TourCard.propTypes = {
+
+ToursList.propTypes = {
   title: PropTypes.string,
-  tours: PropTypes.array,
+  desc: PropTypes.string,
+  tours: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
-TourCard.defaultProps = {
+ToursList.defaultProps = {
   title: '',
-  tours: [],
+  desc: '',
 };
 
 export default ToursList;

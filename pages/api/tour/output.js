@@ -13,26 +13,56 @@
  * under the License.                                                         *
  * ========================================================================== */
 
-import { BASE_BRANCH } from "../../../src/config";
+import _get from 'lodash/get';
+import _omit from 'lodash/omit';
+import _has from 'lodash/has';
+import _zipObject from 'lodash/zipObject';
+import { BASE_BRANCH } from '../../../src/config';
+import { locales } from '../../../i18n';
 
-const fs = require("fs-extra");
+const fs = require('fs-extra');
 
-const TEMP_FOLDER = "./temp";
-const EXPORT_FOLDER = "./export";
+const TEMP_FOLDER = './temp';
+const EXPORT_FOLDER = './export';
 
-const autoSerialize = (forms) => {
-  const { category, filename, tourLink, time, categoryInfo } = forms;
+const autoSerialize = (forms, locale) => {
+  const {
+    // category,
+    filename,
+    tourLink,
+    time,
+    categoryInfo,
+    nid,
+  } = forms;
 
-  return {
-    ...forms,
-    url: `https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/${tourLink}`,
-    fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${categoryInfo.categoryAlias}/zips/${filename}.zip`,
-    alias: `hikes/tour/${tourLink}`,
-    category: [categoryInfo.categoryName],
-    image: "/default/hike-default.png",
-    time: `${time} Mins`,
-    filename: `${filename}.zip`,
-  };
+  if (!locale) {
+    return {
+      ..._omit(forms, 'localization'),
+      categoryInfo: _omit(categoryInfo, 'localization'),
+      url: `https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/${tourLink}`,
+      fileURL: `https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/${BASE_BRANCH}/public/contents/${categoryInfo.categoryAlias}/zips/${filename}.zip`,
+      alias: `hikes/tour/${tourLink}`,
+      category: [categoryInfo.categoryName],
+      image: '/default/hike-default.png',
+      time: `${time} Mins`,
+      filename: `${filename}.zip`,
+    };
+  }
+
+  if (_has(forms, ['localization', locale])) {
+    return {
+      nid,
+      ..._get(forms, ['localization', locale], {}),
+      categoryInfo: {
+        ...categoryInfo.localization[locale],
+        categoryTours: [
+          ..._get(categoryInfo, ['localization', locale, 'categoryTours'], []),
+        ],
+      },
+    };
+  }
+
+  return null;
 };
 
 const moveAssets = async (details) => {
@@ -52,17 +82,21 @@ const moveAssets = async (details) => {
   });
 };
 
-const storeData = async (data) => {
-  const serializeData = autoSerialize(data);
+const storeData = async (data, locale) => {
+  const serializeData = autoSerialize(data, locale);
+  if (!serializeData) {
+    return '';
+  }
 
-  const normalizeDetails = serializeData.details.replaceAll(
-    "http://localhost:3200/temp",
-    `/volt-mx-tutorials/contents/${serializeData.categoryInfo.categoryAlias}`
-  );
+  if (serializeData.details) {
+    const normalizeDetails = serializeData.details.replaceAll(
+      'http://localhost:3200/temp',
+      `/volt-mx-tutorials/contents/${serializeData.categoryInfo.categoryAlias}`,
+    );
 
-  serializeData.details = normalizeDetails;
-
-  await moveAssets(normalizeDetails);
+    serializeData.details = normalizeDetails;
+    await moveAssets(normalizeDetails);
+  }
 
   const category = serializeData.categoryInfo;
 
@@ -72,19 +106,33 @@ const storeData = async (data) => {
   category.categoryTours.push(serializeData);
 
   try {
-    fs.writeFileSync(
-      `${EXPORT_FOLDER}/tours.json`,
-      JSON.stringify(category, null, 2)
-    );
+    if (locale) {
+      fs.writeFileSync(
+        `${EXPORT_FOLDER}/tours_${locale}.json`,
+        JSON.stringify(category, null, 2),
+      );
+    } else {
+      fs.writeFileSync(
+        `${EXPORT_FOLDER}/tours.json`,
+        JSON.stringify(category, null, 2),
+      );
+    }
   } catch (err) {
     console.error(err);
   }
 
-  return JSON.stringify(serializeData, null, 2);
+  // return JSON.stringify(serializeData, null, 2);
+  return serializeData;
 };
 
 export default async function handler(req, res) {
+  const localizedJsonOutputs = await Promise.all(
+    locales.map(locale => storeData(req.body, locale)),
+  );
   const jsonOutput = await storeData(req.body);
 
-  res.status(200).json(jsonOutput);
+  res.status(200).json({
+    output: jsonOutput,
+    localization: _zipObject(locales, localizedJsonOutputs),
+  });
 }
