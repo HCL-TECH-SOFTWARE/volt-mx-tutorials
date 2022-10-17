@@ -13,7 +13,7 @@ import i18next, { locales } from '../../../i18n';
 
 const { Header } = Layout;
 
-const HikeHeader = ({ search, keyword }) => {
+const HikeHeader = ({ search, keyword, enableLocales }) => {
   const { publicRuntimeConfig } = getConfig();
   const router = useRouter();
   const [language, setLanguage] = useState(i18next.language);
@@ -84,15 +84,17 @@ const HikeHeader = ({ search, keyword }) => {
               <HikeSearch keyword={keyword} />
             </div>
           ) : null}
-          <div className={style.switchLang}>
-            <Dropdown overlay={menu} trigger={['click']}>
-              <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
-                <Icon type="global" />
-                {i18next.t(language)}
-                <Icon type="caret-down" />
-              </a>
-            </Dropdown>
-          </div>
+          {enableLocales ? (
+            <div className={style.switchLang}>
+              <Dropdown overlay={menu} trigger={['click']}>
+                <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+                  <Icon type="global" />
+                  {i18next.t(language)}
+                  <Icon type="caret-down" />
+                </a>
+              </Dropdown>
+            </div>
+          ) : null}
         </div>
       </Layout>
     </Row>
