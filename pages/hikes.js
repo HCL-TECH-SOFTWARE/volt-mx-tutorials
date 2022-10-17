@@ -5,6 +5,7 @@ import ToursList from '../src/components/ToursList';
 import styles from './style.scss';
 import { getMapCategories } from '../src/utils/populate';
 import i18next from '../i18n';
+import { enableLocales } from '../src/config/settings';
 
 const HikePage = () => {
   const [categories, setCategories] = useState([]);
@@ -41,7 +42,7 @@ const HikePage = () => {
 
   return (
     <div className={styles.hikeBody}>
-      <HikeHeader />
+      <HikeHeader enableLocales={enableLocales} />
       <div className={styles.hikeContainer}>
         {categories.map(item => (item.categoryTours !== null ? (
           <ToursList
