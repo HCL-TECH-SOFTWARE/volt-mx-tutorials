@@ -15,5 +15,6 @@
     "key": "",
     "cx": "",
     "url": "https://www.googleapis.com/customsearch/v1"
-    }
+    },
+    "enableLocales": false
 }
