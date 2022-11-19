@@ -4,10 +4,10 @@
     "title": "Introduction to Internationalization",
     "created": 1608540137,
     "updated": 1608540137,
-    "fileSize": "32.3 KB",
+    "fileSize": "27.44 KB",
     "fileName": "introductiontointernationalization92.zip",
     "fid": 17647,
-    "checksum": "f3ee57f96b183ad3cf7a29981efe45fe4058b606f0b2aabd51bb9d3629e40b25",
+    "checksum": "8a0f8f9877966ba1d102e542da406ac8a14303343567de721b6e0ae369b655c6",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-internationalization-1",
     "alias": "hikes/tour/introduction-internationalization-1",
     "description": "Learn the basics of Internationalization(i18n).",
@@ -22,6 +22,6 @@
     "kuid": "9167adt8-36ac-4crc-90ua-da60c8n7",
     "hikeVersion": "1.0",
     "weight": "11",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/4-develop-the-front-end/zips/introductiontointernationalization92.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/l10n/public/contents/4-develop-the-front-end/zips/introductiontointernationalization92.zip"
   }
 }

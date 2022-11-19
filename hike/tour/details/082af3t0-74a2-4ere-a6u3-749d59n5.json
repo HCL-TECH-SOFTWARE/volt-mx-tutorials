@@ -4,10 +4,10 @@
     "title": "Create Details Screen and Add Delete Feature",
     "created": 1585628270,
     "updated": 1586946868,
-    "fileSize": "50.77 KB",
+    "fileSize": "37.50 KB",
     "fileName": "createdetailsscreen_v9.zip",
     "fid": 17166,
-    "checksum": "1d1cecaaef91f300a59fb5579c06d54cea14db178175a11d70fa4ed3beedfbe4",
+    "checksum": "37976ac645973685d6cd075b518811ca05b39508de68caf6cf5901b968bf476a",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-details-screen-and-add-delete-feature",
     "alias": "hikes/tour/create-details-screen-and-add-delete-feature",
     "description": "Create Details Screen and Add Delete Feature",
@@ -22,6 +22,6 @@
     "kuid": "082af3t0-74a2-4ere-a6u3-749d59n5",
     "hikeVersion": "1.0",
     "weight": "6",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/3-build-your-first-web-app/zips/createdetailsscreen_v9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/l10n/public/contents/3-build-your-first-web-app/zips/createdetailsscreen_v9.zip"
   }
 }

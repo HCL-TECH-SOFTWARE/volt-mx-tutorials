@@ -4,10 +4,10 @@
     "title": "Creating Services for the Back-end Data",
     "created": 1585626222,
     "updated": 1586774995,
-    "fileSize": "20.45 KB",
+    "fileSize": "17.03 KB",
     "fileName": "createservices_v9.zip",
     "fid": 17120,
-    "checksum": "6898f261a9c3a2093fd45e9f6f735a8112ab4b497ab8b158d4fec7f30124a26a",
+    "checksum": "05457c36193c5a79efb8643bce9b6564854cf114a6a3a9e495677f200ca873b4",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/creating-services-back-end-data",
     "alias": "hikes/tour/creating-services-back-end-data",
     "description": "Create services for the back-end data",
@@ -22,6 +22,6 @@
     "kuid": "a7a762t5-3eac-44r5-8bu2-89b781n1",
     "hikeVersion": "1.0",
     "weight": "4",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/2-build-your-first-mobile-app/zips/createservices_v9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/l10n/public/contents/2-build-your-first-mobile-app/zips/createservices_v9.zip"
   }
 }

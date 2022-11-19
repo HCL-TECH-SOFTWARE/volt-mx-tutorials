@@ -4,10 +4,10 @@
     "title": "Create UI from Collections",
     "created": 1585628000,
     "updated": 1586946655,
-    "fileSize": "32.13 KB",
+    "fileSize": "25.15 KB",
     "fileName": "createuifromcollections-web.zip",
     "fid": 17161,
-    "checksum": "f4a220dcd25447979bc8baec7b9063bfe348cef8b3d738d743025631c11b9c3f",
+    "checksum": "df0e12db0699d961dd590a2b3e2b0e1ac77efb0bb3d83ca27770222862cf6e4d",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/create-ui-collections-0",
     "alias": "hikes/tour/create-ui-collections-0",
     "description": "Create the user interface for an app with Volt MX Iris",
@@ -22,6 +22,6 @@
     "kuid": "220f01t3-bda6-40r0-92uf-56631bnb",
     "hikeVersion": "1.0",
     "weight": "2",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/3-build-your-first-web-app/zips/createuifromcollections-web.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/l10n/public/contents/3-build-your-first-web-app/zips/createuifromcollections-web.zip"
   }
 }

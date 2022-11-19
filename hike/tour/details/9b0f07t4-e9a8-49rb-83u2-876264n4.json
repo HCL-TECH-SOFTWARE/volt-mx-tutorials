@@ -4,10 +4,10 @@
     "title": "Introduction to Segment",
     "created": 1585629142,
     "updated": 1615281581,
-    "fileSize": "32.51 KB",
+    "fileSize": "26.35 KB",
     "fileName": "introductiontosegmentv9.zip",
     "fid": 17803,
-    "checksum": "3e55fc2d0b1f3762fe9837c8998e7a2a47afa844fbf5349c1db8952a77ba1f64",
+    "checksum": "e46f7819c1a223d5561a0d9666c65470f734ef5be2799d3319ea57b7e7e096dc",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-segment-0",
     "alias": "hikes/tour/introduction-segment-0",
     "description": "Learn the basics of the Segment widget.",
@@ -22,6 +22,6 @@
     "kuid": "9b0f07t4-e9a8-49rb-83u2-876264n4",
     "hikeVersion": "1.0",
     "weight": "4",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/4-develop-the-front-end/zips/introductiontosegmentv9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/l10n/public/contents/4-develop-the-front-end/zips/introductiontosegmentv9.zip"
   }
 }

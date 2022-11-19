@@ -4,10 +4,10 @@
     "title": "Responsive Web Breakpoints",
     "created": 1585628476,
     "updated": 1585918354,
-    "fileSize": "36.34 KB",
+    "fileSize": "27.65 KB",
     "fileName": "responsivewebbreakpointsv9.zip",
     "fid": 16995,
-    "checksum": "9f7aafbd730ca50c2d004864350b77f1c27cb370eba9bf43c92c408fb0a9fda7",
+    "checksum": "5e01c6898ff93c96b4a78ef3037df39eab163b655f447eef0129879ab9e07f37",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/responsive-web-breakpoints",
     "alias": "hikes/tour/responsive-web-breakpoints",
     "description": "Make your web app responsive by using breakpoints.",
@@ -22,6 +22,6 @@
     "kuid": "f31910t6-a4a7-42rd-a4ud-07a264n3",
     "hikeVersion": "1.0",
     "weight": "9",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/3-build-your-first-web-app/zips/responsivewebbreakpointsv9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/l10n/public/contents/3-build-your-first-web-app/zips/responsivewebbreakpointsv9.zip"
   }
 }

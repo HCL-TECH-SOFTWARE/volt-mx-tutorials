@@ -4,10 +4,10 @@
     "title": "Introduction to Action Editor",
     "created": 1585629311,
     "updated": 1586944303,
-    "fileSize": "32.53 KB",
+    "fileSize": "26.64 KB",
     "fileName": "introductiontoactioneditorv9.zip",
     "fid": 17150,
-    "checksum": "5f122b1868bd8f0b82e0d55150301b9ab27c316161e77f22822bcc394e363e89",
+    "checksum": "ab4df40ea91f1350978b4e37c5db7ac7c3ec1e3a97d4e24b78e6928ef956afde",
     "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/introduction-action-editor-0",
     "alias": "hikes/tour/introduction-action-editor-0",
     "description": "Learn how to use Action Editor.",
@@ -22,6 +22,6 @@
     "kuid": "b3a02bt3-e6aa-41rf-8eu3-d406e1n6",
     "hikeVersion": "1.0",
     "weight": "7",
-    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/master/public/contents/4-develop-the-front-end/zips/introductiontoactioneditorv9.zip"
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/l10n/public/contents/4-develop-the-front-end/zips/introductiontoactioneditorv9.zip"
   }
 }
