@@ -73,7 +73,25 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
               }
             );
 
+            /*
+             * TODO: Contents of tour are being written to file for every interation.
+             * This is due to the current code structure and needs refactoring.
+             */
             allTours.push({ ...tour, download_url });
+
+            fs.writeFile(
+              `${MOCK_PATH}/tour/details/allTours.json`,
+              JSON.stringify(
+                { allTours: allTours },
+                null,
+                2
+              ),
+              "utf-8",
+              () => {
+                console.log(`Saved details in allTours.json for tour with KUID: ${tour.kuid}`);
+              }
+            );
+
           });
         } catch (error) {
           console.log(error);
@@ -81,16 +99,6 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
       }
     );
   });
-
-  fs.writeFileSync(
-    `${MOCK_PATH}/tour/details/allTours.json`,
-    JSON.stringify(
-      { allTours: allTours },
-      null,
-      2
-    ),
-    "utf-8"
-  );
 
   if (err) throw err;
 });
