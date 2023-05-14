@@ -39,7 +39,9 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
       console.log("mocked asset_hike_map endpoint");
     }
   );
-
+  
+  //Contains details of all tours. Each element in array if one of public/contents/<tour name>/tours.json -> categoryTours.
+  let allTours = [];
   hikeDirectories.forEach((directory) => {
     fs.readFile(
       `${HIKES_CONTENT_PATH}/${directory}/tours.json`,
@@ -70,6 +72,8 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
                 console.log(`copied: ${tour.kuid}.json`);
               }
             );
+
+            allTours.push({ ...tour, download_url });
           });
         } catch (error) {
           console.log(error);
@@ -77,6 +81,16 @@ fs.mkdir(`${MOCK_PATH}/tour/details`, { recursive: true }, (err) => {
       }
     );
   });
+
+  fs.writeFileSync(
+    `${MOCK_PATH}/tour/details/allTours.json`,
+    JSON.stringify(
+      { allTours: allTours },
+      null,
+      2
+    ),
+    "utf-8"
+  );
 
   if (err) throw err;
 });
