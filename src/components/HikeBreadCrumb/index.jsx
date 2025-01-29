@@ -22,8 +22,11 @@ const defaultProps = {
 const HikeBreadCrumb = ({ title, className, search }) => {
   const router = useRouter();
   const path = router.asPath.split(/\?/);
-  const searchParams = new URLSearchParams(path[1].toLowerCase());
-  const isMXGo = searchParams.get('ismxgo') === 'true';
+  let isMXGo = false;
+  if (path && path.length > 1) {
+    const searchParams = new URLSearchParams(path[1].toLowerCase());
+    isMXGo = searchParams.get('ismxgo') === 'true';
+  }
 
   return (
     <div className={`${styles.breadcrumbWrapper} ${className}`}>

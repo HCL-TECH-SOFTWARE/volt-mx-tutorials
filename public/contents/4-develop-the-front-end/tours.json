@@ -311,7 +311,7 @@
       "isMXGo": true,
       "title": "Introduction to VoltFormula",
       "description": "Learn about using VoltFormula to use Notes Formulas and Open Formulas in your applications.",
-      "checksum": "9997c723c96824bc1ac94dabcaec4fd551bd15b02ed6a1a2d20e68736c743969",
+      "checksum": "68ec83aa5654cd06f57cb72a3de0cff4383090bbf9caa4af7573d3bf89679694",
       "kuid": "a7b349t2-bba0-47r6-93u9-77fa34n8",
       "category": [
         "Develop the Front End"
@@ -337,7 +337,7 @@
       "isMXGo": true,
       "title": "VoltFormula Settings",
       "description": "Learn about the settings that control VoltFormula.",
-      "checksum": "2691610133ed75c9ca07ae27ec6e7312eeb3e3da228664bd2a67badba4c50ef5",
+      "checksum": "b72531c3a88b5dd7e05dd29ec107105b00828565fe218e85e682a6c649287008",
       "kuid": "258261tb-dfa8-4are-a7u7-a86708n0",
       "category": [
         "Develop the Front End"
@@ -363,7 +363,7 @@
       "isMXGo": true,
       "title": "Creating Custom Formulas",
       "description": "Learn how to create a custom formula to extend VoltFormula in your Iris applications. ",
-      "checksum": "3bcaa882b09725ef7c2385c1fb03eab73f74aa77d24bf29429b94085f238c17e",
+      "checksum": "effbbdd5132ac41fabdeced80fdd6ca551726e6a130dfb66fd0d2003e81dd3b0",
       "kuid": "216a44t5-09a6-4er4-96u0-157e07nd",
       "category": [
         "Develop the Front End"
@@ -389,7 +389,7 @@
       "isMXGo": true,
       "title": "Configuring Access to Domino",
       "description": "Learn how to configure Foundry services for accessing Domino from your Iris applications. ",
-      "checksum": "36c0a93e043bbb053592b423cc43a2c172fd8d1dd985bc1b9c49c06dcef1ae9e",
+      "checksum": "a0613948a3485366a8fb41fac49566d2f626924ee5d08072d3085ba2d9e8e36b",
       "kuid": "08f31btc-69a1-46rc-97u1-dd70aen0",
       "category": [
         "Develop the Front End"
@@ -415,7 +415,7 @@
       "isMXGo": true,
       "title": "Adding Domino Access for VoltFormula",
       "description": "Update the Iris application to use Notes formulas that access information in a Domino database. ",
-      "checksum": "bef0aa8edb3070dce63a33e934d662bca5ab1ccb77fbaef0b9846c4e25519187",
+      "checksum": "65133e00610dcf5a8877461d9b0f4d04eb87c7708a5031e90bc241494f0a68bf",
       "kuid": "935f1ft8-e3ae-41r9-98ue-931a9en6",
       "category": [
         "Develop the Front End"
