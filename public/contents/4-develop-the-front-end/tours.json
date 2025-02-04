@@ -415,7 +415,7 @@
       "isMXGo": true,
       "title": "Adding Domino Access for VoltFormula",
       "description": "Update the Iris application to use Notes formulas that access information in a Domino database. ",
-      "checksum": "19e1737b49883767e21f7a34ad1a62d4224cac3cb2bf2ff07cbe6de06db69125",
+      "checksum": "17eeecbcaeffe22d8336fe2aa58e0b14b1c5d8c99678b1a2ac2aa265e4a826f4",
       "kuid": "935f1ft8-e3ae-41r9-98ue-931a9en6",
       "category": [
         "Develop the Front End"
