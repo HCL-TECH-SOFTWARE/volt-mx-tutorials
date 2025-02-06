@@ -18,7 +18,7 @@ const fs = require("fs");
 
 const HIKES_BASE_URL = "volt-mx-tutorials";
 const HIKES_CONTENT_PATH = "./public/contents";
-const BASE_BRANCH = "phx-dev-9.5";
+const BASE_BRANCH = "voltformula-hikes";
 
 // get all hikes categories directory names
 const getHikeDirectories = () =>
