@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-22.04
-    if: github.ref == 'refs/heads/voltformula-hikes'
+    if: github.ref == 'refs/heads/phx-dev-9.5'
     defaults:
       run:
         working-directory: ./
