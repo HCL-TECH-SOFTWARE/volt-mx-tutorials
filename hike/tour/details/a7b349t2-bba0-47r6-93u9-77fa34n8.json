@@ -1,0 +1,28 @@
+{
+  "tourDetails": {
+    "nid": 24829,
+    "created": 1723573525,
+    "updated": 1723573525,
+    "hikeVersion": "1.0",
+    "isMXGo": true,
+    "title": "Introduction to VoltFormula",
+    "description": "Learn about using VoltFormula to use Notes Formulas and Open Formulas in your applications.",
+    "checksum": "5c87a223cbed3bbf3cbeae0528d283a954ab08f4026fbbf5696f4a2d4b6ef0fe",
+    "kuid": "a7b349t2-bba0-47r6-93u9-77fa34n8",
+    "category": [
+      "Develop the Front End"
+    ],
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Use Notes formulas in a controller to validate the success and failure scenarios for a login form.</li> <li>Use Notes formulas in the action editor to validate the success and failure scenarios for a login form.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+    "cards": 19,
+    "time": "15 Mins",
+    "platformVersion": "Iris 9.5",
+    "fileName": "introductiontovoltformula.zip",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/IntroductiontoVoltFormula",
+    "alias": "hikes/tour/IntroductiontoVoltFormula",
+    "image": "/default/hike-default.png",
+    "fileSize": "51 KB",
+    "fid": 17649,
+    "weight": "13",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev-9.5/public/contents/4-develop-the-front-end/zips/introductiontovoltformula.zip"
+  }
+}

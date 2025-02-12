@@ -1,0 +1,28 @@
+{
+  "tourDetails": {
+    "nid": 24832,
+    "created": 1732560632,
+    "updated": 1732560632,
+    "hikeVersion": "1.0",
+    "isMXGo": true,
+    "title": "Configuring Access to Domino",
+    "description": "Learn how to configure Foundry services for accessing Domino from your Iris applications. ",
+    "checksum": "7fd3f18c01b621b65b9deaa60efe697232799810d901173237d273b116c4e33b",
+    "kuid": "08f31btc-69a1-46rc-97u1-dd70aen0",
+    "category": [
+      "Develop the Front End"
+    ],
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Configure the Domino database in the Domino REST API.</li><li>Create the foundry application, identity service, and object service that will be used by the Iris app.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+    "cards": 13,
+    "time": "15 Mins",
+    "platformVersion": "Iris 9.5",
+    "fileName": "configuringaccesstodomino.zip",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/ConfiguringAccessToDomino",
+    "alias": "hikes/tour/ConfiguringAccessToDomino",
+    "image": "/default/hike-default.png",
+    "fileSize": "44 KB",
+    "fid": 17652,
+    "weight": "16",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev-9.5/public/contents/4-develop-the-front-end/zips/configuringaccesstodomino.zip"
+  }
+}

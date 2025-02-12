@@ -121,6 +121,56 @@
       "category": [
         "Develop the Front End"
       ]
+    },
+    {
+      "nid": 24829,
+      "title": "Introduction to VoltFormula",
+      "description": "Learn about using VoltFormula to use Notes Formulas and Open Formulas in your applications.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Use Notes formulas in a controller to validate the success and failure scenarios for a login form.</li> <li>Use Notes formulas in the action editor to validate the success and failure scenarios for a login form.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": [
+        "Develop the Front End"
+      ]
+    },
+    {
+      "nid": 24830,
+      "title": "VoltFormula Settings",
+      "description": "Learn about the settings that control VoltFormula.",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Access and change the VoltFormula project settings.</li> <li>Change VoltFormula settings and see how they affect the behavior of VoltFormula.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "20 Mins",
+      "category": [
+        "Develop the Front End"
+      ]
+    },
+    {
+      "nid": 24831,
+      "title": "Creating Custom Formulas",
+      "description": "Learn how to create a custom formula to extend VoltFormula in your Iris applications. ",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Create a file that defines custom formulas.</li> <li>Add the custom formulas to Iris using the VoltFormula settings.</li><li>Use the custom formula in the application code.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "10 Mins",
+      "category": [
+        "Develop the Front End"
+      ]
+    },
+    {
+      "nid": 24832,
+      "title": "Configuring Access to Domino",
+      "description": "Learn how to configure Foundry services for accessing Domino from your Iris applications. ",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Configure the Domino database in the Domino REST API.</li><li>Create the foundry application, identity service, and object service that will be used by the Iris app.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "15 Mins",
+      "category": [
+        "Develop the Front End"
+      ]
+    },
+    {
+      "nid": 24833,
+      "title": "Adding Domino Access for VoltFormula",
+      "description": "Update the Iris application to use Notes formulas that access information in a Domino database. ",
+      "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p><p>Learn how to:</p><ul><li>Add foundry services to an Iris application to allow access to a Domino database.</li><li>Add Notes formula that access the Domino database to your Iris application.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+      "time": "30 Mins",
+      "category": [
+        "Develop the Front End"
+      ]
     }
   ]
 }

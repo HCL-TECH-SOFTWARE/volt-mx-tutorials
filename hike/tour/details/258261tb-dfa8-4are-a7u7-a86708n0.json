@@ -1,0 +1,28 @@
+{
+  "tourDetails": {
+    "nid": 24830,
+    "created": 1723572173,
+    "updated": 1723572173,
+    "hikeVersion": "1.0",
+    "isMXGo": true,
+    "title": "VoltFormula Settings",
+    "description": "Learn about the settings that control VoltFormula.",
+    "checksum": "617fe55c60ef9adfefaae32db06b920de59d683b66eb28950a8d44f6916ab848",
+    "kuid": "258261tb-dfa8-4are-a7u7-a86708n0",
+    "category": [
+      "Develop the Front End"
+    ],
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p> <p>&nbsp;Learn how to:</p> <ul> <li>Access and change the VoltFormula project settings.</li> <li>Change VoltFormula settings and see how they affect the behavior of VoltFormula.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+    "cards": 30,
+    "time": "20 Mins",
+    "platformVersion": "Iris 9.5",
+    "fileName": "voltformulasettings.zip",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/VoltFormulaSettings",
+    "alias": "hikes/tour/VoltFormulaSettings",
+    "image": "/default/hike-default.png",
+    "fileSize": "85 KB",
+    "fid": 17650,
+    "weight": "14",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev-9.5/public/contents/4-develop-the-front-end/zips/voltformulasettings.zip"
+  }
+}

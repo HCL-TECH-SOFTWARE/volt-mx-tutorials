@@ -1,0 +1,28 @@
+{
+  "tourDetails": {
+    "nid": 24833,
+    "created": 1732563039,
+    "updated": 1732563039,
+    "hikeVersion": "1.0",
+    "isMXGo": true,
+    "title": "Adding Domino Access for VoltFormula",
+    "description": "Update the Iris application to use Notes formulas that access information in a Domino database. ",
+    "checksum": "cf2b5b0620e574024280bb33a295cddcebe47cf5240eb25d5fb8fb772838ed8f",
+    "kuid": "935f1ft8-e3ae-41r9-98ue-931a9en6",
+    "category": [
+      "Develop the Front End"
+    ],
+    "details": "<p><!--StartFragment--></p> <div> <div> <p>This learning module is a Volt MX HIKE.&nbsp; A HIKE is an interactive tour inside Volt MX Iris that guides you through step-by-step process of each module. You can access the HIKES catalog by clicking the Hike icon in the Iris toolbar.</p><p>Learn how to:</p><ul><li>Add foundry services to an Iris application to allow access to a Domino database.</li><li>Add Notes formula that access the Domino database to your Iris application.</li></ul> </div> </div> <p><!--EndFragment--></p>",
+    "cards": 30,
+    "time": "30 Mins",
+    "platformVersion": "Iris 9.5",
+    "fileName": "addingdominoaccessforvoltformula.zip",
+    "url": "https://opensource.hcltechsw.com/volt-mx-tutorials/hikes/tour/AddingDominoAccessforVoltFormula",
+    "alias": "hikes/tour/AddingDominoAccessforVoltFormula",
+    "image": "/default/hike-default.png",
+    "fileSize": "102 KB",
+    "fid": 17653,
+    "weight": "17",
+    "download_url": "https://raw.githubusercontent.com/HCL-TECH-SOFTWARE/volt-mx-tutorials/phx-dev-9.5/public/contents/4-develop-the-front-end/zips/addingdominoaccessforvoltformula.zip"
+  }
+}
