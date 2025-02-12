@@ -16,6 +16,12 @@ const HikePage = () => {
     setCategories(categoriesMaps);
   };
 
+  const isMXGo = () => {
+    const path = router.asPath.split(/\?/);
+    const searchParams = new URLSearchParams(path[1].toLowerCase());
+    return searchParams.get('ismxgo') === 'true';
+  };
+
   useEffect(() => {
     getHikes();
     return () => {};
@@ -51,6 +57,7 @@ const HikePage = () => {
             desc={item.categoryDescription}
             alias={item.categoryAlias || item.categoryName}
             tours={item.categoryTours}
+            isMXGo={isMXGo()}
           />
         ) : null))}
       </div>

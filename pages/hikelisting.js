@@ -66,7 +66,7 @@ const HikePage = ({ url }) => {
     <div className={styles.hikeBody}>
       <HikeHeader keyword={keyword} />
       <div className={styles.hikeContainer}>
-        <HikeBreadCrumb title={keyword} />
+        <HikeBreadCrumb title={keyword} search={null} />
         <InfiniteScroll
           pageStart={0}
           initialLoad

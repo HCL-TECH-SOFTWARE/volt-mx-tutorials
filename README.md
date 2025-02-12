@@ -37,6 +37,8 @@ To get a local copy up and running.
 * npm >= 7.6.0
 * node >= 15.11
 
+If you run into problems with the `npm install` command related to python, try using python2 with node 15.11. Set the PYTHON environment variable to point to the python2 installation. If you used pyenv (Mac) or pyenv-win (Windows) to install python2, issue the `pyenv local` command to set the python version.
+
 ### Quickstart
 
 1. Fork this repository & clone it in your local machine.

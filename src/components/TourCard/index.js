@@ -10,7 +10,7 @@ import i18next from '../../../i18n';
 const isProdUrl = process.env.NODE_ENV === 'production' ? `${BASE_PATH_URL}/` : '';
 
 const TourCard = ({
-  tour, dbx, search, isComposer,
+  tour, dbx, search, isComposer, isMXGo,
 }) => (
   <Col sm={isComposer ? 8 : 6} xs={24}>
     <div className={style.tour}>
@@ -20,6 +20,7 @@ const TourCard = ({
             pathname: `${isProdUrl}${tour.alias}`,
             query: {
               lang: i18next.language,
+              ismxgo: isMXGo,
             },
           }}
         >

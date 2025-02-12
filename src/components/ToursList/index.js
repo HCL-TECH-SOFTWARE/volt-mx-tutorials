@@ -9,7 +9,7 @@ import i18next from '../../../i18n';
 const { publicRuntimeConfig } = getConfig();
 
 const ToursList = ({
-  title, desc, tours,
+  title, desc, tours, isMXGo,
 }) => (
   <div>
     <Row className={style.domainTitleWrapper}>
@@ -25,9 +25,9 @@ const ToursList = ({
       </div>
     </Row>
     <Row type="flex" className={style.assetsContainer}>
-      {tours.map(item => (
-        <TourCard tour={item} key={item.nid} dbx={title.toLowerCase() === 'dbx'} />
-      ))}
+    {tours.map(item => (item.isMXGo === undefined || isMXGo === item.isMXGo ? (
+        <TourCard tour={item} key={item.nid} dbx={title.toLowerCase() === 'dbx'} isMXGo={isMXGo} />
+      ) : null))}
     </Row>
   </div>
 );
@@ -36,11 +36,13 @@ ToursList.propTypes = {
   title: PropTypes.string,
   desc: PropTypes.string,
   tours: PropTypes.arrayOf(PropTypes.object).isRequired,
+  isMXGo: PropTypes.bool,
 };
 
 ToursList.defaultProps = {
   title: '',
   desc: '',
+  isMXGo: false,
 };
 
 export default ToursList;

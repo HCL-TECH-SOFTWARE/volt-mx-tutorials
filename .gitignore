@@ -14,3 +14,5 @@ uploads/
 public/hike
 /export/
 volt-mx-tutorials
+.DS_Store
+.python-version
